@@ -1,62 +1,62 @@
 [
   {
     "Engelse naam\/Food name":"Sweet pepper red raw",
-    "food_pyramid_group":"Vegetables & Fruits",
+    "food_wheel_group":"Vegetables and fruit",
     "Food group":"Vegetables",
     "VITC (mg)":150.0
   },
   {
     "Engelse naam\/Food name":"Brussel sprouts raw",
-    "food_pyramid_group":"Vegetables & Fruits",
+    "food_wheel_group":"Vegetables and fruit",
     "Food group":"Vegetables",
     "VITC (mg)":150.0
   },
   {
     "Engelse naam\/Food name":"Blackcurrants",
-    "food_pyramid_group":"Vegetables & Fruits",
+    "food_wheel_group":"Vegetables and fruit",
     "Food group":"Fruits",
     "VITC (mg)":150.0
   },
   {
     "Engelse naam\/Food name":"Sweet pepper av raw",
-    "food_pyramid_group":"Vegetables & Fruits",
+    "food_wheel_group":"Vegetables and fruit",
     "Food group":"Vegetables",
     "VITC (mg)":140.0
   },
   {
     "Engelse naam\/Food name":"Kiwi fruit yellow",
-    "food_pyramid_group":"Vegetables & Fruits",
+    "food_wheel_group":"Vegetables and fruit",
     "Food group":"Fruits",
     "VITC (mg)":135.0
   },
   {
     "Engelse naam\/Food name":"Sweet pepper orange raw",
-    "food_pyramid_group":"Vegetables & Fruits",
+    "food_wheel_group":"Vegetables and fruit",
     "Food group":"Vegetables",
     "VITC (mg)":133.0
   },
   {
     "Engelse naam\/Food name":"Brussel sprouts boiled",
-    "food_pyramid_group":"Vegetables & Fruits",
+    "food_wheel_group":"Vegetables and fruit",
     "Food group":"Vegetables",
     "VITC (mg)":132.0
   },
   {
-    "Engelse naam\/Food name":"Parsley fresh",
-    "food_pyramid_group":"Vegetables & Fruits",
-    "Food group":"Herbs and spices",
-    "VITC (mg)":125.0
-  },
-  {
-    "Engelse naam\/Food name":"Horse-radish raw",
-    "food_pyramid_group":"Vegetables & Fruits",
-    "Food group":"Herbs and spices",
-    "VITC (mg)":120.0
-  },
-  {
     "Engelse naam\/Food name":"Pate vegetarian based on soya\/pea",
-    "food_pyramid_group":"Protein",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Meat substitutes and dairy substitutes",
     "VITC (mg)":119.0
+  },
+  {
+    "Engelse naam\/Food name":"Sweet pepper red boiled",
+    "food_wheel_group":"Vegetables and fruit",
+    "Food group":"Vegetables",
+    "VITC (mg)":119.0
+  },
+  {
+    "Engelse naam\/Food name":"Sweet pepper yellow raw",
+    "food_wheel_group":"Vegetables and fruit",
+    "Food group":"Vegetables",
+    "VITC (mg)":114.0
   }
 ]

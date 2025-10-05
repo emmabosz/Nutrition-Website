@@ -1,62 +1,62 @@
 [
   {
+    "Engelse naam\/Food name":"Coffee instant powder",
+    "food_wheel_group":"Drinks",
+    "Food group":"Non-alcoholic beverages",
+    "Potassium (mg)":4000.0
+  },
+  {
     "Engelse naam\/Food name":"Tomato sun-dried",
-    "food_pyramid_group":"Vegetables & Fruits",
+    "food_wheel_group":"Vegetables and fruit",
     "Food group":"Vegetables",
     "Potassium (mg)":3427.0
   },
   {
-    "Engelse naam\/Food name":"Basil dried",
-    "food_pyramid_group":"Vegetables & Fruits",
-    "Food group":"Herbs and spices",
-    "Potassium (mg)":2630.0
-  },
-  {
     "Engelse naam\/Food name":"Flour soya full fat",
-    "food_pyramid_group":"Whole Grains",
+    "food_wheel_group":"Bread, grain\/cereal products and potatoes",
     "Food group":"Cereals and cereal products",
     "Potassium (mg)":2090.0
   },
   {
     "Engelse naam\/Food name":"Potato puree powder w milkpowder w fat",
-    "food_pyramid_group":"Whole Grains",
+    "food_wheel_group":"Bread, grain\/cereal products and potatoes",
     "Food group":"Potatoes and tubers",
     "Potassium (mg)":1700.0
   },
   {
     "Engelse naam\/Food name":"Beans soya dried",
-    "food_pyramid_group":"Protein",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Legumes",
     "Potassium (mg)":1680.0
   },
   {
     "Engelse naam\/Food name":"Milk skimmed dried",
-    "food_pyramid_group":"Dairy",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Milk and milk products",
     "Potassium (mg)":1610.0
   },
   {
     "Engelse naam\/Food name":"Apricots dried",
-    "food_pyramid_group":"Vegetables & Fruits",
+    "food_wheel_group":"Vegetables and fruit",
     "Food group":"Fruits",
     "Potassium (mg)":1500.0
   },
   {
     "Engelse naam\/Food name":"Potato puree powder av",
-    "food_pyramid_group":"Whole Grains",
+    "food_wheel_group":"Bread, grain\/cereal products and potatoes",
     "Food group":"Potatoes and tubers",
     "Potassium (mg)":1399.0
   },
   {
     "Engelse naam\/Food name":"Beans kidney red dried",
-    "food_pyramid_group":"Protein",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Legumes",
     "Potassium (mg)":1370.0
   },
   {
-    "Engelse naam\/Food name":"Tomato puree concentrated tinned",
-    "food_pyramid_group":"Vegetables & Fruits",
-    "Food group":"Vegetables",
-    "Potassium (mg)":1280.0
+    "Engelse naam\/Food name":"Coffee cappuccino instant powder",
+    "food_wheel_group":"Drinks",
+    "Food group":"Non-alcoholic beverages",
+    "Potassium (mg)":1342.0
   }
 ]

@@ -1,61 +1,61 @@
 [
   {
-    "Engelse naam\/Food name":"Liver calf's prepared",
-    "food_pyramid_group":"Protein",
+    "Engelse naam\/Food name":"Liver pork prepared",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Meat and poultry",
     "RIBF (mg)":3.96
   },
   {
-    "Engelse naam\/Food name":"Liver pork prepared",
-    "food_pyramid_group":"Protein",
+    "Engelse naam\/Food name":"Liver calf's prepared",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Meat and poultry",
     "RIBF (mg)":3.96
   },
   {
     "Engelse naam\/Food name":"Liver ox prepared",
-    "food_pyramid_group":"Protein",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Meat and poultry",
     "RIBF (mg)":3.87
   },
   {
     "Engelse naam\/Food name":"Liver pork raw",
-    "food_pyramid_group":"Protein",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Meat and poultry",
     "RIBF (mg)":3.09
   },
   {
     "Engelse naam\/Food name":"Liver ox raw",
-    "food_pyramid_group":"Protein",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Meat and poultry",
     "RIBF (mg)":2.95
   },
   {
     "Engelse naam\/Food name":"Liver calf's raw",
-    "food_pyramid_group":"Protein",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Meat and poultry",
     "RIBF (mg)":2.95
   },
   {
     "Engelse naam\/Food name":"Kidney pork raw",
-    "food_pyramid_group":"Protein",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Meat and poultry",
     "RIBF (mg)":2.58
   },
   {
     "Engelse naam\/Food name":"Kidney ox raw",
-    "food_pyramid_group":"Protein",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Meat and poultry",
     "RIBF (mg)":2.53
   },
   {
-    "Engelse naam\/Food name":"Margarine product Albert Heijn Balans",
-    "food_pyramid_group":"Fats & Oils",
+    "Engelse naam\/Food name":"Low fat margarine Albert Heijn light",
+    "food_wheel_group":"Spreading and cooking fats",
     "Food group":"Fats and oils",
     "RIBF (mg)":2.3
   },
   {
-    "Engelse naam\/Food name":"Low fat margarine Albert Heijn light",
-    "food_pyramid_group":"Fats & Oils",
+    "Engelse naam\/Food name":"Margarine product Albert Heijn Balans",
+    "food_wheel_group":"Spreading and cooking fats",
     "Food group":"Fats and oils",
     "RIBF (mg)":2.3
   }

@@ -1,62 +1,62 @@
 [
   {
     "Engelse naam\/Food name":"Bread crumbs w herbs",
-    "food_pyramid_group":"Whole Grains",
+    "food_wheel_group":"Bread, grain\/cereal products and potatoes",
     "Food group":"Cereals and cereal products",
     "Sodium (mg)":4762.0
   },
   {
-    "Engelse naam\/Food name":"Soup instant powder 1 cup soup",
-    "food_pyramid_group":"Vegetables & Fruits",
-    "Food group":"Herbs and spices",
-    "Sodium (mg)":4485.0
-  },
-  {
-    "Engelse naam\/Food name":"Soup instant powder",
-    "food_pyramid_group":"Vegetables & Fruits",
-    "Food group":"Herbs and spices",
-    "Sodium (mg)":4485.0
-  },
-  {
     "Engelse naam\/Food name":"Capers",
-    "food_pyramid_group":"Vegetables & Fruits",
+    "food_wheel_group":"Vegetables and fruit",
     "Food group":"Vegetables",
     "Sodium (mg)":2964.0
   },
   {
     "Engelse naam\/Food name":"Tomato sun-dried",
-    "food_pyramid_group":"Vegetables & Fruits",
+    "food_wheel_group":"Vegetables and fruit",
     "Food group":"Vegetables",
     "Sodium (mg)":2059.0
   },
   {
-    "Engelse naam\/Food name":"Herb paste boemboe",
-    "food_pyramid_group":"Vegetables & Fruits",
-    "Food group":"Herbs and spices",
-    "Sodium (mg)":1721.0
-  },
-  {
     "Engelse naam\/Food name":"Olives green in brine tinned\/glass",
-    "food_pyramid_group":"Vegetables & Fruits",
+    "food_wheel_group":"Vegetables and fruit",
     "Food group":"Fruits",
     "Sodium (mg)":1707.0
   },
   {
     "Engelse naam\/Food name":"Bacon lean smoked prepared",
-    "food_pyramid_group":"Protein",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Meat and poultry",
     "Sodium (mg)":1676.0
   },
   {
     "Engelse naam\/Food name":"Sprat fillet smoked",
-    "food_pyramid_group":"Protein",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Fish, crustacean and shellfish",
     "Sodium (mg)":1628.0
   },
   {
     "Engelse naam\/Food name":"Kipper smoked",
-    "food_pyramid_group":"Protein",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Fish, crustacean and shellfish",
     "Sodium (mg)":1625.0
+  },
+  {
+    "Engelse naam\/Food name":"Cheese Roquefort",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
+    "Food group":"Cheese",
+    "Sodium (mg)":1600.0
+  },
+  {
+    "Engelse naam\/Food name":"Olives av in brine tinned\/glass",
+    "food_wheel_group":"Vegetables and fruit",
+    "Food group":"Fruits",
+    "Sodium (mg)":1559.0
+  },
+  {
+    "Engelse naam\/Food name":"Cheese Danish Blue",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
+    "Food group":"Cheese",
+    "Sodium (mg)":1470.0
   }
 ]

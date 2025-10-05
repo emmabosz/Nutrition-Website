@@ -1,62 +1,62 @@
 [
   {
-    "Engelse naam\/Food name":"Basil dried",
-    "food_pyramid_group":"Vegetables & Fruits",
-    "Food group":"Herbs and spices",
-    "Iron (mg)":89.8
-  },
-  {
     "Engelse naam\/Food name":"Liver pork prepared",
-    "food_pyramid_group":"Protein",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Meat and poultry",
     "Iron (mg)":23.3
   },
   {
     "Engelse naam\/Food name":"Seaweed agar agar dried",
-    "food_pyramid_group":"Vegetables & Fruits",
+    "food_wheel_group":"Vegetables and fruit",
     "Food group":"Vegetables",
     "Iron (mg)":21.4
   },
   {
     "Engelse naam\/Food name":"Liver pork raw",
-    "food_pyramid_group":"Protein",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Meat and poultry",
     "Iron (mg)":17.8
   },
   {
     "Engelse naam\/Food name":"Wheat bran",
-    "food_pyramid_group":"Whole Grains",
+    "food_wheel_group":"Bread, grain\/cereal products and potatoes",
     "Food group":"Cereals and cereal products",
     "Iron (mg)":11.5
   },
   {
     "Engelse naam\/Food name":"Egg powder chicken",
-    "food_pyramid_group":"Protein",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Eggs",
     "Iron (mg)":11.0
   },
   {
     "Engelse naam\/Food name":"Liver chicken raw",
-    "food_pyramid_group":"Protein",
+    "food_wheel_group":"Dairy, nuts, fish, legumes, meat and eggs",
     "Food group":"Meat and poultry",
     "Iron (mg)":9.7
   },
   {
-    "Engelse naam\/Food name":"Mint fresh",
-    "food_pyramid_group":"Vegetables & Fruits",
-    "Food group":"Herbs and spices",
-    "Iron (mg)":9.5
+    "Engelse naam\/Food name":"Breakfast cereal Spec K choc Kellogg's",
+    "food_wheel_group":"Bread, grain\/cereal products and potatoes",
+    "Food group":"Cereals and cereal products",
+    "Iron (mg)":9.3
   },
   {
     "Engelse naam\/Food name":"Breakfast cereal Brinta Wake Up breakfastdrink",
-    "food_pyramid_group":"Whole Grains",
+    "food_wheel_group":"Bread, grain\/cereal products and potatoes",
     "Food group":"Cereals and cereal products",
     "Iron (mg)":9.3
   },
   {
-    "Engelse naam\/Food name":"Breakfast cereal Spec K choc Kellogg's",
-    "food_pyramid_group":"Whole Grains",
-    "Food group":"Cereals and cereal products",
-    "Iron (mg)":9.3
+    "Engelse naam\/Food name":"Tomato sun-dried",
+    "food_wheel_group":"Vegetables and fruit",
+    "Food group":"Vegetables",
+    "Iron (mg)":9.1
+  },
+  {
+    "Engelse naam\/Food name":"Sesame paste tahin salt added",
+    "food_wheel_group":"Spreading and cooking fats",
+    "Food group":"Savoury bread spreads",
+    "Iron (mg)":9.0
   }
 ]
