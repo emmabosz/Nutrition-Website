@@ -9,7 +9,8 @@ fn:Food a rdfs:Class .
 fn:Food_Wheel_Group a rdfs:Class .
 fn:Food_Wheel_Subgroup a rdfs:Class .
 fn:Diet a rdfs:Class .
-fn:Benefit a rdfs:Class .
+fn:Tag a rdfs:Class ;
+    rdfs:label "Nutrient tag (high or low)" .
 
 
 # OBJECT PROPERTIES
@@ -34,16 +35,16 @@ fn:belongsToDiet a rdf:Property ;
     rdfs:range fn:Diet ;
     rdfs:label "belongs to diet" .
 
-fn:hasBenefit a rdf:Property ;
+fn:hasTag a rdf:Property ;
     rdfs:domain fn:Food ;
-    rdfs:range fn:Benefit ;
-    rdfs:label "has benefit" .
+    rdfs:range fn:Tag ;
+    rdfs:label "has nutrient tag (high or low)" .
 
 
 # DATA PROPERTIES 
 
 fn:NEVOCode a rdf:Property ;
-    rdfs:domain fn:food_name ;
+    rdfs:domain fn:Food ;
     rdfs:range xsd:string ;
     rdfs:label "NEVO code" .
 
@@ -77,7 +78,7 @@ fn:hasFat a rdf:Property ;
     rdfs:range xsd:float ;
     rdfs:label "Fat value" .
 
-fn:hasFat a rdf:Property ;
+fn:hasFatUnit a rdf:Property ;
     rdfs:domain fn:Food ;
     rdfs:range xsd:string ;
     rdfs:label "Fat unit" .
@@ -85,14 +86,19 @@ fn:hasFat a rdf:Property ;
 fn:hasVitaminB12 a rdf:Property ;
     rdfs:domain fn:Food ;
     rdfs:range xsd:float ;
-    rdfs:label "Vitamin B12 (µg)" .
+    rdfs:label "Vitamin value" .
+
+fn:hasVitaminB12Unit a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range xsd:string ;
+    rdfs:label "Vitamin unit" .
 
 fn:hasVitaminC a rdf:Property ;
     rdfs:domain fn:Food ;
     rdfs:range xsd:float ;
     rdfs:label "Vitamin C value" .
 
-fn:hasVitaminC a rdf:Property ;
+fn:hasVitaminCUnit a rdf:Property ;
     rdfs:domain fn:Food ;
     rdfs:range xsd:string ;
     rdfs:label "Vitamin C unit" .
@@ -102,7 +108,7 @@ fn:hasVitaminD a rdf:Property ;
     rdfs:range xsd:float ;
     rdfs:label "Vitamin D value" .
 
-fn:hasVitaminD a rdf:Property ;
+fn:hasVitaminDUnit a rdf:Property ;
     rdfs:domain fn:Food ;
     rdfs:range xsd:float ;
     rdfs:label "Vitamin D unit" .
@@ -112,7 +118,7 @@ fn:hasIron a rdf:Property ;
     rdfs:range xsd:float ;
     rdfs:label "Iron value" .
 
-fn:hasIron a rdf:Property ;
+fn:hasIronUnit a rdf:Property ;
     rdfs:domain fn:Food ;
     rdfs:range xsd:string ;
     rdfs:label "Iron unit" .
