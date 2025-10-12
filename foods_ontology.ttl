@@ -1,0 +1,116 @@
+@prefix fn: <http://example.org/food-nutrition#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# CLASSES
+
+fn:Food a rdfs:Class .
+fn:Food_Wheel_Group a rdfs:Class .
+fn:Food_Wheel_Subgroup a rdfs:Class .
+fn:Diet a rdfs:Class .
+fn:Benefit a rdfs:Class .
+
+
+# OBJECT PROPERTIES
+
+fn:belongsToFoodWheelGroup a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range fn:Food_Wheel_Group ;
+    rdfs:label "belongs to food wheel group" .
+
+fn:belongsToFoodWheelSubGroup a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range fn:Food_Wheel_Subgroup ;
+    rdfs:label "belongs to food wheel subgroup" .
+
+fn:subgroupOf a rdf:Property ;
+    rdfs:domain fn:Food_Wheel_Subgroup ;
+    rdfs:range fn:Food_Wheel_Group ;
+    rdfs:label "subgroup of food wheel group" .
+
+fn:belongsToDiet a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range fn:Diet ;
+    rdfs:label "belongs to diet" .
+
+fn:hasBenefit a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range fn:Benefit ;
+    rdfs:label "has benefit" .
+
+
+# DATA PROPERTIES 
+
+fn:NEVOCode a rdf:Property ;
+    rdfs:domain fn:food_name ;
+    rdfs:range xsd:string ;
+    rdfs:label "NEVO code" .
+
+fn:foodName a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range xsd:string ;
+    rdfs:label "name of the food item" .
+
+fn:hasCalories a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range xsd:float ;
+    rdfs:label "Calories (kcal)" .
+
+fn:hasProtein a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range xsd:float ;
+    rdfs:label "Protein (g)" .
+
+fn:hasFat a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range xsd:float ;
+    rdfs:label "Fat (g)" .
+
+fn:hasVitaminB12 a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range xsd:float ;
+    rdfs:label "Vitamin B12 (µg)" .
+
+fn:hasVitaminC a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range xsd:float ;
+    rdfs:label "Vitamin C (mg)" .
+
+fn:hasVitaminD a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range xsd:float ;
+    rdfs:label "Vitamin D (µg)" .
+
+fn:hasIron a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range xsd:float ;
+    rdfs:label "Iron (mg)" .
+
+
+# FOOD GROUPS
+
+# Groups
+fn:Bread_Grain_Potatoes a fn:Food_Wheel_Group ; rdfs:label "Bread, grain/cereal products and potatoes" .
+fn:Vegetables_Fruit a fn:Food_Wheel_Group ; rdfs:label "Vegetables and fruit" .
+fn:Dairy_Nuts_Fish_Legumes_Meat_Eggs a fn:Food_Wheel_Group ; rdfs:label "Dairy, nuts, fish, legumes, meat and eggs" .
+fn:Spreading_Fats a fn:Food_Wheel_Group ; rdfs:label "Spreading and cooking fats" .
+fn:Drinks a fn:Food_Wheel_Group ; rdfs:label "Drinks" .
+
+# Subgroups
+fn:Bread_Grain_Potatoes_Sub a fn:Food_Wheel_Subgroup ; rdfs:label "Bread, grain/cereal products and potatoes" ; fn:subgroupOf fn:Bread_Grain_Potatoes .
+fn:Vegetables a fn:Food_Wheel_Subgroup ; rdfs:label "Vegetables" ; fn:subgroupOf fn:Vegetables_Fruit .
+fn:Fruit a fn:Food_Wheel_Subgroup ; rdfs:label "Fruit" ; fn:subgroupOf fn:Vegetables_Fruit .
+fn:Dairy a fn:Food_Wheel_Subgroup ; rdfs:label "Dairy" ; fn:subgroupOf fn:Dairy_Nuts_Fish_Legumes_Meat_Eggs .
+fn:Nuts a fn:Food_Wheel_Subgroup ; rdfs:label "Nuts" ; fn:subgroupOf fn:Dairy_Nuts_Fish_Legumes_Meat_Eggs .
+fn:Fish_Legumes_Meat_Eggs a fn:Food_Wheel_Subgroup ; rdfs:label "Fish, legumes, meat and eggs" ; fn:subgroupOf fn:Dairy_Nuts_Fish_Legumes_Meat_Eggs .
+fn:Spreading_Fats_Sub a fn:Food_Wheel_Subgroup ; rdfs:label "Spreading and cooking fats" ; fn:subgroupOf fn:Spreading_Fats .
+fn:Drinks_Sub a fn:Food_Wheel_Subgroup ; rdfs:label "Drinks" ; fn:subgroupOf fn:Drinks .
+
+
+# DIETS
+
+fn:Continental_Diet a fn:Diet ; rdfs:label "Continental Diet" .
+fn:Plant_Focused_Flexitarian a fn:Diet ; rdfs:label "Plant-Focused Flexitarian Diet" .
+fn:Vegetarian a fn:Diet ; rdfs:label "Vegetarian" .
+
