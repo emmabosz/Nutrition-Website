@@ -1,4 +1,4 @@
-NEVO-code,food_name,FAT (g),PROT (g),Carbohydrates (kcal),VITB1 (mg),RIBF (mg),VITB6 (mg),VITB12 (µg),VITD (µg),VITE (mg),VITC (mg),VITA (µg),Calcium (mg),Iron (mg),Magnesium (mg),Phosphorus (mg),Potassium (mg),Sodium (mg),Zinc (mg),food_wheel_group,food_wheel_subgroup
+NEVO-code,food_name,FAT (g),PROT (g),Calories (kcal),VITB1 (mg),RIBF (mg),VITB6 (mg),VITB12 (µg),VITD (µg),VITE (mg),VITC (mg),VITA (µg),Calcium (mg),Iron (mg),Magnesium (mg),Phosphorus (mg),Potassium (mg),Sodium (mg),Zinc (mg),food_wheel_group,food_wheel_subgroup
 1,Potatoes raw,0.0,2.0,88.0,0.12,0.04,0.3,0.0,0.0,0.1,14.0,1.0,6.0,0.5,22.0,60.0,450.0,2.0,0.37,"Bread, grain/cereal products and potatoes","Bread, grain/cereal products and potatoes"
 2,Potatoes new raw,0.0,2.0,88.0,0.12,0.04,0.3,0.0,0.0,0.1,25.0,0.0,6.0,0.5,14.0,60.0,450.0,2.0,0.2,"Bread, grain/cereal products and potatoes","Bread, grain/cereal products and potatoes"
 3,Potatoes old raw,0.0,2.0,88.0,0.12,0.04,0.22,0.0,0.0,0.1,5.0,1.0,6.0,0.5,17.0,60.0,450.0,2.0,0.3,"Bread, grain/cereal products and potatoes","Bread, grain/cereal products and potatoes"
