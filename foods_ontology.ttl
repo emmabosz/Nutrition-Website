@@ -55,17 +55,32 @@ fn:foodName a rdf:Property ;
 fn:hasCalories a rdf:Property ;
     rdfs:domain fn:Food ;
     rdfs:range xsd:float ;
-    rdfs:label "Calories (kcal)" .
+    rdfs:label "Calories value" .
+
+fn:hasCaloriesUnit a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range xsd:string ;
+    rdfs:label "Calories unit" .
 
 fn:hasProtein a rdf:Property ;
     rdfs:domain fn:Food ;
     rdfs:range xsd:float ;
-    rdfs:label "Protein (g)" .
+    rdfs:label "Protein value" .
+
+fn:hasProteinUnit a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range xsd:string ;
+    rdfs:label "Protein unit" .
 
 fn:hasFat a rdf:Property ;
     rdfs:domain fn:Food ;
     rdfs:range xsd:float ;
-    rdfs:label "Fat (g)" .
+    rdfs:label "Fat value" .
+
+fn:hasFat a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range xsd:string ;
+    rdfs:label "Fat unit" .
 
 fn:hasVitaminB12 a rdf:Property ;
     rdfs:domain fn:Food ;
@@ -75,17 +90,32 @@ fn:hasVitaminB12 a rdf:Property ;
 fn:hasVitaminC a rdf:Property ;
     rdfs:domain fn:Food ;
     rdfs:range xsd:float ;
-    rdfs:label "Vitamin C (mg)" .
+    rdfs:label "Vitamin C value" .
+
+fn:hasVitaminC a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range xsd:string ;
+    rdfs:label "Vitamin C unit" .
 
 fn:hasVitaminD a rdf:Property ;
     rdfs:domain fn:Food ;
     rdfs:range xsd:float ;
-    rdfs:label "Vitamin D (µg)" .
+    rdfs:label "Vitamin D value" .
+
+fn:hasVitaminD a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range xsd:float ;
+    rdfs:label "Vitamin D unit" .
 
 fn:hasIron a rdf:Property ;
     rdfs:domain fn:Food ;
     rdfs:range xsd:float ;
-    rdfs:label "Iron (mg)" .
+    rdfs:label "Iron value" .
+
+fn:hasIron a rdf:Property ;
+    rdfs:domain fn:Food ;
+    rdfs:range xsd:string ;
+    rdfs:label "Iron unit" .
 
 
 # FOOD GROUPS
