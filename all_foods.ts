@@ -1,0 +1,31272 @@
+export interface Food {
+  foodName: string;
+  group: string | null;
+  subgroup: string | null;
+  diet: string[];
+  benefit: string[];
+  calories: number;
+  protein: number;
+  fat: number;
+  vitaminB12: number;
+  vitaminC: number;
+  vitaminD: number;
+  iron: number;
+}
+
+export const foods: Food[] = [
+  {
+    "foodName": "Abricots dried and soaked",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 159.0,
+    "protein": 2.8,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.2
+  },
+  {
+    "foodName": "Almonds blanched salted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITE (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 631.0,
+    "protein": 21.7,
+    "fat": 55.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.3
+  },
+  {
+    "foodName": "Almonds blanched unsalted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITE (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 631.0,
+    "protein": 21.7,
+    "fat": 55.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.3
+  },
+  {
+    "foodName": "Almonds w skin salted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITE (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 622.0,
+    "protein": 25.4,
+    "fat": 53.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.0
+  },
+  {
+    "foodName": "Almonds w skin unsalted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITE (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 622.0,
+    "protein": 25.4,
+    "fat": 53.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.0
+  },
+  {
+    "foodName": "Anchovy raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Iron (mg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 125.0,
+    "protein": 20.4,
+    "fat": 4.8,
+    "vitaminB12": 0.62,
+    "vitaminC": 0.0,
+    "vitaminD": 11.0,
+    "iron": 3.3
+  },
+  {
+    "foodName": "Antroewa raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 30.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Apple Elstar w skin",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 55.0,
+    "protein": 0.3,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Apple Elstar wo skin",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 55.0,
+    "protein": 0.2,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Apple Jonagold w skin",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 55.0,
+    "protein": 0.2,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 6.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Apple Jonagold wo skin",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 52.0,
+    "protein": 0.2,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Apple dried soaked in water",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 85.0,
+    "protein": 0.6,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Apple sauce tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 76.0,
+    "protein": 0.2,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 6.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Apple sauce wo sugar tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 48.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Apple sauce wo sugar w sweetener tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 48.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Apple w skin av",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 56.0,
+    "protein": 0.3,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Apple wo skin av",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 55.0,
+    "protein": 0.2,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Apples dried",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 292.0,
+    "protein": 2.0,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Apricots dried",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Potassium (mg)",
+      "High in VITA (µg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 285.0,
+    "protein": 5.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.0
+  },
+  {
+    "foodName": "Apricots in syrup tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 69.0,
+    "protein": 0.4,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Apricots w skin",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 44.0,
+    "protein": 0.9,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Artichoke hearts canned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 27.0,
+    "protein": 2.1,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Artichoke raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 49.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 8.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Asparagus green boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 27.0,
+    "protein": 2.7,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Asparagus green raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 28.0,
+    "protein": 3.0,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 24.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Asparagus white boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 21.0,
+    "protein": 1.0,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 10.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Asparagus white raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 22.0,
+    "protein": 1.0,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 30.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Asparagus white tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 17.0,
+    "protein": 1.4,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 12.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Aubergine/eggplant boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 21.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Aubergine/eggplant raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 20.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 10.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Avocado",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 186.0,
+    "protein": 2.0,
+    "fat": 18.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Bacon fat smoked raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Sodium (mg)",
+      "High in VITD (µg)",
+      "Low in Calcium (mg)",
+      "Low in Magnesium (mg)",
+      "Low in Potassium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 678.0,
+    "protein": 5.0,
+    "fat": 73.2,
+    "vitaminB12": 0.65,
+    "vitaminC": 0.0,
+    "vitaminD": 2.6,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Bacon lean prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in PROT (g)",
+      "High in VITB1 (mg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 424.0,
+    "protein": 25.7,
+    "fat": 35.5,
+    "vitaminB12": 0.7,
+    "vitaminC": 0.0,
+    "vitaminD": 1.2,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Bacon lean smoked prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in FAT (g)",
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in Sodium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 379.0,
+    "protein": 23.1,
+    "fat": 31.9,
+    "vitaminB12": 0.73,
+    "vitaminC": 5.0,
+    "vitaminD": 1.2,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Bacon lean smoked raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB1 (mg)"
+    ],
+    "calories": 325.0,
+    "protein": 15.3,
+    "fat": 29.4,
+    "vitaminB12": 0.51,
+    "vitaminC": 8.0,
+    "vitaminD": 0.7,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Bacon rasher prepared in own fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in PROT (g)",
+      "High in VITB1 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 435.0,
+    "protein": 29.1,
+    "fat": 35.4,
+    "vitaminB12": 1.04,
+    "vitaminC": 0.0,
+    "vitaminD": 1.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Bacon rasher raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 320.0,
+    "protein": 16.5,
+    "fat": 28.2,
+    "vitaminB12": 0.54,
+    "vitaminC": 0.0,
+    "vitaminD": 0.9,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Bacon vegetarian unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 185.0,
+    "protein": 15.0,
+    "fat": 10.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.9
+  },
+  {
+    "foodName": "Bakery mix for apple pie",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 341.0,
+    "protein": 9.4,
+    "fat": 1.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Bakery mix for cake plain",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 367.0,
+    "protein": 5.1,
+    "fat": 0.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Bakery mix for chocolate cake",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 377.0,
+    "protein": 6.4,
+    "fat": 3.6,
+    "vitaminB12": 0.04,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Bakery mix for doughnuts Dutch style",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 367.0,
+    "protein": 11.0,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Bakery mix for pancakes",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 322.0,
+    "protein": 10.6,
+    "fat": 1.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Bakery mix for pancakes multigrain",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 340.0,
+    "protein": 11.3,
+    "fat": 1.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Bakery mix for pancakes wholemeal",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 352.0,
+    "protein": 13.0,
+    "fat": 5.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.9
+  },
+  {
+    "foodName": "Bamboo shoots tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "Low in FAT (g)",
+      "Low in Magnesium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 33.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Bami vegetables boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 19.0,
+    "protein": 1.2,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 9.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Bami vegetables raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 27.0,
+    "protein": 1.8,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Banana",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 92.0,
+    "protein": 1.1,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 8.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Barley malt",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Phosphorus (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 332.0,
+    "protein": 10.0,
+    "fat": 2.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.0
+  },
+  {
+    "foodName": "Barley pearl raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 339.0,
+    "protein": 9.0,
+    "fat": 2.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Barley whole grain raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 330.0,
+    "protein": 10.6,
+    "fat": 2.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 6.0
+  },
+  {
+    "foodName": "Bean sprouts boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 17.0,
+    "protein": 1.8,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Bean sprouts raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 25.0,
+    "protein": 2.2,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 8.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Beans French boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 25.0,
+    "protein": 1.8,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Beans French frozen boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 34.0,
+    "protein": 1.8,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Beans French raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 25.0,
+    "protein": 2.3,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Beans French tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 26.0,
+    "protein": 1.6,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Beans black canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 113.0,
+    "protein": 7.9,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.2
+  },
+  {
+    "foodName": "Beans black eyed canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 126.0,
+    "protein": 7.8,
+    "fat": 0.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Beans broad boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 45.0,
+    "protein": 5.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 30.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Beans broad frozen unprepared",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 87.0,
+    "protein": 7.5,
+    "fat": 0.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 20.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Beans broad raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 51.0,
+    "protein": 5.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 80.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Beans broad tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 73.0,
+    "protein": 5.8,
+    "fat": 0.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Beans brown boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 108.0,
+    "protein": 6.1,
+    "fat": 0.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Beans brown canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 120.0,
+    "protein": 6.5,
+    "fat": 0.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Beans brown canned/glass no salt added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 118.0,
+    "protein": 8.0,
+    "fat": 0.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Beans cannellini canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 113.0,
+    "protein": 7.1,
+    "fat": 1.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.7
+  },
+  {
+    "foodName": "Beans chilli canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 106.0,
+    "protein": 6.3,
+    "fat": 0.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Beans kidney red boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 115.0,
+    "protein": 8.3,
+    "fat": 0.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Beans kidney red canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 116.0,
+    "protein": 8.2,
+    "fat": 0.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.9
+  },
+  {
+    "foodName": "Beans kidney red canned/glass no salt added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 102.0,
+    "protein": 7.7,
+    "fat": 0.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.9
+  },
+  {
+    "foodName": "Beans kidney red dried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 295.0,
+    "protein": 22.1,
+    "fat": 1.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 6.4
+  },
+  {
+    "foodName": "Beans mung boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 102.0,
+    "protein": 7.6,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Beans runner boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 23.0,
+    "protein": 1.8,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Beans runner frozen unprepared",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 28.0,
+    "protein": 1.9,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Beans runner raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 22.0,
+    "protein": 1.9,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Beans runner tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 20.0,
+    "protein": 1.1,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Beans soya boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 123.0,
+    "protein": 10.6,
+    "fat": 5.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Beans soya dried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in Zinc (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 418.0,
+    "protein": 35.9,
+    "fat": 18.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 8.4
+  },
+  {
+    "foodName": "Beans white baked in tomato sauce canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 101.0,
+    "protein": 5.7,
+    "fat": 0.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Beans white boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 113.0,
+    "protein": 7.8,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Beans white canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 105.0,
+    "protein": 6.9,
+    "fat": 0.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 2.2
+  },
+  {
+    "foodName": "Beans white/ brown dried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 314.0,
+    "protein": 20.1,
+    "fat": 2.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 5.0
+  },
+  {
+    "foodName": "Beef <10% fat prepared av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 163.0,
+    "protein": 30.2,
+    "fat": 4.7,
+    "vitaminB12": 2.7,
+    "vitaminC": 1.0,
+    "vitaminD": 0.5,
+    "iron": 3.0
+  },
+  {
+    "foodName": "Beef <5% fat raw av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 108.0,
+    "protein": 22.6,
+    "fat": 2.0,
+    "vitaminB12": 2.38,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 2.2
+  },
+  {
+    "foodName": "Beef >10% fat prepared av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 290.0,
+    "protein": 26.9,
+    "fat": 19.7,
+    "vitaminB12": 2.43,
+    "vitaminC": 7.0,
+    "vitaminD": 1.3,
+    "iron": 2.9
+  },
+  {
+    "foodName": "Beef >5% fat raw av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Zinc (mg)"
+    ],
+    "calories": 218.0,
+    "protein": 18.5,
+    "fat": 15.3,
+    "vitaminB12": 1.81,
+    "vitaminC": 11.0,
+    "vitaminD": 0.6,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Beef T-bone steak prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 254.0,
+    "protein": 33.6,
+    "fat": 13.3,
+    "vitaminB12": 1.94,
+    "vitaminC": 0.0,
+    "vitaminD": 0.7,
+    "iron": 2.8
+  },
+  {
+    "foodName": "Beef T-bone steak raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 189.0,
+    "protein": 22.0,
+    "fat": 11.2,
+    "vitaminB12": 1.34,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Beef av raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Zinc (mg)"
+    ],
+    "calories": 201.0,
+    "protein": 19.1,
+    "fat": 13.2,
+    "vitaminB12": 1.93,
+    "vitaminC": 9.0,
+    "vitaminD": 0.6,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Beef breast boneless prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 217.0,
+    "protein": 36.8,
+    "fat": 7.7,
+    "vitaminB12": 1.15,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 3.1
+  },
+  {
+    "foodName": "Beef breast boneless raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 152.0,
+    "protein": 22.3,
+    "fat": 7.0,
+    "vitaminB12": 1.32,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 1.9
+  },
+  {
+    "foodName": "Beef fat",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "Low in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 891.0,
+    "protein": 0.0,
+    "fat": 99.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Beef frying steak prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 140.0,
+    "protein": 27.5,
+    "fat": 3.3,
+    "vitaminB12": 2.36,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 2.7
+  },
+  {
+    "foodName": "Beef frying steak raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Zinc (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 103.0,
+    "protein": 21.2,
+    "fat": 2.0,
+    "vitaminB12": 1.91,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 2.1
+  },
+  {
+    "foodName": "Beef olives prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 223.0,
+    "protein": 22.4,
+    "fat": 14.5,
+    "vitaminB12": 1.83,
+    "vitaminC": 4.0,
+    "vitaminD": 0.9,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Beef olives raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 209.0,
+    "protein": 16.6,
+    "fat": 14.2,
+    "vitaminB12": 1.43,
+    "vitaminC": 6.0,
+    "vitaminD": 0.6,
+    "iron": 1.9
+  },
+  {
+    "foodName": "Beef prime rib prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 192.0,
+    "protein": 31.0,
+    "fat": 7.5,
+    "vitaminB12": 1.51,
+    "vitaminC": 0.0,
+    "vitaminD": 0.6,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Beef prime rib raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 165.0,
+    "protein": 23.0,
+    "fat": 8.1,
+    "vitaminB12": 1.2,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Beef rib prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 187.0,
+    "protein": 29.6,
+    "fat": 7.6,
+    "vitaminB12": 2.09,
+    "vitaminC": 0.0,
+    "vitaminD": 0.7,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Beef rib raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 137.0,
+    "protein": 19.8,
+    "fat": 6.4,
+    "vitaminB12": 1.6,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Beef rib steak prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 230.0,
+    "protein": 34.1,
+    "fat": 10.4,
+    "vitaminB12": 1.81,
+    "vitaminC": 0.0,
+    "vitaminD": 0.6,
+    "iron": 3.6
+  },
+  {
+    "foodName": "Beef rib steak raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 166.0,
+    "protein": 20.1,
+    "fat": 9.5,
+    "vitaminB12": 2.01,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 2.1
+  },
+  {
+    "foodName": "Beef ribeye steak prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 214.0,
+    "protein": 29.6,
+    "fat": 10.6,
+    "vitaminB12": 1.8,
+    "vitaminC": 0.0,
+    "vitaminD": 0.7,
+    "iron": 2.6
+  },
+  {
+    "foodName": "Beef ribeye steak raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Zinc (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 170.0,
+    "protein": 21.2,
+    "fat": 9.4,
+    "vitaminB12": 1.35,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Beef roast prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 156.0,
+    "protein": 27.2,
+    "fat": 5.1,
+    "vitaminB12": 2.59,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Beef roast raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 122.0,
+    "protein": 22.9,
+    "fat": 3.4,
+    "vitaminB12": 1.68,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Beef rolled prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 157.0,
+    "protein": 33.5,
+    "fat": 2.3,
+    "vitaminB12": 1.42,
+    "vitaminC": 1.0,
+    "vitaminD": 0.4,
+    "iron": 2.2
+  },
+  {
+    "foodName": "Beef rump steak prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 146.0,
+    "protein": 29.3,
+    "fat": 3.2,
+    "vitaminB12": 1.7,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 2.8
+  },
+  {
+    "foodName": "Beef rump steak raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 108.0,
+    "protein": 22.9,
+    "fat": 1.8,
+    "vitaminB12": 1.68,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Beef shank prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 140.0,
+    "protein": 27.5,
+    "fat": 3.3,
+    "vitaminB12": 2.59,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 2.6
+  },
+  {
+    "foodName": "Beef shank raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 117.0,
+    "protein": 22.6,
+    "fat": 3.0,
+    "vitaminB12": 1.86,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 1.9
+  },
+  {
+    "foodName": "Beef sirloin rolled raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 109.0,
+    "protein": 23.2,
+    "fat": 1.7,
+    "vitaminB12": 1.86,
+    "vitaminC": 1.0,
+    "vitaminD": 0.4,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Beef steak tartare prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 186.0,
+    "protein": 30.1,
+    "fat": 7.2,
+    "vitaminB12": 2.66,
+    "vitaminC": 9.0,
+    "vitaminD": 0.8,
+    "iron": 3.5
+  },
+  {
+    "foodName": "Beef steak tartare raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Zinc (mg)"
+    ],
+    "calories": 137.0,
+    "protein": 21.1,
+    "fat": 5.7,
+    "vitaminB12": 1.97,
+    "vitaminC": 14.0,
+    "vitaminD": 0.6,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Beef stewing meat prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 216.0,
+    "protein": 30.9,
+    "fat": 10.2,
+    "vitaminB12": 2.52,
+    "vitaminC": 2.0,
+    "vitaminD": 1.4,
+    "iron": 2.6
+  },
+  {
+    "foodName": "Beef stewing meat raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)",
+      "Low in Calcium (mg)"
+    ],
+    "calories": 106.0,
+    "protein": 22.1,
+    "fat": 2.0,
+    "vitaminB12": 1.86,
+    "vitaminC": 3.0,
+    "vitaminD": 0.5,
+    "iron": 1.9
+  },
+  {
+    "foodName": "Beef stewing steak prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 189.0,
+    "protein": 33.4,
+    "fat": 6.1,
+    "vitaminB12": 2.27,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 3.7
+  },
+  {
+    "foodName": "Beef stewing steak raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 135.0,
+    "protein": 21.3,
+    "fat": 5.5,
+    "vitaminB12": 2.72,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 2.4
+  },
+  {
+    "foodName": "Beef streaked/marbled prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 212.0,
+    "protein": 34.6,
+    "fat": 8.2,
+    "vitaminB12": 2.58,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 3.4
+  },
+  {
+    "foodName": "Beef streaked/marbled raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 147.0,
+    "protein": 20.6,
+    "fat": 7.2,
+    "vitaminB12": 2.91,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Beef tenderloin steak raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 116.0,
+    "protein": 23.7,
+    "fat": 2.3,
+    "vitaminB12": 1.68,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 1.9
+  },
+  {
+    "foodName": "Beer alcohol free <0,1 vol%",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 26.0,
+    "protein": 0.3,
+    "fat": 0.0,
+    "vitaminB12": 0.02,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Beer w fruit juice Radler alcohol free",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 34.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.01,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Beetroot boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 30.0,
+    "protein": 1.2,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Beetroot pickled glass",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 37.0,
+    "protein": 0.5,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Beetroot raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 38.0,
+    "protein": 1.7,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Bilberries",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Magnesium (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 30.0,
+    "protein": 0.6,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 10.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Bilberries in syrup tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in PROT (g)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 66.0,
+    "protein": 0.3,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 10.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Binding agents av",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 335.0,
+    "protein": 10.0,
+    "fat": 1.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Bitter gourd pods boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 18.0,
+    "protein": 0.8,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 33.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Bitter gourd pods raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 15.0,
+    "protein": 1.0,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 84.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Black pudding",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Sodium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 386.0,
+    "protein": 12.4,
+    "fat": 32.6,
+    "vitaminB12": 2.3,
+    "vitaminC": 0.0,
+    "vitaminD": 0.6,
+    "iron": 6.6
+  },
+  {
+    "foodName": "Blackberries",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 37.0,
+    "protein": 0.9,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 12.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Blackcurrants",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 53.0,
+    "protein": 0.9,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 150.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Blancmange chocolate",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 112.0,
+    "protein": 3.4,
+    "fat": 2.0,
+    "vitaminB12": 0.36,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Blancmange home-made w semi-sk milk",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 91.0,
+    "protein": 2.9,
+    "fat": 1.2,
+    "vitaminB12": 0.39,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Blancmange instant various flavours powd",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Sodium (mg)",
+      "Low in FAT (g)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 377.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Blancmange vanilla",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 89.0,
+    "protein": 3.9,
+    "fat": 2.0,
+    "vitaminB12": 0.51,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Blancmange vanilla w strawberry sauce",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 112.0,
+    "protein": 4.1,
+    "fat": 2.3,
+    "vitaminB12": 0.2,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Bloater fried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 299.0,
+    "protein": 21.6,
+    "fat": 22.2,
+    "vitaminB12": 8.93,
+    "vitaminC": 0.0,
+    "vitaminD": 8.0,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Blueberries",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 52.0,
+    "protein": 0.7,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 10.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Brazil nuts salted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITE (mg)",
+      "High in Zinc (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 687.0,
+    "protein": 14.3,
+    "fat": 67.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 3.1
+  },
+  {
+    "foodName": "Brazil nuts unsalted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITE (mg)",
+      "High in Zinc (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 687.0,
+    "protein": 14.3,
+    "fat": 67.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 3.1
+  },
+  {
+    "foodName": "Bread crumbs",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 378.0,
+    "protein": 13.0,
+    "fat": 3.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Bread crumbs w herbs",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 378.0,
+    "protein": 13.0,
+    "fat": 3.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Breadsticks",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 401.0,
+    "protein": 12.5,
+    "fat": 6.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Breadsticks wholemeal",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 385.0,
+    "protein": 14.1,
+    "fat": 6.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.2
+  },
+  {
+    "foodName": "Breakfast cereal Brinta Wake Up breakfastdrink",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "High in VITC (mg)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 350.0,
+    "protein": 5.7,
+    "fat": 1.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 54.0,
+    "vitaminD": 0.0,
+    "iron": 9.3
+  },
+  {
+    "foodName": "Breakfast cereal Choco chocos Plus",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 392.0,
+    "protein": 8.3,
+    "fat": 3.1,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 7.0
+  },
+  {
+    "foodName": "Breakfast cereal Choco moons Crownfield",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 382.0,
+    "protein": 11.7,
+    "fat": 3.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.9
+  },
+  {
+    "foodName": "Breakfast cereal Chocoschelpjes G'woon",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in Iron (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 402.0,
+    "protein": 9.5,
+    "fat": 4.8,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 7.0
+  },
+  {
+    "foodName": "Breakfast cereal Coco pops Chocos Kellogg's",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Iron (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 381.0,
+    "protein": 9.0,
+    "fat": 2.5,
+    "vitaminB12": 2.1,
+    "vitaminC": 0.0,
+    "vitaminD": 4.2,
+    "iron": 8.0
+  },
+  {
+    "foodName": "Breakfast cereal Cornflakes",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 378.0,
+    "protein": 7.0,
+    "fat": 0.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Breakfast cereal Cornflakes Kellogg's",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "Low in Calcium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 378.0,
+    "protein": 7.0,
+    "fat": 0.9,
+    "vitaminB12": 2.1,
+    "vitaminC": 0.0,
+    "vitaminD": 4.2,
+    "iron": 8.0
+  },
+  {
+    "foodName": "Breakfast cereal Honey hoops Crownfield",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 379.0,
+    "protein": 6.3,
+    "fat": 2.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.4
+  },
+  {
+    "foodName": "Breakfast cereal Honey pops Kellogg's",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Iron (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 389.0,
+    "protein": 5.0,
+    "fat": 1.0,
+    "vitaminB12": 2.1,
+    "vitaminC": 0.0,
+    "vitaminD": 4.2,
+    "iron": 8.0
+  },
+  {
+    "foodName": "Breakfast cereal Spec K choc Kellogg's",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 400.0,
+    "protein": 8.1,
+    "fat": 6.2,
+    "vitaminB12": 3.35,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 9.3
+  },
+  {
+    "foodName": "Breakfast cereal cornflakes Plus/1 de Beste",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 381.0,
+    "protein": 8.0,
+    "fat": 1.1,
+    "vitaminB12": 1.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 7.0
+  },
+  {
+    "foodName": "Breakfast cereal honey loops 1 de Beste",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 374.0,
+    "protein": 9.7,
+    "fat": 3.1,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 7.0
+  },
+  {
+    "foodName": "Breakfast cereal porridge Brinta",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 344.0,
+    "protein": 11.0,
+    "fat": 2.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.5
+  },
+  {
+    "foodName": "Breakfast cereal porridge Olvarit 8 granen 12+ months",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 360.0,
+    "protein": 10.4,
+    "fat": 1.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.0
+  },
+  {
+    "foodName": "Breakfast cereal porridge Olvarit fijne granen 6+ months",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 367.0,
+    "protein": 12.4,
+    "fat": 2.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.0
+  },
+  {
+    "foodName": "Breakfast cereal porridge Olvarit licht volkoren 8+ months",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 376.0,
+    "protein": 11.6,
+    "fat": 2.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.0
+  },
+  {
+    "foodName": "Breakfast drink Goede Morgen Vifit",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITE (mg)"
+    ],
+    "calories": 55.0,
+    "protein": 3.4,
+    "fat": 0.8,
+    "vitaminB12": 0.27,
+    "vitaminC": 1.0,
+    "vitaminD": 0.4,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Brioche",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 338.0,
+    "protein": 8.5,
+    "fat": 11.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Broccoli boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 27.0,
+    "protein": 3.9,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 38.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Broccoli raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 27.0,
+    "protein": 2.9,
+    "fat": 0.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 47.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Brussel sprouts boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 47.0,
+    "protein": 2.3,
+    "fat": 0.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 132.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Brussel sprouts frozen boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 47.0,
+    "protein": 2.3,
+    "fat": 0.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 60.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Brussel sprouts raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 46.0,
+    "protein": 2.3,
+    "fat": 0.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 150.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Buckwheat groats",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "High in VITB6 (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 357.0,
+    "protein": 8.0,
+    "fat": 2.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Bulgur wheat cooked",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 80.0,
+    "protein": 3.1,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Bulgur wheat raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 340.0,
+    "protein": 12.3,
+    "fat": 1.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Burger vegetarian filled w vegetables and cheese unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 216.0,
+    "protein": 9.0,
+    "fat": 10.8,
+    "vitaminB12": 0.57,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Butter cream",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "Low in Magnesium (mg)",
+      "Low in Potassium (mg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 567.0,
+    "protein": 0.6,
+    "fat": 44.8,
+    "vitaminB12": 0.19,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Butter product 25% fat",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 228.0,
+    "protein": 0.2,
+    "fat": 25.0,
+    "vitaminB12": 0.3,
+    "vitaminC": 0.0,
+    "vitaminD": 1.1,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Butter product half fat",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 337.0,
+    "protein": 0.3,
+    "fat": 37.0,
+    "vitaminB12": 0.3,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Butter product melange salted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in Potassium (mg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 675.0,
+    "protein": 0.7,
+    "fat": 74.3,
+    "vitaminB12": 0.22,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Butter product melange unsalted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in Potassium (mg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 676.0,
+    "protein": 0.7,
+    "fat": 74.3,
+    "vitaminB12": 0.22,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Butter salted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "Low in Magnesium (mg)",
+      "Low in Potassium (mg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 737.0,
+    "protein": 0.7,
+    "fat": 81.2,
+    "vitaminB12": 0.3,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Butter unsalted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "Low in Magnesium (mg)",
+      "Low in Potassium (mg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 737.0,
+    "protein": 0.7,
+    "fat": 81.2,
+    "vitaminB12": 0.3,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Buttermilk",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 30.0,
+    "protein": 3.0,
+    "fat": 0.2,
+    "vitaminB12": 0.17,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Buttermilk w fruit",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 51.0,
+    "protein": 3.3,
+    "fat": 0.5,
+    "vitaminB12": 0.37,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cabbage Chinese boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 17.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 10.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Cabbage Chinese raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 17.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 23.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Cabbage green boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 21.0,
+    "protein": 1.5,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 45.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Cabbage green raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 36.0,
+    "protein": 2.4,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 30.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Cabbage oxheart boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 21.0,
+    "protein": 1.1,
+    "fat": 0.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 8.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Cabbage oxheart raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 42.0,
+    "protein": 3.0,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 36.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Cabbage pak-choi cooked",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 17.0,
+    "protein": 1.6,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 26.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Cabbage pak-choi raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 14.0,
+    "protein": 1.0,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 21.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Cabbage red boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 23.0,
+    "protein": 1.3,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 38.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Cabbage red glass",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 40.0,
+    "protein": 0.8,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 13.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Cabbage red raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 27.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 60.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Cabbage red w apple pieces frozen boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 57.0,
+    "protein": 1.1,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 20.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Cabbage red w apple pieces glass",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 58.0,
+    "protein": 0.8,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 32.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Cabbage red w apple pieces home-made",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 52.0,
+    "protein": 0.9,
+    "fat": 1.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 26.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Cabbage sauerkraut cooked",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 14.0,
+    "protein": 0.9,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Cabbage sauerkraut raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 13.0,
+    "protein": 1.1,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 25.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Cabbage white cooked",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 16.0,
+    "protein": 0.9,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cabbage white raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 30.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 29.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Capers",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 43.0,
+    "protein": 2.4,
+    "fat": 0.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Carambola",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calcium (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 37.0,
+    "protein": 0.5,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 31.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Carrot boiled av",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 32.0,
+    "protein": 0.7,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Carrot bunched boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 30.0,
+    "protein": 0.8,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Carrot bunched raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 31.0,
+    "protein": 0.9,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Carrot raw av",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 32.0,
+    "protein": 0.8,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Carrot tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 29.0,
+    "protein": 0.7,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Carrot winter boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 34.0,
+    "protein": 0.6,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Carrot winter raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 34.0,
+    "protein": 0.6,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cashew nuts salted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in Zinc (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 615.0,
+    "protein": 21.2,
+    "fat": 48.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 6.7
+  },
+  {
+    "foodName": "Cashew nuts unsalted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in Zinc (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 615.0,
+    "protein": 21.2,
+    "fat": 48.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 6.7
+  },
+  {
+    "foodName": "Cauliflower boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 22.0,
+    "protein": 1.8,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 22.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Cauliflower raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 25.0,
+    "protein": 1.9,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 25.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Celeriac boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 38.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 6.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Celeriac raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 38.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 12.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Celery boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 14.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 10.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Celery raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 14.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 25.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Cheese 10+",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 187.0,
+    "protein": 32.2,
+    "fat": 6.4,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese 20+",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 246.0,
+    "protein": 34.5,
+    "fat": 12.0,
+    "vitaminB12": 2.8,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese 20+ Leidse w cumin/Fries clove",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 240.0,
+    "protein": 33.1,
+    "fat": 11.9,
+    "vitaminB12": 2.8,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese 20+ low sodium",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 264.0,
+    "protein": 36.7,
+    "fat": 13.0,
+    "vitaminB12": 2.8,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese 30+ age 10-12 mths",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 307.0,
+    "protein": 31.7,
+    "fat": 20.0,
+    "vitaminB12": 1.1,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cheese 30+ age 4-7 mths",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 306.0,
+    "protein": 31.9,
+    "fat": 19.8,
+    "vitaminB12": 2.23,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cheese 30+ age 4-8 weeks",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 280.0,
+    "protein": 30.1,
+    "fat": 17.7,
+    "vitaminB12": 1.71,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cheese 30+ age 8 wk-4 mths",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 278.0,
+    "protein": 29.3,
+    "fat": 17.9,
+    "vitaminB12": 1.78,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese 30+ av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 280.0,
+    "protein": 30.1,
+    "fat": 17.7,
+    "vitaminB12": 1.72,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cheese 35+",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Sodium (mg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 302.0,
+    "protein": 27.3,
+    "fat": 20.4,
+    "vitaminB12": 1.81,
+    "vitaminC": 1.0,
+    "vitaminD": 0.3,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cheese 40+ Leiden w cumin/Fries clove",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Sodium (mg)",
+      "Low in Potassium (mg)"
+    ],
+    "calories": 341.0,
+    "protein": 27.3,
+    "fat": 25.7,
+    "vitaminB12": 1.9,
+    "vitaminC": 1.0,
+    "vitaminD": 0.3,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese 40+ low sodium",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 339.0,
+    "protein": 29.4,
+    "fat": 24.6,
+    "vitaminB12": 1.9,
+    "vitaminC": 1.0,
+    "vitaminD": 0.3,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese 45+",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Sodium (mg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 357.0,
+    "protein": 25.4,
+    "fat": 27.3,
+    "vitaminB12": 1.4,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Cheese 48+ low sodium",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITA (µg)"
+    ],
+    "calories": 381.0,
+    "protein": 26.1,
+    "fat": 30.7,
+    "vitaminB12": 1.96,
+    "vitaminC": 1.0,
+    "vitaminD": 0.3,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese 50+",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in FAT (g)",
+      "High in Phosphorus (mg)",
+      "High in Sodium (mg)",
+      "High in VITA (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 380.0,
+    "protein": 22.9,
+    "fat": 32.1,
+    "vitaminB12": 1.83,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Cheese Bluefort",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 405.0,
+    "protein": 17.9,
+    "fat": 37.0,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Cheese Brie 50+",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 318.0,
+    "protein": 23.0,
+    "fat": 25.1,
+    "vitaminB12": 1.2,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Cheese Brie 60+",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in FAT (g)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 369.0,
+    "protein": 17.0,
+    "fat": 33.0,
+    "vitaminB12": 1.2,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Cheese Camembert 30+",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)"
+    ],
+    "calories": 223.0,
+    "protein": 24.0,
+    "fat": 14.0,
+    "vitaminB12": 1.1,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cheese Camembert 45+",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 306.0,
+    "protein": 25.0,
+    "fat": 22.8,
+    "vitaminB12": 1.1,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cheese Cheddar",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 415.0,
+    "protein": 25.5,
+    "fat": 34.4,
+    "vitaminB12": 1.1,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Cheese Danish Blue",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 350.0,
+    "protein": 20.5,
+    "fat": 29.5,
+    "vitaminB12": 1.23,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese Dutch in Swiss-style 45+",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 370.0,
+    "protein": 27.6,
+    "fat": 28.5,
+    "vitaminB12": 1.91,
+    "vitaminC": 1.0,
+    "vitaminD": 0.3,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cheese Edam 40+",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Sodium (mg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 324.0,
+    "protein": 25.5,
+    "fat": 24.3,
+    "vitaminB12": 1.9,
+    "vitaminC": 1.0,
+    "vitaminD": 0.3,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese Emmenthaler",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 387.0,
+    "protein": 29.0,
+    "fat": 30.0,
+    "vitaminB12": 2.7,
+    "vitaminC": 1.0,
+    "vitaminD": 0.3,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Cheese Feta",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Sodium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 274.0,
+    "protein": 16.6,
+    "fat": 22.8,
+    "vitaminB12": 1.1,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cheese Gouda 48+ age 10-12 mths",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 414.0,
+    "protein": 24.6,
+    "fat": 33.7,
+    "vitaminB12": 2.42,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cheese Gouda 48+ age 4-7 mths",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in FAT (g)",
+      "High in Phosphorus (mg)",
+      "High in Sodium (mg)",
+      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 377.0,
+    "protein": 22.5,
+    "fat": 30.8,
+    "vitaminB12": 2.23,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese Gouda 48+ age 4-8 weeks",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 364.0,
+    "protein": 22.8,
+    "fat": 29.6,
+    "vitaminB12": 1.79,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cheese Gouda 48+ age 8 wk-4 mths",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 370.0,
+    "protein": 22.7,
+    "fat": 29.9,
+    "vitaminB12": 1.9,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cheese Gouda 48+ av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 370.0,
+    "protein": 22.9,
+    "fat": 30.6,
+    "vitaminB12": 2.03,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cheese Kernhem 60+",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in VITA (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 443.0,
+    "protein": 18.6,
+    "fat": 40.6,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Cheese Limburger",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Sodium (mg)"
+    ],
+    "calories": 283.0,
+    "protein": 21.0,
+    "fat": 21.0,
+    "vitaminB12": 2.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.4,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese Mozzarella made from cow's milk",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 253.0,
+    "protein": 18.7,
+    "fat": 19.5,
+    "vitaminB12": 1.7,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Cheese Old Amsterdam 48+",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 404.0,
+    "protein": 26.0,
+    "fat": 33.0,
+    "vitaminB12": 2.42,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cheese Parmesan",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 404.0,
+    "protein": 40.0,
+    "fat": 27.0,
+    "vitaminB12": 1.9,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Cheese Rambol",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Sodium (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 291.0,
+    "protein": 13.6,
+    "fat": 25.0,
+    "vitaminB12": 0.6,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Cheese Roquefort",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in FAT (g)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in VITA (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 357.0,
+    "protein": 19.0,
+    "fat": 31.0,
+    "vitaminB12": 0.4,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Cheese Saint Paulin/Port Salut",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in Zinc (mg)",
+      "Low in Iron (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 341.0,
+    "protein": 21.5,
+    "fat": 28.2,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Cheese Stilton",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in FAT (g)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 388.0,
+    "protein": 21.3,
+    "fat": 33.4,
+    "vitaminB12": 1.15,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Cheese Turkish 60+ cow's milk canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Sodium (mg)",
+      "Low in Iron (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 287.0,
+    "protein": 12.7,
+    "fat": 26.0,
+    "vitaminB12": 0.82,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Cheese fresh light 8% fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 132.0,
+    "protein": 11.3,
+    "fat": 8.5,
+    "vitaminB12": 0.7,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Cheese goat hard",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in FAT (g)",
+      "High in Phosphorus (mg)",
+      "High in Sodium (mg)",
+      "High in VITA (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 396.0,
+    "protein": 22.4,
+    "fat": 32.5,
+    "vitaminB12": 0.15,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cheese raw milk 48+",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in FAT (g)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Sodium (mg)",
+      "High in VITA (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 392.0,
+    "protein": 26.0,
+    "fat": 32.0,
+    "vitaminB12": 1.9,
+    "vitaminC": 1.0,
+    "vitaminD": 0.3,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese schnitzel vegetarian unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Sodium (mg)"
+    ],
+    "calories": 291.0,
+    "protein": 11.4,
+    "fat": 15.2,
+    "vitaminB12": 0.51,
+    "vitaminC": 2.0,
+    "vitaminD": 0.1,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Cheese sheep fresh",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 238.0,
+    "protein": 17.0,
+    "fat": 18.8,
+    "vitaminB12": 1.5,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Cheese sheep/goat Turkish 50+ canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Sodium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 297.0,
+    "protein": 15.5,
+    "fat": 26.1,
+    "vitaminB12": 0.3,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese smoked 45+",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in VITA (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 331.0,
+    "protein": 21.2,
+    "fat": 26.2,
+    "vitaminB12": 0.9,
+    "vitaminC": 1.0,
+    "vitaminD": 0.3,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese spread 15+ Balans ERU",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)"
+    ],
+    "calories": 132.0,
+    "protein": 17.3,
+    "fat": 5.5,
+    "vitaminB12": 0.32,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese spread 20+",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)"
+    ],
+    "calories": 137.0,
+    "protein": 17.2,
+    "fat": 6.8,
+    "vitaminB12": 0.4,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese spread 40+",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Sodium (mg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 227.0,
+    "protein": 16.0,
+    "fat": 17.0,
+    "vitaminB12": 0.6,
+    "vitaminC": 1.0,
+    "vitaminD": 0.2,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese spread 45+",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Sodium (mg)",
+      "Low in Potassium (mg)"
+    ],
+    "calories": 231.0,
+    "protein": 14.3,
+    "fat": 18.9,
+    "vitaminB12": 0.64,
+    "vitaminC": 1.0,
+    "vitaminD": 0.2,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese spread 48+ full fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Sodium (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 260.0,
+    "protein": 13.4,
+    "fat": 21.7,
+    "vitaminB12": 0.64,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese spread Kids ERU",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Sodium (mg)"
+    ],
+    "calories": 169.0,
+    "protein": 15.0,
+    "fat": 11.1,
+    "vitaminB12": 0.6,
+    "vitaminC": 1.0,
+    "vitaminD": 0.2,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheese w cumin 48+ average",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 370.0,
+    "protein": 22.9,
+    "fat": 30.5,
+    "vitaminB12": 2.01,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Cherries in syrup tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 63.0,
+    "protein": 0.6,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cherries sour",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 52.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 10.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Cherries sweet",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 57.0,
+    "protein": 0.9,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 10.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Chestnuts raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 189.0,
+    "protein": 4.0,
+    "fat": 2.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Chicken cordon bleu raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)"
+    ],
+    "calories": 151.0,
+    "protein": 22.1,
+    "fat": 4.9,
+    "vitaminB12": 0.37,
+    "vitaminC": 2.0,
+    "vitaminD": 0.2,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Chicken drumstick w skin raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 147.0,
+    "protein": 19.1,
+    "fat": 7.9,
+    "vitaminB12": 1.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Chicken fillet breaded raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 132.0,
+    "protein": 21.6,
+    "fat": 2.5,
+    "vitaminB12": 0.29,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Chicken fillet in batter raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 115.0,
+    "protein": 21.0,
+    "fat": 2.0,
+    "vitaminB12": 0.26,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Chicken fillet prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 158.0,
+    "protein": 30.9,
+    "fat": 3.8,
+    "vitaminB12": 0.29,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Chicken fillet raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 109.0,
+    "protein": 23.3,
+    "fat": 1.8,
+    "vitaminB12": 0.2,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Chicken for soup w skin raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 247.0,
+    "protein": 19.0,
+    "fat": 19.0,
+    "vitaminB12": 0.2,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Chicken rolled raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 175.0,
+    "protein": 20.6,
+    "fat": 10.3,
+    "vitaminB12": 0.2,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Chicken schnitzel breaded raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 157.0,
+    "protein": 19.3,
+    "fat": 6.3,
+    "vitaminB12": 0.29,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Chicken schnitzel breaded w corn flakes raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 265.0,
+    "protein": 13.6,
+    "fat": 14.6,
+    "vitaminB12": 0.15,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Chicken schnitzel satay breaded raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 211.0,
+    "protein": 15.1,
+    "fat": 8.9,
+    "vitaminB12": 0.09,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Chicken w skin raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 218.0,
+    "protein": 18.3,
+    "fat": 16.0,
+    "vitaminB12": 0.2,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Chicken wo skin grilled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 188.0,
+    "protein": 28.5,
+    "fat": 7.9,
+    "vitaminB12": 0.29,
+    "vitaminC": 0.0,
+    "vitaminD": 0.7,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Chicken wo skin raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 139.0,
+    "protein": 20.5,
+    "fat": 6.3,
+    "vitaminB12": 0.2,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Chicory boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 16.0,
+    "protein": 1.2,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Chicory raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 19.0,
+    "protein": 1.3,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Chips fried in liquid frying fat",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 264.0,
+    "protein": 3.1,
+    "fat": 14.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 17.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Chips fried in solid frying fat",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 256.0,
+    "protein": 3.1,
+    "fat": 13.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 17.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Chips oven frozen prepared in oven",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 291.0,
+    "protein": 5.8,
+    "fat": 8.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 8.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Chips pre-fried frozen unprepared",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 146.0,
+    "protein": 2.3,
+    "fat": 3.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 17.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Chips prepared av",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 263.0,
+    "protein": 3.1,
+    "fat": 14.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 17.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Chips vegetable pre-fried frozen unprepared",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 142.0,
+    "protein": 2.2,
+    "fat": 7.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Coconut grated, dried",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 674.0,
+    "protein": 7.1,
+    "fat": 64.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Coconut meat",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 406.0,
+    "protein": 4.0,
+    "fat": 40.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Coconut milk",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 173.0,
+    "protein": 1.4,
+    "fat": 17.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Cod boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 105.0,
+    "protein": 23.0,
+    "fat": 1.0,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 1.1,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Cod dried, salted, soaked, boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 138.0,
+    "protein": 32.5,
+    "fat": 0.9,
+    "vitaminB12": 2.2,
+    "vitaminC": 0.0,
+    "vitaminD": 1.1,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Cod prepared in microwave oven no ingredients added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 98.0,
+    "protein": 23.5,
+    "fat": 0.4,
+    "vitaminB12": 2.2,
+    "vitaminC": 0.0,
+    "vitaminD": 1.1,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cod raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 75.0,
+    "protein": 17.5,
+    "fat": 0.6,
+    "vitaminB12": 1.5,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Coffee cappuccino freshly made",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 31.0,
+    "protein": 1.8,
+    "fat": 1.7,
+    "vitaminB12": 0.2,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Coffee cappuccino instant powder",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 407.0,
+    "protein": 13.9,
+    "fat": 14.9,
+    "vitaminB12": 2.78,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Coffee cappuccino instant prepared",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 37.0,
+    "protein": 1.2,
+    "fat": 1.3,
+    "vitaminB12": 0.25,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Coffee creamer",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 210.0,
+    "protein": 3.3,
+    "fat": 20.2,
+    "vitaminB12": 0.36,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Coffee creamer Becel",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in RIBF (mg)",
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 112.0,
+    "protein": 7.1,
+    "fat": 4.4,
+    "vitaminB12": 0.36,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Coffee creamer full fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in RIBF (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 145.0,
+    "protein": 7.5,
+    "fat": 7.7,
+    "vitaminB12": 0.81,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Coffee creamer half fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in RIBF (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 110.0,
+    "protein": 7.0,
+    "fat": 4.1,
+    "vitaminB12": 0.38,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Coffee creamer powder",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "Low in Calcium (mg)",
+      "Low in Magnesium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 560.0,
+    "protein": 2.1,
+    "fat": 35.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Coffee from vending machine w sugar",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 16.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Coffee iced",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 72.0,
+    "protein": 2.7,
+    "fat": 2.3,
+    "vitaminB12": 0.32,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Coffee instant powder",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 114.0,
+    "protein": 7.8,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.4
+  },
+  {
+    "foodName": "Coffee latte macchiato freshly made",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 46.0,
+    "protein": 2.5,
+    "fat": 2.5,
+    "vitaminB12": 0.3,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Coffee prepared",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 1.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Coffee w milk vending machine",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in PROT (g)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 12.0,
+    "protein": 0.2,
+    "fat": 0.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Coffee w sugar and milk vending machine",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in PROT (g)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 28.0,
+    "protein": 0.2,
+    "fat": 0.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Coffee wiener melange instant powder",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 427.0,
+    "protein": 9.4,
+    "fat": 13.6,
+    "vitaminB12": 1.48,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Coffee wiener melange instant prepared",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 46.0,
+    "protein": 1.0,
+    "fat": 1.5,
+    "vitaminB12": 0.16,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cola light soft drink w caffeine",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 0.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Cooking fat liq 97% fat <17g sat fa unsalted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 883.0,
+    "protein": 0.4,
+    "fat": 97.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cooking fat liq Vita d'Or vlees&jus",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 878.0,
+    "protein": 0.3,
+    "fat": 97.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 6.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cooking fat liquid 97% fat <17 g sat fa salted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 878.0,
+    "protein": 0.5,
+    "fat": 96.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cooking fat sol 97% fat >17g sat fa unsalted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 880.0,
+    "protein": 0.4,
+    "fat": 97.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cooking fat solid 97% fat >17 g sat fa salted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 873.0,
+    "protein": 0.3,
+    "fat": 96.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Corn cakes puffed plain w salt",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 385.0,
+    "protein": 7.4,
+    "fat": 1.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Cornmeal",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 361.0,
+    "protein": 6.8,
+    "fat": 2.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cornstarch",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 353.0,
+    "protein": 0.0,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Courgettes boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 19.0,
+    "protein": 1.5,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Courgettes raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 18.0,
+    "protein": 1.3,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 16.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Couscous boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 121.0,
+    "protein": 4.0,
+    "fat": 0.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Couscous wholemael unprepared",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 342.0,
+    "protein": 12.1,
+    "fat": 1.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.0
+  },
+  {
+    "foodName": "Couscous wholemeal boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 114.0,
+    "protein": 4.0,
+    "fat": 0.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.3
+  },
+  {
+    "foodName": "Cowberries",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Phosphorus (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 57.0,
+    "protein": 0.8,
+    "fat": 1.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 13.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Crab in water tinned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Sodium (mg)",
+      "High in Zinc (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 85.0,
+    "protein": 18.1,
+    "fat": 1.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.8
+  },
+  {
+    "foodName": "Cracker VitaLU",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 445.0,
+    "protein": 12.3,
+    "fat": 12.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.0
+  },
+  {
+    "foodName": "Cracker VitaLU fortified w calcium",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 419.0,
+    "protein": 12.0,
+    "fat": 9.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.0
+  },
+  {
+    "foodName": "Cracker mini flavoured",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 435.0,
+    "protein": 10.4,
+    "fat": 12.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Cracker mini unflavoured",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 442.0,
+    "protein": 10.9,
+    "fat": 12.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Crackers Matzes",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 376.0,
+    "protein": 11.0,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Crackers cream",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 448.0,
+    "protein": 9.1,
+    "fat": 14.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Cranberries dried sweetened",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 335.0,
+    "protein": 0.5,
+    "fat": 1.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Cranberries fresh",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 24.0,
+    "protein": 0.4,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Cranberry compote sweetened",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 172.0,
+    "protein": 0.4,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Cream cooking",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [],
+    "calories": 212.0,
+    "protein": 2.4,
+    "fat": 20.2,
+    "vitaminB12": 0.27,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cream cooking light",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)"
+    ],
+    "calories": 101.0,
+    "protein": 3.2,
+    "fat": 7.2,
+    "vitaminB12": 0.37,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cream custard",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 142.0,
+    "protein": 3.6,
+    "fat": 4.0,
+    "vitaminB12": 0.47,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Cream sour",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)"
+    ],
+    "calories": 134.0,
+    "protein": 3.0,
+    "fat": 12.0,
+    "vitaminB12": 0.2,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Cream type product Blue Band Finesse voor koken",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITE (mg)",
+      "Low in Iron (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 160.0,
+    "protein": 2.0,
+    "fat": 15.0,
+    "vitaminB12": 0.14,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Cream whipped low fat w sugar canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)"
+    ],
+    "calories": 222.0,
+    "protein": 2.6,
+    "fat": 18.5,
+    "vitaminB12": 0.2,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Cream whipped w added sugar",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in Iron (mg)"
+    ],
+    "calories": 348.0,
+    "protein": 2.0,
+    "fat": 30.4,
+    "vitaminB12": 0.17,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Cream whipped w sugar canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in Iron (mg)"
+    ],
+    "calories": 305.0,
+    "protein": 2.3,
+    "fat": 28.0,
+    "vitaminB12": 0.2,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Cream whipping unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "Low in Iron (mg)"
+    ],
+    "calories": 339.0,
+    "protein": 2.3,
+    "fat": 35.3,
+    "vitaminB12": 0.2,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Creme fraiche",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in Iron (mg)"
+    ],
+    "calories": 293.0,
+    "protein": 2.6,
+    "fat": 30.0,
+    "vitaminB12": 0.2,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Creme fraiche half fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)"
+    ],
+    "calories": 165.0,
+    "protein": 3.1,
+    "fat": 15.0,
+    "vitaminB12": 0.31,
+    "vitaminC": 2.0,
+    "vitaminD": 0.1,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Cress garden raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Potassium (mg)",
+      "High in VITA (µg)",
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 15.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 50.0,
+    "vitaminD": 0.0,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Cripsbakes Dutch low sodium",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 399.0,
+    "protein": 14.0,
+    "fat": 6.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Crispbakes Dutch farmers type",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in VITB1 (mg)",
+      "High in VITE (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 440.0,
+    "protein": 16.0,
+    "fat": 15.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.0
+  },
+  {
+    "foodName": "Crispbakes Dutch white",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 408.0,
+    "protein": 14.1,
+    "fat": 4.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Crispbakes Dutch wholemeal/multigrain",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 394.0,
+    "protein": 14.0,
+    "fat": 5.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.2
+  },
+  {
+    "foodName": "Crispbread Cracottes naturel",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 381.0,
+    "protein": 12.0,
+    "fat": 2.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.4
+  },
+  {
+    "foodName": "Crispbread Cracottes wholemeal",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 376.0,
+    "protein": 11.0,
+    "fat": 4.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.3
+  },
+  {
+    "foodName": "Crispbread Oerknack Bolletje",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 427.0,
+    "protein": 15.0,
+    "fat": 12.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Crispbread av",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 376.0,
+    "protein": 11.6,
+    "fat": 5.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.2
+  },
+  {
+    "foodName": "Crispbread gluten free Fette Croccanti Schar",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 368.0,
+    "protein": 7.4,
+    "fat": 1.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Crispbread gold-brown",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 410.0,
+    "protein": 12.3,
+    "fat": 6.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.0
+  },
+  {
+    "foodName": "Crispbread high fibre",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in VITB1 (mg)",
+      "High in Zinc (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 350.0,
+    "protein": 13.0,
+    "fat": 6.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 5.7
+  },
+  {
+    "foodName": "Crispbread light plain",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 380.0,
+    "protein": 13.0,
+    "fat": 3.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.3
+  },
+  {
+    "foodName": "Crispbread light wholemeal",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 355.0,
+    "protein": 10.0,
+    "fat": 3.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.3
+  },
+  {
+    "foodName": "Crispbread lightweight",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 334.0,
+    "protein": 10.0,
+    "fat": 1.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.7
+  },
+  {
+    "foodName": "Crispbread sesame",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 421.0,
+    "protein": 12.8,
+    "fat": 9.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Crispbread wholemeal",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 363.0,
+    "protein": 10.9,
+    "fat": 4.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.0
+  },
+  {
+    "foodName": "Croissant av",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 403.0,
+    "protein": 9.6,
+    "fat": 21.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Croissant cheese",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 400.0,
+    "protein": 10.6,
+    "fat": 21.8,
+    "vitaminB12": 0.15,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Croissant chocolate-",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 434.0,
+    "protein": 8.9,
+    "fat": 23.9,
+    "vitaminB12": 0.01,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Croissant ham and cheese",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)"
+    ],
+    "calories": 377.0,
+    "protein": 11.2,
+    "fat": 20.6,
+    "vitaminB12": 0.19,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Croissant prepared w butter",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 414.0,
+    "protein": 9.5,
+    "fat": 22.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Croissant prepared wo butter",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 392.0,
+    "protein": 9.8,
+    "fat": 19.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Croissants canned baked",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 420.0,
+    "protein": 7.0,
+    "fat": 22.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Croutons",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in Sodium (mg)",
+      "High in VITE (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 491.0,
+    "protein": 11.8,
+    "fat": 22.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Cucumber boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 17.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Cucumber sliced pickled glass",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 9.0,
+    "protein": 0.7,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cucumber w skin raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 13.0,
+    "protein": 0.7,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Cucumber wo skin raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 15.0,
+    "protein": 0.6,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Currants dried",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 326.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Custard 2 flavours w syrup vlaflip Campina",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 96.0,
+    "protein": 2.9,
+    "fat": 2.6,
+    "vitaminB12": 0.19,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Custard chocolate full fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 88.0,
+    "protein": 2.4,
+    "fat": 2.6,
+    "vitaminB12": 0.13,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Custard half fat all flavours",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 85.0,
+    "protein": 2.3,
+    "fat": 1.7,
+    "vitaminB12": 0.26,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Custard no fat w sweetener",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in VITA (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 47.0,
+    "protein": 3.4,
+    "fat": 0.0,
+    "vitaminB12": 0.32,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Custard of milk and whipped cream",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 120.0,
+    "protein": 2.7,
+    "fat": 5.4,
+    "vitaminB12": 0.26,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Custard powder",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 350.0,
+    "protein": 0.3,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Custard several flavours full fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 87.0,
+    "protein": 2.1,
+    "fat": 2.6,
+    "vitaminB12": 0.19,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Custard soft & airy ",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 142.0,
+    "protein": 2.9,
+    "fat": 7.4,
+    "vitaminB12": 0.21,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Custard vanilla full fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 86.0,
+    "protein": 2.3,
+    "fat": 2.8,
+    "vitaminB12": 0.26,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Dairy dessert w cream",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 105.0,
+    "protein": 2.5,
+    "fat": 3.8,
+    "vitaminB12": 0.22,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Dairy drink Campina Fruitmelk",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 54.0,
+    "protein": 3.3,
+    "fat": 0.5,
+    "vitaminB12": 0.25,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Dairy spread plain/herbs",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 248.0,
+    "protein": 5.1,
+    "fat": 23.9,
+    "vitaminB12": 0.35,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Dairy spread plain/herbs light",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 175.0,
+    "protein": 8.1,
+    "fat": 13.8,
+    "vitaminB12": 0.51,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Dandelion leaves raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Iron (mg)",
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 55.0,
+    "protein": 3.0,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 40.0,
+    "vitaminD": 0.0,
+    "iron": 3.1
+  },
+  {
+    "foodName": "Dates dried",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 305.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Dessert made of custard, yoghurt & syrup",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 77.0,
+    "protein": 3.4,
+    "fat": 1.5,
+    "vitaminB12": 0.31,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Dessert soya fortified w calcium and vitamins",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 85.0,
+    "protein": 3.1,
+    "fat": 1.9,
+    "vitaminB12": 0.38,
+    "vitaminC": 0.0,
+    "vitaminD": 0.8,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Dough for pizza and savoury pie unprepared",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 226.0,
+    "protein": 5.7,
+    "fat": 5.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Drink almond unsweetened",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 26.0,
+    "protein": 0.9,
+    "fat": 2.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Drink almond unsweetened fortified w calcium and vitamins",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 13.0,
+    "protein": 0.3,
+    "fat": 1.1,
+    "vitaminB12": 0.41,
+    "vitaminC": 0.0,
+    "vitaminD": 0.8,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Drink almond w sugar fortified w calcium and vitamins",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 23.0,
+    "protein": 0.4,
+    "fat": 1.1,
+    "vitaminB12": 0.38,
+    "vitaminC": 0.0,
+    "vitaminD": 0.7,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Drink coconut w sugar fortified w calcium and vitamins",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 25.0,
+    "protein": 0.2,
+    "fat": 1.6,
+    "vitaminB12": 0.36,
+    "vitaminC": 0.0,
+    "vitaminD": 0.7,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Drink coconut wo sugar",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 26.0,
+    "protein": 0.3,
+    "fat": 1.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Drink oat wo sugar",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 40.0,
+    "protein": 0.3,
+    "fat": 1.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Drink oat wo sugar fortified w calcium and vitamins",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 44.0,
+    "protein": 0.5,
+    "fat": 1.5,
+    "vitaminB12": 0.36,
+    "vitaminC": 0.0,
+    "vitaminD": 1.1,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Drink soya  fruit/vanilla w sugar fortified w calcium and vitamins",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 55.0,
+    "protein": 2.8,
+    "fat": 1.4,
+    "vitaminB12": 0.42,
+    "vitaminC": 0.0,
+    "vitaminD": 0.8,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Drink soya Groeidrink 1-3+ Alpro",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in VITA (µg)"
+    ],
+    "calories": 60.0,
+    "protein": 2.4,
+    "fat": 2.0,
+    "vitaminB12": 0.18,
+    "vitaminC": 12.0,
+    "vitaminD": 1.5,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Drink soya chocolate w sugar fortified w calcium and vitamins",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 60.0,
+    "protein": 3.0,
+    "fat": 1.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.7,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Drink soya light fortified w calcium and vitamins Alpro",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 29.0,
+    "protein": 2.1,
+    "fat": 1.2,
+    "vitaminB12": 0.38,
+    "vitaminC": 0.0,
+    "vitaminD": 0.8,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Drink soya w sugar fortified w calcium and vitamins",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 37.0,
+    "protein": 3.0,
+    "fat": 1.4,
+    "vitaminB12": 0.36,
+    "vitaminC": 0.0,
+    "vitaminD": 0.7,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Drink soya wo sugar",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 35.0,
+    "protein": 3.4,
+    "fat": 1.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Drink soya wo sugar fortified w calcium and vitamins",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 34.0,
+    "protein": 3.4,
+    "fat": 1.8,
+    "vitaminB12": 0.38,
+    "vitaminC": 0.0,
+    "vitaminD": 0.8,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Duck w skin raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in FAT (g)",
+      "High in RIBF (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 388.0,
+    "protein": 13.1,
+    "fat": 37.3,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.7,
+    "iron": 1.3
+  },
+  {
+    "foodName": "Eel prepared in microwave oven no ingredients added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)"
+    ],
+    "calories": 207.0,
+    "protein": 24.3,
+    "fat": 12.2,
+    "vitaminB12": 4.0,
+    "vitaminC": 2.0,
+    "vitaminD": 4.9,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Eel raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in FAT (g)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)"
+    ],
+    "calories": 372.0,
+    "protein": 14.0,
+    "fat": 35.1,
+    "vitaminB12": 4.4,
+    "vitaminC": 2.0,
+    "vitaminD": 4.9,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Eel smoked",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 351.0,
+    "protein": 19.1,
+    "fat": 30.5,
+    "vitaminB12": 4.3,
+    "vitaminC": 0.0,
+    "vitaminD": 20.4,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Egg powder chicken",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 574.0,
+    "protein": 46.0,
+    "fat": 42.0,
+    "vitaminB12": 10.0,
+    "vitaminC": 0.0,
+    "vitaminD": 6.8,
+    "iron": 11.0
+  },
+  {
+    "foodName": "Egg white chicken raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "Low in FAT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 44.0,
+    "protein": 10.5,
+    "fat": 0.0,
+    "vitaminB12": 0.65,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Egg whole chicken av boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 128.0,
+    "protein": 12.3,
+    "fat": 8.8,
+    "vitaminB12": 1.54,
+    "vitaminC": 0.0,
+    "vitaminD": 1.8,
+    "iron": 2.4
+  },
+  {
+    "foodName": "Egg whole chicken av raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 132.0,
+    "protein": 12.3,
+    "fat": 9.1,
+    "vitaminB12": 1.49,
+    "vitaminC": 0.0,
+    "vitaminD": 1.1,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Egg whole chicken corn-fed boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 148.0,
+    "protein": 13.0,
+    "fat": 10.7,
+    "vitaminB12": 1.05,
+    "vitaminC": 0.0,
+    "vitaminD": 2.1,
+    "iron": 2.7
+  },
+  {
+    "foodName": "Egg whole chicken corn-fed raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 129.0,
+    "protein": 12.2,
+    "fat": 8.8,
+    "vitaminB12": 1.45,
+    "vitaminC": 0.0,
+    "vitaminD": 1.0,
+    "iron": 2.1
+  },
+  {
+    "foodName": "Egg whole chicken free-range boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 125.0,
+    "protein": 12.2,
+    "fat": 8.5,
+    "vitaminB12": 1.53,
+    "vitaminC": 0.0,
+    "vitaminD": 1.6,
+    "iron": 2.4
+  },
+  {
+    "foodName": "Egg whole chicken free-range raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 132.0,
+    "protein": 12.3,
+    "fat": 9.1,
+    "vitaminB12": 1.43,
+    "vitaminC": 0.0,
+    "vitaminD": 1.1,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Egg whole chicken fried in margarine",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 220.0,
+    "protein": 14.4,
+    "fat": 17.6,
+    "vitaminB12": 1.1,
+    "vitaminC": 0.0,
+    "vitaminD": 1.4,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Egg whole chicken organic boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 136.0,
+    "protein": 12.7,
+    "fat": 9.5,
+    "vitaminB12": 2.15,
+    "vitaminC": 0.0,
+    "vitaminD": 2.3,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Egg whole chicken organic raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 135.0,
+    "protein": 12.3,
+    "fat": 9.5,
+    "vitaminB12": 2.08,
+    "vitaminC": 0.0,
+    "vitaminD": 1.7,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Egg yolk chicken boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 361.0,
+    "protein": 16.0,
+    "fat": 33.0,
+    "vitaminB12": 3.8,
+    "vitaminC": 0.0,
+    "vitaminD": 5.0,
+    "iron": 6.0
+  },
+  {
+    "foodName": "Egg yolk chicken raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 361.0,
+    "protein": 16.7,
+    "fat": 32.6,
+    "vitaminB12": 3.8,
+    "vitaminC": 0.0,
+    "vitaminD": 5.6,
+    "iron": 5.9
+  },
+  {
+    "foodName": "Endive boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 22.0,
+    "protein": 1.4,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Endive frozen unprepared",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 9.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Endive raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 16.0,
+    "protein": 1.5,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Energy drink Golden Power/Bullit/Freeway",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 44.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.4,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Energy drink Red Bull",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 44.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.4,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Energy drink Red Bull sugarfree",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 0.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.4,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Falafel unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 231.0,
+    "protein": 9.1,
+    "fat": 9.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Fat animal av",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "Low in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 897.0,
+    "protein": 0.0,
+    "fat": 99.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Fat chicken",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "Low in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 900.0,
+    "protein": 0.0,
+    "fat": 100.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Fennel boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 17.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Fennel raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 17.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Figs dried",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Potassium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 259.0,
+    "protein": 3.3,
+    "fat": 0.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Figs fresh",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 84.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Filet americain vegetarian based on milk fortified w iron",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Iron (mg)",
+      "High in Phosphorus (mg)",
+      "High in VITA (µg)",
+      "High in VITE (mg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 275.0,
+    "protein": 7.8,
+    "fat": 23.6,
+    "vitaminB12": 0.3,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 5.6
+  },
+  {
+    "foodName": "Filo pastry unprepared",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 286.0,
+    "protein": 8.0,
+    "fat": 1.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Fish cuisine pollock w breadcrumbs and herbs prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITE (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 220.0,
+    "protein": 16.5,
+    "fat": 12.2,
+    "vitaminB12": 2.07,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Fish fat >5 g fat raw av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 242.0,
+    "protein": 17.2,
+    "fat": 19.1,
+    "vitaminB12": 6.96,
+    "vitaminC": 1.0,
+    "vitaminD": 5.5,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Fish fatty >5 g fat prepared in microwave oven no ingredients added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 202.0,
+    "protein": 24.7,
+    "fat": 11.5,
+    "vitaminB12": 3.98,
+    "vitaminC": 1.0,
+    "vitaminD": 6.3,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Fish fingers fried in sunflower oil",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 239.0,
+    "protein": 16.4,
+    "fat": 13.0,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 1.4,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Fish fingers unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 194.0,
+    "protein": 13.0,
+    "fat": 8.0,
+    "vitaminB12": 1.0,
+    "vitaminC": 0.0,
+    "vitaminD": 2.7,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Fish fingers vegetarian based on rice/wheat unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 223.0,
+    "protein": 4.9,
+    "fat": 9.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Fish lean <5 g fat average prepared in microwave oven no ingredients added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITD (µg)"
+    ],
+    "calories": 112.0,
+    "protein": 23.4,
+    "fat": 2.0,
+    "vitaminB12": 1.87,
+    "vitaminC": 1.0,
+    "vitaminD": 1.2,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Fish lean 0-5 g fat raw av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 92.0,
+    "protein": 19.7,
+    "fat": 1.5,
+    "vitaminB12": 1.81,
+    "vitaminC": 0.0,
+    "vitaminD": 3.4,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Flan filling tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 99.0,
+    "protein": 0.5,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 16.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Flounder prepared in microwave oven no ingredients added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)"
+    ],
+    "calories": 106.0,
+    "protein": 21.9,
+    "fat": 2.0,
+    "vitaminB12": 1.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Flour buckwheat",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 353.0,
+    "protein": 9.0,
+    "fat": 2.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Flour rice",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 352.0,
+    "protein": 7.0,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Flour rice Olvarit",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 385.0,
+    "protein": 7.8,
+    "fat": 1.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Flour rye",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 328.0,
+    "protein": 10.0,
+    "fat": 2.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.0
+  },
+  {
+    "foodName": "Flour rye 60% extraction",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 343.0,
+    "protein": 8.0,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Flour soya full fat",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in Zinc (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 478.0,
+    "protein": 38.0,
+    "fat": 23.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 6.9
+  },
+  {
+    "foodName": "Flour wheat self-raising",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 339.0,
+    "protein": 10.3,
+    "fat": 1.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Flour wheat white",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 335.0,
+    "protein": 10.4,
+    "fat": 1.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Flour wheat wholemeal",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 330.0,
+    "protein": 14.4,
+    "fat": 2.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.0
+  },
+  {
+    "foodName": "Focaccia",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 266.0,
+    "protein": 7.7,
+    "fat": 8.7,
+    "vitaminB12": 0.08,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Fruit cocktail in syrup tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 75.0,
+    "protein": 0.4,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Fruit drink conc Albert Heijn",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "High in VITC (mg)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 164.0,
+    "protein": 0.1,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 38.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Fruit drink conc diluted 1 to 7",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 28.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Fruit drink conc w 45-50 mg vit C",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 238.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 48.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Fruit drink conc w sugar and sweetener 10-15 g CHO",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 47.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Fruit drink conc w sugar and sweetener 20-25 g CHO",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 94.0,
+    "protein": 0.1,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Fruit drink conc w sugar and sweetener 30-35 g CHO",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 134.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Fruit drink concentrate Karvan Cevitam",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 177.0,
+    "protein": 0.1,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 48.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Fruit drink concentrate Roosvicee Multivit",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "High in VITC (mg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 183.0,
+    "protein": 0.1,
+    "fat": 0.1,
+    "vitaminB12": 1.8,
+    "vitaminC": 58.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Fruit drink concentrate undiluted",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 233.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Fruit drink concentrate w sweetener Karvan Cevitam",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "High in VITC (mg)",
+      "High in VITE (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 25.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 38.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Fruit drink w dairy Taksi w sugar",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 32.0,
+    "protein": 0.1,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 13.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Fruit drink w dairy Taksi w sweetener",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 10.0,
+    "protein": 0.1,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 12.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Fruit drink w dairy w sugar and sweetener",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 32.0,
+    "protein": 0.1,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Fruit forest av",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 39.0,
+    "protein": 0.9,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 43.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Fruit fresh av excl citrus",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 63.0,
+    "protein": 0.7,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 16.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Fruit fresh av including citrus",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 61.0,
+    "protein": 0.7,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 20.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Fruit fresh citrus av",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 48.0,
+    "protein": 0.8,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 45.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Fruit in syrup tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 65.0,
+    "protein": 0.3,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Fruit juice concentrated prepared",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 39.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Fruit juice drink ACE",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 44.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 36.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Fruit juice drink Dubbeldrank",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 45.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 16.0,
+    "vitaminD": 0.8,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Fruit juice drink Roosvicee 50/50",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 17.0,
+    "protein": 0.1,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 6.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Fruit juice drink Roosvicee Multivit",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 36.0,
+    "protein": 0.1,
+    "fat": 0.1,
+    "vitaminB12": 0.38,
+    "vitaminC": 12.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Fruit juice drink Surango multivit nectar light",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 21.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.15,
+    "vitaminC": 9.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Fruit juice drink apple nectar",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 37.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Fruit juice drink blackcurrant",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 61.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 30.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Fruit juice drink juice and water",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 22.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 6.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Fruit juice drink minimal 2 fruits",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 43.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 6.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Fruit juice drink minimal 2 fruits fortified w vit C",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 48.0,
+    "protein": 0.2,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 16.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Fruit juice drink multivit 12 fruits nectar light",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITB6 (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 23.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.25,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Fruit juice drink redcurrent",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 57.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Fruit juice drink w sweetener 5-<8 g CHO",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 28.0,
+    "protein": 0.1,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 6.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Fruit mixed dried",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 256.0,
+    "protein": 2.7,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Fruit mixed dried soaked in water",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 96.0,
+    "protein": 1.0,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Fruit snack Knijpfruit/Slurpfruit",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 63.0,
+    "protein": 0.4,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Frying oil",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 900.0,
+    "protein": 0.0,
+    "fat": 100.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Garlic cooked wo fat",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 127.0,
+    "protein": 5.6,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Garlic raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 158.0,
+    "protein": 6.4,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Gehaktbal hoh m ei gebakken",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 262.0,
+    "protein": 20.5,
+    "fat": 17.4,
+    "vitaminB12": 1.4,
+    "vitaminC": 16.0,
+    "vitaminD": 1.1,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Gherkins pickled wo sugar",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 14.0,
+    "protein": 1.2,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Gherkins sour pickled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 10.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Gherkins sweet pickled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 27.0,
+    "protein": 0.8,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Gherkins sweet pickled low sodium",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 17.0,
+    "protein": 1.1,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Gluten free bread dark",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 205.0,
+    "protein": 4.1,
+    "fat": 3.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Gluten free bread light",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 212.0,
+    "protein": 4.1,
+    "fat": 3.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Gluten free bread multiseeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 236.0,
+    "protein": 5.0,
+    "fat": 7.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Gluten free bread sourdough",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 266.0,
+    "protein": 4.3,
+    "fat": 4.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Gnocchi cooked",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 155.0,
+    "protein": 3.5,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Gnocchi unprepared",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 174.0,
+    "protein": 3.9,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 6.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Gooseberries",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 49.0,
+    "protein": 0.9,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 30.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Grapefruit",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 37.0,
+    "protein": 0.9,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 40.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Grapefruit in syrup canned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 66.0,
+    "protein": 0.5,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 30.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Grapes black w skin",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 75.0,
+    "protein": 0.6,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Grapes w skin av",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 78.0,
+    "protein": 0.6,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Grapes white w skin",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 76.0,
+    "protein": 0.5,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Halibut smoked",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 211.0,
+    "protein": 19.4,
+    "fat": 14.8,
+    "vitaminB12": 1.37,
+    "vitaminC": 0.0,
+    "vitaminD": 9.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Hamburger prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 255.0,
+    "protein": 22.5,
+    "fat": 17.9,
+    "vitaminB12": 1.93,
+    "vitaminC": 10.0,
+    "vitaminD": 0.6,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Hamburger raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITC (mg)"
+    ],
+    "calories": 239.0,
+    "protein": 16.8,
+    "fat": 18.0,
+    "vitaminB12": 1.52,
+    "vitaminC": 17.0,
+    "vitaminD": 0.5,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Hare whole raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 115.0,
+    "protein": 22.0,
+    "fat": 3.0,
+    "vitaminB12": 10.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Hazelnuts unsalted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITE (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 670.0,
+    "protein": 16.4,
+    "fat": 63.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 3.6
+  },
+  {
+    "foodName": "Hemp seed",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 592.0,
+    "protein": 31.6,
+    "fat": 48.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 8.0
+  },
+  {
+    "foodName": "Herb butter",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "Low in Magnesium (mg)",
+      "Low in Potassium (mg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 623.0,
+    "protein": 1.2,
+    "fat": 67.7,
+    "vitaminB12": 0.3,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Herring fillet in tomato sauce tinned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 201.0,
+    "protein": 12.0,
+    "fat": 14.6,
+    "vitaminB12": 10.4,
+    "vitaminC": 4.0,
+    "vitaminD": 6.2,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Herring pickled (sweet)sour",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 208.0,
+    "protein": 16.0,
+    "fat": 16.0,
+    "vitaminB12": 6.1,
+    "vitaminC": 0.0,
+    "vitaminD": 6.2,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Herring pickled w gherkin",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 182.0,
+    "protein": 16.0,
+    "fat": 12.8,
+    "vitaminB12": 4.88,
+    "vitaminC": 0.0,
+    "vitaminD": 4.9,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Herring raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 199.0,
+    "protein": 16.0,
+    "fat": 15.0,
+    "vitaminB12": 13.0,
+    "vitaminC": 0.0,
+    "vitaminD": 6.2,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Herring salted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 172.0,
+    "protein": 17.6,
+    "fat": 10.1,
+    "vitaminB12": 9.26,
+    "vitaminC": 0.0,
+    "vitaminD": 6.2,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Hot chocolate from vending machine",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 66.0,
+    "protein": 3.0,
+    "fat": 1.0,
+    "vitaminB12": 0.18,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Hummus natural",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 320.0,
+    "protein": 7.7,
+    "fat": 25.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Hummus w vegetables",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITE (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 251.0,
+    "protein": 5.3,
+    "fat": 19.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 1.3
+  },
+  {
+    "foodName": "Ice cream chocolate",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 226.0,
+    "protein": 3.5,
+    "fat": 10.4,
+    "vitaminB12": 0.4,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Ice cream dairy av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 216.0,
+    "protein": 2.9,
+    "fat": 11.3,
+    "vitaminB12": 0.41,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Ice cream dairy stracciatella",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 248.0,
+    "protein": 3.3,
+    "fat": 13.9,
+    "vitaminB12": 0.4,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Ice cream dairy vanilla flavoured",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 220.0,
+    "protein": 3.0,
+    "fat": 12.0,
+    "vitaminB12": 0.41,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Ice cream dairy w caramel and nuts",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 243.0,
+    "protein": 3.2,
+    "fat": 12.3,
+    "vitaminB12": 0.35,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Ice cream dairy w chocolate coating",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 324.0,
+    "protein": 4.3,
+    "fat": 18.7,
+    "vitaminB12": 0.47,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Ice cream dairy w fruit",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)"
+    ],
+    "calories": 194.0,
+    "protein": 2.7,
+    "fat": 8.1,
+    "vitaminB12": 0.41,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Ice cream dairy w fruitcoating",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)"
+    ],
+    "calories": 134.0,
+    "protein": 1.5,
+    "fat": 3.5,
+    "vitaminB12": 0.24,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Ice cream dairy w vegetal fat vanilla flavoured",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 212.0,
+    "protein": 2.9,
+    "fat": 10.7,
+    "vitaminB12": 0.41,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Ice cream dairy/non-dairy cornet w fruit",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [],
+    "calories": 269.0,
+    "protein": 3.1,
+    "fat": 10.3,
+    "vitaminB12": 0.3,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Ice cream yoghurt based w fruit",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)"
+    ],
+    "calories": 165.0,
+    "protein": 2.6,
+    "fat": 6.4,
+    "vitaminB12": 0.22,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Ice tea light",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 2.0,
+    "protein": 0.1,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Ice tea w sugar 4-<5 g CHO",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 18.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Ice tea w sugar 5-<7 g CHO",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 25.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Ice tea w sugar and sweetener",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 18.0,
+    "protein": 0.1,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Jackfruit in water canned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 18.0,
+    "protein": 1.0,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Jelly",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 59.0,
+    "protein": 1.8,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Jerusalem artichoke raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 75.0,
+    "protein": 2.0,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Juice apple",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 46.0,
+    "protein": 0.1,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Juice apple fortified w vitamin C",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 45.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 23.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Juice drink Capri-Sun Multivitamin",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 20.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Juice drink Dubbelfrisss",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 22.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Juice drink Ocean Spray Cranberry classic",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 37.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 12.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Juice drink Tintelfruit light",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 12.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Juice drink Tintelfruit w sugar",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 22.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Juice drink light",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 3.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Juice drink w sugar",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 41.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Juice drink w sugar and sweetener 4-6 g CHO",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 18.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Juice drink w sugar and sweetener 7-9 g CHO",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 31.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Juice fruit Coolbest Vitaday original",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "High in VITC (mg)",
+      "High in VITE (mg)",
+      "Low in FAT (g)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 44.0,
+    "protein": 0.3,
+    "fat": 0.0,
+    "vitaminB12": 1.3,
+    "vitaminC": 40.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Juice fruit Coolbest Vitaday tropical",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "High in VITC (mg)",
+      "High in VITE (mg)",
+      "Low in FAT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 41.0,
+    "protein": 0.4,
+    "fat": 0.0,
+    "vitaminB12": 1.3,
+    "vitaminC": 40.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Juice fruit Healthy People Cranberry",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in PROT (g)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 49.0,
+    "protein": 0.1,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 6.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Juice grape",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in PROT (g)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 65.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Juice grapefruit",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 34.0,
+    "protein": 0.5,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 26.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Juice lemon fresh",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 47.0,
+    "protein": 0.4,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 53.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Juice multifruit",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 47.0,
+    "protein": 0.4,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 12.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Juice orange freshly squeezed",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 44.0,
+    "protein": 0.6,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 48.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Juice orange pasteurized",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 45.0,
+    "protein": 0.6,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 31.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Juice orange w pulp",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 42.0,
+    "protein": 0.7,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 24.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Juice tomato Appelsientje Zontomaat",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 17.0,
+    "protein": 0.9,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Kale curly boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in VITA (µg)",
+      "High in VITC (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 33.0,
+    "protein": 2.7,
+    "fat": 1.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 25.0,
+    "vitaminD": 0.0,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Kale curly frozen boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 37.0,
+    "protein": 2.0,
+    "fat": 1.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Kale curly glass",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in VITA (µg)",
+      "High in VITC (mg)",
+      "High in VITE (mg)",
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 25.0,
+    "protein": 2.4,
+    "fat": 0.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 25.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Kale curly raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in VITA (µg)",
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 33.0,
+    "protein": 3.0,
+    "fat": 0.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 100.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Kefir",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 40.0,
+    "protein": 3.5,
+    "fat": 1.5,
+    "vitaminB12": 0.45,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Kidney ox raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)"
+    ],
+    "calories": 88.0,
+    "protein": 17.2,
+    "fat": 2.1,
+    "vitaminB12": 15.0,
+    "vitaminC": 8.0,
+    "vitaminD": 1.0,
+    "iron": 7.2
+  },
+  {
+    "foodName": "Kidney pork raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)"
+    ],
+    "calories": 86.0,
+    "protein": 15.5,
+    "fat": 2.7,
+    "vitaminB12": 40.0,
+    "vitaminC": 7.0,
+    "vitaminD": 1.0,
+    "iron": 6.4
+  },
+  {
+    "foodName": "Kipper smoked",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 242.0,
+    "protein": 20.8,
+    "fat": 17.5,
+    "vitaminB12": 8.05,
+    "vitaminC": 0.0,
+    "vitaminD": 8.9,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Kippers steamed",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 231.0,
+    "protein": 20.8,
+    "fat": 16.2,
+    "vitaminB12": 10.0,
+    "vitaminC": 0.0,
+    "vitaminD": 8.9,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Kiwi fruit av",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 64.0,
+    "protein": 1.0,
+    "fat": 0.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 98.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Kiwi fruit green",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 62.0,
+    "protein": 0.9,
+    "fat": 0.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 79.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Kiwi fruit yellow",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 66.0,
+    "protein": 1.0,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 135.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Kohlrabi boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "High in VITC (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 31.0,
+    "protein": 2.0,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 50.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Kohlrabi raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 31.0,
+    "protein": 0.9,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 17.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Kromesky meat filled prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 277.0,
+    "protein": 20.7,
+    "fat": 21.1,
+    "vitaminB12": 0.88,
+    "vitaminC": 5.0,
+    "vitaminD": 1.1,
+    "iron": 1.3
+  },
+  {
+    "foodName": "Kromesky meat filled raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB1 (mg)"
+    ],
+    "calories": 266.0,
+    "protein": 15.3,
+    "fat": 21.2,
+    "vitaminB12": 0.68,
+    "vitaminC": 8.0,
+    "vitaminD": 0.7,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Kumquat",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 52.0,
+    "protein": 0.9,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 39.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Lamb <10 g fat raw av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 158.0,
+    "protein": 20.7,
+    "fat": 8.3,
+    "vitaminB12": 1.9,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Lamb >10 g fat raw av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 221.0,
+    "protein": 19.3,
+    "fat": 16.0,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Lamb chop prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in RIBF (mg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 350.0,
+    "protein": 25.8,
+    "fat": 27.5,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Lamb chop raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 223.0,
+    "protein": 19.2,
+    "fat": 16.3,
+    "vitaminB12": 1.5,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Lamb leg prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 256.0,
+    "protein": 25.6,
+    "fat": 17.1,
+    "vitaminB12": 2.2,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Lamb leg raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 174.0,
+    "protein": 19.2,
+    "fat": 10.8,
+    "vitaminB12": 1.5,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Lamb saddle raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 256.0,
+    "protein": 18.6,
+    "fat": 20.2,
+    "vitaminB12": 3.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Lamb shoulder prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 284.0,
+    "protein": 27.9,
+    "fat": 19.1,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Lamb shoulder raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Zinc (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 187.0,
+    "protein": 20.0,
+    "fat": 11.9,
+    "vitaminB12": 1.5,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Lard",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITD (µg)",
+      "Low in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 900.0,
+    "protein": 0.0,
+    "fat": 100.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 1.5,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Leek boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 22.0,
+    "protein": 1.1,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Leek raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 28.0,
+    "protein": 1.5,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Lemon",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 36.0,
+    "protein": 0.8,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 40.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Lentils brown canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 112.0,
+    "protein": 7.6,
+    "fat": 0.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 6.0,
+    "vitaminD": 0.0,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Lentils canned/glass no salt added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 93.0,
+    "protein": 7.7,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 6.0,
+    "vitaminD": 0.0,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Lentils green and brown boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Potassium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 99.0,
+    "protein": 8.8,
+    "fat": 0.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.9
+  },
+  {
+    "foodName": "Lentils green and brown dried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in Zinc (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 306.0,
+    "protein": 21.0,
+    "fat": 1.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 5.0
+  },
+  {
+    "foodName": "Lentils red boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 110.0,
+    "protein": 7.7,
+    "fat": 0.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.6
+  },
+  {
+    "foodName": "Lettuce av raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 16.0,
+    "protein": 1.6,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Lettuce butterhead boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 22.0,
+    "protein": 2.0,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Lettuce butterhead raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 13.0,
+    "protein": 1.4,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Lettuce iceberg raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 14.0,
+    "protein": 1.0,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Lettuce red raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 18.0,
+    "protein": 1.3,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Lettuce romaine raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 17.0,
+    "protein": 1.2,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Lime",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 41.0,
+    "protein": 0.7,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 29.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Linseeds",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in Zinc (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 477.0,
+    "protein": 19.0,
+    "fat": 31.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 5.7
+  },
+  {
+    "foodName": "Liver calf's prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 172.0,
+    "protein": 27.9,
+    "fat": 5.8,
+    "vitaminB12": 110.0,
+    "vitaminC": 11.0,
+    "vitaminD": 4.3,
+    "iron": 7.5
+  },
+  {
+    "foodName": "Liver calf's raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITC (mg)",
+      "High in Zinc (mg)",
+      "Low in Calcium (mg)"
+    ],
+    "calories": 108.0,
+    "protein": 17.7,
+    "fat": 3.3,
+    "vitaminB12": 68.0,
+    "vitaminC": 19.0,
+    "vitaminD": 0.4,
+    "iron": 8.0
+  },
+  {
+    "foodName": "Liver chicken raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITC (mg)"
+    ],
+    "calories": 128.0,
+    "protein": 19.1,
+    "fat": 5.4,
+    "vitaminB12": 35.0,
+    "vitaminC": 28.0,
+    "vitaminD": 0.8,
+    "iron": 9.7
+  },
+  {
+    "foodName": "Liver ox prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 161.0,
+    "protein": 28.1,
+    "fat": 5.4,
+    "vitaminB12": 164.68,
+    "vitaminC": 12.0,
+    "vitaminD": 4.3,
+    "iron": 8.1
+  },
+  {
+    "foodName": "Liver ox raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITC (mg)",
+      "High in Zinc (mg)",
+      "Low in Calcium (mg)"
+    ],
+    "calories": 129.0,
+    "protein": 21.0,
+    "fat": 4.2,
+    "vitaminB12": 129.54,
+    "vitaminC": 19.0,
+    "vitaminD": 0.7,
+    "iron": 6.0
+  },
+  {
+    "foodName": "Liver pork prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 164.0,
+    "protein": 27.9,
+    "fat": 5.8,
+    "vitaminB12": 31.4,
+    "vitaminC": 11.0,
+    "vitaminD": 1.5,
+    "iron": 23.3
+  },
+  {
+    "foodName": "Liver pork raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITC (mg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 129.0,
+    "protein": 21.3,
+    "fat": 4.8,
+    "vitaminB12": 25.23,
+    "vitaminC": 19.0,
+    "vitaminD": 1.0,
+    "iron": 17.8
+  },
+  {
+    "foodName": "Lobster boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 86.0,
+    "protein": 19.7,
+    "fat": 0.8,
+    "vitaminB12": 2.5,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Low fat marg 40% fat <17 g sat fa unsalted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 360.0,
+    "protein": 0.0,
+    "fat": 40.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat marg prod Blue Band Goede Start",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in FAT (g)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 347.0,
+    "protein": 0.3,
+    "fat": 38.0,
+    "vitaminB12": 2.5,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat margarine 40% fat <17 g sat fa salted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 356.0,
+    "protein": 0.1,
+    "fat": 39.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.3,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat margarine 40% fat <17g sat fa fortified w vit E salted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 360.0,
+    "protein": 0.0,
+    "fat": 40.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat margarine Albert Heijn Goed Begin",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in FAT (g)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 351.0,
+    "protein": 0.0,
+    "fat": 39.0,
+    "vitaminB12": 2.5,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat margarine Albert Heijn light",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 270.0,
+    "protein": 0.0,
+    "fat": 30.0,
+    "vitaminB12": 4.2,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat margarine Blue Band",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in FAT (g)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 357.0,
+    "protein": 0.3,
+    "fat": 39.0,
+    "vitaminB12": 2.5,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat margarine Gouda's Glorie Lichtste Pondje",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 181.0,
+    "protein": 0.0,
+    "fat": 20.0,
+    "vitaminB12": 2.5,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat margarine Jumbo",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in FAT (g)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 356.0,
+    "protein": 0.1,
+    "fat": 39.0,
+    "vitaminB12": 2.5,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat margarine Jumbo Goed Begin",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in FAT (g)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 347.0,
+    "protein": 0.1,
+    "fat": 38.0,
+    "vitaminB12": 2.5,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat margarine prod 35% fat <10 g sat fa unsalted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 320.0,
+    "protein": 0.0,
+    "fat": 35.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat margarine prod AH chol reducing",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 317.0,
+    "protein": 0.0,
+    "fat": 35.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat margarine prod Becel Omega3 Plus",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 353.0,
+    "protein": 0.3,
+    "fat": 38.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat margarine prod Bewust light 30% fat <10g sat fa unsalted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 275.0,
+    "protein": 0.1,
+    "fat": 30.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat margarine prod Blue Band Idee",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in FAT (g)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 357.0,
+    "protein": 0.3,
+    "fat": 39.0,
+    "vitaminB12": 3.8,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat margarine product 20% fat <10g sat salted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 180.0,
+    "protein": 0.0,
+    "fat": 20.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat margarine product Vita d'Or Bewust light",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 270.0,
+    "protein": 0.0,
+    "fat": 30.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat margarine product Vita d'Or Goed begin",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in FAT (g)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 347.0,
+    "protein": 0.0,
+    "fat": 38.0,
+    "vitaminB12": 2.5,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat spead Becel pro-activ calorie light",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 216.0,
+    "protein": 0.3,
+    "fat": 23.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat spread AH omega-3",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in FAT (g)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 345.0,
+    "protein": 0.0,
+    "fat": 38.0,
+    "vitaminB12": 2.5,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Low fat spread Becel pro-activ",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITB1 (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 362.0,
+    "protein": 0.3,
+    "fat": 40.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Mackerel fillet smoked",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 301.0,
+    "protein": 21.1,
+    "fat": 24.1,
+    "vitaminB12": 10.2,
+    "vitaminC": 0.0,
+    "vitaminD": 8.2,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Mackerel in oil tinned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 267.0,
+    "protein": 20.0,
+    "fat": 20.7,
+    "vitaminB12": 6.94,
+    "vitaminC": 0.0,
+    "vitaminD": 4.3,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Mackerel in water tinned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 257.0,
+    "protein": 18.6,
+    "fat": 20.3,
+    "vitaminB12": 6.94,
+    "vitaminC": 0.0,
+    "vitaminD": 4.3,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Mackerel prepared in microwave oven no ingredients added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in RIBF (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 248.0,
+    "protein": 24.4,
+    "fat": 16.7,
+    "vitaminB12": 6.0,
+    "vitaminC": 0.0,
+    "vitaminD": 4.3,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Mackerel raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 233.0,
+    "protein": 18.0,
+    "fat": 17.9,
+    "vitaminB12": 8.8,
+    "vitaminC": 0.0,
+    "vitaminD": 8.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Mackerel steamed",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 315.0,
+    "protein": 19.5,
+    "fat": 26.1,
+    "vitaminB12": 6.0,
+    "vitaminC": 0.0,
+    "vitaminD": 4.3,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Manderins",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 46.0,
+    "protein": 0.7,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 40.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Mange-tout boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 33.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 35.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Mange-tout raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 33.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 35.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Mango",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Phosphorus (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 66.0,
+    "protein": 0.6,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 23.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Margarine 80% fat <24 g sat fa unsalted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 720.0,
+    "protein": 0.0,
+    "fat": 80.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Margarine 80% fat >24 g sat fa salted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 719.0,
+    "protein": 0.1,
+    "fat": 79.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Margarine 80% fat >24 g sat fa unsalted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 724.0,
+    "protein": 0.2,
+    "fat": 80.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Margarine 80% fat >24 g sat fatty acids salted for NEVO recipes",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 719.0,
+    "protein": 0.1,
+    "fat": 79.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Margarine liq 80% fat <17 g sat fa salted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 735.0,
+    "protein": 0.0,
+    "fat": 81.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Margarine liq 80% fat <17g sat fa unsalted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 738.0,
+    "protein": 0.0,
+    "fat": 82.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Margarine product 45% fat <17g sat fa unsalted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 406.0,
+    "protein": 0.2,
+    "fat": 45.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Margarine product 60% fat <17 g sat fa unsalted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 541.0,
+    "protein": 0.1,
+    "fat": 60.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Margarine product 60% fat <17g sat fa salted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 536.0,
+    "protein": 0.0,
+    "fat": 59.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Margarine product 60% fat >17 g sat fa salted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 532.0,
+    "protein": 0.2,
+    "fat": 59.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Margarine product Albert Heijn Balans",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 405.0,
+    "protein": 0.0,
+    "fat": 45.0,
+    "vitaminB12": 4.2,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Margarine product Becel Romig 60% fat",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in Potassium (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 544.0,
+    "protein": 0.5,
+    "fat": 60.0,
+    "vitaminB12": 2.5,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Margarine product liquid <60% fat <17 g sat fa salted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Sodium (mg)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 507.0,
+    "protein": 0.3,
+    "fat": 56.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Margarine product liquid <60% fat <17 g sat fa unsalted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 507.0,
+    "protein": 0.3,
+    "fat": 56.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 7.5,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Mascarpone cheese",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 455.0,
+    "protein": 7.6,
+    "fat": 47.0,
+    "vitaminB12": 0.3,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Meat av raw <5% fat excl liver",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 113.0,
+    "protein": 22.8,
+    "fat": 2.1,
+    "vitaminB12": 0.55,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Meat av raw >5% fat excl liver",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [],
+    "calories": 211.0,
+    "protein": 18.6,
+    "fat": 14.7,
+    "vitaminB12": 1.11,
+    "vitaminC": 7.0,
+    "vitaminD": 0.5,
+    "iron": 1.3
+  },
+  {
+    "foodName": "Meat av raw excl liver",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)"
+    ],
+    "calories": 182.0,
+    "protein": 19.9,
+    "fat": 10.9,
+    "vitaminB12": 0.94,
+    "vitaminC": 5.0,
+    "vitaminD": 0.5,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Meatballs/burgers vegetarian based on pea unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITE (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 209.0,
+    "protein": 15.6,
+    "fat": 14.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 3.1
+  },
+  {
+    "foodName": "Meatballs/burgers vegetarian based on soya/wheat unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 177.0,
+    "protein": 19.6,
+    "fat": 7.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 2.7
+  },
+  {
+    "foodName": "Meatballs/burgers vegetarian based on soya/wheat unprepared fortified w iron and vit B12",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Potassium (mg)",
+      "High in VITE (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 190.0,
+    "protein": 16.9,
+    "fat": 8.7,
+    "vitaminB12": 0.66,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.1
+  },
+  {
+    "foodName": "Melon av",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 31.0,
+    "protein": 0.5,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 11.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Melon cantaloupe",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 38.0,
+    "protein": 0.8,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 37.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Melon honeydew",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 30.0,
+    "protein": 0.9,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 32.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Melon in syrup canned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 80.0,
+    "protein": 0.5,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 12.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Melon netted",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 27.0,
+    "protein": 0.5,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 12.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Milk chocolate-flavoured full fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)"
+    ],
+    "calories": 82.0,
+    "protein": 3.3,
+    "fat": 2.8,
+    "vitaminB12": 0.33,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Milk chocolate-flavoured low fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 62.0,
+    "protein": 3.3,
+    "fat": 0.3,
+    "vitaminB12": 0.3,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Milk chocolate-flavoured semi-skimmed",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 76.0,
+    "protein": 3.3,
+    "fat": 1.6,
+    "vitaminB12": 0.13,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Milk chocolate-flavoured semi-skimmed w sweetner",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 48.0,
+    "protein": 3.3,
+    "fat": 1.7,
+    "vitaminB12": 0.13,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Milk chocolate-flavoured w s-sk milk and sweetened cocoa powder",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 78.0,
+    "protein": 3.5,
+    "fat": 1.6,
+    "vitaminB12": 0.41,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Milk condensed w sugar",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in RIBF (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 330.0,
+    "protein": 8.1,
+    "fat": 8.8,
+    "vitaminB12": 0.7,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Milk goats- full fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITE (mg)"
+    ],
+    "calories": 64.0,
+    "protein": 3.3,
+    "fat": 3.7,
+    "vitaminB12": 0.1,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Milk human",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB6 (mg)"
+    ],
+    "calories": 66.0,
+    "protein": 1.1,
+    "fat": 3.5,
+    "vitaminB12": 0.05,
+    "vitaminC": 6.0,
+    "vitaminD": 0.1,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Milk raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 71.0,
+    "protein": 3.4,
+    "fat": 4.4,
+    "vitaminB12": 0.44,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Milk semi-skimmed",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 45.0,
+    "protein": 3.4,
+    "fat": 1.4,
+    "vitaminB12": 0.45,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Milk semi-skimmed fortified w calcium",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 46.0,
+    "protein": 3.4,
+    "fat": 1.5,
+    "vitaminB12": 0.5,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Milk semi-skimmed fortified w calcium and vit D",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 47.0,
+    "protein": 3.5,
+    "fat": 1.6,
+    "vitaminB12": 0.24,
+    "vitaminC": 1.0,
+    "vitaminD": 0.7,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Milk semi-skimmed lactose free",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 44.0,
+    "protein": 3.4,
+    "fat": 1.5,
+    "vitaminB12": 0.26,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Milk skimmed",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 35.0,
+    "protein": 3.7,
+    "fat": 0.1,
+    "vitaminB12": 0.44,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Milk skimmed dried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Magnesium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 349.0,
+    "protein": 35.4,
+    "fat": 0.6,
+    "vitaminB12": 5.0,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Milk whole",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 61.0,
+    "protein": 3.3,
+    "fat": 3.4,
+    "vitaminB12": 0.4,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Milk whole dried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in Magnesium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)"
+    ],
+    "calories": 478.0,
+    "protein": 23.9,
+    "fat": 26.0,
+    "vitaminB12": 3.7,
+    "vitaminC": 9.0,
+    "vitaminD": 0.1,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Milk whole lactose free",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 64.0,
+    "protein": 3.4,
+    "fat": 3.6,
+    "vitaminB12": 0.4,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Milkshake w fresh fruit",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)"
+    ],
+    "calories": 97.0,
+    "protein": 2.4,
+    "fat": 1.9,
+    "vitaminB12": 0.3,
+    "vitaminC": 9.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Millet boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 123.0,
+    "protein": 3.7,
+    "fat": 1.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Millet raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 370.0,
+    "protein": 11.0,
+    "fat": 4.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.8
+  },
+  {
+    "foodName": "Mince chicken raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 147.0,
+    "protein": 21.5,
+    "fat": 6.8,
+    "vitaminB12": 1.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Minced beef ball prepared w egg/crumbs",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 308.0,
+    "protein": 27.0,
+    "fat": 19.8,
+    "vitaminB12": 2.54,
+    "vitaminC": 5.0,
+    "vitaminD": 1.7,
+    "iron": 3.0
+  },
+  {
+    "foodName": "Minced beef ball prepared wo egg",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in VITD (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 303.0,
+    "protein": 26.5,
+    "fat": 19.4,
+    "vitaminB12": 1.8,
+    "vitaminC": 5.0,
+    "vitaminD": 1.6,
+    "iron": 2.8
+  },
+  {
+    "foodName": "Minced beef ball raw w egg and breadcrumbs",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Zinc (mg)"
+    ],
+    "calories": 231.0,
+    "protein": 18.2,
+    "fat": 15.2,
+    "vitaminB12": 1.75,
+    "vitaminC": 7.0,
+    "vitaminD": 0.7,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Minced beef from butcher raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Zinc (mg)"
+    ],
+    "calories": 180.0,
+    "protein": 20.0,
+    "fat": 10.9,
+    "vitaminB12": 1.95,
+    "vitaminC": 9.0,
+    "vitaminD": 0.5,
+    "iron": 2.2
+  },
+  {
+    "foodName": "Minced beef lean raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Zinc (mg)"
+    ],
+    "calories": 182.0,
+    "protein": 20.0,
+    "fat": 11.1,
+    "vitaminB12": 1.95,
+    "vitaminC": 9.0,
+    "vitaminD": 0.5,
+    "iron": 2.2
+  },
+  {
+    "foodName": "Minced beef lean shallow fried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 293.0,
+    "protein": 29.6,
+    "fat": 19.1,
+    "vitaminB12": 2.84,
+    "vitaminC": 6.0,
+    "vitaminD": 1.4,
+    "iron": 3.0
+  },
+  {
+    "foodName": "Minced beef raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Zinc (mg)"
+    ],
+    "calories": 225.0,
+    "protein": 18.9,
+    "fat": 16.5,
+    "vitaminB12": 1.9,
+    "vitaminC": 8.0,
+    "vitaminD": 0.7,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Minced beef shallow fried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 331.0,
+    "protein": 30.4,
+    "fat": 23.1,
+    "vitaminB12": 2.96,
+    "vitaminC": 6.0,
+    "vitaminD": 1.9,
+    "iron": 3.2
+  },
+  {
+    "foodName": "Minced beef/pork raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [],
+    "calories": 233.0,
+    "protein": 19.2,
+    "fat": 17.2,
+    "vitaminB12": 1.25,
+    "vitaminC": 8.0,
+    "vitaminD": 0.6,
+    "iron": 1.3
+  },
+  {
+    "foodName": "Minced beef/pork shallow fried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITD (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 317.0,
+    "protein": 30.1,
+    "fat": 21.6,
+    "vitaminB12": 1.86,
+    "vitaminC": 6.0,
+    "vitaminD": 1.3,
+    "iron": 2.1
+  },
+  {
+    "foodName": "Minced lamb prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 252.0,
+    "protein": 30.4,
+    "fat": 14.4,
+    "vitaminB12": 3.09,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Minced lamb raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 218.0,
+    "protein": 19.3,
+    "fat": 15.7,
+    "vitaminB12": 2.1,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Minced meat ball beef/pork raw w egg/brcrumbs",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [],
+    "calories": 238.0,
+    "protein": 18.4,
+    "fat": 15.8,
+    "vitaminB12": 1.18,
+    "vitaminC": 7.0,
+    "vitaminD": 0.6,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Minced meat ball pork raw w egg and breadcrumbs",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "High in VITC (mg)"
+    ],
+    "calories": 189.0,
+    "protein": 19.2,
+    "fat": 10.1,
+    "vitaminB12": 0.65,
+    "vitaminC": 17.0,
+    "vitaminD": 0.4,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Minced meat raw av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [],
+    "calories": 222.0,
+    "protein": 19.3,
+    "fat": 15.9,
+    "vitaminB12": 1.41,
+    "vitaminC": 7.0,
+    "vitaminD": 0.6,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Minced meat vegetarian based on mycoprotein unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in RIBF (mg)",
+      "High in Zinc (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 95.0,
+    "protein": 14.1,
+    "fat": 2.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Minced meat vegetarian based on soya unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Magnesium (mg)",
+      "High in Potassium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 148.0,
+    "protein": 20.0,
+    "fat": 3.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.7
+  },
+  {
+    "foodName": "Minced meat vegetarian based on soya unprepared fortified w iron and vit B12",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Potassium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 110.0,
+    "protein": 21.8,
+    "fat": 0.2,
+    "vitaminB12": 0.73,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 5.9
+  },
+  {
+    "foodName": "Minced meat vegetarian based on soya unprepared fortified w iron and vitamin B12 De Vegetarische Slager",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 125.0,
+    "protein": 24.0,
+    "fat": 0.5,
+    "vitaminB12": 0.5,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 7.0
+  },
+  {
+    "foodName": "Minced meat w ham and cheese raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [],
+    "calories": 272.0,
+    "protein": 14.9,
+    "fat": 18.6,
+    "vitaminB12": 0.57,
+    "vitaminC": 10.0,
+    "vitaminD": 0.5,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Minced pork prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 243.0,
+    "protein": 26.4,
+    "fat": 15.2,
+    "vitaminB12": 0.83,
+    "vitaminC": 12.0,
+    "vitaminD": 1.1,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Minced pork raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "High in VITC (mg)"
+    ],
+    "calories": 177.0,
+    "protein": 20.1,
+    "fat": 10.7,
+    "vitaminB12": 0.65,
+    "vitaminC": 20.0,
+    "vitaminD": 0.4,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Minced veal raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)"
+    ],
+    "calories": 214.0,
+    "protein": 19.0,
+    "fat": 15.1,
+    "vitaminB12": 2.13,
+    "vitaminC": 9.0,
+    "vitaminD": 0.8,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Minced veal shallow fried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 286.0,
+    "protein": 27.1,
+    "fat": 19.6,
+    "vitaminB12": 2.95,
+    "vitaminC": 6.0,
+    "vitaminD": 2.0,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Mineral water sparkling and not sparkling av",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 0.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Mixed nuts and raisins",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Magnesium (mg)",
+      "High in Potassium (mg)",
+      "High in VITE (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 496.0,
+    "protein": 11.0,
+    "fat": 32.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 2.7
+  },
+  {
+    "foodName": "Mousse chocolate home-made",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 301.0,
+    "protein": 8.9,
+    "fat": 16.8,
+    "vitaminB12": 0.93,
+    "vitaminC": 0.0,
+    "vitaminD": 0.9,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Mousse chocolate ready-made",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 189.0,
+    "protein": 5.3,
+    "fat": 7.5,
+    "vitaminB12": 0.13,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.1
+  },
+  {
+    "foodName": "Muesli crunchy plain/w fruit",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 438.0,
+    "protein": 8.3,
+    "fat": 14.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.1
+  },
+  {
+    "foodName": "Muesli crunchy w chocolate",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in Magnesium (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 458.0,
+    "protein": 8.5,
+    "fat": 17.1,
+    "vitaminB12": 0.04,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Muesli crunchy w chocolate fortified w fibre",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 448.0,
+    "protein": 9.4,
+    "fat": 18.1,
+    "vitaminB12": 0.04,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.1
+  },
+  {
+    "foodName": "Muesli crunchy w fruit fortified w fibre",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 430.0,
+    "protein": 8.2,
+    "fat": 15.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.1
+  },
+  {
+    "foodName": "Muesli crunchy w nuts",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in Magnesium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITE (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 479.0,
+    "protein": 8.5,
+    "fat": 21.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Muesli crunchy w nuts and chocolate",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in Magnesium (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 469.0,
+    "protein": 8.8,
+    "fat": 18.6,
+    "vitaminB12": 0.02,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.6
+  },
+  {
+    "foodName": "Muesli crunchy w nuts fortified w fibre",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in VITE (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 456.0,
+    "protein": 9.8,
+    "fat": 19.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.2
+  },
+  {
+    "foodName": "Muesli w fruit",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 357.0,
+    "protein": 9.7,
+    "fat": 4.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.3
+  },
+  {
+    "foodName": "Mulberries raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 45.0,
+    "protein": 1.4,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 36.0,
+    "vitaminD": 0.0,
+    "iron": 1.9
+  },
+  {
+    "foodName": "Multigrain bread av white and brown w seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 261.0,
+    "protein": 12.3,
+    "fat": 4.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Multigrain bread av white and brown w seeds w extra linseed",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 286.0,
+    "protein": 13.1,
+    "fat": 7.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.2
+  },
+  {
+    "foodName": "Multigrain bread brown w seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 254.0,
+    "protein": 12.2,
+    "fat": 4.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.9
+  },
+  {
+    "foodName": "Multigrain bread brown w seeds fortified w iron and vitamins Vikorn Vitaminebrood",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in RIBF (mg)",
+      "High in VITD (µg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 265.0,
+    "protein": 11.4,
+    "fat": 5.5,
+    "vitaminB12": 0.5,
+    "vitaminC": 0.0,
+    "vitaminD": 1.6,
+    "iron": 3.5
+  },
+  {
+    "foodName": "Multigrain bread brown w seeds fortified w iron and vitamins Vikorn Volvezel",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in RIBF (mg)",
+      "High in VITD (µg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 268.0,
+    "protein": 11.1,
+    "fat": 5.8,
+    "vitaminB12": 0.5,
+    "vitaminC": 0.0,
+    "vitaminD": 1.6,
+    "iron": 3.3
+  },
+  {
+    "foodName": "Multigrain bread white w seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 267.0,
+    "protein": 12.5,
+    "fat": 5.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Multigrain roll brown hard",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 294.0,
+    "protein": 12.9,
+    "fat": 5.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Multigrain roll brown soft",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 283.0,
+    "protein": 13.4,
+    "fat": 6.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Mushroom boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 21.0,
+    "protein": 3.8,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Mushroom fried in vegetable oil w salt",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITB12 (µg)"
+    ],
+    "calories": 54.0,
+    "protein": 2.6,
+    "fat": 4.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.3,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Mushroom low sodium tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 18.0,
+    "protein": 2.1,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Mushroom raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "Low in Calories (kcal)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 18.0,
+    "protein": 2.3,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Mushroom tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 19.0,
+    "protein": 2.2,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Mushrooms chanterelle boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 20.0,
+    "protein": 1.8,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 6.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Mushrooms chanterelle raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 16.0,
+    "protein": 1.8,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 20.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Mussels boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 125.0,
+    "protein": 17.2,
+    "fat": 3.1,
+    "vitaminB12": 19.16,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.9
+  },
+  {
+    "foodName": "Mussels pickled glass",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 106.0,
+    "protein": 17.2,
+    "fat": 3.1,
+    "vitaminB12": 22.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.9
+  },
+  {
+    "foodName": "Mussels raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 67.0,
+    "protein": 11.1,
+    "fat": 1.7,
+    "vitaminB12": 19.62,
+    "vitaminC": 8.0,
+    "vitaminD": 0.0,
+    "iron": 4.4
+  },
+  {
+    "foodName": "Mustard leaves boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 21.0,
+    "protein": 2.0,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 26.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Mustard leaves raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 32.0,
+    "protein": 2.5,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 71.0,
+    "vitaminD": 0.0,
+    "iron": 2.1
+  },
+  {
+    "foodName": "Mutton <10g fat raw av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 160.0,
+    "protein": 20.5,
+    "fat": 8.7,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 2.1
+  },
+  {
+    "foodName": "Mutton >10g fat raw av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 293.0,
+    "protein": 17.0,
+    "fat": 25.0,
+    "vitaminB12": 1.5,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 2.1
+  },
+  {
+    "foodName": "Noodles boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Magnesium (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 103.0,
+    "protein": 1.8,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Noodles instant prepared",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 227.0,
+    "protein": 3.4,
+    "fat": 11.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Nut paste mixed nuts unsalted",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITE (mg)",
+      "High in Zinc (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 639.0,
+    "protein": 19.8,
+    "fat": 55.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 4.5
+  },
+  {
+    "foodName": "Nuts macadamia salted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Magnesium (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 753.0,
+    "protein": 7.8,
+    "fat": 76.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 2.7
+  },
+  {
+    "foodName": "Nuts macadamia unsalted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Magnesium (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 753.0,
+    "protein": 7.8,
+    "fat": 76.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 2.7
+  },
+  {
+    "foodName": "Nuts mixed salted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITE (mg)",
+      "High in Zinc (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 656.0,
+    "protein": 18.3,
+    "fat": 58.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.0
+  },
+  {
+    "foodName": "Nuts mixed unsalted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITE (mg)",
+      "High in Zinc (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 658.0,
+    "protein": 18.1,
+    "fat": 59.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 4.0
+  },
+  {
+    "foodName": "Nuts mixed w cranberry unsalted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in VITE (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 555.0,
+    "protein": 15.0,
+    "fat": 40.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.3
+  },
+  {
+    "foodName": "Oat bran",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 367.0,
+    "protein": 17.3,
+    "fat": 7.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 5.4
+  },
+  {
+    "foodName": "Oatmeal",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 373.0,
+    "protein": 12.8,
+    "fat": 7.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.0
+  },
+  {
+    "foodName": "Ocean perch prepared in microwave oven no ingredients added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 128.0,
+    "protein": 22.3,
+    "fat": 4.3,
+    "vitaminB12": 1.72,
+    "vitaminC": 0.0,
+    "vitaminD": 1.4,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Oil Becel Blend Classic",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 900.0,
+    "protein": 0.0,
+    "fat": 100.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Oil coconut",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "Low in Calcium (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 892.0,
+    "protein": 0.0,
+    "fat": 99.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Oil corn",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 900.0,
+    "protein": 0.0,
+    "fat": 100.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Oil linseed",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 900.0,
+    "protein": 0.0,
+    "fat": 100.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Oil olive",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 900.0,
+    "protein": 0.0,
+    "fat": 100.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Oil palm",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 899.0,
+    "protein": 0.0,
+    "fat": 99.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Oil palmkernel",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 899.0,
+    "protein": 0.0,
+    "fat": 99.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Oil peanut",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 900.0,
+    "protein": 0.0,
+    "fat": 100.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Oil rapeseed",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 899.0,
+    "protein": 0.0,
+    "fat": 99.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Oil safflower",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 900.0,
+    "protein": 0.0,
+    "fat": 100.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Oil sesame",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 898.0,
+    "protein": 0.2,
+    "fat": 99.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Oil soya",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 894.0,
+    "protein": 0.3,
+    "fat": 99.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Oil sunflower seed",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 897.0,
+    "protein": 0.3,
+    "fat": 99.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Oil vegetable av",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 898.0,
+    "protein": 0.1,
+    "fat": 99.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Oil wok",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in VITE (mg)",
+      "Low in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 900.0,
+    "protein": 0.0,
+    "fat": 100.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Okra boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 22.0,
+    "protein": 1.9,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 16.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Okra raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 23.0,
+    "protein": 1.9,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 23.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Olives av in brine tinned/glass",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 122.0,
+    "protein": 0.9,
+    "fat": 11.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.1
+  },
+  {
+    "foodName": "Olives green in brine tinned/glass",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 113.0,
+    "protein": 0.9,
+    "fat": 11.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Olives ripe in brine tinned/glass",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Sodium (mg)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 162.0,
+    "protein": 0.9,
+    "fat": 14.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 3.3
+  },
+  {
+    "foodName": "Onion Welsh boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 26.0,
+    "protein": 1.2,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 9.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Onion Welsh raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 31.0,
+    "protein": 1.5,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 8.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Onion red boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 43.0,
+    "protein": 1.7,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 6.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Onion red raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 37.0,
+    "protein": 1.3,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Onion silver-skin sweet pickled low sodium glass",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 21.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Onion silverskin sweet pickled wo sugar glass",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 21.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Onions boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 35.0,
+    "protein": 1.0,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Onions fried in vegetable oil",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)"
+    ],
+    "calories": 58.0,
+    "protein": 1.3,
+    "fat": 3.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.2,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Onions raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 37.0,
+    "protein": 1.3,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Orange",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 48.0,
+    "protein": 0.8,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 51.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Oysters",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 57.0,
+    "protein": 6.0,
+    "fat": 1.9,
+    "vitaminB12": 16.2,
+    "vitaminC": 0.0,
+    "vitaminD": 1.0,
+    "iron": 7.0
+  },
+  {
+    "foodName": "Paling zee- bereid in magnetron z toev",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in RIBF (mg)",
+      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)"
+    ],
+    "calories": 199.0,
+    "protein": 24.3,
+    "fat": 11.4,
+    "vitaminB12": 4.0,
+    "vitaminC": 2.0,
+    "vitaminD": 4.9,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Pancake homemade prepared w margarin",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 203.0,
+    "protein": 8.3,
+    "fat": 5.8,
+    "vitaminB12": 0.36,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Pancake homemade preprared w liquid margarin",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 178.0,
+    "protein": 6.0,
+    "fat": 5.9,
+    "vitaminB12": 0.36,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Pancake wholemeal homemade prepared w liquid margarin",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 175.0,
+    "protein": 7.3,
+    "fat": 6.1,
+    "vitaminB12": 0.36,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Pancake wholemeal homemade prepared w margarin",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 175.0,
+    "protein": 7.3,
+    "fat": 6.0,
+    "vitaminB12": 0.36,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Pangasius bereid in magnetron z toev",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB1 (mg)"
+    ],
+    "calories": 89.0,
+    "protein": 18.6,
+    "fat": 1.6,
+    "vitaminB12": 0.42,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Pangasius raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 74.0,
+    "protein": 14.9,
+    "fat": 1.6,
+    "vitaminB12": 1.0,
+    "vitaminC": 0.0,
+    "vitaminD": 1.4,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Papaya",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Phosphorus (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 39.0,
+    "protein": 0.5,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 61.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Passion fruit",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 52.0,
+    "protein": 2.6,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 23.0,
+    "vitaminD": 0.0,
+    "iron": 1.3
+  },
+  {
+    "foodName": "Pasta gluten free cooked Schar",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Potassium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 143.0,
+    "protein": 3.6,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Pasta gluten free raw Schar",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 358.0,
+    "protein": 9.0,
+    "fat": 2.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Pasta w fibre Honig cooked",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Potassium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 134.0,
+    "protein": 4.4,
+    "fat": 0.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Pasta w fibre Honig raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 336.0,
+    "protein": 11.0,
+    "fat": 1.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Pasta white av boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 142.0,
+    "protein": 5.1,
+    "fat": 0.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Pasta white raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 356.0,
+    "protein": 12.3,
+    "fat": 1.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Pasta white wo egg boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 146.0,
+    "protein": 5.2,
+    "fat": 0.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Pasta wholemeal boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 134.0,
+    "protein": 5.6,
+    "fat": 0.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Pasta wholemeal raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 348.0,
+    "protein": 13.0,
+    "fat": 2.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.3
+  },
+  {
+    "foodName": "Pate vegetarian based on soya/pea",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITC (mg)",
+      "High in VITE (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 235.0,
+    "protein": 6.8,
+    "fat": 19.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 119.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Peach w skin",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 40.0,
+    "protein": 1.0,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 31.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Peach wo skin",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 41.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Peanut butter",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Magnesium (mg)",
+      "High in Potassium (mg)",
+      "High in VITE (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 654.0,
+    "protein": 22.5,
+    "fat": 56.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Peanut butter 100% peanuts wo salt",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Magnesium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITE (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 611.0,
+    "protein": 26.5,
+    "fat": 49.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.9
+  },
+  {
+    "foodName": "Peanut butter light",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Magnesium (mg)",
+      "High in Potassium (mg)",
+      "High in VITE (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 535.0,
+    "protein": 18.0,
+    "fat": 39.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Peanut butter w peanut pieces",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Magnesium (mg)",
+      "High in Potassium (mg)",
+      "High in VITE (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 651.0,
+    "protein": 20.0,
+    "fat": 55.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Peanuts coated",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Magnesium (mg)",
+      "High in Sodium (mg)",
+      "High in VITE (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 532.0,
+    "protein": 13.2,
+    "fat": 32.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.2
+  },
+  {
+    "foodName": "Peanuts dry roasted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Magnesium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in Sodium (mg)",
+      "High in VITE (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 577.0,
+    "protein": 24.0,
+    "fat": 47.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Peanuts milkchocolate coated",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Magnesium (mg)",
+      "High in Potassium (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 568.0,
+    "protein": 16.1,
+    "fat": 39.1,
+    "vitaminB12": 0.36,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 2.7
+  },
+  {
+    "foodName": "Peanuts salted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Magnesium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITE (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 620.0,
+    "protein": 24.8,
+    "fat": 50.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Peanuts sugar coated",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Magnesium (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 536.0,
+    "protein": 15.1,
+    "fat": 31.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Peanuts unsalted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Magnesium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITE (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 627.0,
+    "protein": 25.2,
+    "fat": 51.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.9
+  },
+  {
+    "foodName": "Pear dried",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 287.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Pear dried soaked in water",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 83.0,
+    "protein": 0.6,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Pear w skin",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in PROT (g)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 55.0,
+    "protein": 0.2,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Pear wo skin",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 53.0,
+    "protein": 0.3,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Pears in syrup tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 64.0,
+    "protein": 0.3,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Peas and carrots frozen unprepared",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 58.0,
+    "protein": 3.8,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 10.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Peas and carrots tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 56.0,
+    "protein": 3.4,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Peas chick boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 138.0,
+    "protein": 7.6,
+    "fat": 3.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Peas chick canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 140.0,
+    "protein": 7.9,
+    "fat": 2.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 6.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Peas chick canned/glass no salt added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 117.0,
+    "protein": 6.8,
+    "fat": 2.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 6.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Peas extra fine low sodium tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 51.0,
+    "protein": 4.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 9.0,
+    "vitaminD": 0.0,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Peas fresh boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 69.0,
+    "protein": 4.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 25.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Peas frozen boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 92.0,
+    "protein": 6.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 14.0,
+    "vitaminD": 0.0,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Peas green boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 126.0,
+    "protein": 8.4,
+    "fat": 0.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Peas green dried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 315.0,
+    "protein": 21.0,
+    "fat": 2.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 5.0
+  },
+  {
+    "foodName": "Peas marrowfat boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 127.0,
+    "protein": 9.5,
+    "fat": 0.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.1
+  },
+  {
+    "foodName": "Peas marrowfat canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 108.0,
+    "protein": 7.1,
+    "fat": 0.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Peas marrowfat young canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 93.0,
+    "protein": 5.7,
+    "fat": 0.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Peas medium fine tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 94.0,
+    "protein": 5.0,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 9.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Peas raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 65.0,
+    "protein": 4.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 25.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Peas split green boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 122.0,
+    "protein": 7.9,
+    "fat": 1.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Peas split yellow boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 126.0,
+    "protein": 8.4,
+    "fat": 0.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Peas super fine tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 78.0,
+    "protein": 5.6,
+    "fat": 0.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 9.0,
+    "vitaminD": 0.0,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Pecan nuts unroasted unsalted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Magnesium (mg)",
+      "High in VITB1 (mg)",
+      "High in Zinc (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 721.0,
+    "protein": 9.2,
+    "fat": 72.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Pecannuts oil roasted salted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Magnesium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITE (mg)",
+      "High in Zinc (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 750.0,
+    "protein": 9.2,
+    "fat": 75.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Peppers pickled canned/glass",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 14.0,
+    "protein": 0.8,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 66.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Pieces/chunks vegetarian based on soya/wheat unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Potassium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 171.0,
+    "protein": 20.3,
+    "fat": 6.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 3.9
+  },
+  {
+    "foodName": "Pieces/chunks vegetarian based on soya/wheat unprepared fortified w iron and vit B12",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Potassium (mg)",
+      "High in Sodium (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 178.0,
+    "protein": 20.4,
+    "fat": 8.4,
+    "vitaminB12": 0.6,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.6
+  },
+  {
+    "foodName": "Pine nuts",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITE (mg)",
+      "High in Zinc (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 675.0,
+    "protein": 16.5,
+    "fat": 61.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 5.5
+  },
+  {
+    "foodName": "Pineapple",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Phosphorus (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 54.0,
+    "protein": 0.5,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 43.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Pineapple in own juice tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Phosphorus (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 59.0,
+    "protein": 0.4,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 35.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Pineapple in syrup tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 69.0,
+    "protein": 0.3,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 13.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Pistachio nuts salted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in Sodium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "High in VITE (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 592.0,
+    "protein": 23.8,
+    "fat": 48.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.3
+  },
+  {
+    "foodName": "Pistachio nuts unsalted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "High in VITE (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 592.0,
+    "protein": 23.8,
+    "fat": 48.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.3
+  },
+  {
+    "foodName": "Plaice boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITD (µg)"
+    ],
+    "calories": 98.0,
+    "protein": 19.0,
+    "fat": 2.0,
+    "vitaminB12": 1.0,
+    "vitaminC": 2.0,
+    "vitaminD": 1.1,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Plaice fillet fried/simmered",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 112.0,
+    "protein": 18.9,
+    "fat": 3.8,
+    "vitaminB12": 1.0,
+    "vitaminC": 0.0,
+    "vitaminD": 2.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Plaice fried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITD (µg)"
+    ],
+    "calories": 194.0,
+    "protein": 22.0,
+    "fat": 10.9,
+    "vitaminB12": 2.0,
+    "vitaminC": 2.0,
+    "vitaminD": 1.1,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Plaice raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 76.0,
+    "protein": 16.4,
+    "fat": 1.2,
+    "vitaminB12": 1.3,
+    "vitaminC": 0.0,
+    "vitaminD": 1.1,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Plant-based alternative to Gouda cheese based on coconut oil",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 268.0,
+    "protein": 0.3,
+    "fat": 21.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 10.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Plant-based alternative to Gouda cheese based on coconut oil fortified w Ca and Vit B12",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Sodium (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 286.0,
+    "protein": 0.1,
+    "fat": 21.3,
+    "vitaminB12": 1.83,
+    "vitaminC": 10.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Plant-based alternative to cream based on oat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 136.0,
+    "protein": 0.8,
+    "fat": 11.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Plant-based alternative to cream based on soya",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITE (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 161.0,
+    "protein": 2.2,
+    "fat": 15.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Plant-based alternative to cream based on soya Alpro Cuisine Light",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 61.0,
+    "protein": 2.0,
+    "fat": 4.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Plant-based alternative to fruit/vanilla yoghurt based on soya sweetened fortified w calcium and vitamins",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 66.0,
+    "protein": 3.4,
+    "fat": 1.7,
+    "vitaminB12": 0.33,
+    "vitaminC": 0.0,
+    "vitaminD": 0.9,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Plant-based alternative to icecream based on coconut",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 195.0,
+    "protein": 1.4,
+    "fat": 11.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Plant-based alternative to yoghurt based on coconut unsweetened",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 150.0,
+    "protein": 1.5,
+    "fat": 14.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Plant-based alternative to yoghurt based on soya sweetened fortified w calcium and vitamins",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 47.0,
+    "protein": 3.7,
+    "fat": 1.9,
+    "vitaminB12": 0.35,
+    "vitaminC": 0.0,
+    "vitaminD": 0.8,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Plant-based alternative to yoghurt based on soya unsweetened fortified with calcium and vitamins",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 39.0,
+    "protein": 4.0,
+    "fat": 2.3,
+    "vitaminB12": 0.38,
+    "vitaminC": 0.0,
+    "vitaminD": 0.8,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Plantain ripe raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "High in VITC (mg)",
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 138.0,
+    "protein": 1.3,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 18.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Plums in syrup tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 65.0,
+    "protein": 0.3,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Plums w skin",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 40.0,
+    "protein": 0.8,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Pollack (Atlantic) prep in microwave oven no ingredients added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 108.0,
+    "protein": 24.5,
+    "fat": 1.2,
+    "vitaminB12": 4.44,
+    "vitaminC": 0.0,
+    "vitaminD": 0.6,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Pollack (Atlantic) raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 82.0,
+    "protein": 18.0,
+    "fat": 1.1,
+    "vitaminB12": 3.5,
+    "vitaminC": 0.0,
+    "vitaminD": 1.4,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Pollock (Alaska) raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 72.0,
+    "protein": 16.4,
+    "fat": 0.7,
+    "vitaminB12": 2.3,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Pollock (Alaska) steamed",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 120.0,
+    "protein": 27.4,
+    "fat": 1.2,
+    "vitaminB12": 3.9,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Pollock (Atlantic) boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 114.0,
+    "protein": 25.0,
+    "fat": 1.5,
+    "vitaminB12": 4.8,
+    "vitaminC": 0.0,
+    "vitaminD": 1.4,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Pomegranate",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 91.0,
+    "protein": 1.0,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Pork <10% fat prepared av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 158.0,
+    "protein": 28.8,
+    "fat": 4.7,
+    "vitaminB12": 0.55,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Pork <5% fat raw av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 126.0,
+    "protein": 21.8,
+    "fat": 3.0,
+    "vitaminB12": 0.39,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Pork >15% fat raw av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB1 (mg)"
+    ],
+    "calories": 283.0,
+    "protein": 16.1,
+    "fat": 24.0,
+    "vitaminB12": 0.62,
+    "vitaminC": 12.0,
+    "vitaminD": 0.8,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Pork >19% fat prepared av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB1 (mg)"
+    ],
+    "calories": 365.0,
+    "protein": 21.2,
+    "fat": 30.5,
+    "vitaminB12": 0.76,
+    "vitaminC": 12.0,
+    "vitaminD": 0.9,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Pork 10-19% fat prepared av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITD (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 260.0,
+    "protein": 28.4,
+    "fat": 16.1,
+    "vitaminB12": 0.88,
+    "vitaminC": 6.0,
+    "vitaminD": 1.1,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Pork 5-14% fat raw av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)"
+    ],
+    "calories": 165.0,
+    "protein": 20.0,
+    "fat": 9.1,
+    "vitaminB12": 0.62,
+    "vitaminC": 2.0,
+    "vitaminD": 0.4,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Pork av raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)"
+    ],
+    "calories": 201.0,
+    "protein": 19.0,
+    "fat": 13.3,
+    "vitaminB12": 0.55,
+    "vitaminC": 5.0,
+    "vitaminD": 0.5,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Pork chop prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 167.0,
+    "protein": 31.1,
+    "fat": 4.7,
+    "vitaminB12": 0.6,
+    "vitaminC": 0.0,
+    "vitaminD": 0.6,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Pork chop raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 114.0,
+    "protein": 22.2,
+    "fat": 2.8,
+    "vitaminB12": 0.49,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Pork filled w ham and cheese raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)"
+    ],
+    "calories": 155.0,
+    "protein": 20.5,
+    "fat": 5.3,
+    "vitaminB12": 0.58,
+    "vitaminC": 2.0,
+    "vitaminD": 0.4,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Pork fillet prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 157.0,
+    "protein": 28.7,
+    "fat": 4.7,
+    "vitaminB12": 0.34,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Pork fillet raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 128.0,
+    "protein": 23.3,
+    "fat": 3.9,
+    "vitaminB12": 0.29,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Pork fricandeau part of leg prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 158.0,
+    "protein": 31.2,
+    "fat": 3.7,
+    "vitaminB12": 0.79,
+    "vitaminC": 0.0,
+    "vitaminD": 0.6,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Pork fricandeau part of leg raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 120.0,
+    "protein": 22.9,
+    "fat": 3.2,
+    "vitaminB12": 0.49,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Pork gammon steak prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 308.0,
+    "protein": 37.1,
+    "fat": 17.7,
+    "vitaminB12": 1.0,
+    "vitaminC": 0.0,
+    "vitaminD": 1.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Pork gammon steak raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 191.0,
+    "protein": 19.8,
+    "fat": 12.4,
+    "vitaminB12": 0.65,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Pork loin chop prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 179.0,
+    "protein": 28.5,
+    "fat": 7.3,
+    "vitaminB12": 0.33,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Pork loin chop raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 156.0,
+    "protein": 23.2,
+    "fat": 7.0,
+    "vitaminB12": 0.28,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Pork rib chop prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 177.0,
+    "protein": 28.4,
+    "fat": 7.1,
+    "vitaminB12": 0.37,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Pork rib chop raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 150.0,
+    "protein": 22.6,
+    "fat": 6.6,
+    "vitaminB12": 0.32,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Pork schnitzel breaded raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 142.0,
+    "protein": 20.6,
+    "fat": 2.8,
+    "vitaminB12": 0.32,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Pork schnitzel not breaded prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 142.0,
+    "protein": 28.3,
+    "fat": 3.2,
+    "vitaminB12": 0.46,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Pork schnitzel not breaded raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 109.0,
+    "protein": 22.6,
+    "fat": 2.0,
+    "vitaminB12": 0.38,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Pork schnitzel satay breaded raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)"
+    ],
+    "calories": 236.0,
+    "protein": 13.6,
+    "fat": 12.2,
+    "vitaminB12": 0.28,
+    "vitaminC": 1.0,
+    "vitaminD": 0.2,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Pork shoarma seasoning prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 239.0,
+    "protein": 28.2,
+    "fat": 13.8,
+    "vitaminB12": 1.02,
+    "vitaminC": 1.0,
+    "vitaminD": 1.3,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Pork shoarma seasoning raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)"
+    ],
+    "calories": 146.0,
+    "protein": 19.9,
+    "fat": 7.0,
+    "vitaminB12": 0.75,
+    "vitaminC": 2.0,
+    "vitaminD": 0.5,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Pork shoulder chop prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 308.0,
+    "protein": 37.1,
+    "fat": 17.7,
+    "vitaminB12": 0.9,
+    "vitaminC": 0.0,
+    "vitaminD": 1.0,
+    "iron": 1.9
+  },
+  {
+    "foodName": "Pork shoulder chop raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 186.0,
+    "protein": 19.1,
+    "fat": 12.2,
+    "vitaminB12": 0.65,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Pork shoulder prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 170.0,
+    "protein": 27.6,
+    "fat": 6.6,
+    "vitaminB12": 0.58,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Pork shoulder raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 133.0,
+    "protein": 20.7,
+    "fat": 5.5,
+    "vitaminB12": 0.46,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Pork spare rib prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 246.0,
+    "protein": 22.4,
+    "fat": 17.1,
+    "vitaminB12": 0.88,
+    "vitaminC": 0.0,
+    "vitaminD": 1.0,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Pork sparerib prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 249.0,
+    "protein": 29.5,
+    "fat": 14.5,
+    "vitaminB12": 0.71,
+    "vitaminC": 1.0,
+    "vitaminD": 0.5,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Pork sparerib raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)"
+    ],
+    "calories": 200.0,
+    "protein": 20.4,
+    "fat": 13.0,
+    "vitaminB12": 0.52,
+    "vitaminC": 2.0,
+    "vitaminD": 0.3,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Pork steak/chop prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in RIBF (mg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 204.0,
+    "protein": 29.8,
+    "fat": 9.2,
+    "vitaminB12": 0.58,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 1.3
+  },
+  {
+    "foodName": "Pork stewing meat prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 280.0,
+    "protein": 37.4,
+    "fat": 14.5,
+    "vitaminB12": 0.67,
+    "vitaminC": 1.0,
+    "vitaminD": 1.3,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Pork stewing meat raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in Calcium (mg)"
+    ],
+    "calories": 123.0,
+    "protein": 21.5,
+    "fat": 4.1,
+    "vitaminB12": 0.4,
+    "vitaminC": 1.0,
+    "vitaminD": 0.3,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Pork tenderloin medaillon prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 142.0,
+    "protein": 28.7,
+    "fat": 3.0,
+    "vitaminB12": 1.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.6,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Pork tenderloin medaillon raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB1 (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 115.0,
+    "protein": 23.5,
+    "fat": 2.4,
+    "vitaminB12": 0.38,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Pork tenderloin prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 142.0,
+    "protein": 28.7,
+    "fat": 3.0,
+    "vitaminB12": 0.5,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Pork tenderloin raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 105.0,
+    "protein": 22.4,
+    "fat": 1.7,
+    "vitaminB12": 0.41,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Porrdige buttermilk groats",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 53.0,
+    "protein": 3.6,
+    "fat": 0.5,
+    "vitaminB12": 0.17,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Porridge buttermilk w wheat flour white",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 52.0,
+    "protein": 3.7,
+    "fat": 0.5,
+    "vitaminB12": 0.17,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Porridge milk w wheat flour white Lammetjespap",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 83.0,
+    "protein": 3.9,
+    "fat": 3.2,
+    "vitaminB12": 0.37,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Porridge non-dairy barley w raisins Bessola",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 73.0,
+    "protein": 0.5,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Porridge oatmeal prepared w semi-skimmed milk unsweetened",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 80.0,
+    "protein": 4.4,
+    "fat": 2.1,
+    "vitaminB12": 0.41,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Porridge oatmeal prepared w whole milk unsweetened",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 95.0,
+    "protein": 4.3,
+    "fat": 3.8,
+    "vitaminB12": 0.36,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Porridge rice",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)"
+    ],
+    "calories": 86.0,
+    "protein": 3.1,
+    "fat": 2.9,
+    "vitaminB12": 0.26,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Porridge semolina",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 93.0,
+    "protein": 3.0,
+    "fat": 2.9,
+    "vitaminB12": 0.26,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Potato croquettes frozen unprepared",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)"
+    ],
+    "calories": 169.0,
+    "protein": 2.7,
+    "fat": 6.0,
+    "vitaminB12": 0.1,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Potato product natural precooked chilled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 80.0,
+    "protein": 1.7,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Potato product seasoned precooked chilled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 80.0,
+    "protein": 1.7,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Potato puree powder av",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 368.0,
+    "protein": 8.6,
+    "fat": 4.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Potato puree powder w milkpowder w fat",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 373.0,
+    "protein": 9.2,
+    "fat": 8.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Potato puree powder wo milkpowder wo fat",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 364.0,
+    "protein": 7.9,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Potato sweet boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 63.0,
+    "protein": 1.7,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Potato sweet raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "High in VITC (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 91.0,
+    "protein": 1.2,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 23.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Potatoes Eigenheimer wo skin boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 75.0,
+    "protein": 1.8,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Potatoes Nicola wo skin boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 80.0,
+    "protein": 1.7,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Potatoes Red Baron wo skin boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 91.0,
+    "protein": 1.8,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Potatoes boiled w skin av",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 74.0,
+    "protein": 1.4,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 9.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Potatoes floury av wo skin boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 81.0,
+    "protein": 2.0,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Potatoes fried",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)"
+    ],
+    "calories": 119.0,
+    "protein": 1.8,
+    "fat": 4.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 8.0,
+    "vitaminD": 0.2,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Potatoes mashed fresh prep w s-sk milk wo fat",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)"
+    ],
+    "calories": 74.0,
+    "protein": 2.3,
+    "fat": 0.6,
+    "vitaminB12": 0.12,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Potatoes mashed fresh prep w semi-skimmed milk and margarin",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [],
+    "calories": 83.0,
+    "protein": 2.2,
+    "fat": 1.8,
+    "vitaminB12": 0.12,
+    "vitaminC": 7.0,
+    "vitaminD": 0.1,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Potatoes mashed fresh prep w whole milk and margarin",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [],
+    "calories": 87.0,
+    "protein": 2.2,
+    "fat": 2.3,
+    "vitaminB12": 0.1,
+    "vitaminC": 7.0,
+    "vitaminD": 0.1,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Potatoes mashed instant prep w s-sk milk",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 96.0,
+    "protein": 4.1,
+    "fat": 1.3,
+    "vitaminB12": 0.38,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Potatoes mashed instant prepared average",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)"
+    ],
+    "calories": 83.0,
+    "protein": 2.9,
+    "fat": 1.5,
+    "vitaminB12": 0.19,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Potatoes mashed instant prepared w water",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 71.0,
+    "protein": 1.7,
+    "fat": 1.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Potatoes new raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 88.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 25.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Potatoes old raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 88.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Potatoes raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 88.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 14.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Potatoes sliced frozen deep-fried in vegetable oil",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 229.0,
+    "protein": 3.1,
+    "fat": 10.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Potatoes slices/parts frozen unprepared",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 134.0,
+    "protein": 2.5,
+    "fat": 3.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 13.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Potatoes slices/parts frozen w spices unprepared",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 134.0,
+    "protein": 2.5,
+    "fat": 3.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 13.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Potatoes waxy av wo skin boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 86.0,
+    "protein": 1.8,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 11.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Potatoes wo skin boiled av",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 83.0,
+    "protein": 1.9,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 9.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Prawns cooked",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 70.0,
+    "protein": 15.4,
+    "fat": 0.9,
+    "vitaminB12": 2.3,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Prunes",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 199.0,
+    "protein": 1.6,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Prunes soaked in water",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 57.0,
+    "protein": 0.5,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Pudding airy",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 179.0,
+    "protein": 4.2,
+    "fat": 8.1,
+    "vitaminB12": 0.37,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Puff pastry av baked",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 614.0,
+    "protein": 7.0,
+    "fat": 47.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Puff pastry w butter baked",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 614.0,
+    "protein": 7.0,
+    "fat": 47.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Puff pastry wo butter baked",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 614.0,
+    "protein": 7.0,
+    "fat": 47.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Pulses average boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 117.0,
+    "protein": 8.2,
+    "fat": 1.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.1
+  },
+  {
+    "foodName": "Pulses average dried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 335.0,
+    "protein": 23.1,
+    "fat": 3.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 5.8
+  },
+  {
+    "foodName": "Pumpkin boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 14.0,
+    "protein": 0.6,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Pumpkin raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 14.0,
+    "protein": 0.7,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 14.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Quark full fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 118.0,
+    "protein": 7.5,
+    "fat": 8.0,
+    "vitaminB12": 0.7,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Quark full fat w fruit",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 125.0,
+    "protein": 5.7,
+    "fat": 5.1,
+    "vitaminB12": 0.4,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Quark half fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 77.0,
+    "protein": 7.5,
+    "fat": 3.2,
+    "vitaminB12": 0.7,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Quark half fat w fruit",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 109.0,
+    "protein": 5.9,
+    "fat": 3.5,
+    "vitaminB12": 0.4,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Quark low fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 51.0,
+    "protein": 8.4,
+    "fat": 0.0,
+    "vitaminB12": 0.7,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Quark low fat lactose-free",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 57.0,
+    "protein": 9.8,
+    "fat": 0.2,
+    "vitaminB12": 0.7,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Quark low fat w fruit",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 80.0,
+    "protein": 8.6,
+    "fat": 0.2,
+    "vitaminB12": 0.57,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Quark low fat w fruit/vanilla w sweetener",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 47.0,
+    "protein": 7.2,
+    "fat": 0.1,
+    "vitaminB12": 0.38,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Quinoa cooked",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 114.0,
+    "protein": 4.4,
+    "fat": 1.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Quinoa raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 354.0,
+    "protein": 14.1,
+    "fat": 6.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.6
+  },
+  {
+    "foodName": "Radish black raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 30.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 30.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Radish raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 22.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 20.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Raisins dried",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 325.0,
+    "protein": 3.1,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Raisins soaked in water",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 258.0,
+    "protein": 2.5,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Raspberries",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 37.0,
+    "protein": 1.4,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 32.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Raspberries in syrup tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 71.0,
+    "protein": 0.5,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Redcurrants",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 36.0,
+    "protein": 1.1,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 10.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Rhubarb puree w sugar",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 82.0,
+    "protein": 0.5,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Rhubarb raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 23.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 6.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Rice brown boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 131.0,
+    "protein": 3.1,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Rice brown raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 357.0,
+    "protein": 8.3,
+    "fat": 2.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.3
+  },
+  {
+    "foodName": "Rice cake puffed plain wo salt",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 390.0,
+    "protein": 6.6,
+    "fat": 3.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Rice cakes puffed natural w (sea)salt",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 392.0,
+    "protein": 7.8,
+    "fat": 3.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Rice cakes puffed w caramel",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 394.0,
+    "protein": 5.5,
+    "fat": 2.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Rice cakes puffed w chocolate",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in Magnesium (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 502.0,
+    "protein": 6.8,
+    "fat": 24.9,
+    "vitaminB12": 0.26,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Rice cakes puffed w fruit flavour Organix",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "High in VITB1 (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 390.0,
+    "protein": 6.8,
+    "fat": 1.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Rice cakes w spices",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in Magnesium (mg)",
+      "High in Sodium (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 402.0,
+    "protein": 7.9,
+    "fat": 7.7,
+    "vitaminB12": 0.04,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Rice drink wo sugar",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 65.0,
+    "protein": 0.3,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Rice drink wo sugar  fortified w calcium and vitamines",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 53.0,
+    "protein": 0.3,
+    "fat": 0.7,
+    "vitaminB12": 0.31,
+    "vitaminC": 0.0,
+    "vitaminD": 0.7,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Rice multi-grain boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 140.0,
+    "protein": 3.6,
+    "fat": 0.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Rice multi-grain raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 351.0,
+    "protein": 9.0,
+    "fat": 1.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.3
+  },
+  {
+    "foodName": "Rice white boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 146.0,
+    "protein": 3.2,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Rice white boiled w candied fruit, nuts and seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 206.0,
+    "protein": 5.6,
+    "fat": 6.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Rice white raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 352.0,
+    "protein": 7.0,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Rice white raw w candied fruit, nuts and seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "High in VITE (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 385.0,
+    "protein": 7.9,
+    "fat": 15.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Rocket raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in VITA (µg)",
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 22.0,
+    "protein": 3.6,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 2.6
+  },
+  {
+    "foodName": "Rosti prepared wo fat",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 149.0,
+    "protein": 1.9,
+    "fat": 5.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Rosti rounds frozen unprepared",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 178.0,
+    "protein": 2.0,
+    "fat": 7.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 17.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Rosti unprepared",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 123.0,
+    "protein": 2.5,
+    "fat": 2.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Roti Surinam pancake",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITE (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 311.0,
+    "protein": 7.3,
+    "fat": 8.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Rye bread wholemeal",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 193.0,
+    "protein": 5.6,
+    "fat": 1.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.7
+  },
+  {
+    "foodName": "Rye bread wholemeal low sodium",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 201.0,
+    "protein": 5.6,
+    "fat": 1.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.7
+  },
+  {
+    "foodName": "Rye bread wholemeal/rye wheat bread brown av",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 196.0,
+    "protein": 5.8,
+    "fat": 1.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.6
+  },
+  {
+    "foodName": "Rye flakes rolled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 352.0,
+    "protein": 12.0,
+    "fat": 2.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.7
+  },
+  {
+    "foodName": "Rye wheat bread brown",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 233.0,
+    "protein": 8.2,
+    "fat": 1.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Salad celeriac",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITE (mg)"
+    ],
+    "calories": 206.0,
+    "protein": 1.0,
+    "fat": 17.6,
+    "vitaminB12": 0.05,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Salad cheese",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Sodium (mg)",
+      "High in VITE (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 422.0,
+    "protein": 9.0,
+    "fat": 39.4,
+    "vitaminB12": 0.73,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Salad chicken curry",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITE (mg)"
+    ],
+    "calories": 285.0,
+    "protein": 8.8,
+    "fat": 24.3,
+    "vitaminB12": 0.05,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Salad chicken satay",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITE (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 262.0,
+    "protein": 9.6,
+    "fat": 17.3,
+    "vitaminB12": 0.07,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Salad coleslaw",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 191.0,
+    "protein": 1.4,
+    "fat": 16.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 14.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Salad crab",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITE (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 282.0,
+    "protein": 5.2,
+    "fat": 24.0,
+    "vitaminB12": 0.48,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Salad cucumber",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITE (mg)"
+    ],
+    "calories": 238.0,
+    "protein": 0.8,
+    "fat": 23.0,
+    "vitaminB12": 0.05,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Salad egg",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 255.0,
+    "protein": 7.3,
+    "fat": 22.3,
+    "vitaminB12": 1.23,
+    "vitaminC": 0.0,
+    "vitaminD": 1.4,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Salad fish",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITE (mg)"
+    ],
+    "calories": 304.0,
+    "protein": 8.6,
+    "fat": 26.8,
+    "vitaminB12": 1.07,
+    "vitaminC": 1.0,
+    "vitaminD": 1.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Salad ham and leek",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITE (mg)"
+    ],
+    "calories": 243.0,
+    "protein": 3.6,
+    "fat": 21.9,
+    "vitaminB12": 0.05,
+    "vitaminC": 3.0,
+    "vitaminD": 0.1,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Salad meat",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)"
+    ],
+    "calories": 286.0,
+    "protein": 5.0,
+    "fat": 25.7,
+    "vitaminB12": 0.21,
+    "vitaminC": 12.0,
+    "vitaminD": 0.2,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Salad salmon",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in FAT (g)",
+      "High in VITD (µg)",
+      "High in VITE (mg)"
+    ],
+    "calories": 338.0,
+    "protein": 9.3,
+    "fat": 31.0,
+    "vitaminB12": 1.54,
+    "vitaminC": 1.0,
+    "vitaminD": 1.6,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Salad shrimp",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITE (mg)",
+      "Low in Potassium (mg)"
+    ],
+    "calories": 299.0,
+    "protein": 6.7,
+    "fat": 27.6,
+    "vitaminB12": 0.94,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Salad tuna",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "High in VITE (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 288.0,
+    "protein": 11.4,
+    "fat": 24.1,
+    "vitaminB12": 1.07,
+    "vitaminC": 0.0,
+    "vitaminD": 1.4,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Salmon farmed prep in microwave oven no ingredients added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "High in VITE (mg)"
+    ],
+    "calories": 220.0,
+    "protein": 25.2,
+    "fat": 13.2,
+    "vitaminB12": 3.99,
+    "vitaminC": 2.0,
+    "vitaminD": 4.6,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Salmon farmed raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 179.0,
+    "protein": 20.0,
+    "fat": 11.0,
+    "vitaminB12": 3.5,
+    "vitaminC": 0.0,
+    "vitaminD": 7.9,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Salmon smoked",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 188.0,
+    "protein": 21.8,
+    "fat": 10.8,
+    "vitaminB12": 5.02,
+    "vitaminC": 0.0,
+    "vitaminD": 4.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Salmon tinned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 146.0,
+    "protein": 20.4,
+    "fat": 7.2,
+    "vitaminB12": 4.0,
+    "vitaminC": 0.0,
+    "vitaminD": 10.9,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Salsify boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 84.0,
+    "protein": 1.0,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Salsify raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 76.0,
+    "protein": 1.0,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Santen creamed coconut block",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "Low in Calcium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 686.0,
+    "protein": 6.8,
+    "fat": 67.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Sardines grilled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 171.0,
+    "protein": 25.3,
+    "fat": 7.8,
+    "vitaminB12": 12.0,
+    "vitaminC": 0.0,
+    "vitaminD": 12.3,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Sardines/pilchards in oil tinned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Iron (mg)",
+      "High in Phosphorus (mg)",
+      "High in RIBF (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 231.0,
+    "protein": 21.7,
+    "fat": 16.0,
+    "vitaminB12": 15.0,
+    "vitaminC": 0.0,
+    "vitaminD": 3.3,
+    "iron": 3.1
+  },
+  {
+    "foodName": "Sausage beef Braadworst prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 228.0,
+    "protein": 23.8,
+    "fat": 14.6,
+    "vitaminB12": 2.24,
+    "vitaminC": 15.0,
+    "vitaminD": 1.3,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Sausage beef Braadworst raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITC (mg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 207.0,
+    "protein": 18.1,
+    "fat": 14.6,
+    "vitaminB12": 1.79,
+    "vitaminC": 26.0,
+    "vitaminD": 0.9,
+    "iron": 1.9
+  },
+  {
+    "foodName": "Sausage beef frankfurter type tinned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 180.0,
+    "protein": 13.0,
+    "fat": 11.0,
+    "vitaminB12": 0.44,
+    "vitaminC": 0.0,
+    "vitaminD": 0.7,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Sausage frankfurter tinned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB1 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 201.0,
+    "protein": 12.0,
+    "fat": 15.4,
+    "vitaminB12": 0.44,
+    "vitaminC": 0.0,
+    "vitaminD": 0.7,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Sausage luncheon meat vegetarian",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Sodium (mg)",
+      "High in VITE (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 173.0,
+    "protein": 8.7,
+    "fat": 12.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 3.5
+  },
+  {
+    "foodName": "Sausage luncheon meat vegetarian fortified w iron and vit B12",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Sodium (mg)",
+      "High in VITE (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 181.0,
+    "protein": 6.6,
+    "fat": 14.7,
+    "vitaminB12": 1.28,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 4.3
+  },
+  {
+    "foodName": "Sausage pork Braadworst prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 246.0,
+    "protein": 22.4,
+    "fat": 17.1,
+    "vitaminB12": 0.88,
+    "vitaminC": 14.0,
+    "vitaminD": 1.1,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Sausage pork Braadworst raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITC (mg)"
+    ],
+    "calories": 226.0,
+    "protein": 16.8,
+    "fat": 17.2,
+    "vitaminB12": 0.69,
+    "vitaminC": 24.0,
+    "vitaminD": 0.7,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Sausage roast- vegetarian based on pea unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITE (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 237.0,
+    "protein": 16.0,
+    "fat": 17.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.6
+  },
+  {
+    "foodName": "Sausage roast- vegetarian based on soya/wheat unprepared fortified w iron and vit B12",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 178.0,
+    "protein": 14.1,
+    "fat": 11.0,
+    "vitaminB12": 0.76,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 8.9
+  },
+  {
+    "foodName": "Sausage smoked beef cooked",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 240.0,
+    "protein": 13.0,
+    "fat": 20.0,
+    "vitaminB12": 2.32,
+    "vitaminC": 7.0,
+    "vitaminD": 0.3,
+    "iron": 2.8
+  },
+  {
+    "foodName": "Sausage smoked cooked av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITC (mg)"
+    ],
+    "calories": 304.0,
+    "protein": 14.1,
+    "fat": 26.3,
+    "vitaminB12": 0.78,
+    "vitaminC": 25.0,
+    "vitaminD": 0.4,
+    "iron": 1.3
+  },
+  {
+    "foodName": "Sausage smoked pork cooked",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITC (mg)"
+    ],
+    "calories": 340.0,
+    "protein": 14.3,
+    "fat": 30.1,
+    "vitaminB12": 0.5,
+    "vitaminC": 30.0,
+    "vitaminD": 0.7,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Sausage smoked pork traditional cooked",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)"
+    ],
+    "calories": 311.0,
+    "protein": 15.2,
+    "fat": 27.1,
+    "vitaminB12": 0.85,
+    "vitaminC": 12.0,
+    "vitaminD": 0.5,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Sausage veal Braadworst prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 237.0,
+    "protein": 22.9,
+    "fat": 16.0,
+    "vitaminB12": 2.28,
+    "vitaminC": 9.0,
+    "vitaminD": 1.4,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Sausage veal Braadworst raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)"
+    ],
+    "calories": 217.0,
+    "protein": 17.2,
+    "fat": 16.1,
+    "vitaminB12": 1.81,
+    "vitaminC": 16.0,
+    "vitaminD": 0.9,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Schnitzel vegetarian based on milk filled several flavours unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 206.0,
+    "protein": 11.4,
+    "fat": 8.3,
+    "vitaminB12": 0.13,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 2.1
+  },
+  {
+    "foodName": "Schnitzel vegetarian based on milk filled w cheese unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 218.0,
+    "protein": 14.8,
+    "fat": 9.6,
+    "vitaminB12": 0.42,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.1
+  },
+  {
+    "foodName": "Schnitzel vegetarian based on soya/wheat unprepared fortified w iron and vit B12",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Potassium (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 192.0,
+    "protein": 15.5,
+    "fat": 7.0,
+    "vitaminB12": 0.54,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 3.9
+  },
+  {
+    "foodName": "Schnitzel/burger vegetarian based on milk unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Phosphorus (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 172.0,
+    "protein": 11.4,
+    "fat": 7.9,
+    "vitaminB12": 0.13,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.7
+  },
+  {
+    "foodName": "Scrapple, pork",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITA (µg)"
+    ],
+    "calories": 166.0,
+    "protein": 5.8,
+    "fat": 8.4,
+    "vitaminB12": 1.82,
+    "vitaminC": 1.0,
+    "vitaminD": 0.4,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Seafood cooked",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 112.0,
+    "protein": 16.9,
+    "fat": 2.9,
+    "vitaminB12": 7.77,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Seaweed agar agar dried",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Potassium (mg)",
+      "High in VITE (mg)",
+      "High in Zinc (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 336.0,
+    "protein": 6.2,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 21.4
+  },
+  {
+    "foodName": "Seaweed kelp raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 47.0,
+    "protein": 1.7,
+    "fat": 0.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 2.9
+  },
+  {
+    "foodName": "Seeds and kernels av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITE (mg)",
+      "High in Zinc (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 562.0,
+    "protein": 19.1,
+    "fat": 44.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 6.0
+  },
+  {
+    "foodName": "Seitan",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 198.0,
+    "protein": 28.4,
+    "fat": 7.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Semolina",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 337.0,
+    "protein": 11.0,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Sesame paste tahin salt added",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Zinc (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 585.0,
+    "protein": 21.9,
+    "fat": 51.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 9.0
+  },
+  {
+    "foodName": "Sesame seeds",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in VITB1 (mg)",
+      "High in Zinc (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 632.0,
+    "protein": 22.7,
+    "fat": 57.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 5.8
+  },
+  {
+    "foodName": "Shrimps Dutch boiled",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)",
+      "High in VITE (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 94.0,
+    "protein": 19.8,
+    "fat": 1.6,
+    "vitaminB12": 16.78,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Shrimps in water tinned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in PROT (g)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 115.0,
+    "protein": 24.3,
+    "fat": 1.9,
+    "vitaminB12": 16.78,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Silver-skin onion sweet pickled glass",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 34.0,
+    "protein": 0.6,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Skyr skimmed plain",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 60.0,
+    "protein": 10.6,
+    "fat": 0.0,
+    "vitaminB12": 0.28,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Skyr skimmed w fruit",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 71.0,
+    "protein": 9.3,
+    "fat": 0.0,
+    "vitaminB12": 0.25,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Smoothie fruit",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 56.0,
+    "protein": 0.7,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 30.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Smoothie fruit w dairy",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 51.0,
+    "protein": 1.3,
+    "fat": 0.1,
+    "vitaminB12": 0.03,
+    "vitaminC": 41.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Soft drink light wo caffeine",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 0.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Soft drink m sugar wo caffeine",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 37.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Soft drink w sugar and sweetener 2-<5 CHO w caffeine",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 11.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Soft drink w sugar and sweetener 2-<5 g CHO wo caffeine",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 12.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Soft drink w sugar and sweetener 5-<8 g CHO w caffeine",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 27.0,
+    "protein": 0.3,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Soft drink w sugar w caffeine",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 41.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Sole prepared in microwave oven no ingredients added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITD (µg)"
+    ],
+    "calories": 116.0,
+    "protein": 24.5,
+    "fat": 2.1,
+    "vitaminB12": 1.0,
+    "vitaminC": 2.0,
+    "vitaminD": 8.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Spinach boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "High in VITA (µg)",
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 25.0,
+    "protein": 2.9,
+    "fat": 0.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 2.4
+  },
+  {
+    "foodName": "Spinach creamed frozen boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "High in VITA (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 44.0,
+    "protein": 2.9,
+    "fat": 3.0,
+    "vitaminB12": 0.01,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 2.2
+  },
+  {
+    "foodName": "Spinach cut frozen unprepared",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 20.0,
+    "protein": 2.3,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Spinach frozen boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in VITA (µg)",
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 24.0,
+    "protein": 2.3,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 8.0,
+    "vitaminD": 0.0,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Spinach raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "High in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 26.0,
+    "protein": 3.2,
+    "fat": 0.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Spinach tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Magnesium (mg)",
+      "High in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 31.0,
+    "protein": 3.2,
+    "fat": 0.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 10.0,
+    "vitaminD": 0.0,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Sports drink AA Isotone",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 23.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Sports drink Aquarius",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 29.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Sports drink Extran Energy",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 43.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 21.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Sports drink Extran Hydro",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 22.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 16.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Sports drink hypertone w carbohydrates",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 59.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 25.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Sprat fillet smoked",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 212.0,
+    "protein": 19.9,
+    "fat": 14.8,
+    "vitaminB12": 7.0,
+    "vitaminC": 0.0,
+    "vitaminD": 13.0,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Squid raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 73.0,
+    "protein": 16.0,
+    "fat": 1.0,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Starch, potato",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 320.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Stewing pears cooked w sweetened liquid",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 58.0,
+    "protein": 0.2,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Stollen w almond/imitat paste av w and wo nuts",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 282.0,
+    "protein": 7.7,
+    "fat": 3.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Stollen w almond/imitat paste w nuts",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 288.0,
+    "protein": 7.8,
+    "fat": 4.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.1
+  },
+  {
+    "foodName": "Stollen w almond/imitat paste wo nuts",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 276.0,
+    "protein": 7.7,
+    "fat": 2.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.9
+  },
+  {
+    "foodName": "Strawberries",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 29.0,
+    "protein": 0.7,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 60.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Strawberries in syrup tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 71.0,
+    "protein": 0.5,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 29.0,
+    "vitaminD": 0.0,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Stukjes vegetarisch based on mycoprotein unprepred",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in RIBF (mg)",
+      "High in Zinc (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 86.0,
+    "protein": 12.6,
+    "fat": 2.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Sunflower seeds",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "High in VITE (mg)",
+      "High in Zinc (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 647.0,
+    "protein": 18.0,
+    "fat": 56.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.9
+  },
+  {
+    "foodName": "Swede boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 33.0,
+    "protein": 0.7,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Swede raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 30.0,
+    "protein": 0.7,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Sweet pepper av boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 27.0,
+    "protein": 0.9,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 114.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Sweet pepper av raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 25.0,
+    "protein": 0.8,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 140.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Sweet pepper green boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 17.0,
+    "protein": 0.6,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 70.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Sweet pepper green raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 19.0,
+    "protein": 0.8,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 71.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Sweet pepper orange raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 28.0,
+    "protein": 0.8,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 133.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Sweet pepper pickled glass",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 16.0,
+    "protein": 0.9,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 47.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Sweet pepper red boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "High in VITE (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 28.0,
+    "protein": 0.9,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 119.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Sweet pepper red raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 25.0,
+    "protein": 0.8,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 150.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Sweet pepper yellow boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 27.0,
+    "protein": 0.8,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 111.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Sweet pepper yellow raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 25.0,
+    "protein": 0.7,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 114.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Sweetcorn boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 74.0,
+    "protein": 2.5,
+    "fat": 1.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Sweetcorn tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 91.0,
+    "protein": 2.9,
+    "fat": 1.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Tangerines in syrup tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 59.0,
+    "protein": 0.5,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Taro boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 102.0,
+    "protein": 1.2,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 7.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Taro raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 119.0,
+    "protein": 1.4,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 13.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Tea herbal instant sweetend powder",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in FAT (g)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 372.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Tea herbal instant sweetend prepared",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 19.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Tea prepared",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 0.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Tea vending machine w sugar",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 15.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Tempeh unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 128.0,
+    "protein": 17.6,
+    "fat": 4.7,
+    "vitaminB12": 0.02,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Tilapia prepared wo fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITD (µg)",
+      "Low in VITA (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 128.0,
+    "protein": 26.2,
+    "fat": 2.7,
+    "vitaminB12": 1.86,
+    "vitaminC": 0.0,
+    "vitaminD": 24.3,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Tilapia raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 86.0,
+    "protein": 17.9,
+    "fat": 1.6,
+    "vitaminB12": 1.1,
+    "vitaminC": 0.0,
+    "vitaminD": 24.3,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Tiramisu",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 248.0,
+    "protein": 4.5,
+    "fat": 10.6,
+    "vitaminB12": 0.27,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Toast Melba natural",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 398.0,
+    "protein": 12.7,
+    "fat": 2.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Toast Melba other varieties",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 403.0,
+    "protein": 15.4,
+    "fat": 7.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Tofu pieces/chunks seasoned unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "High in Magnesium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 213.0,
+    "protein": 15.7,
+    "fat": 15.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.7
+  },
+  {
+    "foodName": "Tofu unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 119.0,
+    "protein": 12.4,
+    "fat": 6.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 2.4
+  },
+  {
+    "foodName": "Tomato av boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 23.0,
+    "protein": 0.7,
+    "fat": 0.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 14.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Tomato av raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 25.0,
+    "protein": 0.8,
+    "fat": 0.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 20.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Tomato beef boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 22.0,
+    "protein": 0.7,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 18.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Tomato beef raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 19.0,
+    "protein": 0.6,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Tomato cherry raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 30.0,
+    "protein": 0.9,
+    "fat": 0.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 24.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Tomato juice",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 16.0,
+    "protein": 0.7,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 8.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Tomato puree concentrated tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Potassium (mg)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 87.0,
+    "protein": 4.5,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 13.0,
+    "vitaminD": 0.0,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Tomato sieved pack",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 39.0,
+    "protein": 1.8,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 11.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Tomato sun-dried",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in Sodium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 331.0,
+    "protein": 14.1,
+    "fat": 3.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 39.0,
+    "vitaminD": 0.0,
+    "iron": 9.1
+  },
+  {
+    "foodName": "Tomato vine raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 22.0,
+    "protein": 0.7,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 16.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Tomatoes classic round boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 23.0,
+    "protein": 0.7,
+    "fat": 0.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 14.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Tomatoes classic round raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 20.0,
+    "protein": 0.7,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Tomatoes stewed w vegetable oil",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)"
+    ],
+    "calories": 59.0,
+    "protein": 0.9,
+    "fat": 5.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 11.0,
+    "vitaminD": 0.5,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Tomatoes tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 24.0,
+    "protein": 1.1,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 11.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Tongue calf's raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in RIBF (mg)",
+      "High in VITB12 (µg)",
+      "Low in Calcium (mg)",
+      "Low in VITA (µg)"
+    ],
+    "calories": 168.0,
+    "protein": 17.6,
+    "fat": 10.9,
+    "vitaminB12": 4.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.3,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Topping dessert w sugar whipped KlopKlop",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 111.0,
+    "protein": 3.5,
+    "fat": 5.2,
+    "vitaminB12": 0.39,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Tortellini boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [],
+    "calories": 155.0,
+    "protein": 7.7,
+    "fat": 3.1,
+    "vitaminB12": 0.18,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Trout prepared in microwave oven no ingredients added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 140.0,
+    "protein": 24.5,
+    "fat": 4.6,
+    "vitaminB12": 5.72,
+    "vitaminC": 1.0,
+    "vitaminD": 9.4,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Tuna in oil tinned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 206.0,
+    "protein": 27.0,
+    "fat": 10.8,
+    "vitaminB12": 5.0,
+    "vitaminC": 0.0,
+    "vitaminD": 2.1,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Tuna in water tinned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 109.0,
+    "protein": 24.9,
+    "fat": 1.0,
+    "vitaminB12": 3.4,
+    "vitaminC": 0.0,
+    "vitaminD": 1.1,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Tuna prepared wo fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 122.0,
+    "protein": 29.2,
+    "fat": 0.6,
+    "vitaminB12": 2.35,
+    "vitaminC": 0.0,
+    "vitaminD": 3.2,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Tuna w vegetables and tomato sauce canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [],
+    "calories": 98.0,
+    "protein": 11.7,
+    "fat": 3.5,
+    "vitaminB12": 1.54,
+    "vitaminC": 1.0,
+    "vitaminD": 0.5,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Turkey fillet raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB6 (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 110.0,
+    "protein": 24.8,
+    "fat": 1.2,
+    "vitaminB12": 1.41,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Turkey raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)"
+    ],
+    "calories": 141.0,
+    "protein": 21.8,
+    "fat": 6.0,
+    "vitaminB12": 2.44,
+    "vitaminC": 3.0,
+    "vitaminD": 0.5,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Turnip boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 17.0,
+    "protein": 0.6,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 10.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Turnip raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 31.0,
+    "protein": 0.9,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 17.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Turnip tops boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITA (µg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 17.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 3.0
+  },
+  {
+    "foodName": "Turnip tops raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITA (µg)",
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 17.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 35.0,
+    "vitaminD": 0.0,
+    "iron": 3.0
+  },
+  {
+    "foodName": "Veal <5% fat raw av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "Low in Calcium (mg)"
+    ],
+    "calories": 105.0,
+    "protein": 22.0,
+    "fat": 1.8,
+    "vitaminB12": 2.15,
+    "vitaminC": 1.0,
+    "vitaminD": 0.4,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Veal >5% fat raw av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)"
+    ],
+    "calories": 159.0,
+    "protein": 20.4,
+    "fat": 8.6,
+    "vitaminB12": 2.25,
+    "vitaminC": 5.0,
+    "vitaminD": 0.6,
+    "iron": 1.3
+  },
+  {
+    "foodName": "Veal av raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "Low in Calcium (mg)"
+    ],
+    "calories": 127.0,
+    "protein": 21.3,
+    "fat": 4.7,
+    "vitaminB12": 2.19,
+    "vitaminC": 3.0,
+    "vitaminD": 0.5,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Veal fricandeau prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 121.0,
+    "protein": 25.2,
+    "fat": 2.2,
+    "vitaminB12": 3.38,
+    "vitaminC": 0.0,
+    "vitaminD": 0.7,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Veal fricandeau raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "Low in Calcium (mg)"
+    ],
+    "calories": 111.0,
+    "protein": 22.0,
+    "fat": 2.6,
+    "vitaminB12": 2.28,
+    "vitaminC": 1.0,
+    "vitaminD": 0.4,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Veal frying steak prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 142.0,
+    "protein": 28.4,
+    "fat": 3.1,
+    "vitaminB12": 2.7,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Veal frying steak raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)",
+      "Low in Calcium (mg)"
+    ],
+    "calories": 104.0,
+    "protein": 21.8,
+    "fat": 1.9,
+    "vitaminB12": 2.19,
+    "vitaminC": 1.0,
+    "vitaminD": 0.4,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Veal olive prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)"
+    ],
+    "calories": 186.0,
+    "protein": 30.1,
+    "fat": 7.2,
+    "vitaminB12": 2.66,
+    "vitaminC": 5.0,
+    "vitaminD": 0.8,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Veal olive raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "High in VITB12 (µg)"
+    ],
+    "calories": 159.0,
+    "protein": 20.7,
+    "fat": 8.5,
+    "vitaminB12": 2.2,
+    "vitaminC": 5.0,
+    "vitaminD": 0.6,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Veal prime rib prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 166.0,
+    "protein": 27.5,
+    "fat": 6.3,
+    "vitaminB12": 1.94,
+    "vitaminC": 0.0,
+    "vitaminD": 0.8,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Veal prime rib raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "Low in Calcium (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 150.0,
+    "protein": 21.4,
+    "fat": 7.2,
+    "vitaminB12": 1.71,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Veal rib steak prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 197.0,
+    "protein": 27.0,
+    "fat": 9.9,
+    "vitaminB12": 2.19,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Veal rib steak raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [],
+    "calories": 167.0,
+    "protein": 20.6,
+    "fat": 9.4,
+    "vitaminB12": 1.75,
+    "vitaminC": 1.0,
+    "vitaminD": 0.4,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Veal schnitzel not breaded prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 144.0,
+    "protein": 29.4,
+    "fat": 2.9,
+    "vitaminB12": 2.55,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Veal schnitzel not breaded raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "Low in Calcium (mg)"
+    ],
+    "calories": 104.0,
+    "protein": 22.4,
+    "fat": 1.6,
+    "vitaminB12": 2.05,
+    "vitaminC": 1.0,
+    "vitaminD": 0.3,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Veal shank raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)",
+      "Low in Calcium (mg)"
+    ],
+    "calories": 112.0,
+    "protein": 21.3,
+    "fat": 2.9,
+    "vitaminB12": 1.62,
+    "vitaminC": 3.0,
+    "vitaminD": 0.4,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Veal stewing meat prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)"
+    ],
+    "calories": 185.0,
+    "protein": 27.1,
+    "fat": 8.5,
+    "vitaminB12": 2.4,
+    "vitaminC": 1.0,
+    "vitaminD": 1.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Veal stewing meat raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "Low in Calcium (mg)"
+    ],
+    "calories": 98.0,
+    "protein": 22.0,
+    "fat": 1.1,
+    "vitaminB12": 2.02,
+    "vitaminC": 1.0,
+    "vitaminD": 0.3,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Veal stewing steak prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 158.0,
+    "protein": 27.0,
+    "fat": 5.5,
+    "vitaminB12": 2.29,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Veal stewing steak raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "Low in Calcium (mg)"
+    ],
+    "calories": 117.0,
+    "protein": 17.7,
+    "fat": 5.1,
+    "vitaminB12": 2.84,
+    "vitaminC": 1.0,
+    "vitaminD": 0.4,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Veal tenderloin medaillon prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in Potassium (mg)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 143.0,
+    "protein": 28.8,
+    "fat": 3.1,
+    "vitaminB12": 2.43,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Veal tenderloin medaillon raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITB6 (mg)",
+      "Low in Calcium (mg)"
+    ],
+    "calories": 108.0,
+    "protein": 22.9,
+    "fat": 1.9,
+    "vitaminB12": 2.03,
+    "vitaminC": 1.0,
+    "vitaminD": 0.3,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Vegetable balls/burgers vegetarian based on soya unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 194.0,
+    "protein": 10.4,
+    "fat": 10.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Vegetable balls/burgers vegetarian based on soya unprepared fortified w iron and vit B12",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Potassium (mg)",
+      "High in Sodium (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 146.0,
+    "protein": 14.9,
+    "fat": 5.0,
+    "vitaminB12": 0.62,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 4.5
+  },
+  {
+    "foodName": "Vegetable mix for pea soup frozen unprep",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 17.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 10.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Vegetable mix for soup raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 32.0,
+    "protein": 1.5,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 17.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Vegetables av boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 30.0,
+    "protein": 1.7,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 18.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Vegetables av raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 20.0,
+    "protein": 1.0,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 18.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Vegetables for soup cooked",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 31.0,
+    "protein": 1.1,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Vegetables for stir-frying Dutch cooked",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 26.0,
+    "protein": 1.6,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 29.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Vegetables for stir-frying Dutch raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 27.0,
+    "protein": 1.5,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 34.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Vegetables for stir-frying Italian cooked",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 27.0,
+    "protein": 1.1,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 26.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Vegetables for stir-frying Italian raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 28.0,
+    "protein": 1.2,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 34.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Vegetables for stir-frying Mexican boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 48.0,
+    "protein": 2.4,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 25.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Vegetables for stir-frying Mexican raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 51.0,
+    "protein": 2.7,
+    "fat": 0.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 34.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Vegetables for stir-frying Oriental raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 29.0,
+    "protein": 1.7,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 32.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Vegetables for stir-frying mushroom cooked",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 25.0,
+    "protein": 1.9,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 11.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Vegetables for stir-frying mushroom raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 25.0,
+    "protein": 1.7,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 13.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Vegetables for stir-frying oriental cooked",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 22.0,
+    "protein": 1.0,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 24.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Vegetables mixed carrot-onion boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 34.0,
+    "protein": 0.8,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Vegetables mixed carrot-onion raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 35.0,
+    "protein": 0.9,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Vegetables mixed pickled Atjar tjampoer glass",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 42.0,
+    "protein": 1.0,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 9.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Vegetables mixture raw av",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 20.0,
+    "protein": 0.9,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 17.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Venison raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 122.0,
+    "protein": 22.4,
+    "fat": 3.6,
+    "vitaminB12": 1.4,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 3.0
+  },
+  {
+    "foodName": "Vermicelli raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 354.0,
+    "protein": 12.0,
+    "fat": 2.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Vol -au-vent shell made w butter",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 570.0,
+    "protein": 8.9,
+    "fat": 39.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Walnuts salted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 706.0,
+    "protein": 15.9,
+    "fat": 68.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.4
+  },
+  {
+    "foodName": "Walnuts unsalted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calories (kcal)",
+      "High in FAT (g)",
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 706.0,
+    "protein": 15.9,
+    "fat": 68.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.4
+  },
+  {
+    "foodName": "Water >100 mg calcium p litre",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 0.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Water 0-50 mg calcium p litre",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 0.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Water 50-100 mg calcium p litre",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 0.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Water av",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calcium (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in Magnesium (mg)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in Potassium (mg)",
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITB6 (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 0.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Wheat baguette brown",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 258.0,
+    "protein": 9.8,
+    "fat": 1.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.3
+  },
+  {
+    "foodName": "Wheat baguette white",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 269.0,
+    "protein": 9.8,
+    "fat": 1.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Wheat baguette white w cheese and onion",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)"
+    ],
+    "calories": 242.0,
+    "protein": 10.1,
+    "fat": 6.0,
+    "vitaminB12": 0.3,
+    "vitaminC": 1.0,
+    "vitaminD": 0.1,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Wheat baguette white w herb butter ready made",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)"
+    ],
+    "calories": 303.0,
+    "protein": 7.8,
+    "fat": 12.2,
+    "vitaminB12": 0.05,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Wheat bran",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "High in Zinc (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 286.0,
+    "protein": 17.4,
+    "fat": 5.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 11.5
+  },
+  {
+    "foodName": "Wheat bread av brown and wholemeal ",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 235.0,
+    "protein": 10.5,
+    "fat": 2.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Wheat bread av brown and wholemeal w pumpkin seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 254.0,
+    "protein": 13.9,
+    "fat": 5.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Wheat bread av brown and wholemeal w seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 275.0,
+    "protein": 11.9,
+    "fat": 7.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.2
+  },
+  {
+    "foodName": "Wheat bread av brown and wholemeal w sunflower seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITE (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 272.0,
+    "protein": 12.5,
+    "fat": 6.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Wheat bread brown",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 236.0,
+    "protein": 9.8,
+    "fat": 1.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Wheat bread brown Tijger",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 241.0,
+    "protein": 9.8,
+    "fat": 1.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Wheat bread brown Turkish",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 248.0,
+    "protein": 10.6,
+    "fat": 1.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Wheat bread brown low sodium",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 236.0,
+    "protein": 9.8,
+    "fat": 1.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Wheat bread brown w pumpkin seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 277.0,
+    "protein": 12.3,
+    "fat": 7.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.2
+  },
+  {
+    "foodName": "Wheat bread brown w seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 276.0,
+    "protein": 11.3,
+    "fat": 6.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Wheat bread brown w sunflower seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "High in VITE (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 285.0,
+    "protein": 10.8,
+    "fat": 8.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Wheat bread currant/raisin white av",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 272.0,
+    "protein": 7.8,
+    "fat": 2.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Wheat bread currant/raisin white av w almond paste",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 303.0,
+    "protein": 8.2,
+    "fat": 6.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Wheat bread roll brown hard",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 278.0,
+    "protein": 11.0,
+    "fat": 1.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Wheat bread roll brown soft",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 258.0,
+    "protein": 11.0,
+    "fat": 3.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.4
+  },
+  {
+    "foodName": "Wheat bread roll white hard",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 277.0,
+    "protein": 10.0,
+    "fat": 1.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Wheat bread roll white soft",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 262.0,
+    "protein": 9.7,
+    "fat": 3.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Wheat bread roll wholemeal soft",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 247.0,
+    "protein": 11.3,
+    "fat": 3.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.2
+  },
+  {
+    "foodName": "Wheat bread white Tijger",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 251.0,
+    "protein": 9.0,
+    "fat": 1.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Wheat bread white Turkish",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 250.0,
+    "protein": 8.5,
+    "fat": 1.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Wheat bread white av milk/water based",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 249.0,
+    "protein": 9.1,
+    "fat": 1.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Wheat bread white av milk/water based w seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 287.0,
+    "protein": 10.7,
+    "fat": 6.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Wheat bread white av milk/water based w sunflower seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITE (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 296.0,
+    "protein": 10.2,
+    "fat": 8.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.3
+  },
+  {
+    "foodName": "Wheat bread white milk based",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 257.0,
+    "protein": 9.6,
+    "fat": 2.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Wheat bread white pita",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 245.0,
+    "protein": 8.6,
+    "fat": 0.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.3
+  },
+  {
+    "foodName": "Wheat bread white water based",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 247.0,
+    "protein": 9.0,
+    "fat": 1.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Wheat bread wholemeal Tijger",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 238.0,
+    "protein": 10.8,
+    "fat": 2.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.9
+  },
+  {
+    "foodName": "Wheat bread wholemeal av fine and coarse",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 234.0,
+    "protein": 11.1,
+    "fat": 2.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Wheat bread wholemeal av fine and coarse w pumpkin seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 275.0,
+    "protein": 13.4,
+    "fat": 7.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.7
+  },
+  {
+    "foodName": "Wheat bread wholemeal av fine and coarse w seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 274.0,
+    "protein": 12.5,
+    "fat": 7.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Wheat bread wholemeal av fine and coarse w sunflower seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "High in VITE (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 283.0,
+    "protein": 11.9,
+    "fat": 8.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Wheat bread wholemeal coarse",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 235.0,
+    "protein": 11.3,
+    "fat": 2.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Wheat bread wholemeal coarse w pumpkin seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 276.0,
+    "protein": 13.6,
+    "fat": 7.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.7
+  },
+  {
+    "foodName": "Wheat bread wholemeal coarse w seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 275.0,
+    "protein": 12.6,
+    "fat": 7.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Wheat bread wholemeal coarse w sunflower seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "High in VITE (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 284.0,
+    "protein": 12.1,
+    "fat": 8.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Wheat bread wholemeal fine",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 233.0,
+    "protein": 10.9,
+    "fat": 2.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Wheat bread wholemeal fine w pumpkin seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 274.0,
+    "protein": 13.2,
+    "fat": 7.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.7
+  },
+  {
+    "foodName": "Wheat bread wholemeal fine w seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 273.0,
+    "protein": 12.3,
+    "fat": 7.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Wheat bread wholemeal fine w sunflower seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "High in VITE (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 282.0,
+    "protein": 11.7,
+    "fat": 8.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Wheat bread wholemeal fortified w vit D and fibre Vollerkoren",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 231.0,
+    "protein": 10.6,
+    "fat": 3.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 1.5,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Wheat ciabatta white no filling",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 255.0,
+    "protein": 9.1,
+    "fat": 1.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "Wheat corn bread white",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 262.0,
+    "protein": 10.9,
+    "fat": 3.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.2
+  },
+  {
+    "foodName": "Wheat corn bread white w seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 298.0,
+    "protein": 12.3,
+    "fat": 8.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.8
+  },
+  {
+    "foodName": "Wheat corn bread white w sunflower seeds",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "High in VITE (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 307.0,
+    "protein": 11.8,
+    "fat": 9.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Wheat currant bread white",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 273.0,
+    "protein": 7.8,
+    "fat": 2.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Wheat currant bread white w almond paste",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 303.0,
+    "protein": 8.2,
+    "fat": 6.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Wheat currant bread wholemeal",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 253.0,
+    "protein": 9.3,
+    "fat": 1.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Wheat currant bun white",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 268.0,
+    "protein": 8.4,
+    "fat": 2.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Wheat germ",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in Magnesium (mg)",
+      "High in PROT (g)",
+      "High in Phosphorus (mg)",
+      "High in Potassium (mg)",
+      "High in RIBF (mg)",
+      "High in VITB1 (mg)",
+      "High in VITB6 (mg)",
+      "High in VITE (mg)",
+      "High in Zinc (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 393.0,
+    "protein": 31.0,
+    "fat": 9.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 5.3
+  },
+  {
+    "foodName": "Wheat malt bread brown",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 249.0,
+    "protein": 9.4,
+    "fat": 1.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
+    "foodName": "Wheat muesli bread brown/wholemeal",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 295.0,
+    "protein": 10.6,
+    "fat": 7.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.9
+  },
+  {
+    "foodName": "Wheat muesli bun brown/wholemeal",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 290.0,
+    "protein": 10.7,
+    "fat": 6.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Wheat nut bread wholemeal ",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 298.0,
+    "protein": 12.2,
+    "fat": 10.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.3
+  },
+  {
+    "foodName": "Wheat raisin bread white",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 272.0,
+    "protein": 7.7,
+    "fat": 2.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.7
+  },
+  {
+    "foodName": "Wheat raisin bread white w almond paste",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 303.0,
+    "protein": 8.1,
+    "fat": 6.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Wheat rye bread wholemeal",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 234.0,
+    "protein": 9.7,
+    "fat": 1.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Wheat sourdough bread wholemeal",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 235.0,
+    "protein": 9.3,
+    "fat": 2.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.5
+  },
+  {
+    "foodName": "Wheat sugar bread white",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 305.0,
+    "protein": 8.0,
+    "fat": 2.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
+    "foodName": "White fish fillet in batter deep-fried in vegetable oil",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 210.0,
+    "protein": 19.0,
+    "fat": 11.2,
+    "vitaminB12": 0.9,
+    "vitaminC": 0.0,
+    "vitaminD": 1.4,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Wine alcohol free",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in PROT (g)",
+      "Low in Phosphorus (mg)",
+      "Low in RIBF (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB1 (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)",
+      "Low in Zinc (mg)"
+    ],
+    "calories": 23.0,
+    "protein": 0.1,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Wolf fish prepared in microwave oven no ingredients added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITB6 (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 127.0,
+    "protein": 25.2,
+    "fat": 2.9,
+    "vitaminB12": 3.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.7,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Wrap/tortilla white",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Sodium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 316.0,
+    "protein": 9.5,
+    "fat": 6.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Wrap/tortilla wholemeal",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Magnesium (mg)",
+      "Low in VITA (µg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 288.0,
+    "protein": 9.3,
+    "fat": 5.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.6
+  },
+  {
+    "foodName": "Yam raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in RIBF (mg)",
+      "Low in Sodium (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 124.0,
+    "protein": 1.5,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Yoghurt 0% fat w fruit Activia",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 53.0,
+    "protein": 4.6,
+    "fat": 0.1,
+    "vitaminB12": 0.23,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yoghurt Bulgarian whole milk",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 77.0,
+    "protein": 4.5,
+    "fat": 4.3,
+    "vitaminB12": 0.22,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yoghurt Greek full fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 122.0,
+    "protein": 3.8,
+    "fat": 10.0,
+    "vitaminB12": 0.22,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yoghurt Turkish 10% fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 119.0,
+    "protein": 3.5,
+    "fat": 10.1,
+    "vitaminB12": 0.23,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yoghurt Turkish 4% fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in VITC (mg)"
+    ],
+    "calories": 69.0,
+    "protein": 3.9,
+    "fat": 4.2,
+    "vitaminB12": 0.24,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yoghurt cream- w fruit",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 141.0,
+    "protein": 2.9,
+    "fat": 7.8,
+    "vitaminB12": 0.32,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yoghurt drink",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 57.0,
+    "protein": 1.6,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yoghurt drink 7-9g CHO",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 39.0,
+    "protein": 1.8,
+    "fat": 0.0,
+    "vitaminB12": 0.22,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Yoghurt drink Actimel fruit",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 72.0,
+    "protein": 2.7,
+    "fat": 1.5,
+    "vitaminB12": 0.27,
+    "vitaminC": 0.0,
+    "vitaminD": 0.8,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yoghurt drink Actimel plain",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITE (mg)"
+    ],
+    "calories": 70.0,
+    "protein": 3.0,
+    "fat": 1.6,
+    "vitaminB12": 0.39,
+    "vitaminC": 2.0,
+    "vitaminD": 0.8,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Yoghurt drink Activia",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 64.0,
+    "protein": 3.0,
+    "fat": 0.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yoghurt drink Becel pro-activ",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 45.0,
+    "protein": 3.0,
+    "fat": 1.5,
+    "vitaminB12": 0.3,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yoghurt drink Fristi w sweetener",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 24.0,
+    "protein": 1.8,
+    "fat": 0.0,
+    "vitaminB12": 0.26,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Yoghurt drink Vifit fruit",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 55.0,
+    "protein": 3.1,
+    "fat": 0.8,
+    "vitaminB12": 0.27,
+    "vitaminC": 1.0,
+    "vitaminD": 0.4,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yoghurt drink fortified w calcium",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in VITB12 (µg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 55.0,
+    "protein": 1.8,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yoghurt drink w sweetener",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)",
+      "Low in FAT (g)",
+      "Low in Iron (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 24.0,
+    "protein": 2.7,
+    "fat": 0.0,
+    "vitaminB12": 0.25,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yoghurt full fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 56.0,
+    "protein": 3.8,
+    "fat": 2.7,
+    "vitaminB12": 0.22,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yoghurt full fat plain Activia",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 68.0,
+    "protein": 3.9,
+    "fat": 3.5,
+    "vitaminB12": 0.22,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yoghurt full fat w cereal/muesli Activia",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)"
+    ],
+    "calories": 104.0,
+    "protein": 3.6,
+    "fat": 3.6,
+    "vitaminB12": 0.22,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Yoghurt full fat w fruit",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)"
+    ],
+    "calories": 97.0,
+    "protein": 3.7,
+    "fat": 3.1,
+    "vitaminB12": 0.22,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Yoghurt full fat w fruit/vanilla Activia",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 94.0,
+    "protein": 3.8,
+    "fat": 3.0,
+    "vitaminB12": 0.22,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Yoghurt half fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 50.0,
+    "protein": 4.2,
+    "fat": 1.5,
+    "vitaminB12": 0.39,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Yoghurt half fat w fruit",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 79.0,
+    "protein": 4.2,
+    "fat": 1.5,
+    "vitaminB12": 0.23,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yoghurt low fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "High in Calcium (mg)",
+      "Low in Iron (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 37.0,
+    "protein": 4.1,
+    "fat": 0.2,
+    "vitaminB12": 0.28,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yoghurt low fat w fruit",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 67.0,
+    "protein": 3.0,
+    "fat": 0.2,
+    "vitaminB12": 0.23,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yoghurt low fat w fruit/vanilla w sweetener",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in FAT (g)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 35.0,
+    "protein": 3.4,
+    "fat": 0.0,
+    "vitaminB12": 0.23,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Yoghurt semi-skimmed lactose free",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 42.0,
+    "protein": 4.5,
+    "fat": 1.5,
+    "vitaminB12": 0.39,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Yoghurt snack Breaker",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITD (µg)"
+    ],
+    "calories": 102.0,
+    "protein": 3.4,
+    "fat": 3.5,
+    "vitaminB12": 0.22,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Yoghurt stracciatella full fat ",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in VITC (mg)",
+      "Low in VITD (µg)"
+    ],
+    "calories": 128.0,
+    "protein": 3.3,
+    "fat": 5.6,
+    "vitaminB12": 0.19,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Yoghurt vanilla half fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 72.0,
+    "protein": 2.9,
+    "fat": 1.3,
+    "vitaminB12": 0.29,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yogurt Greek skimmed",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 56.0,
+    "protein": 8.2,
+    "fat": 0.1,
+    "vitaminB12": 0.28,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Yogurt drink Ayran Turkish",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet",
+      "Vegetarian"
+    ],
+    "benefit": [
+      "Low in Iron (mg)",
+      "Low in VITC (mg)",
+      "Low in VITD (µg)",
+      "Low in VITE (mg)"
+    ],
+    "calories": 33.0,
+    "protein": 2.3,
+    "fat": 1.6,
+    "vitaminB12": 0.13,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  }
+];
