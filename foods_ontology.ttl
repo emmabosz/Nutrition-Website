@@ -9,8 +9,8 @@ fn:Food a rdfs:Class .
 fn:Food_Wheel_Group a rdfs:Class .
 fn:Food_Wheel_Subgroup a rdfs:Class .
 fn:Diet a rdfs:Class .
-fn:Tag a rdfs:Class ;
-    rdfs:label "Nutrient tag (high or low)" .
+fn:Benefit a rdfs:Class ;
+    rdfs:label "Nutrient benefit (high or low)" .
 
 
 # OBJECT PROPERTIES
@@ -35,10 +35,10 @@ fn:belongsToDiet a rdf:Property ;
     rdfs:range fn:Diet ;
     rdfs:label "belongs to diet" .
 
-fn:hasTag a rdf:Property ;
+fn:hasBenefit a rdf:Property ;
     rdfs:domain fn:Food ;
-    rdfs:range fn:Tag ;
-    rdfs:label "has nutrient tag (high or low)" .
+    rdfs:range fn:Benefit ;
+    rdfs:label "has nutrient benefit (high or low)" .
 
 
 # DATA PROPERTIES 

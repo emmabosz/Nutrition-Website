@@ -19,8 +19,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -41,8 +40,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -61,8 +59,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -81,11 +78,9 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
-      "High in PROT (g)",
       "High in VITB12 (µg)",
       "High in VITD (µg)"
     ],
@@ -102,11 +97,9 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
-      "High in PROT (g)",
       "High in VITB12 (µg)",
       "High in VITD (µg)"
     ],
@@ -119,12 +112,47 @@ export const foods: Food[] = [
     "iron": 3.0
   },
   {
+    "foodName": "Amaranth leaves raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 56.0,
+    "protein": 4.0,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 12.0,
+    "vitaminD": 0.0,
+    "iron": 5.6
+  },
+  {
+    "foodName": "Anchovy in oil canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [],
+    "benefit": [
+      "High in VITD (µg)"
+    ],
+    "calories": 208.0,
+    "protein": 25.0,
+    "fat": 11.9,
+    "vitaminB12": 0.88,
+    "vitaminC": 0.0,
+    "vitaminD": 11.0,
+    "iron": 1.6
+  },
+  {
     "foodName": "Anchovy raw",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -142,8 +170,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -163,8 +190,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -183,8 +209,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -203,8 +228,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -223,8 +247,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -243,8 +266,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -263,8 +285,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -283,8 +304,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -304,8 +324,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -325,8 +344,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -345,8 +363,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -365,8 +382,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -385,8 +401,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -408,8 +423,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -428,8 +442,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -448,8 +461,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -468,8 +480,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -489,8 +500,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -509,8 +519,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -529,8 +538,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -549,8 +557,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -569,8 +576,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -589,8 +595,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -610,8 +615,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -631,8 +635,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -647,12 +650,27 @@ export const foods: Food[] = [
     "iron": 0.5
   },
   {
+    "foodName": "Bacon fat smoked prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 505.0,
+    "protein": 25.0,
+    "fat": 45.0,
+    "vitaminB12": 1.0,
+    "vitaminC": 0.0,
+    "vitaminD": 1.0,
+    "iron": 0.4
+  },
+  {
     "foodName": "Bacon fat smoked raw",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 678.0,
@@ -668,8 +686,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 424.0,
@@ -685,8 +702,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 379.0,
@@ -702,8 +718,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 325.0,
@@ -719,8 +734,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 435.0,
@@ -736,8 +750,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 320.0,
@@ -753,8 +766,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 185.0,
@@ -770,8 +782,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 341.0,
@@ -787,8 +798,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 367.0,
@@ -804,8 +814,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 377.0,
@@ -821,8 +830,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 367.0,
@@ -838,8 +846,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 322.0,
@@ -855,8 +862,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 340.0,
@@ -872,8 +878,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 352.0,
@@ -885,12 +890,27 @@ export const foods: Food[] = [
     "iron": 3.9
   },
   {
+    "foodName": "Bakerymix for poffertjes",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 337.0,
+    "protein": 10.0,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
     "foodName": "Bamboo shoots tinned",
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -910,8 +930,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -930,8 +949,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -950,8 +968,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -966,12 +983,27 @@ export const foods: Food[] = [
     "iron": 0.3
   },
   {
+    "foodName": "Barley easy cook raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 355.0,
+    "protein": 8.0,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
     "foodName": "Barley malt",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 332.0,
@@ -987,8 +1019,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 339.0,
@@ -1004,12 +1035,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
-    "benefit": [
-      "High in Iron (mg)"
-    ],
+    "benefit": [],
     "calories": 330.0,
     "protein": 10.6,
     "fat": 2.1,
@@ -1023,8 +1051,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -1043,8 +1070,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -1063,8 +1089,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -1083,8 +1108,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -1103,8 +1127,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -1123,8 +1146,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -1143,8 +1165,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 113.0,
@@ -1160,8 +1181,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 126.0,
@@ -1173,12 +1193,27 @@ export const foods: Food[] = [
     "iron": 1.7
   },
   {
+    "foodName": "Beans black eyed dried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 367.0,
+    "protein": 23.0,
+    "fat": 2.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 5.8
+  },
+  {
     "foodName": "Beans broad boiled",
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in PROT (g)",
@@ -1199,8 +1234,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in PROT (g)",
@@ -1220,8 +1254,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in PROT (g)",
@@ -1242,8 +1275,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in PROT (g)",
@@ -1263,8 +1295,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -1282,8 +1313,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -1301,8 +1331,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 118.0,
@@ -1318,8 +1347,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 113.0,
@@ -1335,8 +1363,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 106.0,
@@ -1352,8 +1379,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -1371,8 +1397,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -1390,8 +1415,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -1409,8 +1433,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)"
@@ -1424,12 +1447,50 @@ export const foods: Food[] = [
     "iron": 6.4
   },
   {
+    "foodName": "Beans long yard Kousenband boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 29.0,
+    "protein": 2.7,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 9.0,
+    "vitaminD": 0.0,
+    "iron": 1.1
+  },
+  {
+    "foodName": "Beans long yard Kousenband raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 43.0,
+    "protein": 3.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 1.4
+  },
+  {
     "foodName": "Beans mung boiled",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -1447,8 +1508,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -1468,8 +1528,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -1488,8 +1547,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -1508,8 +1566,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -1528,8 +1585,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 123.0,
@@ -1545,8 +1601,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -1565,8 +1620,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -1584,8 +1638,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 113.0,
@@ -1601,8 +1654,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 105.0,
@@ -1618,8 +1670,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 314.0,
@@ -1635,8 +1686,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 163.0,
@@ -1652,8 +1702,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 108.0,
@@ -1669,8 +1718,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 290.0,
@@ -1686,8 +1734,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 218.0,
@@ -1703,8 +1750,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -1722,8 +1768,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 189.0,
@@ -1739,8 +1784,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 201.0,
@@ -1756,8 +1800,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -1775,8 +1818,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 152.0,
@@ -1791,9 +1833,7 @@ export const foods: Food[] = [
     "foodName": "Beef fat",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 891.0,
     "protein": 0.0,
@@ -1808,8 +1848,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 140.0,
@@ -1825,8 +1864,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 103.0,
@@ -1842,8 +1880,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 223.0,
@@ -1859,8 +1896,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 209.0,
@@ -1876,8 +1912,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -1895,8 +1930,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 165.0,
@@ -1912,8 +1946,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 187.0,
@@ -1929,8 +1962,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 137.0,
@@ -1946,8 +1978,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -1965,8 +1996,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 166.0,
@@ -1982,8 +2012,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 214.0,
@@ -1999,8 +2028,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 170.0,
@@ -2016,8 +2044,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 156.0,
@@ -2033,8 +2060,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 122.0,
@@ -2050,8 +2076,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -2069,8 +2094,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 146.0,
@@ -2086,8 +2110,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 108.0,
@@ -2099,12 +2122,59 @@ export const foods: Food[] = [
     "iron": 2.3
   },
   {
+    "foodName": "Beef salted cooked Surinam",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [],
+    "benefit": [],
+    "calories": 271.0,
+    "protein": 27.4,
+    "fat": 17.9,
+    "vitaminB12": 1.8,
+    "vitaminC": 0.0,
+    "vitaminD": 0.6,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Beef salted dried Surinam",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in VITD (µg)"
+    ],
+    "calories": 305.0,
+    "protein": 65.0,
+    "fat": 5.0,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 6.94,
+    "iron": 9.7
+  },
+  {
+    "foodName": "Beef salted raw Surinam",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [],
+    "benefit": [
+      "High in Iron (mg)"
+    ],
+    "calories": 201.0,
+    "protein": 14.5,
+    "fat": 15.8,
+    "vitaminB12": 1.3,
+    "vitaminC": 0.0,
+    "vitaminD": 6.9399999999999995,
+    "iron": 7.9
+  },
+  {
     "foodName": "Beef shank prepared",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 140.0,
@@ -2120,8 +2190,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 117.0,
@@ -2137,8 +2206,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 109.0,
@@ -2154,8 +2222,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 186.0,
@@ -2171,8 +2238,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -2190,8 +2256,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -2209,8 +2274,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 106.0,
@@ -2226,8 +2290,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -2245,8 +2308,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 135.0,
@@ -2262,8 +2324,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -2281,8 +2342,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 147.0,
@@ -2298,8 +2358,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 116.0,
@@ -2311,12 +2370,27 @@ export const foods: Food[] = [
     "iron": 1.9
   },
   {
+    "foodName": "Beef tongue raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 188.0,
+    "protein": 17.3,
+    "fat": 13.2,
+    "vitaminB12": 4.9,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 2.5
+  },
+  {
     "foodName": "Beer alcohol free <0,1 vol%",
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -2335,8 +2409,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -2355,8 +2428,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -2375,8 +2447,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -2395,8 +2466,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -2415,8 +2485,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -2437,8 +2506,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -2457,8 +2525,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 335.0,
@@ -2474,8 +2541,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -2494,8 +2560,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -2511,12 +2576,32 @@ export const foods: Food[] = [
     "iron": 0.4
   },
   {
+    "foodName": "Black nightshade raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 60.0,
+    "protein": 5.0,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 61.0,
+    "vitaminD": 0.0,
+    "iron": 9.9
+  },
+  {
     "foodName": "Black pudding",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)"
@@ -2534,8 +2619,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -2554,8 +2638,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -2576,8 +2659,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 112.0,
@@ -2593,8 +2675,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 91.0,
@@ -2606,12 +2687,28 @@ export const foods: Food[] = [
     "iron": 0.0
   },
   {
-    "foodName": "Blancmange instant various flavours powd",
+    "foodName": "Blancmange instant powder",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
+    "benefit": [
+      "Low in FAT (g)"
+    ],
+    "calories": 341.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Blancmange instant various flavours powd",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [],
     "benefit": [
       "Low in FAT (g)"
     ],
@@ -2624,12 +2721,57 @@ export const foods: Food[] = [
     "iron": 0.1
   },
   {
+    "foodName": "Blancmange powder chocolate instant",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [],
+    "benefit": [],
+    "calories": 370.0,
+    "protein": 1.0,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Blancmange raspberry w red currant sauce",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 104.0,
+    "protein": 3.4,
+    "fat": 2.2,
+    "vitaminB12": 0.19,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Blancmange semolina w red currant sauce",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 113.0,
+    "protein": 2.8,
+    "fat": 2.2,
+    "vitaminB12": 0.18,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
     "foodName": "Blancmange vanilla",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 89.0,
@@ -2645,8 +2787,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 112.0,
@@ -2662,8 +2803,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -2681,8 +2821,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -2698,12 +2837,47 @@ export const foods: Food[] = [
     "iron": 0.3
   },
   {
+    "foodName": "Bottlegourd poeng",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 31.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 16.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Brains calf's raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 108.0,
+    "protein": 9.0,
+    "fat": 8.0,
+    "vitaminB12": 4.4,
+    "vitaminC": 0.0,
+    "vitaminD": 0.8200000000000001,
+    "iron": 2.0
+  },
+  {
     "foodName": "Brazil nuts salted",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -2722,8 +2896,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -2742,8 +2915,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 378.0,
@@ -2758,9 +2930,7 @@ export const foods: Food[] = [
     "foodName": "Bread crumbs w herbs",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 378.0,
     "protein": 13.0,
@@ -2775,8 +2945,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 401.0,
@@ -2792,8 +2961,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -2807,12 +2975,69 @@ export const foods: Food[] = [
     "iron": 2.2
   },
   {
+    "foodName": "Breakfast cereal All-Bran Fruit n Fibre Kellogg's",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)"
+    ],
+    "calories": 380.0,
+    "protein": 8.0,
+    "fat": 6.0,
+    "vitaminB12": 1.6,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 8.8
+  },
+  {
+    "foodName": "Breakfast cereal All-Bran Plus Kellogg's",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in VITB12 (µg)"
+    ],
+    "calories": 334.0,
+    "protein": 14.0,
+    "fat": 3.5,
+    "vitaminB12": 1.6,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 8.8
+  },
+  {
+    "foodName": "Breakfast cereal All-Bran flakes Kellogg's",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)"
+    ],
+    "calories": 356.0,
+    "protein": 11.0,
+    "fat": 2.0,
+    "vitaminB12": 2.1,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 11.6
+  },
+  {
     "foodName": "Breakfast cereal Brinta Wake Up breakfastdrink",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -2831,11 +3056,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
-      "High in Iron (mg)",
       "High in VITB12 (µg)"
     ],
     "calories": 392.0,
@@ -2851,8 +3074,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 382.0,
@@ -2868,11 +3090,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
-      "High in Iron (mg)",
       "High in VITB12 (µg)"
     ],
     "calories": 402.0,
@@ -2888,8 +3108,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -2905,12 +3124,31 @@ export const foods: Food[] = [
     "iron": 8.0
   },
   {
+    "foodName": "Breakfast cereal Coco pops Kellogg's",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 387.0,
+    "protein": 5.0,
+    "fat": 2.5,
+    "vitaminB12": 2.1,
+    "vitaminC": 0.0,
+    "vitaminD": 4.2,
+    "iron": 8.0
+  },
+  {
     "foodName": "Breakfast cereal Cornflakes",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 378.0,
@@ -2926,8 +3164,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -2943,12 +3180,31 @@ export const foods: Food[] = [
     "iron": 8.0
   },
   {
+    "foodName": "Breakfast cereal Frosties Kellogg's",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 375.0,
+    "protein": 4.5,
+    "fat": 0.6,
+    "vitaminB12": 2.1,
+    "vitaminC": 0.0,
+    "vitaminD": 4.2,
+    "iron": 8.0
+  },
+  {
     "foodName": "Breakfast cereal Honey hoops Crownfield",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 379.0,
@@ -2964,8 +3220,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -2981,12 +3236,71 @@ export const foods: Food[] = [
     "iron": 8.0
   },
   {
+    "foodName": "Breakfast cereal Honey pops Loops Kellogg's",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 378.0,
+    "protein": 9.0,
+    "fat": 3.5,
+    "vitaminB12": 2.1,
+    "vitaminC": 0.0,
+    "vitaminD": 4.2,
+    "iron": 8.0
+  },
+  {
+    "foodName": "Breakfast cereal Rice Krispies Kellogg's",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 383.0,
+    "protein": 6.0,
+    "fat": 1.0,
+    "vitaminB12": 2.1,
+    "vitaminC": 0.0,
+    "vitaminD": 4.2,
+    "iron": 8.0
+  },
+  {
+    "foodName": "Breakfast cereal Smacks Kellogg's",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 382.0,
+    "protein": 6.0,
+    "fat": 1.5,
+    "vitaminB12": 2.1,
+    "vitaminC": 0.0,
+    "vitaminD": 4.2,
+    "iron": 8.0
+  },
+  {
     "foodName": "Breakfast cereal Spec K choc Kellogg's",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -3001,17 +3315,52 @@ export const foods: Food[] = [
     "iron": 9.3
   },
   {
-    "foodName": "Breakfast cereal cornflakes Plus/1 de Beste",
+    "foodName": "Breakfast cereal Special K Original Kellogg's",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITC (mg)"
+    ],
+    "calories": 375.0,
+    "protein": 9.0,
+    "fat": 1.5,
+    "vitaminB12": 4.2,
+    "vitaminC": 134.0,
+    "vitaminD": 0.0,
+    "iron": 11.6
+  },
+  {
+    "foodName": "Breakfast cereal Tresor Kellogg's",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
       "High in VITB12 (µg)"
     ],
+    "calories": 448.0,
+    "protein": 7.4,
+    "fat": 15.7,
+    "vitaminB12": 2.1,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 8.0
+  },
+  {
+    "foodName": "Breakfast cereal cornflakes Plus/1 de Beste",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
     "calories": 381.0,
     "protein": 8.0,
     "fat": 1.1,
@@ -3025,11 +3374,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
-      "High in Iron (mg)",
       "High in VITB12 (µg)"
     ],
     "calories": 374.0,
@@ -3045,8 +3392,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 344.0,
@@ -3062,8 +3408,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 360.0,
@@ -3079,8 +3424,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 367.0,
@@ -3096,8 +3440,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 376.0,
@@ -3109,12 +3452,29 @@ export const foods: Food[] = [
     "iron": 4.0
   },
   {
+    "foodName": "Breakfast drink Coolbest FruitOntbijt p 100ml",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)"
+    ],
+    "calories": 55.0,
+    "protein": 0.8,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 32.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
     "foodName": "Breakfast drink Goede Morgen Vifit",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -3132,8 +3492,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 338.0,
@@ -3149,8 +3508,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3169,8 +3527,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3189,8 +3546,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3210,8 +3566,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3230,8 +3585,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3251,8 +3605,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 357.0,
@@ -3268,8 +3621,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)",
@@ -3288,8 +3640,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 340.0,
@@ -3305,8 +3656,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 216.0,
@@ -3322,8 +3672,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 567.0,
@@ -3338,9 +3687,7 @@ export const foods: Food[] = [
     "foodName": "Butter product 25% fat",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 228.0,
     "protein": 0.2,
@@ -3355,8 +3702,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 337.0,
@@ -3371,9 +3717,7 @@ export const foods: Food[] = [
     "foodName": "Butter product melange salted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 675.0,
     "protein": 0.7,
@@ -3387,9 +3731,7 @@ export const foods: Food[] = [
     "foodName": "Butter product melange unsalted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 676.0,
     "protein": 0.7,
@@ -3403,9 +3745,7 @@ export const foods: Food[] = [
     "foodName": "Butter salted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 737.0,
     "protein": 0.7,
@@ -3419,9 +3759,7 @@ export const foods: Food[] = [
     "foodName": "Butter unsalted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 737.0,
     "protein": 0.7,
@@ -3436,8 +3774,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -3455,12 +3792,9 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 51.0,
     "protein": 3.3,
     "fat": 0.5,
@@ -3474,8 +3808,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3495,8 +3828,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3516,8 +3848,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3536,8 +3867,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3556,8 +3886,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3576,8 +3905,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3596,8 +3924,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3616,8 +3943,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3637,8 +3963,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3658,8 +3983,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3678,8 +4002,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3699,8 +4022,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3719,8 +4041,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3739,8 +4060,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3759,8 +4079,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3781,8 +4100,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3803,8 +4121,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3824,8 +4141,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3845,7 +4161,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3864,8 +4180,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3884,8 +4199,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3904,8 +4218,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3924,8 +4237,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3944,8 +4256,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3964,8 +4275,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -3984,8 +4294,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -4004,8 +4313,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -4024,11 +4332,9 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
-      "High in Iron (mg)",
       "High in VITB12 (µg)",
       "High in VITD (µg)"
     ],
@@ -4045,11 +4351,9 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
-      "High in Iron (mg)",
       "High in VITB12 (µg)",
       "High in VITD (µg)"
     ],
@@ -4062,12 +4366,49 @@ export const foods: Food[] = [
     "iron": 6.7
   },
   {
+    "foodName": "Cassava boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 128.0,
+    "protein": 0.5,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 17.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Cassava raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 142.0,
+    "protein": 0.6,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 31.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
     "foodName": "Cauliflower boiled",
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -4086,8 +4427,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -4102,12 +4442,27 @@ export const foods: Food[] = [
     "iron": 0.3
   },
   {
+    "foodName": "Caviar",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 281.0,
+    "protein": 24.0,
+    "fat": 20.5,
+    "vitaminB12": 4.2620000000000005,
+    "vitaminC": 0.0,
+    "vitaminD": 5.5600000000000005,
+    "iron": 1.0
+  },
+  {
     "foodName": "Celeriac boiled",
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -4127,8 +4482,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -4148,8 +4502,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -4170,8 +4523,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -4191,9 +4543,7 @@ export const foods: Food[] = [
     "foodName": "Cheese 10+",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in PROT (g)"
     ],
@@ -4209,9 +4559,7 @@ export const foods: Food[] = [
     "foodName": "Cheese 20+",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in PROT (g)",
       "High in VITB12 (µg)"
@@ -4228,9 +4576,7 @@ export const foods: Food[] = [
     "foodName": "Cheese 20+ Leidse w cumin/Fries clove",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in PROT (g)",
       "High in VITB12 (µg)"
@@ -4247,9 +4593,7 @@ export const foods: Food[] = [
     "foodName": "Cheese 20+ low sodium",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in PROT (g)",
       "High in VITB12 (µg)"
@@ -4266,9 +4610,7 @@ export const foods: Food[] = [
     "foodName": "Cheese 30+ age 10-12 mths",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in PROT (g)"
     ],
@@ -4284,9 +4626,7 @@ export const foods: Food[] = [
     "foodName": "Cheese 30+ age 4-7 mths",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in PROT (g)",
       "High in VITB12 (µg)"
@@ -4303,9 +4643,7 @@ export const foods: Food[] = [
     "foodName": "Cheese 30+ age 4-8 weeks",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in PROT (g)"
     ],
@@ -4321,9 +4659,7 @@ export const foods: Food[] = [
     "foodName": "Cheese 30+ age 8 wk-4 mths",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 278.0,
     "protein": 29.3,
@@ -4337,9 +4673,7 @@ export const foods: Food[] = [
     "foodName": "Cheese 30+ av",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in PROT (g)"
     ],
@@ -4355,12 +4689,8 @@ export const foods: Food[] = [
     "foodName": "Cheese 35+",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "diet": [],
+    "benefit": [],
     "calories": 302.0,
     "protein": 27.3,
     "fat": 20.4,
@@ -4373,12 +4703,8 @@ export const foods: Food[] = [
     "foodName": "Cheese 40+ Leiden w cumin/Fries clove",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "diet": [],
+    "benefit": [],
     "calories": 341.0,
     "protein": 27.3,
     "fat": 25.7,
@@ -4391,12 +4717,8 @@ export const foods: Food[] = [
     "foodName": "Cheese 40+ low sodium",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "diet": [],
+    "benefit": [],
     "calories": 339.0,
     "protein": 29.4,
     "fat": 24.6,
@@ -4409,12 +4731,8 @@ export const foods: Food[] = [
     "foodName": "Cheese 45+",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "diet": [],
+    "benefit": [],
     "calories": 357.0,
     "protein": 25.4,
     "fat": 27.3,
@@ -4427,12 +4745,8 @@ export const foods: Food[] = [
     "foodName": "Cheese 48+ low sodium",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "diet": [],
+    "benefit": [],
     "calories": 381.0,
     "protein": 26.1,
     "fat": 30.7,
@@ -4445,12 +4759,8 @@ export const foods: Food[] = [
     "foodName": "Cheese 50+",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "diet": [],
+    "benefit": [],
     "calories": 380.0,
     "protein": 22.9,
     "fat": 32.1,
@@ -4460,12 +4770,24 @@ export const foods: Food[] = [
     "iron": 0.3
   },
   {
+    "foodName": "Cheese Bel Paese",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [],
+    "benefit": [],
+    "calories": 374.0,
+    "protein": 25.4,
+    "fat": 30.2,
+    "vitaminB12": 1.526,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.6
+  },
+  {
     "foodName": "Cheese Bluefort",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 405.0,
     "protein": 17.9,
@@ -4479,12 +4801,8 @@ export const foods: Food[] = [
     "foodName": "Cheese Brie 50+",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "diet": [],
+    "benefit": [],
     "calories": 318.0,
     "protein": 23.0,
     "fat": 25.1,
@@ -4498,12 +4816,9 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 369.0,
     "protein": 17.0,
     "fat": 33.0,
@@ -4516,9 +4831,7 @@ export const foods: Food[] = [
     "foodName": "Cheese Camembert 30+",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 223.0,
     "protein": 24.0,
@@ -4532,9 +4845,7 @@ export const foods: Food[] = [
     "foodName": "Cheese Camembert 45+",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 306.0,
     "protein": 25.0,
@@ -4548,12 +4859,8 @@ export const foods: Food[] = [
     "foodName": "Cheese Cheddar",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "diet": [],
+    "benefit": [],
     "calories": 415.0,
     "protein": 25.5,
     "fat": 34.4,
@@ -4566,12 +4873,8 @@ export const foods: Food[] = [
     "foodName": "Cheese Danish Blue",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "diet": [],
+    "benefit": [],
     "calories": 350.0,
     "protein": 20.5,
     "fat": 29.5,
@@ -4584,12 +4887,8 @@ export const foods: Food[] = [
     "foodName": "Cheese Dutch in Swiss-style 45+",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "diet": [],
+    "benefit": [],
     "calories": 370.0,
     "protein": 27.6,
     "fat": 28.5,
@@ -4602,12 +4901,8 @@ export const foods: Food[] = [
     "foodName": "Cheese Edam 40+",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "diet": [],
+    "benefit": [],
     "calories": 324.0,
     "protein": 25.5,
     "fat": 24.3,
@@ -4620,12 +4915,9 @@ export const foods: Food[] = [
     "foodName": "Cheese Emmenthaler",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITD (µg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 387.0,
     "protein": 29.0,
@@ -4639,9 +4931,7 @@ export const foods: Food[] = [
     "foodName": "Cheese Feta",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -4654,15 +4944,26 @@ export const foods: Food[] = [
     "iron": 0.2
   },
   {
+    "foodName": "Cheese Gorgonzola",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [],
+    "benefit": [],
+    "calories": 359.0,
+    "protein": 19.4,
+    "fat": 31.2,
+    "vitaminB12": 1.2,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.3
+  },
+  {
     "foodName": "Cheese Gouda 48+ age 10-12 mths",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITD (µg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 414.0,
     "protein": 24.6,
@@ -4676,12 +4977,9 @@ export const foods: Food[] = [
     "foodName": "Cheese Gouda 48+ age 4-7 mths",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITD (µg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 377.0,
     "protein": 22.5,
@@ -4695,12 +4993,8 @@ export const foods: Food[] = [
     "foodName": "Cheese Gouda 48+ age 4-8 weeks",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "diet": [],
+    "benefit": [],
     "calories": 364.0,
     "protein": 22.8,
     "fat": 29.6,
@@ -4713,12 +5007,8 @@ export const foods: Food[] = [
     "foodName": "Cheese Gouda 48+ age 8 wk-4 mths",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "diet": [],
+    "benefit": [],
     "calories": 370.0,
     "protein": 22.7,
     "fat": 29.9,
@@ -4731,11 +5021,9 @@ export const foods: Food[] = [
     "foodName": "Cheese Gouda 48+ av",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
-      "High in VITD (µg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 370.0,
     "protein": 22.9,
@@ -4746,15 +5034,25 @@ export const foods: Food[] = [
     "iron": 0.2
   },
   {
+    "foodName": "Cheese Gruyere",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [],
+    "benefit": [],
+    "calories": 433.0,
+    "protein": 29.0,
+    "fat": 34.5,
+    "vitaminB12": 1.6,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.3
+  },
+  {
     "foodName": "Cheese Kernhem 60+",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "diet": [],
+    "benefit": [],
     "calories": 443.0,
     "protein": 18.6,
     "fat": 40.6,
@@ -4767,9 +5065,7 @@ export const foods: Food[] = [
     "foodName": "Cheese Limburger",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -4786,8 +5082,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 253.0,
@@ -4802,12 +5097,9 @@ export const foods: Food[] = [
     "foodName": "Cheese Old Amsterdam 48+",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITD (µg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 404.0,
     "protein": 26.0,
@@ -4821,13 +5113,10 @@ export const foods: Food[] = [
     "foodName": "Cheese Parmesan",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in Iron (mg)",
-      "High in PROT (g)",
-      "High in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 404.0,
     "protein": 40.0,
@@ -4841,9 +5130,7 @@ export const foods: Food[] = [
     "foodName": "Cheese Rambol",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 291.0,
     "protein": 13.6,
@@ -4854,15 +5141,27 @@ export const foods: Food[] = [
     "iron": 0.4
   },
   {
-    "foodName": "Cheese Roquefort",
+    "foodName": "Cheese Ricotta",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "benefit": [],
+    "calories": 141.0,
+    "protein": 8.0,
+    "fat": 10.3,
+    "vitaminB12": 0.3,
+    "vitaminC": 0.6,
+    "vitaminD": 0.08,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Cheese Roquefort",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [],
+    "benefit": [],
     "calories": 357.0,
     "protein": 19.0,
     "fat": 31.0,
@@ -4875,12 +5174,8 @@ export const foods: Food[] = [
     "foodName": "Cheese Saint Paulin/Port Salut",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "diet": [],
+    "benefit": [],
     "calories": 341.0,
     "protein": 21.5,
     "fat": 28.2,
@@ -4893,9 +5188,7 @@ export const foods: Food[] = [
     "foodName": "Cheese Stilton",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 388.0,
     "protein": 21.3,
@@ -4906,12 +5199,27 @@ export const foods: Food[] = [
     "iron": 0.3
   },
   {
+    "foodName": "Cheese Swiss dried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [],
+    "benefit": [
+      "High in PROT (g)"
+    ],
+    "calories": 228.0,
+    "protein": 55.0,
+    "fat": 0.7,
+    "vitaminB12": 1.9,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.2
+  },
+  {
     "foodName": "Cheese Turkish 60+ cow's milk canned",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 287.0,
@@ -4923,12 +5231,96 @@ export const foods: Food[] = [
     "iron": 0.0
   },
   {
+    "foodName": "Cheese cottage",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 92.0,
+    "protein": 11.2,
+    "fat": 3.9,
+    "vitaminB12": 0.76,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Cheese cream soft Boursin",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)"
+    ],
+    "calories": 411.0,
+    "protein": 7.5,
+    "fat": 41.0,
+    "vitaminB12": 0.3,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Cheese cream soft Mon Chou",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 316.0,
+    "protein": 6.8,
+    "fat": 31.0,
+    "vitaminB12": 0.3,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Cheese cream soft Paturain",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 354.0,
+    "protein": 7.0,
+    "fat": 35.3,
+    "vitaminB12": 0.3,
+    "vitaminC": 0.0,
+    "vitaminD": 0.4,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Cheese cream w herbs 25-30 g fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 291.0,
+    "protein": 5.3,
+    "fat": 28.4,
+    "vitaminB12": 0.3,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.3
+  },
+  {
     "foodName": "Cheese fresh light 8% fat",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)"
@@ -4942,12 +5334,26 @@ export const foods: Food[] = [
     "iron": 0.7
   },
   {
-    "foodName": "Cheese goat hard",
+    "foodName": "Cheese goat fresh",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
+    "benefit": [],
+    "calories": 207.0,
+    "protein": 13.4,
+    "fat": 16.6,
+    "vitaminB12": 0.29,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Cheese goat hard",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [],
     "benefit": [],
     "calories": 396.0,
     "protein": 22.4,
@@ -4961,12 +5367,8 @@ export const foods: Food[] = [
     "foodName": "Cheese raw milk 48+",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "diet": [],
+    "benefit": [],
     "calories": 392.0,
     "protein": 26.0,
     "fat": 32.0,
@@ -4980,8 +5382,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 291.0,
@@ -4996,9 +5397,7 @@ export const foods: Food[] = [
     "foodName": "Cheese sheep fresh",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in Iron (mg)"
     ],
@@ -5015,7 +5414,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 297.0,
@@ -5030,12 +5429,8 @@ export const foods: Food[] = [
     "foodName": "Cheese smoked 45+",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "diet": [],
+    "benefit": [],
     "calories": 331.0,
     "protein": 21.2,
     "fat": 26.2,
@@ -5048,9 +5443,7 @@ export const foods: Food[] = [
     "foodName": "Cheese spread 15+ Balans ERU",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 132.0,
     "protein": 17.3,
@@ -5064,9 +5457,7 @@ export const foods: Food[] = [
     "foodName": "Cheese spread 20+",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 137.0,
     "protein": 17.2,
@@ -5080,9 +5471,7 @@ export const foods: Food[] = [
     "foodName": "Cheese spread 40+",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 227.0,
     "protein": 16.0,
@@ -5096,9 +5485,7 @@ export const foods: Food[] = [
     "foodName": "Cheese spread 45+",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 231.0,
     "protein": 14.3,
@@ -5112,9 +5499,7 @@ export const foods: Food[] = [
     "foodName": "Cheese spread 48+ full fat",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 260.0,
     "protein": 13.4,
@@ -5125,12 +5510,24 @@ export const foods: Food[] = [
     "iron": 0.1
   },
   {
+    "foodName": "Cheese spread 60+ Kiri",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [],
+    "benefit": [],
+    "calories": 330.0,
+    "protein": 8.5,
+    "fat": 32.0,
+    "vitaminB12": 0.7,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
     "foodName": "Cheese spread Kids ERU",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 169.0,
     "protein": 15.0,
@@ -5144,12 +5541,9 @@ export const foods: Food[] = [
     "foodName": "Cheese w cumin 48+ average",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
-      "High in Iron (mg)",
-      "High in VITD (µg)"
+      "High in Iron (mg)"
     ],
     "calories": 370.0,
     "protein": 22.9,
@@ -5160,12 +5554,75 @@ export const foods: Food[] = [
     "iron": 0.8
   },
   {
+    "foodName": "Cheese white 45+ feta-like from cow's milk",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 247.0,
+    "protein": 17.1,
+    "fat": 19.6,
+    "vitaminB12": 1.7,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Cheeseprod w veg fat Kees oud",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [],
+    "benefit": [
+      "High in PROT (g)"
+    ],
+    "calories": 403.0,
+    "protein": 31.0,
+    "fat": 31.0,
+    "vitaminB12": 1.8,
+    "vitaminC": 0.2,
+    "vitaminD": 0.18,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Cheeseproduct w veg fat Kees jong belegen",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [],
+    "benefit": [],
+    "calories": 387.0,
+    "protein": 29.0,
+    "fat": 30.1,
+    "vitaminB12": 1.8,
+    "vitaminC": 0.2,
+    "vitaminD": 0.18,
+    "iron": 0.1
+  },
+  {
+    "foodName": "Cheesespread Heks'n kaas",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITC (mg)"
+    ],
+    "calories": 356.0,
+    "protein": 1.9,
+    "fat": 34.3,
+    "vitaminB12": 0.12,
+    "vitaminC": 5.0,
+    "vitaminD": 0.2,
+    "iron": 0.5
+  },
+  {
     "foodName": "Cherries in syrup tinned",
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -5184,8 +5641,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -5205,8 +5661,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -5225,8 +5680,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -5243,12 +5697,47 @@ export const foods: Food[] = [
     "iron": 1.0
   },
   {
+    "foodName": "Chia seeds dried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITC (mg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
+    ],
+    "calories": 443.0,
+    "protein": 16.5,
+    "fat": 30.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 7.7
+  },
+  {
+    "foodName": "Chicken burger breaded prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 307.0,
+    "protein": 14.5,
+    "fat": 23.2,
+    "vitaminB12": 0.29,
+    "vitaminC": 8.4,
+    "vitaminD": 2.1999999999999997,
+    "iron": 1.2
+  },
+  {
     "foodName": "Chicken cordon bleu raw",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 151.0,
@@ -5264,8 +5753,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 147.0,
@@ -5281,8 +5769,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 132.0,
@@ -5298,8 +5785,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 115.0,
@@ -5315,8 +5801,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -5334,8 +5819,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 109.0,
@@ -5351,8 +5835,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 247.0,
@@ -5364,12 +5847,29 @@ export const foods: Food[] = [
     "iron": 0.8
   },
   {
+    "foodName": "Chicken rolled prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in VITC (mg)"
+    ],
+    "calories": 166.0,
+    "protein": 24.0,
+    "fat": 7.0,
+    "vitaminB12": 0.29,
+    "vitaminC": 14.4,
+    "vitaminD": 0.62,
+    "iron": 0.7
+  },
+  {
     "foodName": "Chicken rolled raw",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 175.0,
@@ -5385,8 +5885,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 157.0,
@@ -5402,8 +5901,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 265.0,
@@ -5419,8 +5917,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 211.0,
@@ -5432,12 +5929,27 @@ export const foods: Food[] = [
     "iron": 0.8
   },
   {
+    "foodName": "Chicken w skin prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 226.0,
+    "protein": 25.3,
+    "fat": 13.8,
+    "vitaminB12": 0.29,
+    "vitaminC": 0.0,
+    "vitaminD": 0.34,
+    "iron": 1.2
+  },
+  {
     "foodName": "Chicken w skin raw",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 218.0,
@@ -5453,8 +5965,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 188.0,
@@ -5466,12 +5977,27 @@ export const foods: Food[] = [
     "iron": 0.8
   },
   {
+    "foodName": "Chicken wo skin prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 183.0,
+    "protein": 27.3,
+    "fat": 8.2,
+    "vitaminB12": 0.29,
+    "vitaminC": 0.0,
+    "vitaminD": 3.3,
+    "iron": 1.1
+  },
+  {
     "foodName": "Chicken wo skin raw",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 139.0,
@@ -5487,8 +6013,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -5507,8 +6032,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -5523,12 +6047,31 @@ export const foods: Food[] = [
     "iron": 0.2
   },
   {
+    "foodName": "Chili pepper raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITC (mg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 30.0,
+    "protein": 1.8,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 144.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
     "foodName": "Chips fried in liquid frying fat",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -5546,8 +6089,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -5565,8 +6107,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 291.0,
@@ -5582,8 +6123,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -5601,8 +6141,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -5620,8 +6159,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -5640,8 +6178,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -5662,8 +6199,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -5684,8 +6220,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 173.0,
@@ -5697,12 +6232,30 @@ export const foods: Food[] = [
     "iron": 0.7
   },
   {
+    "foodName": "Coconut water plain",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 18.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 29.8,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
     "foodName": "Cod boiled",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 105.0,
@@ -5714,12 +6267,28 @@ export const foods: Food[] = [
     "iron": 0.5
   },
   {
+    "foodName": "Cod dried salted",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITD (µg)"
+    ],
+    "calories": 355.0,
+    "protein": 82.0,
+    "fat": 3.0,
+    "vitaminB12": 2.196,
+    "vitaminC": 0.0,
+    "vitaminD": 6.94,
+    "iron": 4.9
+  },
+  {
     "foodName": "Cod dried, salted, soaked, boiled",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -5733,12 +6302,27 @@ export const foods: Food[] = [
     "iron": 1.8
   },
   {
+    "foodName": "Cod fillet fried/simmered",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 118.0,
+    "protein": 21.5,
+    "fat": 3.3,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.8,
+    "vitaminD": 1.78,
+    "iron": 0.2
+  },
+  {
     "foodName": "Cod prepared in microwave oven no ingredients added",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -5756,8 +6340,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -5775,10 +6358,10 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
+      "High in PROT (g)",
       "High in VITD (µg)"
     ],
     "calories": 31.0,
@@ -5793,11 +6376,8 @@ export const foods: Food[] = [
     "foodName": "Coffee cappuccino instant powder",
     "group": "Drinks",
     "subgroup": "Drinks",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
-      "High in Iron (mg)",
       "High in PROT (g)",
       "High in VITB12 (µg)",
       "High in VITD (µg)"
@@ -5815,8 +6395,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -5834,8 +6413,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 210.0,
@@ -5851,8 +6429,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 112.0,
@@ -5868,8 +6445,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 145.0,
@@ -5885,8 +6461,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 110.0,
@@ -5898,12 +6473,30 @@ export const foods: Food[] = [
     "iron": 0.1
   },
   {
+    "foodName": "Coffee creamer low fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 57.0,
+    "protein": 9.9,
+    "fat": 0.0,
+    "vitaminB12": 0.57,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
     "foodName": "Coffee creamer powder",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 560.0,
@@ -5919,8 +6512,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -5939,8 +6531,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in PROT (g)",
@@ -5959,8 +6550,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -5980,8 +6570,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in PROT (g)",
@@ -6000,8 +6589,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -6020,8 +6608,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -6039,8 +6626,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -6058,8 +6644,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -6080,8 +6665,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -6099,8 +6683,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -6119,9 +6702,7 @@ export const foods: Food[] = [
     "foodName": "Cooking fat liq 97% fat <17g sat fa unsalted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -6137,9 +6718,7 @@ export const foods: Food[] = [
     "foodName": "Cooking fat liq Vita d'Or vlees&jus",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 878.0,
     "protein": 0.3,
@@ -6153,9 +6732,7 @@ export const foods: Food[] = [
     "foodName": "Cooking fat liquid 97% fat <17 g sat fa salted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -6171,9 +6748,7 @@ export const foods: Food[] = [
     "foodName": "Cooking fat sol 97% fat >17g sat fa unsalted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -6189,9 +6764,7 @@ export const foods: Food[] = [
     "foodName": "Cooking fat solid 97% fat >17 g sat fa salted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -6204,12 +6777,27 @@ export const foods: Food[] = [
     "iron": 0.1
   },
   {
+    "foodName": "Coquilles scallop shell St. Jacques raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 83.0,
+    "protein": 16.8,
+    "fat": 0.8,
+    "vitaminB12": 1.53,
+    "vitaminC": 3.0,
+    "vitaminD": 0.74,
+    "iron": 0.3
+  },
+  {
     "foodName": "Corn cakes puffed plain w salt",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 385.0,
@@ -6225,8 +6813,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 361.0,
@@ -6242,8 +6829,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -6261,8 +6847,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -6281,8 +6866,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -6301,8 +6885,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 121.0,
@@ -6314,12 +6897,27 @@ export const foods: Food[] = [
     "iron": 0.7
   },
   {
+    "foodName": "Couscous unprepared",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 363.0,
+    "protein": 12.0,
+    "fat": 2.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 2.0
+  },
+  {
     "foodName": "Couscous wholemael unprepared",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 342.0,
@@ -6335,8 +6933,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 114.0,
@@ -6352,8 +6949,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -6372,8 +6968,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 85.0,
@@ -6389,8 +6984,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 445.0,
@@ -6406,8 +7000,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 419.0,
@@ -6423,8 +7016,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 435.0,
@@ -6440,8 +7032,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 442.0,
@@ -6457,8 +7048,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 376.0,
@@ -6474,8 +7064,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 448.0,
@@ -6491,8 +7080,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -6511,8 +7099,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -6532,8 +7119,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -6552,8 +7138,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 212.0,
@@ -6569,12 +7154,9 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 101.0,
     "protein": 3.2,
     "fat": 7.2,
@@ -6588,8 +7170,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 142.0,
@@ -6605,8 +7186,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 134.0,
@@ -6622,8 +7202,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 160.0,
@@ -6639,8 +7218,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 222.0,
@@ -6656,8 +7234,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 348.0,
@@ -6673,8 +7250,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 305.0,
@@ -6690,8 +7266,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 339.0,
@@ -6707,8 +7282,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 293.0,
@@ -6724,12 +7298,9 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 165.0,
     "protein": 3.1,
     "fat": 15.0,
@@ -6743,11 +7314,9 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in Iron (mg)",
       "High in VITB12 (µg)",
       "High in VITD (µg)",
       "Low in FAT (g)"
@@ -6765,8 +7334,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -6784,8 +7352,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -6803,8 +7370,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -6822,8 +7388,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -6841,8 +7406,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 381.0,
@@ -6858,8 +7422,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 376.0,
@@ -6875,8 +7438,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -6890,12 +7452,27 @@ export const foods: Food[] = [
     "iron": 2.3
   },
   {
+    "foodName": "Crispbread Sandwich Wasa",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 476.0,
+    "protein": 10.7,
+    "fat": 25.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.6
+  },
+  {
     "foodName": "Crispbread av",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 376.0,
@@ -6911,8 +7488,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 368.0,
@@ -6928,8 +7504,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 410.0,
@@ -6945,12 +7520,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
-    "benefit": [
-      "High in Iron (mg)"
-    ],
+    "benefit": [],
     "calories": 350.0,
     "protein": 13.0,
     "fat": 6.5,
@@ -6964,8 +7536,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 380.0,
@@ -6981,8 +7552,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 355.0,
@@ -6998,8 +7568,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 334.0,
@@ -7015,8 +7584,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 421.0,
@@ -7032,8 +7600,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 363.0,
@@ -7049,8 +7616,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 403.0,
@@ -7066,8 +7632,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 400.0,
@@ -7083,8 +7648,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 434.0,
@@ -7100,8 +7664,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 377.0,
@@ -7117,8 +7680,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 414.0,
@@ -7134,8 +7696,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 392.0,
@@ -7151,8 +7712,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 420.0,
@@ -7168,8 +7728,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 491.0,
@@ -7185,8 +7744,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -7206,8 +7764,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -7228,8 +7785,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -7249,8 +7805,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -7269,8 +7824,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -7291,8 +7845,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 96.0,
@@ -7308,8 +7861,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)"
@@ -7327,8 +7879,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 85.0,
@@ -7344,8 +7895,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -7363,8 +7913,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 120.0,
@@ -7380,8 +7929,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -7399,8 +7947,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 87.0,
@@ -7416,12 +7963,9 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 142.0,
     "protein": 2.9,
     "fat": 7.4,
@@ -7435,8 +7979,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 86.0,
@@ -7448,12 +7991,31 @@ export const foods: Food[] = [
     "iron": 0.0
   },
   {
+    "foodName": "Dagoe leaf raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 34.0,
+    "protein": 3.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 16.0,
+    "vitaminD": 0.0,
+    "iron": 2.5
+  },
+  {
     "foodName": "Dairy dessert w cream",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 105.0,
@@ -7469,12 +8031,9 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 54.0,
     "protein": 3.3,
     "fat": 0.5,
@@ -7488,8 +8047,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 248.0,
@@ -7505,8 +8063,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 175.0,
@@ -7522,8 +8079,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -7543,8 +8099,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -7560,12 +8115,30 @@ export const foods: Food[] = [
     "iron": 1.5
   },
   {
+    "foodName": "Dates fresh",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 139.0,
+    "protein": 1.5,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 14.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
     "foodName": "Dessert made of custard, yoghurt & syrup",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 77.0,
@@ -7581,8 +8154,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 85.0,
@@ -7598,8 +8170,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 226.0,
@@ -7615,8 +8186,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -7634,8 +8204,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -7653,8 +8222,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -7672,8 +8240,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -7691,8 +8258,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -7710,8 +8276,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -7729,8 +8294,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -7748,8 +8312,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -7767,8 +8330,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)",
@@ -7787,8 +8349,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -7806,8 +8367,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -7825,8 +8385,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -7844,8 +8403,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -7863,8 +8421,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -7882,8 +8439,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 388.0,
@@ -7899,8 +8455,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 207.0,
@@ -7916,8 +8471,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 372.0,
@@ -7933,8 +8487,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -7952,13 +8505,11 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in PROT (g)",
-      "High in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 574.0,
     "protein": 46.0,
@@ -7973,8 +8524,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)",
@@ -7993,8 +8543,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 128.0,
@@ -8010,8 +8559,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 132.0,
@@ -8027,8 +8575,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 148.0,
@@ -8044,8 +8591,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 129.0,
@@ -8061,8 +8607,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 125.0,
@@ -8078,8 +8623,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 132.0,
@@ -8095,8 +8639,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 220.0,
@@ -8112,8 +8655,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 136.0,
@@ -8129,8 +8671,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 135.0,
@@ -8146,8 +8687,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)"
@@ -8165,8 +8705,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)"
@@ -8184,8 +8723,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -8204,8 +8742,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -8226,8 +8763,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -8246,10 +8782,10 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITD (µg)",
       "Low in FAT (g)"
     ],
@@ -8266,10 +8802,10 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITD (µg)",
       "Low in FAT (g)"
     ],
@@ -8286,10 +8822,10 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITD (µg)",
       "Low in Calories (kcal)",
       "Low in FAT (g)"
@@ -8307,8 +8843,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 231.0,
@@ -8323,9 +8858,7 @@ export const foods: Food[] = [
     "foodName": "Fat animal av",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 897.0,
     "protein": 0.0,
@@ -8339,9 +8872,7 @@ export const foods: Food[] = [
     "foodName": "Fat chicken",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
@@ -8352,12 +8883,27 @@ export const foods: Food[] = [
     "iron": 0.0
   },
   {
+    "foodName": "Fat for gravy unprepared Smeltjus",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [],
+    "benefit": [
+      "High in VITC (mg)"
+    ],
+    "calories": 650.0,
+    "protein": 1.0,
+    "fat": 70.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.6,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
     "foodName": "Fennel boiled",
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -8377,8 +8923,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -8398,8 +8943,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -8420,8 +8964,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -8440,9 +8983,7 @@ export const foods: Food[] = [
     "foodName": "Filet americain vegetarian based on milk fortified w iron",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 275.0,
     "protein": 7.8,
@@ -8457,8 +8998,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 286.0,
@@ -8474,8 +9014,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 220.0,
@@ -8491,8 +9030,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 242.0,
@@ -8508,12 +9046,9 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 202.0,
     "protein": 24.7,
     "fat": 11.5,
@@ -8527,8 +9062,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 239.0,
@@ -8544,8 +9078,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 194.0,
@@ -8561,8 +9094,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 223.0,
@@ -8578,8 +9110,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 112.0,
@@ -8595,8 +9126,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 92.0,
@@ -8612,8 +9142,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -8632,8 +9161,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 106.0,
@@ -8649,8 +9177,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 353.0,
@@ -8662,12 +9189,29 @@ export const foods: Food[] = [
     "iron": 2.0
   },
   {
+    "foodName": "Flour cassava",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "Low in FAT (g)"
+    ],
+    "calories": 336.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 5.4
+  },
+  {
     "foodName": "Flour rice",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 352.0,
@@ -8683,8 +9227,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 385.0,
@@ -8700,8 +9243,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 328.0,
@@ -8717,8 +9259,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 343.0,
@@ -8730,15 +9271,32 @@ export const foods: Food[] = [
     "iron": 1.5
   },
   {
+    "foodName": "Flour soya defatted",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)"
+    ],
+    "calories": 372.0,
+    "protein": 50.0,
+    "fat": 2.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 9.1
+  },
+  {
     "foodName": "Flour soya full fat",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
-      "High in Iron (mg)",
       "High in PROT (g)"
     ],
     "calories": 478.0,
@@ -8750,12 +9308,45 @@ export const foods: Food[] = [
     "iron": 6.9
   },
   {
+    "foodName": "Flour spelt",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 348.0,
+    "protein": 13.2,
+    "fat": 1.7,
+    "vitaminB12": 0.0,
+    "vitaminC": 10.8,
+    "vitaminD": 0.0,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Flour spelt wholemeal",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in PROT (g)"
+    ],
+    "calories": 332.0,
+    "protein": 14.4,
+    "fat": 2.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.8
+  },
+  {
     "foodName": "Flour wheat self-raising",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 339.0,
@@ -8771,8 +9362,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 335.0,
@@ -8788,8 +9378,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -8807,8 +9396,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 266.0,
@@ -8820,12 +9408,27 @@ export const foods: Food[] = [
     "iron": 0.5
   },
   {
+    "foodName": "Forcemeat balls for soup canned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 189.0,
+    "protein": 10.0,
+    "fat": 15.0,
+    "vitaminB12": 1.86,
+    "vitaminC": 6.0,
+    "vitaminD": 0.24,
+    "iron": 2.1
+  },
+  {
     "foodName": "Fruit cocktail in syrup tinned",
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -8845,8 +9448,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -8865,8 +9467,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -8885,8 +9486,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)",
@@ -8906,8 +9506,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -8926,8 +9525,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -8946,8 +9544,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -8962,12 +9559,30 @@ export const foods: Food[] = [
     "iron": 0.0
   },
   {
+    "foodName": "Fruit drink conc w sugar and sweetener 40-45 g CHO",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 170.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
     "foodName": "Fruit drink concentrate Karvan Cevitam",
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)",
@@ -8983,12 +9598,52 @@ export const foods: Food[] = [
     "iron": 0.1
   },
   {
+    "foodName": "Fruit drink concentrate Roosvicee Fruitkracht Ferro",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITC (mg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 222.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 64.0,
+    "vitaminD": 0.0,
+    "iron": 74.4
+  },
+  {
+    "foodName": "Fruit drink concentrate Roosvicee Fruitkracht Pruimen",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 225.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 48.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
     "foodName": "Fruit drink concentrate Roosvicee Multivit",
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9004,12 +9659,50 @@ export const foods: Food[] = [
     "iron": 0.1
   },
   {
+    "foodName": "Fruit drink concentrate fruit mix w rose hip",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 185.0,
+    "protein": 0.3,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 96.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Fruit drink concentrate light",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 8.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
     "foodName": "Fruit drink concentrate undiluted",
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -9028,8 +9721,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -9048,8 +9740,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -9068,8 +9759,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -9088,8 +9778,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -9108,8 +9797,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9128,8 +9816,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9148,8 +9835,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9168,8 +9854,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9184,12 +9869,30 @@ export const foods: Food[] = [
     "iron": 0.1
   },
   {
+    "foodName": "Fruit in own juice tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 48.0,
+    "protein": 0.6,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
     "foodName": "Fruit in syrup tinned",
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9204,12 +9907,49 @@ export const foods: Food[] = [
     "iron": 0.2
   },
   {
+    "foodName": "Fruit juice conc fortified w vit C",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 180.0,
+    "protein": 0.2,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 80.0,
+    "vitaminD": 0.0,
+    "iron": 0.48
+  },
+  {
+    "foodName": "Fruit juice concentrated",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 280.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.48
+  },
+  {
     "foodName": "Fruit juice concentrated prepared",
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -9228,8 +9968,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -9248,8 +9987,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -9268,8 +10006,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -9288,8 +10025,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -9307,8 +10043,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -9327,8 +10062,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -9347,8 +10081,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -9367,8 +10100,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -9387,8 +10119,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -9407,8 +10138,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -9426,8 +10156,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -9442,12 +10171,30 @@ export const foods: Food[] = [
     "iron": 0.1
   },
   {
+    "foodName": "Fruit juice drink raspberry",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 57.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
     "foodName": "Fruit juice drink redcurrent",
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -9466,8 +10213,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -9486,8 +10232,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9506,8 +10251,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9526,8 +10270,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9542,12 +10285,52 @@ export const foods: Food[] = [
     "iron": 0.1
   },
   {
+    "foodName": "Frying fat horeca",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [],
+    "benefit": [],
+    "calories": 900.0,
+    "protein": 0.0,
+    "fat": 100.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Frying fat liquid",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [],
+    "benefit": [],
+    "calories": 900.0,
+    "protein": 0.0,
+    "fat": 100.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Frying fat solid",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [],
+    "benefit": [],
+    "calories": 900.0,
+    "protein": 0.0,
+    "fat": 100.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
     "foodName": "Frying oil",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
@@ -9562,8 +10345,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)",
@@ -9583,8 +10365,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)",
@@ -9604,8 +10385,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -9619,12 +10399,30 @@ export const foods: Food[] = [
     "iron": 1.8
   },
   {
+    "foodName": "Gelatin",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in PROT (g)",
+      "Low in FAT (g)"
+    ],
+    "calories": 352.0,
+    "protein": 88.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
     "foodName": "Gherkins pickled wo sugar",
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9644,8 +10442,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9666,8 +10463,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9687,8 +10483,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9704,12 +10499,32 @@ export const foods: Food[] = [
     "iron": 0.2
   },
   {
+    "foodName": "Glasswort raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)"
+    ],
+    "calories": 14.0,
+    "protein": 0.7,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 41.6,
+    "vitaminD": 0.0,
+    "iron": 4.9
+  },
+  {
     "foodName": "Gluten free bread dark",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 205.0,
@@ -9725,8 +10540,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 212.0,
@@ -9742,8 +10556,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 236.0,
@@ -9759,8 +10572,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 266.0,
@@ -9776,8 +10588,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -9795,8 +10606,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 174.0,
@@ -9808,12 +10618,50 @@ export const foods: Food[] = [
     "iron": 0.6
   },
   {
+    "foodName": "Goat meat raw av",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)"
+    ],
+    "calories": 103.0,
+    "protein": 20.6,
+    "fat": 2.3,
+    "vitaminB12": 1.13,
+    "vitaminC": 0.0,
+    "vitaminD": 10.06,
+    "iron": 2.8
+  },
+  {
+    "foodName": "Goji berries dried",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 343.0,
+    "protein": 14.3,
+    "fat": 0.4,
+    "vitaminB12": 0.0,
+    "vitaminC": 48.0,
+    "vitaminD": 0.0,
+    "iron": 6.8
+  },
+  {
     "foodName": "Gooseberries",
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9829,12 +10677,29 @@ export const foods: Food[] = [
     "iron": 1.0
   },
   {
+    "foodName": "Grape leaves glass",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 33.0,
+    "protein": 3.3,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 2.3
+  },
+  {
     "foodName": "Grapefruit",
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9854,8 +10719,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9875,8 +10739,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9895,8 +10758,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9915,8 +10777,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -9931,12 +10792,65 @@ export const foods: Food[] = [
     "iron": 0.3
   },
   {
+    "foodName": "Guava (pink fleshed)",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITC (mg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 75.0,
+    "protein": 2.6,
+    "fat": 1.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 228.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Gurnard prepared in microwave oven no ingredients added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)"
+    ],
+    "calories": 171.0,
+    "protein": 26.1,
+    "fat": 7.4,
+    "vitaminB12": 0.86,
+    "vitaminC": 1.0,
+    "vitaminD": 9.4,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Haddock prepared in microwave oven no ingredients added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 100.0,
+    "protein": 22.3,
+    "fat": 1.2,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.8,
+    "vitaminD": 1.08,
+    "iron": 0.4
+  },
+  {
     "foodName": "Halibut smoked",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -9954,8 +10868,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 255.0,
@@ -9971,8 +10884,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -9990,8 +10902,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 115.0,
@@ -10007,8 +10918,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -10028,8 +10938,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -10050,7 +10959,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 623.0,
@@ -10066,12 +10975,10 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITD (µg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 201.0,
     "protein": 12.0,
@@ -10086,12 +10993,9 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 208.0,
     "protein": 16.0,
     "fat": 16.0,
@@ -10105,8 +11009,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 182.0,
@@ -10122,12 +11025,10 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITD (µg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 199.0,
     "protein": 16.0,
@@ -10142,12 +11043,9 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 172.0,
     "protein": 17.6,
     "fat": 10.1,
@@ -10157,12 +11055,27 @@ export const foods: Food[] = [
     "iron": 1.4
   },
   {
+    "foodName": "Horse meat raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 99.0,
+    "protein": 22.4,
+    "fat": 1.0,
+    "vitaminB12": 3.798,
+    "vitaminC": 0.0,
+    "vitaminD": 0.1,
+    "iron": 3.2
+  },
+  {
     "foodName": "Hot chocolate from vending machine",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)"
@@ -10180,12 +11093,10 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "High in VITC (mg)"
+      "High in Iron (mg)"
     ],
     "calories": 320.0,
     "protein": 7.7,
@@ -10200,13 +11111,9 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)"
-    ],
+    "benefit": [],
     "calories": 251.0,
     "protein": 5.3,
     "fat": 19.1,
@@ -10220,8 +11127,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)"
@@ -10239,8 +11145,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 216.0,
@@ -10256,8 +11161,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 248.0,
@@ -10273,8 +11177,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 220.0,
@@ -10290,8 +11193,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 243.0,
@@ -10307,8 +11209,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)"
@@ -10326,8 +11227,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -10345,8 +11245,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 134.0,
@@ -10362,8 +11261,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 212.0,
@@ -10375,12 +11273,29 @@ export const foods: Food[] = [
     "iron": 0.0
   },
   {
+    "foodName": "Ice cream dairy/non dairy cornet w chocolate and nuts",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)"
+    ],
+    "calories": 302.0,
+    "protein": 3.9,
+    "fat": 14.3,
+    "vitaminB12": 0.3,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
     "foodName": "Ice cream dairy/non-dairy cornet w fruit",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 269.0,
@@ -10396,8 +11311,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -10415,8 +11329,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -10434,8 +11347,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -10454,8 +11366,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -10474,8 +11385,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -10489,12 +11399,106 @@ export const foods: Food[] = [
     "iron": 0.0
   },
   {
+    "foodName": "Infant food fruit 12 months",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 64.0,
+    "protein": 0.6,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 12.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Infant food fruit 4 months",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 58.0,
+    "protein": 0.5,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 13.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Infant food fruit 6 months",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 65.0,
+    "protein": 0.6,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 18.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Infant food fruit 8 months",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 74.0,
+    "protein": 0.6,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 24.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Infant food vegetables 4 months",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 50.0,
+    "protein": 1.3,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 18.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
     "foodName": "Jackfruit in water canned",
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -10514,8 +11518,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -10533,8 +11536,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -10552,8 +11554,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -10572,8 +11573,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -10588,12 +11588,48 @@ export const foods: Food[] = [
     "iron": 0.1
   },
   {
+    "foodName": "Juice beetroot",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 34.0,
+    "protein": 0.9,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 3.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Juice carrot",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)"
+    ],
+    "calories": 29.0,
+    "protein": 0.4,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
     "foodName": "Juice drink Capri-Sun Multivitamin",
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -10612,8 +11648,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -10632,8 +11667,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -10652,8 +11686,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -10672,8 +11705,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -10692,8 +11724,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -10712,8 +11743,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -10732,8 +11762,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -10752,8 +11781,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -10772,8 +11800,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -10793,8 +11820,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -10814,8 +11840,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -10834,11 +11859,9 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in Iron (mg)",
       "High in VITD (µg)",
       "Low in FAT (g)"
     ],
@@ -10855,8 +11878,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -10875,8 +11897,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)",
@@ -10896,8 +11917,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -10911,12 +11931,29 @@ export const foods: Food[] = [
     "iron": 0.2
   },
   {
+    "foodName": "Juice multifruit mild w vit C",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)"
+    ],
+    "calories": 49.0,
+    "protein": 0.4,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 17.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
     "foodName": "Juice orange freshly squeezed",
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)",
@@ -10935,8 +11972,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -10954,8 +11990,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -10970,12 +12005,89 @@ export const foods: Food[] = [
     "iron": 0.1
   },
   {
+    "foodName": "Juice pear",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 39.0,
+    "protein": 0.1,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
+    "foodName": "Juice pineapple",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 47.0,
+    "protein": 0.5,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 18.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Juice redcurrant",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 42.0,
+    "protein": 0.2,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 12.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Juice sauerkraut",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 7.0,
+    "protein": 0.7,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 16.0,
+    "vitaminD": 0.0,
+    "iron": 1.1
+  },
+  {
     "foodName": "Juice tomato Appelsientje Zontomaat",
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -10990,12 +12102,108 @@ export const foods: Food[] = [
     "iron": 0.4
   },
   {
+    "foodName": "Juice tomato/vegetable",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 21.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 8.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Juice tomato/vegetable Appelsientje Tomatientje",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 14.0,
+    "protein": 0.7,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 15.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
+    "foodName": "Juice tomato/vegetable low sodium",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 21.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 18.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Kaisoi raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 32.0,
+    "protein": 3.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 27.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Kaki / Sharon fruit",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 77.0,
+    "protein": 0.5,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 16.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
     "foodName": "Kale curly boiled",
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11014,8 +12222,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11034,8 +12241,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11054,8 +12260,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11075,8 +12280,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -11090,12 +12294,29 @@ export const foods: Food[] = [
     "iron": 0.0
   },
   {
+    "foodName": "Kidney lamb raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)"
+    ],
+    "calories": 91.0,
+    "protein": 17.0,
+    "fat": 2.6,
+    "vitaminB12": 17.0,
+    "vitaminC": 9.0,
+    "vitaminD": 0.1,
+    "iron": 5.5
+  },
+  {
     "foodName": "Kidney ox raw",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -11114,8 +12335,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -11134,8 +12354,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -11153,8 +12372,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -11172,8 +12390,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11193,8 +12410,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11214,8 +12430,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11235,8 +12450,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11255,8 +12469,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11275,8 +12488,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 277.0,
@@ -11292,8 +12504,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 266.0,
@@ -11309,8 +12520,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11329,8 +12539,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 158.0,
@@ -11346,8 +12555,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 221.0,
@@ -11363,8 +12571,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 350.0,
@@ -11380,8 +12587,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 223.0,
@@ -11397,8 +12603,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 256.0,
@@ -11414,8 +12619,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 174.0,
@@ -11427,12 +12631,27 @@ export const foods: Food[] = [
     "iron": 1.4
   },
   {
+    "foodName": "Lamb saddle prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 308.0,
+    "protein": 24.7,
+    "fat": 23.2,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 1.7
+  },
+  {
     "foodName": "Lamb saddle raw",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 256.0,
@@ -11448,8 +12667,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 284.0,
@@ -11465,8 +12683,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 187.0,
@@ -11481,9 +12698,7 @@ export const foods: Food[] = [
     "foodName": "Lard",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
@@ -11498,8 +12713,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11518,8 +12732,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11538,8 +12751,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11554,12 +12766,29 @@ export const foods: Food[] = [
     "iron": 0.1
   },
   {
+    "foodName": "Lemon sole raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "Low in FAT (g)"
+    ],
+    "calories": 73.0,
+    "protein": 16.7,
+    "fat": 0.7,
+    "vitaminB12": 1.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.34,
+    "iron": 0.1
+  },
+  {
     "foodName": "Lentils brown canned",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 112.0,
@@ -11575,8 +12804,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -11594,8 +12822,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -11613,8 +12840,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 306.0,
@@ -11630,8 +12856,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -11649,8 +12874,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11669,8 +12893,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11689,8 +12912,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11710,8 +12932,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11727,12 +12948,30 @@ export const foods: Food[] = [
     "iron": 0.3
   },
   {
+    "foodName": "Lettuce lambs raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 18.0,
+    "protein": 2.6,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 8.0,
+    "vitaminD": 0.0,
+    "iron": 1.1
+  },
+  {
     "foodName": "Lettuce red raw",
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11751,8 +12990,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11771,8 +13009,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -11791,14 +13028,11 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)"
+      "High in VITD (µg)"
     ],
     "calories": 477.0,
     "protein": 19.0,
@@ -11813,8 +13047,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -11833,8 +13066,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -11854,8 +13086,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -11871,12 +13102,27 @@ export const foods: Food[] = [
     "iron": 9.7
   },
   {
+    "foodName": "Liver haddock tinned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 409.0,
+    "protein": 7.0,
+    "fat": 42.3,
+    "vitaminB12": 3.632,
+    "vitaminC": 0.0,
+    "vitaminD": 4.3,
+    "iron": 2.0
+  },
+  {
     "foodName": "Liver ox prepared",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -11896,8 +13142,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -11917,8 +13162,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -11937,8 +13181,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -11958,8 +13201,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 86.0,
@@ -11971,12 +13213,26 @@ export const foods: Food[] = [
     "iron": 1.7
   },
   {
+    "foodName": "Locust bean gum",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 187.0,
+    "protein": 3.2,
+    "fat": 1.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
     "foodName": "Low fat marg 40% fat <17 g sat fa unsalted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -11993,8 +13249,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -12012,9 +13267,7 @@ export const foods: Food[] = [
     "foodName": "Low fat margarine 40% fat <17 g sat fa salted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 356.0,
     "protein": 0.1,
@@ -12028,9 +13281,7 @@ export const foods: Food[] = [
     "foodName": "Low fat margarine 40% fat <17g sat fa fortified w vit E salted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -12047,8 +13298,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -12067,8 +13317,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -12087,8 +13336,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -12107,14 +13355,12 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
       "High in VITD (µg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)"
+      "Low in Calories (kcal)"
     ],
     "calories": 181.0,
     "protein": 0.0,
@@ -12129,8 +13375,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -12149,8 +13394,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -12169,7 +13413,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -12186,9 +13430,7 @@ export const foods: Food[] = [
     "foodName": "Low fat margarine prod AH chol reducing",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -12205,7 +13447,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -12223,8 +13465,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -12242,8 +13483,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -12262,13 +13502,11 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)"
+      "Low in Calories (kcal)"
     ],
     "calories": 180.0,
     "protein": 0.0,
@@ -12283,8 +13521,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -12302,8 +13539,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -12322,12 +13558,10 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in VITD (µg)",
-      "Low in Calories (kcal)"
+      "High in VITD (µg)"
     ],
     "calories": 216.0,
     "protein": 0.3,
@@ -12342,8 +13576,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -12361,9 +13594,7 @@ export const foods: Food[] = [
     "foodName": "Low fat spread Becel pro-activ",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -12376,14 +13607,33 @@ export const foods: Food[] = [
     "iron": 0.1
   },
   {
+    "foodName": "Lychees",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 72.0,
+    "protein": 0.9,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 23.0,
+    "vitaminD": 0.0,
+    "iron": 0.3
+  },
+  {
     "foodName": "Mackerel fillet smoked",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITD (µg)"
     ],
     "calories": 301.0,
@@ -12399,8 +13649,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 267.0,
@@ -12416,8 +13665,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 257.0,
@@ -12433,8 +13681,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 248.0,
@@ -12450,8 +13697,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -12469,8 +13715,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 315.0,
@@ -12486,8 +13731,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -12506,8 +13750,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -12527,8 +13770,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -12548,8 +13790,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -12567,9 +13808,7 @@ export const foods: Food[] = [
     "foodName": "Margarine 80% fat <24 g sat fa unsalted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -12585,9 +13824,7 @@ export const foods: Food[] = [
     "foodName": "Margarine 80% fat >24 g sat fa salted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -12603,9 +13840,7 @@ export const foods: Food[] = [
     "foodName": "Margarine 80% fat >24 g sat fa unsalted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -12621,9 +13856,7 @@ export const foods: Food[] = [
     "foodName": "Margarine 80% fat >24 g sat fatty acids salted for NEVO recipes",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -12639,9 +13872,7 @@ export const foods: Food[] = [
     "foodName": "Margarine liq 80% fat <17 g sat fa salted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -12657,9 +13888,7 @@ export const foods: Food[] = [
     "foodName": "Margarine liq 80% fat <17g sat fa unsalted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -12675,9 +13904,7 @@ export const foods: Food[] = [
     "foodName": "Margarine product 45% fat <17g sat fa unsalted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -12693,9 +13920,7 @@ export const foods: Food[] = [
     "foodName": "Margarine product 60% fat <17 g sat fa unsalted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -12711,9 +13936,7 @@ export const foods: Food[] = [
     "foodName": "Margarine product 60% fat <17g sat fa salted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -12729,9 +13952,7 @@ export const foods: Food[] = [
     "foodName": "Margarine product 60% fat >17 g sat fa salted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -12748,8 +13969,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -12767,9 +13987,7 @@ export const foods: Food[] = [
     "foodName": "Margarine product Becel Romig 60% fat",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITB12 (µg)",
       "High in VITD (µg)"
@@ -12786,9 +14004,7 @@ export const foods: Food[] = [
     "foodName": "Margarine product liquid <60% fat <17 g sat fa salted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -12804,9 +14020,7 @@ export const foods: Food[] = [
     "foodName": "Margarine product liquid <60% fat <17 g sat fa unsalted",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITD (µg)"
     ],
@@ -12823,12 +14037,9 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 455.0,
     "protein": 7.6,
     "fat": 47.0,
@@ -12842,8 +14053,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 113.0,
@@ -12859,8 +14069,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 211.0,
@@ -12876,8 +14085,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 182.0,
@@ -12893,8 +14101,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 209.0,
@@ -12910,8 +14117,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 177.0,
@@ -12927,8 +14133,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 190.0,
@@ -12940,12 +14145,30 @@ export const foods: Food[] = [
     "iron": 4.1
   },
   {
+    "foodName": "Medlar",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 50.0,
+    "protein": 0.5,
+    "fat": 0.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
     "foodName": "Melon av",
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -12965,8 +14188,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -12985,8 +14207,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -13007,8 +14228,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -13028,8 +14248,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -13046,16 +14265,70 @@ export const foods: Food[] = [
     "iron": 0.8
   },
   {
+    "foodName": "Melon water",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 36.0,
+    "protein": 0.5,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 6.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
+    "foodName": "Milk based drink Yakult Balance",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 58.0,
+    "protein": 1.2,
+    "fat": 0.0,
+    "vitaminB12": 0.01,
+    "vitaminC": 0.0,
+    "vitaminD": 1.2,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Milk based drink Yakult original",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "Low in FAT (g)"
+    ],
+    "calories": 66.0,
+    "protein": 1.3,
+    "fat": 0.0,
+    "vitaminB12": 0.05,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
     "foodName": "Milk chocolate-flavoured full fat",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 82.0,
     "protein": 3.3,
     "fat": 2.8,
@@ -13069,8 +14342,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 62.0,
@@ -13086,8 +14358,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 76.0,
@@ -13103,8 +14374,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 48.0,
@@ -13120,8 +14390,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)"
@@ -13139,8 +14408,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -13158,8 +14426,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 64.0,
@@ -13175,8 +14442,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -13194,8 +14460,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 71.0,
@@ -13211,8 +14476,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 45.0,
@@ -13228,8 +14492,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 46.0,
@@ -13245,8 +14508,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -13264,8 +14526,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 44.0,
@@ -13281,8 +14542,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -13299,9 +14559,7 @@ export const foods: Food[] = [
     "foodName": "Milk skimmed dried",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in PROT (g)",
       "High in VITB12 (µg)",
@@ -13320,8 +14578,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 61.0,
@@ -13336,9 +14593,7 @@ export const foods: Food[] = [
     "foodName": "Milk whole dried",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITB12 (µg)",
       "High in VITC (mg)"
@@ -13356,8 +14611,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 64.0,
@@ -13369,12 +14623,30 @@ export const foods: Food[] = [
     "iron": 0.0
   },
   {
+    "foodName": "Milkbased drink Yakult Plus",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 45.0,
+    "protein": 1.3,
+    "fat": 0.0,
+    "vitaminB12": 0.01,
+    "vitaminC": 36.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
     "foodName": "Milkshake w fresh fruit",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -13392,8 +14664,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 123.0,
@@ -13409,8 +14680,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 370.0,
@@ -13426,8 +14696,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 147.0,
@@ -13443,8 +14712,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 308.0,
@@ -13460,8 +14728,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 303.0,
@@ -13477,8 +14744,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 231.0,
@@ -13494,8 +14760,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 180.0,
@@ -13507,12 +14772,27 @@ export const foods: Food[] = [
     "iron": 2.2
   },
   {
+    "foodName": "Minced beef kofte Turkish prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 251.0,
+    "protein": 25.8,
+    "fat": 12.6,
+    "vitaminB12": 2.96,
+    "vitaminC": 9.6,
+    "vitaminD": 0.5,
+    "iron": 3.4
+  },
+  {
     "foodName": "Minced beef lean raw",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 182.0,
@@ -13528,8 +14808,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 293.0,
@@ -13545,8 +14824,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 225.0,
@@ -13562,12 +14840,9 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
-    "benefit": [
-      "High in PROT (g)"
-    ],
+    "benefit": [],
     "calories": 331.0,
     "protein": 30.4,
     "fat": 23.1,
@@ -13581,8 +14856,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 233.0,
@@ -13598,8 +14872,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 317.0,
@@ -13615,12 +14888,9 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
-    "benefit": [
-      "High in PROT (g)"
-    ],
+    "benefit": [],
     "calories": 252.0,
     "protein": 30.4,
     "fat": 14.4,
@@ -13634,8 +14904,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 218.0,
@@ -13651,8 +14920,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 238.0,
@@ -13668,8 +14936,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -13687,8 +14954,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 222.0,
@@ -13704,8 +14970,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 95.0,
@@ -13721,8 +14986,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 148.0,
@@ -13738,8 +15002,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -13758,8 +15021,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -13778,8 +15040,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 272.0,
@@ -13791,12 +15052,27 @@ export const foods: Food[] = [
     "iron": 0.7
   },
   {
+    "foodName": "Minced mutton prepared Kofte Turkish",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 203.0,
+    "protein": 22.6,
+    "fat": 10.6,
+    "vitaminB12": 2.0,
+    "vitaminC": 6.6,
+    "vitaminD": 0.4,
+    "iron": 2.6
+  },
+  {
     "foodName": "Minced pork prepared",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -13814,8 +15090,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -13833,8 +15108,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 214.0,
@@ -13850,8 +15124,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 286.0,
@@ -13867,8 +15140,27 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
+    ],
+    "calories": 0.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
+    "foodName": "Mineral water w sweetener",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -13888,8 +15180,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -13908,8 +15199,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -13928,8 +15218,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)"
@@ -13947,8 +15236,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 438.0,
@@ -13964,8 +15252,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 458.0,
@@ -13981,8 +15268,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 448.0,
@@ -13998,8 +15284,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 430.0,
@@ -14015,8 +15300,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 479.0,
@@ -14032,8 +15316,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 469.0,
@@ -14049,8 +15332,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 456.0,
@@ -14066,8 +15348,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 357.0,
@@ -14083,8 +15364,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -14103,8 +15383,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 261.0,
@@ -14120,8 +15399,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 286.0,
@@ -14137,8 +15415,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 254.0,
@@ -14154,11 +15431,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in VITB12 (µg)",
       "High in VITD (µg)"
     ],
     "calories": 265.0,
@@ -14174,11 +15449,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in VITB12 (µg)",
       "High in VITD (µg)"
     ],
     "calories": 268.0,
@@ -14194,8 +15467,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 267.0,
@@ -14211,8 +15483,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 294.0,
@@ -14228,8 +15499,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 283.0,
@@ -14245,8 +15515,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -14265,8 +15534,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -14285,8 +15553,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -14305,8 +15572,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -14325,8 +15591,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -14345,8 +15610,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -14366,8 +15630,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -14387,8 +15650,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)"
@@ -14402,12 +15664,29 @@ export const foods: Food[] = [
     "iron": 3.9
   },
   {
+    "foodName": "Mussels fried in vegetable oil",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)"
+    ],
+    "calories": 268.0,
+    "protein": 17.2,
+    "fat": 19.0,
+    "vitaminB12": 22.0,
+    "vitaminC": 0.0,
+    "vitaminD": 3.24,
+    "iron": 3.9
+  },
+  {
     "foodName": "Mussels pickled glass",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)"
@@ -14425,8 +15704,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)"
@@ -14444,8 +15722,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -14464,8 +15741,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -14484,8 +15760,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 160.0,
@@ -14501,8 +15776,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 293.0,
@@ -14514,12 +15788,30 @@ export const foods: Food[] = [
     "iron": 2.1
   },
   {
+    "foodName": "Nectarine",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 36.0,
+    "protein": 1.0,
+    "fat": 0.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 1.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
     "foodName": "Noodles boiled",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -14537,8 +15829,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 227.0,
@@ -14554,8 +15845,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -14574,8 +15864,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -14594,8 +15883,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -14614,8 +15902,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -14634,8 +15921,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -14654,8 +15940,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -14674,11 +15959,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
-      "High in Iron (mg)",
       "High in PROT (g)"
     ],
     "calories": 367.0,
@@ -14694,8 +15977,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 373.0,
@@ -14711,8 +15993,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 128.0,
@@ -14727,9 +16008,7 @@ export const foods: Food[] = [
     "foodName": "Oil Becel Blend Classic",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
@@ -14743,9 +16022,7 @@ export const foods: Food[] = [
     "foodName": "Oil coconut",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 892.0,
     "protein": 0.0,
@@ -14759,9 +16036,7 @@ export const foods: Food[] = [
     "foodName": "Oil corn",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
@@ -14775,9 +16050,7 @@ export const foods: Food[] = [
     "foodName": "Oil linseed",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
@@ -14791,9 +16064,7 @@ export const foods: Food[] = [
     "foodName": "Oil olive",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
@@ -14807,9 +16078,7 @@ export const foods: Food[] = [
     "foodName": "Oil palm",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 899.0,
     "protein": 0.0,
@@ -14823,9 +16092,7 @@ export const foods: Food[] = [
     "foodName": "Oil palmkernel",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 899.0,
     "protein": 0.0,
@@ -14839,9 +16106,7 @@ export const foods: Food[] = [
     "foodName": "Oil peanut",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
@@ -14855,9 +16120,7 @@ export const foods: Food[] = [
     "foodName": "Oil rapeseed",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 899.0,
     "protein": 0.0,
@@ -14868,12 +16131,24 @@ export const foods: Food[] = [
     "iron": 0.1
   },
   {
+    "foodName": "Oil rice bran",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [],
+    "benefit": [],
+    "calories": 900.0,
+    "protein": 0.0,
+    "fat": 100.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.1
+  },
+  {
     "foodName": "Oil safflower",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
@@ -14887,9 +16162,7 @@ export const foods: Food[] = [
     "foodName": "Oil sesame",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 898.0,
     "protein": 0.2,
@@ -14903,9 +16176,7 @@ export const foods: Food[] = [
     "foodName": "Oil soya",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 894.0,
     "protein": 0.3,
@@ -14919,9 +16190,7 @@ export const foods: Food[] = [
     "foodName": "Oil sunflower seed",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 897.0,
     "protein": 0.3,
@@ -14935,9 +16204,7 @@ export const foods: Food[] = [
     "foodName": "Oil vegetable av",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 898.0,
     "protein": 0.1,
@@ -14951,9 +16218,7 @@ export const foods: Food[] = [
     "foodName": "Oil wok",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
@@ -14968,8 +16233,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -14988,8 +16252,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15008,8 +16271,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -15029,8 +16291,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15049,8 +16310,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -15070,8 +16330,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15090,8 +16349,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15110,8 +16368,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15130,8 +16387,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15150,8 +16406,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15171,8 +16426,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15192,8 +16446,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15212,8 +16465,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15232,8 +16484,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15252,8 +16503,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15268,12 +16518,27 @@ export const foods: Food[] = [
     "iron": 0.1
   },
   {
+    "foodName": "Ostrich, raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 121.0,
+    "protein": 22.9,
+    "fat": 3.1,
+    "vitaminB12": 5.03,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 4.5
+  },
+  {
     "foodName": "Oysters",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -15293,8 +16558,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 199.0,
@@ -15310,11 +16574,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in VITB12 (µg)",
       "High in VITD (µg)"
     ],
     "calories": 203.0,
@@ -15330,11 +16592,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in VITB12 (µg)",
       "High in VITD (µg)"
     ],
     "calories": 178.0,
@@ -15350,11 +16610,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in VITB12 (µg)",
       "High in VITD (µg)"
     ],
     "calories": 175.0,
@@ -15370,11 +16628,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in VITB12 (µg)",
       "High in VITD (µg)"
     ],
     "calories": 175.0,
@@ -15390,8 +16646,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 89.0,
@@ -15407,8 +16662,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 74.0,
@@ -15424,8 +16678,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15441,12 +16694,68 @@ export const foods: Food[] = [
     "iron": 0.3
   },
   {
+    "foodName": "Parsnip boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 68.0,
+    "protein": 1.6,
+    "fat": 1.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 10.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Parsnip raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 71.0,
+    "protein": 1.8,
+    "fat": 1.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 17.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
+    "foodName": "Partridge raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)"
+    ],
+    "calories": 248.0,
+    "protein": 35.0,
+    "fat": 12.0,
+    "vitaminB12": 2.0580000000000003,
+    "vitaminC": 0.0,
+    "vitaminD": 1.18,
+    "iron": 8.0
+  },
+  {
     "foodName": "Passion fruit",
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15465,8 +16774,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 143.0,
@@ -15482,8 +16790,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 358.0,
@@ -15499,8 +16806,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 134.0,
@@ -15516,8 +16822,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 336.0,
@@ -15533,8 +16838,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 142.0,
@@ -15546,12 +16850,27 @@ export const foods: Food[] = [
     "iron": 0.7
   },
   {
+    "foodName": "Pasta white fresh boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 129.0,
+    "protein": 4.9,
+    "fat": 1.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
     "foodName": "Pasta white raw",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 356.0,
@@ -15563,12 +16882,27 @@ export const foods: Food[] = [
     "iron": 2.0
   },
   {
+    "foodName": "Pasta white w egg boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 124.0,
+    "protein": 4.7,
+    "fat": 0.8,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.2
+  },
+  {
     "foodName": "Pasta white wo egg boiled",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 146.0,
@@ -15584,8 +16918,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 134.0,
@@ -15601,8 +16934,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 348.0,
@@ -15614,12 +16946,27 @@ export const foods: Food[] = [
     "iron": 3.3
   },
   {
+    "foodName": "Pate vegetarian based on nutritional yeast",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 218.0,
+    "protein": 4.6,
+    "fat": 17.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 9.6,
+    "vitaminD": 0.0,
+    "iron": 2.18
+  },
+  {
     "foodName": "Pate vegetarian based on soya/pea",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -15637,8 +16984,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15657,8 +17003,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15674,12 +17019,31 @@ export const foods: Food[] = [
     "iron": 0.2
   },
   {
+    "foodName": "Peaches in syrup tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 62.0,
+    "protein": 0.4,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
     "foodName": "Peanut butter",
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -15697,11 +17061,9 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
-      "High in Iron (mg)",
       "High in PROT (g)"
     ],
     "calories": 611.0,
@@ -15717,8 +17079,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 535.0,
@@ -15734,8 +17095,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -15753,8 +17113,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15773,8 +17132,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15793,8 +17151,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15813,8 +17170,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15833,13 +17189,11 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in FAT (g)"
+      "High in VITD (µg)"
     ],
     "calories": 536.0,
     "protein": 15.1,
@@ -15854,8 +17208,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15874,8 +17227,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15895,8 +17247,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15916,8 +17267,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15936,8 +17286,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15956,8 +17305,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15977,8 +17325,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -15997,8 +17344,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -16017,8 +17363,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 138.0,
@@ -16034,8 +17379,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 140.0,
@@ -16051,8 +17395,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 117.0,
@@ -16068,8 +17411,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -16089,8 +17431,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -16110,8 +17451,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in PROT (g)",
@@ -16132,8 +17472,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 126.0,
@@ -16149,8 +17488,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 315.0,
@@ -16166,8 +17504,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 127.0,
@@ -16183,8 +17520,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 108.0,
@@ -16196,12 +17532,27 @@ export const foods: Food[] = [
     "iron": 1.2
   },
   {
+    "foodName": "Peas marrowfat dried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 305.0,
+    "protein": 20.0,
+    "fat": 1.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 2.0,
+    "vitaminD": 0.0,
+    "iron": 5.0
+  },
+  {
     "foodName": "Peas marrowfat young canned",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -16219,8 +17570,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in PROT (g)",
@@ -16240,8 +17590,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -16261,8 +17610,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 122.0,
@@ -16278,8 +17626,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -16293,12 +17640,27 @@ export const foods: Food[] = [
     "iron": 1.1
   },
   {
+    "foodName": "Peas split yellow/green dried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 359.0,
+    "protein": 22.0,
+    "fat": 2.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 5.8
+  },
+  {
     "foodName": "Peas super fine tinned",
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in PROT (g)",
@@ -16318,8 +17680,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -16338,8 +17699,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -16358,8 +17718,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -16375,12 +17734,30 @@ export const foods: Food[] = [
     "iron": 0.5
   },
   {
+    "foodName": "Pheasant whole raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)"
+    ],
+    "calories": 223.0,
+    "protein": 31.0,
+    "fat": 11.0,
+    "vitaminB12": 3.0,
+    "vitaminC": 0.0,
+    "vitaminD": 1.34,
+    "iron": 8.0
+  },
+  {
     "foodName": "Pieces/chunks vegetarian based on soya/wheat unprepared",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 171.0,
@@ -16396,8 +17773,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 178.0,
@@ -16413,8 +17789,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -16434,8 +17809,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -16454,8 +17828,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -16474,8 +17847,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -16494,8 +17866,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -16514,8 +17885,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -16534,8 +17904,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 98.0,
@@ -16551,8 +17920,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 112.0,
@@ -16568,8 +17936,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 194.0,
@@ -16581,12 +17948,27 @@ export const foods: Food[] = [
     "iron": 0.9
   },
   {
+    "foodName": "Plaice prepared in microwave oven no ingredients added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 140.0,
+    "protein": 29.0,
+    "fat": 2.6,
+    "vitaminB12": 1.0,
+    "vitaminC": 2.0,
+    "vitaminD": 1.1,
+    "iron": 0.5
+  },
+  {
     "foodName": "Plaice raw",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 76.0,
@@ -16602,8 +17984,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 268.0,
@@ -16619,8 +18000,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 286.0,
@@ -16636,8 +18016,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 136.0,
@@ -16653,8 +18032,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 161.0,
@@ -16670,10 +18048,11 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [],
+    "benefit": [
+      "Low in Calories (kcal)"
+    ],
     "calories": 61.0,
     "protein": 2.0,
     "fat": 4.7,
@@ -16687,10 +18066,11 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [],
+    "benefit": [
+      "Low in Calories (kcal)"
+    ],
     "calories": 66.0,
     "protein": 3.4,
     "fat": 1.7,
@@ -16704,8 +18084,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 195.0,
@@ -16721,8 +18100,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 150.0,
@@ -16738,8 +18116,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -16757,8 +18134,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -16776,8 +18152,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -16797,8 +18172,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -16818,8 +18192,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -16839,8 +18212,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 108.0,
@@ -16856,8 +18228,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 82.0,
@@ -16873,8 +18244,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -16892,8 +18262,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 120.0,
@@ -16909,8 +18278,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 114.0,
@@ -16926,8 +18294,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -16942,12 +18309,45 @@ export const foods: Food[] = [
     "iron": 0.5
   },
   {
+    "foodName": "Popcorn kernels",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 374.0,
+    "protein": 11.0,
+    "fat": 4.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.0
+  },
+  {
+    "foodName": "Poppy seeds",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 455.0,
+    "protein": 19.2,
+    "fat": 35.6,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 9.4
+  },
+  {
     "foodName": "Pork <10% fat prepared av",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 158.0,
@@ -16963,8 +18363,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 126.0,
@@ -16980,8 +18379,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -16999,8 +18397,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -17018,8 +18415,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 260.0,
@@ -17035,8 +18431,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 165.0,
@@ -17052,8 +18447,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 201.0,
@@ -17069,8 +18463,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -17088,8 +18481,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 114.0,
@@ -17105,8 +18497,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 155.0,
@@ -17122,8 +18513,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 157.0,
@@ -17139,8 +18529,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 128.0,
@@ -17156,8 +18545,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -17175,8 +18563,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 120.0,
@@ -17192,8 +18579,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -17211,8 +18597,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 191.0,
@@ -17228,8 +18613,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 179.0,
@@ -17245,8 +18629,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 156.0,
@@ -17262,8 +18645,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 177.0,
@@ -17279,8 +18661,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 150.0,
@@ -17296,8 +18677,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 142.0,
@@ -17313,8 +18693,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 142.0,
@@ -17330,8 +18709,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 109.0,
@@ -17347,8 +18725,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 236.0,
@@ -17364,8 +18741,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 239.0,
@@ -17381,8 +18757,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 146.0,
@@ -17398,8 +18773,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -17417,8 +18791,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 186.0,
@@ -17434,8 +18807,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 170.0,
@@ -17451,8 +18823,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 133.0,
@@ -17468,8 +18839,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 246.0,
@@ -17481,12 +18851,27 @@ export const foods: Food[] = [
     "iron": 1.1
   },
   {
+    "foodName": "Pork spare rib raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 250.0,
+    "protein": 18.3,
+    "fat": 19.6,
+    "vitaminB12": 0.65,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 1.4
+  },
+  {
     "foodName": "Pork sparerib prepared",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 249.0,
@@ -17502,8 +18887,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 200.0,
@@ -17519,8 +18903,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 204.0,
@@ -17536,8 +18919,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -17555,8 +18937,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 123.0,
@@ -17572,8 +18953,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 142.0,
@@ -17589,8 +18969,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 115.0,
@@ -17606,8 +18985,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 142.0,
@@ -17623,8 +19001,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 105.0,
@@ -17640,8 +19017,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 53.0,
@@ -17653,12 +19029,31 @@ export const foods: Food[] = [
     "iron": 0.0
   },
   {
+    "foodName": "Porridge Nestle Pyjamapapje ready made",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITC (mg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 83.0,
+    "protein": 2.3,
+    "fat": 2.7,
+    "vitaminB12": 0.22,
+    "vitaminC": 13.0,
+    "vitaminD": 1.6,
+    "iron": 2.0
+  },
+  {
     "foodName": "Porridge buttermilk w wheat flour white",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 52.0,
@@ -17674,8 +19069,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 83.0,
@@ -17691,8 +19085,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -17710,8 +19103,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 80.0,
@@ -17727,8 +19119,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 95.0,
@@ -17744,8 +19135,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 86.0,
@@ -17761,8 +19151,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 93.0,
@@ -17774,12 +19163,27 @@ export const foods: Food[] = [
     "iron": 0.0
   },
   {
+    "foodName": "Potato croquettes frozen prepared",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 238.0,
+    "protein": 3.4,
+    "fat": 12.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 5.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
     "foodName": "Potato croquettes frozen unprepared",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 169.0,
@@ -17795,8 +19199,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)",
@@ -17815,8 +19218,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)",
@@ -17835,8 +19237,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 368.0,
@@ -17852,8 +19253,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 373.0,
@@ -17869,8 +19269,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 364.0,
@@ -17886,8 +19285,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)",
@@ -17906,8 +19304,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -17921,12 +19318,27 @@ export const foods: Food[] = [
     "iron": 0.7
   },
   {
+    "foodName": "Potato waffles/balls frozen unprepared",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 175.0,
+    "protein": 2.6,
+    "fat": 6.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 8.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
     "foodName": "Potatoes Eigenheimer wo skin boiled",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)",
@@ -17945,8 +19357,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)",
@@ -17965,8 +19376,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 91.0,
@@ -17982,8 +19392,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -18001,8 +19410,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)",
@@ -18021,8 +19429,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -18040,8 +19447,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -18059,11 +19465,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in VITD (µg)",
       "Low in Calories (kcal)"
     ],
     "calories": 83.0,
@@ -18079,11 +19483,10 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in VITD (µg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 87.0,
     "protein": 2.2,
@@ -18098,12 +19501,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITB12 (µg)"
-    ],
+    "benefit": [],
     "calories": 96.0,
     "protein": 4.1,
     "fat": 1.3,
@@ -18117,8 +19517,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -18136,8 +19535,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -18155,8 +19553,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)",
@@ -18175,8 +19572,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -18194,8 +19590,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)",
@@ -18214,8 +19609,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 229.0,
@@ -18231,12 +19625,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 134.0,
     "protein": 2.5,
     "fat": 3.8,
@@ -18250,12 +19641,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 134.0,
     "protein": 2.5,
     "fat": 3.8,
@@ -18269,10 +19657,11 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [],
+    "benefit": [
+      "Low in Calories (kcal)"
+    ],
     "calories": 86.0,
     "protein": 1.8,
     "fat": 0.5,
@@ -18286,8 +19675,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -18305,8 +19693,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 70.0,
@@ -18322,8 +19709,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -18342,8 +19728,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -18362,8 +19747,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 179.0,
@@ -18379,8 +19763,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 614.0,
@@ -18396,12 +19779,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 614.0,
     "protein": 7.0,
     "fat": 47.0,
@@ -18415,8 +19795,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 614.0,
@@ -18432,8 +19811,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 117.0,
@@ -18449,8 +19827,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 335.0,
@@ -18466,8 +19843,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -18487,8 +19863,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -18504,12 +19879,76 @@ export const foods: Food[] = [
     "iron": 0.4
   },
   {
+    "foodName": "Pumpkin seeds",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Nuts",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 574.0,
+    "protein": 30.3,
+    "fat": 47.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 8.0
+  },
+  {
+    "foodName": "Purslane boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
+    ],
+    "calories": 13.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 3.0
+  },
+  {
+    "foodName": "Purslane raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
+    ],
+    "calories": 13.0,
+    "protein": 1.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 20.0,
+    "vitaminD": 0.0,
+    "iron": 3.0
+  },
+  {
     "foodName": "Quark full fat",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 118.0,
@@ -18525,8 +19964,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 125.0,
@@ -18542,8 +19980,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 77.0,
@@ -18559,8 +19996,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 109.0,
@@ -18576,8 +20012,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -18595,8 +20030,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 57.0,
@@ -18612,8 +20046,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 80.0,
@@ -18629,8 +20062,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 47.0,
@@ -18642,12 +20074,29 @@ export const foods: Food[] = [
     "iron": 0.0
   },
   {
+    "foodName": "Quark w fruit Danoontje",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)"
+    ],
+    "calories": 96.0,
+    "protein": 6.4,
+    "fat": 3.0,
+    "vitaminB12": 0.4,
+    "vitaminC": 0.0,
+    "vitaminD": 1.3,
+    "iron": 0.0
+  },
+  {
     "foodName": "Quinoa cooked",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 114.0,
@@ -18663,8 +20112,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -18678,12 +20126,43 @@ export const foods: Food[] = [
     "iron": 4.6
   },
   {
+    "foodName": "Rabbit domesticated raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 174.0,
+    "protein": 21.0,
+    "fat": 10.0,
+    "vitaminB12": 10.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.24,
+    "iron": 1.6
+  },
+  {
+    "foodName": "Rabbit wild raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 125.0,
+    "protein": 20.0,
+    "fat": 5.0,
+    "vitaminB12": 10.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.2,
+    "iron": 3.2
+  },
+  {
     "foodName": "Radish black raw",
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -18703,8 +20182,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -18720,12 +20198,29 @@ export const foods: Food[] = [
     "iron": 2.0
   },
   {
+    "foodName": "Rainbow trout prepared in microwave oven no ingredients added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)"
+    ],
+    "calories": 167.0,
+    "protein": 23.7,
+    "fat": 8.0,
+    "vitaminB12": 5.0,
+    "vitaminC": 0.0,
+    "vitaminD": 9.4,
+    "iron": 1.0
+  },
+  {
     "foodName": "Raisins dried",
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -18746,8 +20241,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -18766,8 +20260,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -18786,8 +20279,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -18806,8 +20298,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -18827,8 +20318,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -18848,8 +20338,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -18869,8 +20358,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 131.0,
@@ -18886,8 +20374,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 357.0,
@@ -18903,8 +20390,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 390.0,
@@ -18920,8 +20406,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 392.0,
@@ -18937,8 +20422,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 394.0,
@@ -18954,8 +20438,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 502.0,
@@ -18971,8 +20454,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 390.0,
@@ -18988,8 +20470,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 402.0,
@@ -19005,10 +20486,11 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [],
+    "benefit": [
+      "Low in Calories (kcal)"
+    ],
     "calories": 65.0,
     "protein": 0.3,
     "fat": 1.0,
@@ -19022,8 +20504,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)",
@@ -19042,8 +20523,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 140.0,
@@ -19059,8 +20539,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 351.0,
@@ -19076,8 +20555,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 146.0,
@@ -19093,8 +20571,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 206.0,
@@ -19106,12 +20583,27 @@ export const foods: Food[] = [
     "iron": 0.9
   },
   {
+    "foodName": "Rice white parboiled boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 140.0,
+    "protein": 3.0,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.8
+  },
+  {
     "foodName": "Rice white raw",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 352.0,
@@ -19127,8 +20619,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 385.0,
@@ -19144,11 +20635,9 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in Iron (mg)",
       "High in VITB12 (µg)",
       "High in VITD (µg)"
     ],
@@ -19165,8 +20654,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 149.0,
@@ -19182,8 +20670,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -19201,8 +20688,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 123.0,
@@ -19218,8 +20704,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 311.0,
@@ -19235,8 +20720,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 193.0,
@@ -19252,8 +20736,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 201.0,
@@ -19269,8 +20752,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 196.0,
@@ -19286,8 +20768,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 352.0,
@@ -19303,8 +20784,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 233.0,
@@ -19320,8 +20800,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)",
@@ -19340,8 +20819,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 422.0,
@@ -19357,8 +20835,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 285.0,
@@ -19374,11 +20851,9 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in VITC (mg)",
       "Low in FAT (g)"
     ],
     "calories": 262.0,
@@ -19394,8 +20869,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)",
@@ -19415,8 +20889,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 282.0,
@@ -19432,8 +20905,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 238.0,
@@ -19449,8 +20921,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)"
@@ -19468,8 +20939,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 304.0,
@@ -19485,12 +20955,9 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 243.0,
     "protein": 3.6,
     "fat": 21.9,
@@ -19504,8 +20971,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -19523,8 +20989,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 338.0,
@@ -19540,8 +21005,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 299.0,
@@ -19557,8 +21021,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 288.0,
@@ -19574,8 +21037,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 220.0,
@@ -19591,8 +21053,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -19610,8 +21071,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 188.0,
@@ -19627,8 +21087,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -19646,8 +21105,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -19666,8 +21124,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -19682,12 +21139,52 @@ export const foods: Food[] = [
     "iron": 1.5
   },
   {
+    "foodName": "Sandwich spread original",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITC (mg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 235.0,
+    "protein": 1.6,
+    "fat": 19.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.1,
+    "iron": 2.0
+  },
+  {
+    "foodName": "Sandwich spread other flavours",
+    "group": "Spreading and cooking fats",
+    "subgroup": "Spreading and cooking fats",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
+    ],
+    "calories": 186.0,
+    "protein": 1.6,
+    "fat": 13.2,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.1,
+    "iron": 2.0
+  },
+  {
     "foodName": "Santen creamed coconut block",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 686.0,
@@ -19703,8 +21200,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -19722,9 +21218,7 @@ export const foods: Food[] = [
     "foodName": "Sardines/pilchards in oil tinned",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [
       "High in VITB12 (µg)"
     ],
@@ -19741,8 +21235,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -19760,8 +21253,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -19779,8 +21271,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 180.0,
@@ -19792,12 +21283,27 @@ export const foods: Food[] = [
     "iron": 1.1
   },
   {
+    "foodName": "Sausage frankfurter lean tinned",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 136.0,
+    "protein": 12.0,
+    "fat": 7.0,
+    "vitaminB12": 0.44,
+    "vitaminC": 0.0,
+    "vitaminD": 0.6,
+    "iron": 1.1
+  },
+  {
     "foodName": "Sausage frankfurter tinned",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 201.0,
@@ -19813,8 +21319,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 173.0,
@@ -19830,8 +21335,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 181.0,
@@ -19847,8 +21351,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -19866,8 +21369,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -19885,8 +21387,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 237.0,
@@ -19902,8 +21403,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)"
@@ -19921,8 +21421,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 240.0,
@@ -19938,8 +21437,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -19953,12 +21451,29 @@ export const foods: Food[] = [
     "iron": 1.3
   },
   {
+    "foodName": "Sausage smoked lean cooked",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in VITC (mg)"
+    ],
+    "calories": 254.0,
+    "protein": 14.0,
+    "fat": 20.5,
+    "vitaminB12": 0.5,
+    "vitaminC": 30.0,
+    "vitaminD": 0.3,
+    "iron": 1.1
+  },
+  {
     "foodName": "Sausage smoked pork cooked",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -19976,8 +21491,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -19995,8 +21509,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 237.0,
@@ -20012,8 +21525,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITC (mg)"
@@ -20027,12 +21539,26 @@ export const foods: Food[] = [
     "iron": 0.9
   },
   {
-    "foodName": "Schnitzel vegetarian based on milk filled several flavours unprepared",
+    "foodName": "Schar/tongschar bereid in magnetron z toev",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Vegetarian"
+      "Continental Diet"
     ],
+    "benefit": [],
+    "calories": 119.0,
+    "protein": 23.9,
+    "fat": 2.6,
+    "vitaminB12": 1.81,
+    "vitaminC": 2.0,
+    "vitaminD": 2.3400000000000003,
+    "iron": 0.7
+  },
+  {
+    "foodName": "Schnitzel vegetarian based on milk filled several flavours unprepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [],
     "benefit": [],
     "calories": 206.0,
     "protein": 11.4,
@@ -20046,9 +21572,7 @@ export const foods: Food[] = [
     "foodName": "Schnitzel vegetarian based on milk filled w cheese unprepared",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
-    "diet": [
-      "Vegetarian"
-    ],
+    "diet": [],
     "benefit": [],
     "calories": 218.0,
     "protein": 14.8,
@@ -20063,8 +21587,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 192.0,
@@ -20080,7 +21603,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 172.0,
@@ -20096,8 +21619,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 166.0,
@@ -20113,8 +21635,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 112.0,
@@ -20130,8 +21651,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -20152,11 +21672,9 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in Iron (mg)",
       "High in VITB12 (µg)",
       "High in VITD (µg)"
     ],
@@ -20169,12 +21687,32 @@ export const foods: Food[] = [
     "iron": 2.9
   },
   {
+    "foodName": "Seaweed nori dried",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 254.0,
+    "protein": 31.5,
+    "fat": 1.5,
+    "vitaminB12": 0.0,
+    "vitaminC": 57.0,
+    "vitaminD": 0.6,
+    "iron": 37.2
+  },
+  {
     "foodName": "Seeds and kernels av",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -20193,8 +21731,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 198.0,
@@ -20210,8 +21747,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 337.0,
@@ -20227,8 +21763,7 @@ export const foods: Food[] = [
     "group": "Spreading and cooking fats",
     "subgroup": "Spreading and cooking fats",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -20247,8 +21782,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -20267,8 +21801,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)"
@@ -20286,8 +21819,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)"
@@ -20301,12 +21833,28 @@ export const foods: Food[] = [
     "iron": 0.2
   },
   {
+    "foodName": "Shrimps salted dried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [],
+    "benefit": [
+      "High in PROT (g)",
+      "High in VITD (µg)"
+    ],
+    "calories": 274.0,
+    "protein": 63.0,
+    "fat": 2.0,
+    "vitaminB12": 5.0,
+    "vitaminC": 0.0,
+    "vitaminD": 6.94,
+    "iron": 4.9
+  },
+  {
     "foodName": "Silver-skin onion sweet pickled glass",
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -20325,8 +21873,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -20344,8 +21891,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -20363,8 +21909,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -20382,8 +21927,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -20397,12 +21941,27 @@ export const foods: Food[] = [
     "iron": 0.2
   },
   {
+    "foodName": "Snails",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 85.0,
+    "protein": 16.0,
+    "fat": 1.4,
+    "vitaminB12": 0.5,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 3.5
+  },
+  {
     "foodName": "Soft drink light wo caffeine",
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -20422,8 +21981,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -20442,8 +22000,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -20462,8 +22019,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -20482,8 +22038,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -20502,8 +22057,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -20518,12 +22072,62 @@ export const foods: Food[] = [
     "iron": 0.0
   },
   {
+    "foodName": "Soft/hard roe fried",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 262.0,
+    "protein": 13.9,
+    "fat": 21.2,
+    "vitaminB12": 4.2620000000000005,
+    "vitaminC": 1.0,
+    "vitaminD": 5.5600000000000005,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Soft/hard roe from fat bloater",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 155.0,
+    "protein": 24.5,
+    "fat": 6.3,
+    "vitaminB12": 4.2620000000000005,
+    "vitaminC": 1.0,
+    "vitaminD": 5.5600000000000005,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Softdrink w milk serum and sweetener Rivella",
+    "group": "Drinks",
+    "subgroup": "Drinks",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 4.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.05,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
     "foodName": "Sole prepared in microwave oven no ingredients added",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -20537,15 +22141,45 @@ export const foods: Food[] = [
     "iron": 0.4
   },
   {
+    "foodName": "Sole raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 76.0,
+    "protein": 14.7,
+    "fat": 1.9,
+    "vitaminB12": 1.0,
+    "vitaminC": 0.0,
+    "vitaminD": 1.1,
+    "iron": 0.5
+  },
+  {
+    "foodName": "Spawn/hard roe coloured glass",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 126.0,
+    "protein": 19.0,
+    "fat": 5.5,
+    "vitaminB12": 4.2620000000000005,
+    "vitaminC": 1.0,
+    "vitaminD": 5.56,
+    "iron": 0.9
+  },
+  {
     "foodName": "Spinach boiled",
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in Iron (mg)",
       "High in VITB12 (µg)",
       "High in VITD (µg)"
     ],
@@ -20562,11 +22196,9 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in Iron (mg)",
       "High in VITB12 (µg)",
       "High in VITD (µg)"
     ],
@@ -20583,8 +22215,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -20603,8 +22234,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -20623,8 +22253,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -20643,8 +22272,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -20663,8 +22291,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -20683,8 +22310,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -20703,8 +22329,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -20723,8 +22348,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -20743,8 +22367,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -20763,8 +22386,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -20778,12 +22400,27 @@ export const foods: Food[] = [
     "iron": 1.1
   },
   {
+    "foodName": "Squid prepared in microwave oven no ingredients added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 146.0,
+    "protein": 25.8,
+    "fat": 4.7,
+    "vitaminB12": 5.3,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
     "foodName": "Squid raw",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 73.0,
@@ -20795,12 +22432,27 @@ export const foods: Food[] = [
     "iron": 0.6
   },
   {
+    "foodName": "Squid rings deep-fried in vegetable oil",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 440.0,
+    "protein": 26.2,
+    "fat": 31.1,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 1.4600000000000002,
+    "iron": 1.0
+  },
+  {
     "foodName": "Starch, potato",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -20818,8 +22470,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -20834,12 +22485,29 @@ export const foods: Food[] = [
     "iron": 0.1
   },
   {
+    "foodName": "Stockfish soaked",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in PROT (g)"
+    ],
+    "calories": 138.0,
+    "protein": 32.5,
+    "fat": 0.9,
+    "vitaminB12": 1.0,
+    "vitaminC": 2.0,
+    "vitaminD": 3.04,
+    "iron": 0.5
+  },
+  {
     "foodName": "Stollen w almond/imitat paste av w and wo nuts",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 282.0,
@@ -20855,8 +22523,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 288.0,
@@ -20872,8 +22539,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 276.0,
@@ -20889,8 +22555,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -20911,8 +22576,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -20928,12 +22592,31 @@ export const foods: Food[] = [
     "iron": 1.1
   },
   {
+    "foodName": "Strawberry puree tinned",
+    "group": "Vegetables and fruit",
+    "subgroup": "Fruit",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 84.0,
+    "protein": 0.5,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 29.0,
+    "vitaminD": 0.0,
+    "iron": 1.1
+  },
+  {
     "foodName": "Stukjes vegetarisch based on mycoprotein unprepred",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 86.0,
@@ -20949,8 +22632,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -20965,12 +22647,27 @@ export const foods: Food[] = [
     "iron": 4.9
   },
   {
+    "foodName": "Surimi",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 122.0,
+    "protein": 6.8,
+    "fat": 3.6,
+    "vitaminB12": 0.71,
+    "vitaminC": 0.0,
+    "vitaminD": 0.3,
+    "iron": 0.4
+  },
+  {
     "foodName": "Swede boiled",
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -20989,8 +22686,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21009,8 +22705,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21030,8 +22725,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21051,8 +22745,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21071,8 +22764,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21091,8 +22783,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21112,8 +22803,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21132,8 +22822,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21153,8 +22842,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21174,8 +22862,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21195,8 +22882,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21212,12 +22898,27 @@ export const foods: Food[] = [
     "iron": 0.4
   },
   {
+    "foodName": "Sweetbread raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 89.0,
+    "protein": 18.4,
+    "fat": 1.7,
+    "vitaminB12": 1.7879999999999998,
+    "vitaminC": 0.0,
+    "vitaminD": 0.6,
+    "iron": 1.5
+  },
+  {
     "foodName": "Sweetcorn boiled",
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21236,8 +22937,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21252,12 +22952,53 @@ export const foods: Food[] = [
     "iron": 0.5
   },
   {
+    "foodName": "Swiss chard leaf boiled",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 29.0,
+    "protein": 3.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 6.0,
+    "vitaminD": 0.0,
+    "iron": 4.0
+  },
+  {
+    "foodName": "Swiss chard leaf raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 29.0,
+    "protein": 3.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 35.0,
+    "vitaminD": 0.0,
+    "iron": 4.0
+  },
+  {
     "foodName": "Tangerines in syrup tinned",
     "group": "Vegetables and fruit",
     "subgroup": "Fruit",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21273,12 +23014,103 @@ export const foods: Food[] = [
     "iron": 0.2
   },
   {
+    "foodName": "Tannia leaves prepared wo fat",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 38.0,
+    "protein": 4.6,
+    "fat": 1.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Tannia leaves raw",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 19.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 27.0,
+    "vitaminD": 0.0,
+    "iron": 1.9
+  },
+  {
+    "foodName": "Tannia prepared wo fat",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 99.0,
+    "protein": 3.4,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
+    "foodName": "Tannia raw",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITC (mg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 136.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 16.0,
+    "vitaminD": 0.0,
+    "iron": 0.9
+  },
+  {
+    "foodName": "Tapioca",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "Low in FAT (g)"
+    ],
+    "calories": 322.0,
+    "protein": 0.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
     "foodName": "Taro boiled",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -21296,11 +23128,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in VITC (mg)",
       "Low in FAT (g)"
     ],
     "calories": 119.0,
@@ -21316,8 +23146,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -21336,8 +23165,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -21356,8 +23184,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -21377,8 +23204,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -21397,8 +23223,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 128.0,
@@ -21414,8 +23239,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -21433,8 +23257,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -21452,12 +23275,9 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 248.0,
     "protein": 4.5,
     "fat": 10.6,
@@ -21471,8 +23291,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 398.0,
@@ -21488,8 +23307,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -21507,8 +23325,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 213.0,
@@ -21524,8 +23341,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 119.0,
@@ -21541,8 +23357,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21561,8 +23376,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21581,8 +23395,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21601,8 +23414,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21621,8 +23433,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21641,8 +23452,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -21661,11 +23471,9 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in Iron (mg)",
       "High in VITB12 (µg)",
       "High in VITD (µg)",
       "Low in FAT (g)"
@@ -21683,8 +23491,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21703,8 +23510,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -21725,8 +23531,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21745,8 +23550,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21765,8 +23569,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21781,12 +23584,30 @@ export const foods: Food[] = [
     "iron": 0.3
   },
   {
+    "foodName": "Tomatoes dried in oil tin/glass, drained",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 197.0,
+    "protein": 4.4,
+    "fat": 14.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 39.0,
+    "vitaminD": 0.0,
+    "iron": 2.7
+  },
+  {
     "foodName": "Tomatoes stewed w vegetable oil",
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21805,8 +23626,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -21825,8 +23645,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 168.0,
@@ -21838,12 +23657,27 @@ export const foods: Food[] = [
     "iron": 1.6
   },
   {
+    "foodName": "Topping dessert powder w sugar Klop-Klop",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 535.0,
+    "protein": 4.4,
+    "fat": 29.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.2,
+    "vitaminD": 0.0,
+    "iron": 1.2
+  },
+  {
     "foodName": "Topping dessert w sugar whipped KlopKlop",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 111.0,
@@ -21859,12 +23693,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 155.0,
     "protein": 7.7,
     "fat": 3.1,
@@ -21878,8 +23709,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -21897,8 +23727,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 206.0,
@@ -21914,8 +23743,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 109.0,
@@ -21931,8 +23759,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -21946,12 +23773,29 @@ export const foods: Food[] = [
     "iron": 0.9
   },
   {
+    "foodName": "Tuna raw",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [
+      "Low in FAT (g)"
+    ],
+    "calories": 101.0,
+    "protein": 23.7,
+    "fat": 0.7,
+    "vitaminB12": 4.0,
+    "vitaminC": 0.0,
+    "vitaminD": 3.2,
+    "iron": 1.3
+  },
+  {
     "foodName": "Tuna w vegetables and tomato sauce canned",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 98.0,
@@ -21967,8 +23811,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 110.0,
@@ -21984,8 +23827,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 141.0,
@@ -22001,8 +23843,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22021,8 +23862,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22041,8 +23881,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -22063,8 +23902,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -22085,8 +23923,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 105.0,
@@ -22102,8 +23939,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 159.0,
@@ -22119,8 +23955,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 127.0,
@@ -22136,8 +23971,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 121.0,
@@ -22153,8 +23987,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 111.0,
@@ -22170,8 +24003,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 142.0,
@@ -22187,8 +24019,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 104.0,
@@ -22204,8 +24035,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 186.0,
@@ -22221,8 +24051,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 159.0,
@@ -22238,8 +24067,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 166.0,
@@ -22255,8 +24083,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 150.0,
@@ -22272,8 +24099,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 197.0,
@@ -22289,8 +24115,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 167.0,
@@ -22306,8 +24131,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 144.0,
@@ -22323,8 +24147,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 104.0,
@@ -22336,12 +24159,27 @@ export const foods: Food[] = [
     "iron": 1.1
   },
   {
+    "foodName": "Veal shank prepared",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 140.0,
+    "protein": 27.5,
+    "fat": 3.3,
+    "vitaminB12": 4.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.5,
+    "iron": 2.1
+  },
+  {
     "foodName": "Veal shank raw",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 112.0,
@@ -22357,8 +24195,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 185.0,
@@ -22374,8 +24211,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 98.0,
@@ -22391,8 +24227,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 158.0,
@@ -22408,8 +24243,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 117.0,
@@ -22425,8 +24259,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 143.0,
@@ -22442,8 +24275,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 108.0,
@@ -22459,8 +24291,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 194.0,
@@ -22476,8 +24307,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 146.0,
@@ -22493,8 +24323,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22514,8 +24343,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22530,12 +24358,30 @@ export const foods: Food[] = [
     "iron": 0.8
   },
   {
+    "foodName": "Vegetable mixed Mexico frozen unprepared",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
+    ],
+    "calories": 85.0,
+    "protein": 4.5,
+    "fat": 0.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 12.0,
+    "vitaminD": 0.0,
+    "iron": 1.5
+  },
+  {
     "foodName": "Vegetables av boiled",
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22554,8 +24400,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22574,8 +24419,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22594,8 +24438,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22614,8 +24457,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22634,8 +24476,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22654,8 +24495,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22674,8 +24514,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22694,8 +24533,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22714,8 +24552,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22734,8 +24571,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22754,8 +24590,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22774,8 +24609,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22794,8 +24628,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22814,8 +24647,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22834,8 +24666,7 @@ export const foods: Food[] = [
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22850,12 +24681,31 @@ export const foods: Food[] = [
     "iron": 0.1
   },
   {
+    "foodName": "Vegetables mixture for soup frozen unprepared",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 25.0,
+    "protein": 2.0,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 10.0,
+    "vitaminD": 0.0,
+    "iron": 1.0
+  },
+  {
     "foodName": "Vegetables mixture raw av",
     "group": "Vegetables and fruit",
     "subgroup": "Vegetables",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22870,12 +24720,31 @@ export const foods: Food[] = [
     "iron": 0.6
   },
   {
+    "foodName": "Vegetables pickled Turkish Tursu",
+    "group": "Vegetables and fruit",
+    "subgroup": "Vegetables",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
+    ],
+    "calories": 24.0,
+    "protein": 0.6,
+    "fat": 0.0,
+    "vitaminB12": 0.0,
+    "vitaminC": 41.6,
+    "vitaminD": 0.0,
+    "iron": 0.2
+  },
+  {
     "foodName": "Venison raw",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 122.0,
@@ -22891,8 +24760,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 354.0,
@@ -22908,12 +24776,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 570.0,
     "protein": 8.9,
     "fat": 39.6,
@@ -22923,12 +24788,27 @@ export const foods: Food[] = [
     "iron": 0.6
   },
   {
+    "foodName": "Vol -au-vent shell wo butter",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 566.0,
+    "protein": 8.4,
+    "fat": 39.1,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.6
+  },
+  {
     "foodName": "Walnuts salted",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22947,8 +24827,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Nuts",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in VITB12 (µg)",
@@ -22967,8 +24846,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -22988,8 +24866,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -23009,8 +24886,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -23030,8 +24906,7 @@ export const foods: Food[] = [
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)",
@@ -23051,8 +24926,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 258.0,
@@ -23068,8 +24942,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 269.0,
@@ -23085,12 +24958,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 242.0,
     "protein": 10.1,
     "fat": 6.0,
@@ -23104,12 +24974,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 303.0,
     "protein": 7.8,
     "fat": 12.2,
@@ -23123,8 +24990,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -23143,8 +25009,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 235.0,
@@ -23160,12 +25025,9 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in PROT (g)"
-    ],
+    "benefit": [],
     "calories": 254.0,
     "protein": 13.9,
     "fat": 5.5,
@@ -23179,8 +25041,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 275.0,
@@ -23196,8 +25057,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 272.0,
@@ -23213,8 +25073,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 236.0,
@@ -23230,8 +25089,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 241.0,
@@ -23247,8 +25105,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 248.0,
@@ -23260,12 +25117,29 @@ export const foods: Food[] = [
     "iron": 2.0
   },
   {
+    "foodName": "Wheat bread brown carbohydrate reduced",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "High in PROT (g)"
+    ],
+    "calories": 241.0,
+    "protein": 17.2,
+    "fat": 8.9,
+    "vitaminB12": 0.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 1.9
+  },
+  {
     "foodName": "Wheat bread brown low sodium",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 236.0,
@@ -23281,8 +25155,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 277.0,
@@ -23298,8 +25171,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 276.0,
@@ -23315,8 +25187,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 285.0,
@@ -23332,8 +25203,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 272.0,
@@ -23349,8 +25219,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 303.0,
@@ -23366,8 +25235,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 278.0,
@@ -23383,8 +25251,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 258.0,
@@ -23400,8 +25267,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 277.0,
@@ -23417,8 +25283,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 262.0,
@@ -23434,8 +25299,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 247.0,
@@ -23451,8 +25315,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 251.0,
@@ -23468,8 +25331,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 250.0,
@@ -23485,8 +25347,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 249.0,
@@ -23502,8 +25363,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 287.0,
@@ -23519,8 +25379,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 296.0,
@@ -23536,8 +25395,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 257.0,
@@ -23553,8 +25411,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 245.0,
@@ -23570,8 +25427,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 247.0,
@@ -23587,8 +25443,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 238.0,
@@ -23604,8 +25459,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 234.0,
@@ -23621,8 +25475,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 275.0,
@@ -23638,8 +25491,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 274.0,
@@ -23655,8 +25507,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 283.0,
@@ -23672,8 +25523,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 235.0,
@@ -23689,8 +25539,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 276.0,
@@ -23706,8 +25555,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 275.0,
@@ -23723,8 +25571,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 284.0,
@@ -23740,8 +25587,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 233.0,
@@ -23757,8 +25603,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 274.0,
@@ -23774,8 +25619,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 273.0,
@@ -23791,8 +25635,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 282.0,
@@ -23808,8 +25651,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -23827,8 +25669,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 255.0,
@@ -23844,8 +25685,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 262.0,
@@ -23861,8 +25701,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 298.0,
@@ -23878,8 +25717,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 307.0,
@@ -23895,8 +25733,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 273.0,
@@ -23912,8 +25749,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 303.0,
@@ -23929,8 +25765,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 253.0,
@@ -23946,8 +25781,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 268.0,
@@ -23963,8 +25797,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [
       "High in PROT (g)"
@@ -23982,8 +25815,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 249.0,
@@ -23999,8 +25831,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 295.0,
@@ -24016,8 +25847,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 290.0,
@@ -24033,8 +25863,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 298.0,
@@ -24050,8 +25879,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 272.0,
@@ -24067,8 +25895,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 303.0,
@@ -24084,8 +25911,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 234.0,
@@ -24101,8 +25927,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 235.0,
@@ -24118,8 +25943,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 305.0,
@@ -24135,8 +25959,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 210.0,
@@ -24148,12 +25971,27 @@ export const foods: Food[] = [
     "iron": 0.7
   },
   {
+    "foodName": "Whiting prepared in microwave oven no ingredients added",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Fish, legumes, meat and eggs",
+    "diet": [
+      "Continental Diet"
+    ],
+    "benefit": [],
+    "calories": 101.0,
+    "protein": 22.1,
+    "fat": 1.4,
+    "vitaminB12": 2.0,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.5
+  },
+  {
     "foodName": "Wine alcohol free",
     "group": "Drinks",
     "subgroup": "Drinks",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in Iron (mg)",
@@ -24172,8 +26010,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Fish, legumes, meat and eggs",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 127.0,
@@ -24189,8 +26026,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 316.0,
@@ -24206,8 +26042,7 @@ export const foods: Food[] = [
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Continental Diet",
-      "Vegetarian"
+      "Continental Diet"
     ],
     "benefit": [],
     "calories": 288.0,
@@ -24219,12 +26054,27 @@ export const foods: Food[] = [
     "iron": 2.6
   },
   {
+    "foodName": "Yam boiled",
+    "group": "Bread, grain/cereal products and potatoes",
+    "subgroup": "Bread, grain/cereal products and potatoes",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 144.0,
+    "protein": 1.7,
+    "fat": 0.3,
+    "vitaminB12": 0.0,
+    "vitaminC": 4.0,
+    "vitaminD": 0.0,
+    "iron": 0.4
+  },
+  {
     "foodName": "Yam raw",
     "group": "Bread, grain/cereal products and potatoes",
     "subgroup": "Bread, grain/cereal products and potatoes",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 124.0,
@@ -24240,8 +26090,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 53.0,
@@ -24257,8 +26106,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 77.0,
@@ -24274,8 +26122,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 122.0,
@@ -24291,8 +26138,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 119.0,
@@ -24308,8 +26154,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 69.0,
@@ -24325,8 +26170,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 141.0,
@@ -24342,8 +26186,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 57.0,
@@ -24359,8 +26202,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)",
@@ -24379,8 +26221,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -24398,11 +26239,9 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in VITC (mg)",
       "High in VITD (µg)"
     ],
     "calories": 70.0,
@@ -24418,8 +26257,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 64.0,
@@ -24435,8 +26273,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 45.0,
@@ -24452,8 +26289,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)",
@@ -24472,8 +26308,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "High in VITD (µg)"
@@ -24491,8 +26326,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in FAT (g)"
@@ -24510,8 +26344,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)",
@@ -24526,12 +26359,29 @@ export const foods: Food[] = [
     "iron": 0.0
   },
   {
+    "foodName": "Yoghurt drink w sweetener Linessa",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [
+      "Low in Calories (kcal)"
+    ],
+    "calories": 28.0,
+    "protein": 3.0,
+    "fat": 0.1,
+    "vitaminB12": 0.37,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
     "foodName": "Yoghurt full fat",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 56.0,
@@ -24547,8 +26397,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 68.0,
@@ -24564,8 +26413,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 104.0,
@@ -24581,8 +26429,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 97.0,
@@ -24598,8 +26445,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 94.0,
@@ -24611,16 +26457,29 @@ export const foods: Food[] = [
     "iron": 0.1
   },
   {
+    "foodName": "Yoghurt goatmilk full fat",
+    "group": "Dairy, nuts, fish, legumes, meat and eggs",
+    "subgroup": "Dairy",
+    "diet": [
+      "Plant-Focused Flexitarian Diet"
+    ],
+    "benefit": [],
+    "calories": 74.0,
+    "protein": 3.7,
+    "fat": 4.7,
+    "vitaminB12": 0.1,
+    "vitaminC": 0.0,
+    "vitaminD": 0.0,
+    "iron": 0.0
+  },
+  {
     "foodName": "Yoghurt half fat",
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
-    "benefit": [
-      "High in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 50.0,
     "protein": 4.2,
     "fat": 1.5,
@@ -24634,8 +26493,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 79.0,
@@ -24651,8 +26509,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
@@ -24670,8 +26527,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 67.0,
@@ -24687,8 +26543,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)",
@@ -24707,11 +26562,10 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
-      "High in VITC (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 42.0,
     "protein": 4.5,
@@ -24726,8 +26580,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 102.0,
@@ -24743,8 +26596,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 128.0,
@@ -24760,8 +26612,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 72.0,
@@ -24777,8 +26628,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [],
     "calories": 56.0,
@@ -24794,8 +26644,7 @@ export const foods: Food[] = [
     "group": "Dairy, nuts, fish, legumes, meat and eggs",
     "subgroup": "Dairy",
     "diet": [
-      "Plant-Focused Flexitarian Diet",
-      "Vegetarian"
+      "Plant-Focused Flexitarian Diet"
     ],
     "benefit": [
       "Low in Calories (kcal)"
