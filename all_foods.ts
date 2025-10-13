@@ -23,11 +23,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 159.0,
     "protein": 2.8,
@@ -46,18 +45,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITE (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 631.0,
     "protein": 21.7,
@@ -76,18 +65,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITE (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 631.0,
     "protein": 21.7,
@@ -106,20 +85,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
       "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITE (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 622.0,
     "protein": 25.4,
@@ -138,21 +106,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
       "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITE (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 622.0,
     "protein": 25.4,
@@ -171,10 +127,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Iron (mg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 125.0,
     "protein": 20.4,
@@ -193,11 +146,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 30.0,
     "protein": 1.0,
@@ -216,13 +167,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 55.0,
     "protein": 0.3,
@@ -241,13 +187,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 55.0,
     "protein": 0.2,
@@ -266,14 +207,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 55.0,
     "protein": 0.2,
@@ -292,13 +227,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 52.0,
     "protein": 0.2,
@@ -317,9 +247,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 85.0,
     "protein": 0.6,
@@ -338,12 +267,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 76.0,
     "protein": 0.2,
@@ -362,15 +287,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 48.0,
     "protein": 0.2,
@@ -389,15 +308,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 48.0,
     "protein": 0.2,
@@ -416,13 +329,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 56.0,
     "protein": 0.3,
@@ -441,13 +349,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 55.0,
     "protein": 0.2,
@@ -466,10 +369,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 292.0,
     "protein": 2.0,
@@ -489,12 +390,10 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in Potassium (mg)",
-      "High in VITA (µg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 285.0,
     "protein": 5.0,
@@ -513,10 +412,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 69.0,
     "protein": 0.4,
@@ -535,9 +432,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 44.0,
     "protein": 0.9,
@@ -556,9 +452,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 27.0,
     "protein": 2.1,
@@ -577,10 +472,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 49.0,
     "protein": 2.0,
@@ -599,8 +493,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 27.0,
     "protein": 2.7,
@@ -619,10 +513,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 28.0,
     "protein": 3.0,
@@ -641,10 +533,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 21.0,
     "protein": 1.0,
@@ -663,12 +553,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 22.0,
     "protein": 1.0,
@@ -687,10 +573,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 17.0,
     "protein": 1.4,
@@ -709,12 +593,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 21.0,
     "protein": 1.0,
@@ -733,13 +614,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 20.0,
     "protein": 1.0,
@@ -758,8 +635,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 186.0,
     "protein": 2.0,
@@ -777,16 +654,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Sodium (mg)",
-      "High in VITD (µg)",
-      "Low in Calcium (mg)",
-      "Low in Magnesium (mg)",
-      "Low in Potassium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 678.0,
     "protein": 5.0,
     "fat": 73.2,
@@ -803,15 +671,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in PROT (g)",
-      "High in VITB1 (mg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 424.0,
     "protein": 25.7,
     "fat": 35.5,
@@ -828,14 +688,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in FAT (g)",
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in Sodium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 379.0,
     "protein": 23.1,
     "fat": 31.9,
@@ -852,10 +705,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB1 (mg)"
-    ],
+    "benefit": [],
     "calories": 325.0,
     "protein": 15.3,
     "fat": 29.4,
@@ -872,13 +722,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in PROT (g)",
-      "High in VITB1 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 435.0,
     "protein": 29.1,
     "fat": 35.4,
@@ -895,11 +739,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 320.0,
     "protein": 16.5,
     "fat": 28.2,
@@ -916,14 +756,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 185.0,
     "protein": 15.0,
     "fat": 10.5,
@@ -940,12 +773,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 341.0,
     "protein": 9.4,
     "fat": 1.1,
@@ -962,12 +790,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 367.0,
     "protein": 5.1,
     "fat": 0.6,
@@ -984,10 +807,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 377.0,
     "protein": 6.4,
     "fat": 3.6,
@@ -1004,13 +824,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 367.0,
     "protein": 11.0,
     "fat": 1.0,
@@ -1027,13 +841,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 322.0,
     "protein": 10.6,
     "fat": 1.2,
@@ -1050,13 +858,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 340.0,
     "protein": 11.3,
     "fat": 1.5,
@@ -1073,16 +875,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 352.0,
     "protein": 13.0,
     "fat": 5.1,
@@ -1100,11 +893,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "Low in FAT (g)",
-      "Low in Magnesium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 33.0,
     "protein": 2.0,
@@ -1123,9 +914,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 19.0,
     "protein": 1.2,
@@ -1144,8 +934,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 27.0,
     "protein": 1.8,
@@ -1164,9 +954,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 92.0,
     "protein": 1.1,
@@ -1184,14 +973,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Phosphorus (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 332.0,
     "protein": 10.0,
     "fat": 2.0,
@@ -1208,12 +990,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 339.0,
     "protein": 9.0,
     "fat": 2.0,
@@ -1231,15 +1008,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)"
     ],
     "calories": 330.0,
     "protein": 10.6,
@@ -1258,9 +1027,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 17.0,
     "protein": 1.8,
@@ -1279,9 +1047,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 25.0,
     "protein": 2.2,
@@ -1300,10 +1067,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 25.0,
     "protein": 1.8,
@@ -1322,8 +1087,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 34.0,
     "protein": 1.8,
@@ -1342,9 +1107,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 25.0,
     "protein": 2.3,
@@ -1363,8 +1127,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 26.0,
     "protein": 1.6,
@@ -1382,11 +1146,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 113.0,
     "protein": 7.9,
     "fat": 1.0,
@@ -1403,11 +1163,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 126.0,
     "protein": 7.8,
     "fat": 0.9,
@@ -1425,10 +1181,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 45.0,
     "protein": 5.0,
@@ -1447,9 +1203,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 87.0,
     "protein": 7.5,
@@ -1468,10 +1224,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 51.0,
     "protein": 5.0,
@@ -1490,8 +1246,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 73.0,
     "protein": 5.8,
@@ -1510,11 +1267,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 108.0,
     "protein": 6.1,
@@ -1533,10 +1286,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 120.0,
     "protein": 6.5,
@@ -1554,12 +1304,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 118.0,
     "protein": 8.0,
     "fat": 0.9,
@@ -1576,12 +1321,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 113.0,
     "protein": 7.1,
     "fat": 1.1,
@@ -1598,11 +1338,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 106.0,
     "protein": 6.3,
     "fat": 0.8,
@@ -1620,11 +1356,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 115.0,
     "protein": 8.3,
@@ -1643,10 +1375,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 116.0,
     "protein": 8.2,
@@ -1665,11 +1394,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 102.0,
     "protein": 7.7,
@@ -1688,14 +1413,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)"
     ],
     "calories": 295.0,
     "protein": 22.1,
@@ -1714,9 +1432,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 102.0,
     "protein": 7.6,
@@ -1735,11 +1451,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 23.0,
     "protein": 1.8,
@@ -1758,8 +1472,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 28.0,
     "protein": 1.9,
@@ -1778,9 +1492,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 22.0,
     "protein": 1.9,
@@ -1799,9 +1512,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 20.0,
     "protein": 1.1,
@@ -1819,12 +1531,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 123.0,
     "protein": 10.6,
     "fat": 5.5,
@@ -1842,19 +1549,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
       "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
-      "High in Zinc (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 418.0,
     "protein": 35.9,
@@ -1873,9 +1569,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 101.0,
     "protein": 5.7,
@@ -1893,13 +1587,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 113.0,
     "protein": 7.8,
     "fat": 1.0,
@@ -1916,11 +1604,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 105.0,
     "protein": 6.9,
     "fat": 0.8,
@@ -1937,18 +1621,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 314.0,
     "protein": 20.1,
     "fat": 2.4,
@@ -1965,13 +1638,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 163.0,
     "protein": 30.2,
     "fat": 4.7,
@@ -1988,13 +1655,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 108.0,
     "protein": 22.6,
     "fat": 2.0,
@@ -2011,13 +1672,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in PROT (g)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 290.0,
     "protein": 26.9,
     "fat": 19.7,
@@ -2034,9 +1689,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 218.0,
     "protein": 18.5,
     "fat": 15.3,
@@ -2054,12 +1707,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in PROT (g)"
     ],
     "calories": 254.0,
     "protein": 33.6,
@@ -2077,11 +1725,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 189.0,
     "protein": 22.0,
     "fat": 11.2,
@@ -2098,9 +1742,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 201.0,
     "protein": 19.1,
     "fat": 13.2,
@@ -2118,10 +1760,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "High in PROT (g)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in PROT (g)"
     ],
     "calories": 217.0,
     "protein": 36.8,
@@ -2139,12 +1778,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 152.0,
     "protein": 22.3,
     "fat": 7.0,
@@ -2160,24 +1794,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "Low in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 891.0,
     "protein": 0.0,
     "fat": 99.0,
@@ -2194,13 +1811,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 140.0,
     "protein": 27.5,
     "fat": 3.3,
@@ -2217,11 +1828,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Zinc (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 103.0,
     "protein": 21.2,
     "fat": 2.0,
@@ -2238,10 +1845,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 223.0,
     "protein": 22.4,
     "fat": 14.5,
@@ -2258,10 +1862,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 209.0,
     "protein": 16.6,
     "fat": 14.2,
@@ -2279,11 +1880,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in PROT (g)"
     ],
     "calories": 192.0,
     "protein": 31.0,
@@ -2301,13 +1898,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 165.0,
     "protein": 23.0,
     "fat": 8.1,
@@ -2324,13 +1915,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 187.0,
     "protein": 29.6,
     "fat": 7.6,
@@ -2347,10 +1932,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 137.0,
     "protein": 19.8,
     "fat": 6.4,
@@ -2368,10 +1950,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "High in PROT (g)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in PROT (g)"
     ],
     "calories": 230.0,
     "protein": 34.1,
@@ -2389,10 +1968,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 166.0,
     "protein": 20.1,
     "fat": 9.5,
@@ -2409,12 +1985,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 214.0,
     "protein": 29.6,
     "fat": 10.6,
@@ -2431,11 +2002,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Zinc (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 170.0,
     "protein": 21.2,
     "fat": 9.4,
@@ -2452,14 +2019,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 156.0,
     "protein": 27.2,
     "fat": 5.1,
@@ -2476,10 +2036,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 122.0,
     "protein": 22.9,
     "fat": 3.4,
@@ -2497,8 +2054,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
-      "High in Zinc (mg)"
+      "High in PROT (g)"
     ],
     "calories": 157.0,
     "protein": 33.5,
@@ -2516,14 +2072,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 146.0,
     "protein": 29.3,
     "fat": 3.2,
@@ -2540,12 +2089,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 108.0,
     "protein": 22.9,
     "fat": 1.8,
@@ -2562,13 +2106,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 140.0,
     "protein": 27.5,
     "fat": 3.3,
@@ -2585,12 +2123,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 117.0,
     "protein": 22.6,
     "fat": 3.0,
@@ -2607,10 +2140,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 109.0,
     "protein": 23.2,
     "fat": 1.7,
@@ -2627,13 +2157,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 186.0,
     "protein": 30.1,
     "fat": 7.2,
@@ -2651,7 +2175,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Zinc (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 137.0,
     "protein": 21.1,
@@ -2670,11 +2194,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "High in Zinc (mg)"
+      "High in PROT (g)"
     ],
     "calories": 216.0,
     "protein": 30.9,
@@ -2692,11 +2212,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)",
-      "Low in Calcium (mg)"
-    ],
+    "benefit": [],
     "calories": 106.0,
     "protein": 22.1,
     "fat": 2.0,
@@ -2714,11 +2230,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "High in PROT (g)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in PROT (g)"
     ],
     "calories": 189.0,
     "protein": 33.4,
@@ -2736,12 +2248,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 135.0,
     "protein": 21.3,
     "fat": 5.5,
@@ -2759,11 +2266,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "High in PROT (g)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in PROT (g)"
     ],
     "calories": 212.0,
     "protein": 34.6,
@@ -2781,12 +2284,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 147.0,
     "protein": 20.6,
     "fat": 7.2,
@@ -2803,13 +2301,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 116.0,
     "protein": 23.7,
     "fat": 2.3,
@@ -2827,19 +2319,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 26.0,
     "protein": 0.3,
@@ -2858,20 +2339,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 34.0,
     "protein": 0.2,
@@ -2890,8 +2359,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 30.0,
     "protein": 1.2,
@@ -2910,8 +2379,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 37.0,
     "protein": 0.5,
@@ -2930,8 +2399,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 38.0,
     "protein": 1.7,
@@ -2950,11 +2419,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Magnesium (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
     ],
     "calories": 30.0,
     "protein": 0.6,
@@ -2973,10 +2441,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in PROT (g)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 66.0,
     "protein": 0.3,
@@ -2994,13 +2460,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 335.0,
     "protein": 10.0,
     "fat": 1.2,
@@ -3018,10 +2478,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 18.0,
     "protein": 0.8,
@@ -3040,10 +2498,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 15.0,
     "protein": 1.0,
@@ -3062,12 +2519,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Sodium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB12 (µg)",
-      "Low in VITC (mg)"
+      "High in Iron (mg)"
     ],
     "calories": 386.0,
     "protein": 12.4,
@@ -3086,9 +2538,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 37.0,
     "protein": 0.9,
@@ -3107,11 +2558,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 53.0,
     "protein": 0.9,
@@ -3129,10 +2579,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 112.0,
     "protein": 3.4,
     "fat": 2.0,
@@ -3149,13 +2596,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 91.0,
     "protein": 2.9,
     "fat": 1.2,
@@ -3172,20 +2613,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Sodium (mg)",
-      "Low in FAT (g)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 377.0,
     "protein": 0.0,
@@ -3203,9 +2631,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 89.0,
     "protein": 3.9,
     "fat": 2.0,
@@ -3222,10 +2648,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 112.0,
     "protein": 4.1,
     "fat": 2.3,
@@ -3243,10 +2666,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in RIBF (mg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 299.0,
     "protein": 21.6,
@@ -3265,12 +2685,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 52.0,
     "protein": 0.7,
@@ -3289,19 +2706,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITE (mg)",
-      "High in Zinc (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 687.0,
     "protein": 14.3,
@@ -3320,20 +2726,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITE (mg)",
-      "High in Zinc (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 687.0,
     "protein": 14.3,
@@ -3351,14 +2745,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 378.0,
     "protein": 13.0,
     "fat": 3.5,
@@ -3374,14 +2761,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 378.0,
     "protein": 13.0,
     "fat": 3.5,
@@ -3398,13 +2778,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 401.0,
     "protein": 12.5,
     "fat": 6.6,
@@ -3422,11 +2796,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 385.0,
     "protein": 14.1,
@@ -3446,16 +2816,7 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "High in VITC (mg)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 350.0,
     "protein": 5.7,
@@ -3475,12 +2836,7 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 392.0,
     "protein": 8.3,
@@ -3498,14 +2854,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 382.0,
     "protein": 11.7,
     "fat": 3.3,
@@ -3523,14 +2872,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
       "High in Iron (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 402.0,
     "protein": 9.5,
@@ -3549,15 +2892,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
       "High in Iron (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 381.0,
     "protein": 9.0,
@@ -3575,13 +2912,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Calcium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 378.0,
     "protein": 7.0,
     "fat": 0.9,
@@ -3600,14 +2931,8 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "Low in Calcium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 378.0,
     "protein": 7.0,
@@ -3625,14 +2950,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 379.0,
     "protein": 6.3,
     "fat": 2.2,
@@ -3650,15 +2968,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
       "High in Iron (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 389.0,
     "protein": 5.0,
@@ -3678,12 +2990,7 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 400.0,
     "protein": 8.1,
@@ -3703,15 +3010,7 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 381.0,
     "protein": 8.0,
@@ -3731,13 +3030,7 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 374.0,
     "protein": 9.7,
@@ -3755,15 +3048,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 344.0,
     "protein": 11.0,
     "fat": 2.1,
@@ -3780,15 +3065,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 360.0,
     "protein": 10.4,
     "fat": 1.8,
@@ -3805,16 +3082,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 367.0,
     "protein": 12.4,
     "fat": 2.1,
@@ -3831,17 +3099,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 376.0,
     "protein": 11.6,
     "fat": 2.1,
@@ -3859,7 +3117,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITE (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 55.0,
     "protein": 3.4,
@@ -3877,11 +3135,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 338.0,
     "protein": 8.5,
     "fat": 11.0,
@@ -3899,9 +3153,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 27.0,
     "protein": 3.9,
@@ -3920,9 +3173,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 27.0,
     "protein": 2.9,
@@ -3941,9 +3193,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 47.0,
     "protein": 2.3,
@@ -3962,9 +3214,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 47.0,
     "protein": 2.3,
@@ -3983,9 +3234,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 46.0,
     "protein": 2.3,
@@ -4003,14 +3254,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "High in VITB6 (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 357.0,
     "protein": 8.0,
     "fat": 2.0,
@@ -4028,11 +3272,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
     ],
     "calories": 80.0,
     "protein": 3.1,
@@ -4050,12 +3291,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 340.0,
     "protein": 12.3,
     "fat": 1.3,
@@ -4072,10 +3308,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 216.0,
     "protein": 9.0,
     "fat": 10.8,
@@ -4092,15 +3325,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "Low in Magnesium (mg)",
-      "Low in Potassium (mg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 567.0,
     "protein": 0.6,
     "fat": 44.8,
@@ -4116,19 +3341,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 228.0,
     "protein": 0.2,
     "fat": 25.0,
@@ -4145,18 +3358,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 337.0,
     "protein": 0.3,
     "fat": 37.0,
@@ -4172,16 +3374,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in Potassium (mg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 675.0,
     "protein": 0.7,
     "fat": 74.3,
@@ -4197,16 +3390,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in Potassium (mg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 676.0,
     "protein": 0.7,
     "fat": 74.3,
@@ -4222,15 +3406,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "Low in Magnesium (mg)",
-      "Low in Potassium (mg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 737.0,
     "protein": 0.7,
     "fat": 81.2,
@@ -4246,15 +3422,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "Low in Magnesium (mg)",
-      "Low in Potassium (mg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 737.0,
     "protein": 0.7,
     "fat": 81.2,
@@ -4272,10 +3440,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 30.0,
     "protein": 3.0,
@@ -4294,8 +3459,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 51.0,
     "protein": 3.3,
@@ -4314,10 +3478,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 17.0,
     "protein": 1.0,
@@ -4336,11 +3499,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 17.0,
     "protein": 1.0,
@@ -4359,10 +3520,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 21.0,
     "protein": 1.5,
@@ -4381,9 +3540,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 36.0,
     "protein": 2.4,
@@ -4402,9 +3560,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 21.0,
     "protein": 1.1,
@@ -4423,9 +3580,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 42.0,
     "protein": 3.0,
@@ -4444,11 +3600,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 17.0,
     "protein": 1.6,
@@ -4467,11 +3620,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)"
     ],
     "calories": 14.0,
     "protein": 1.0,
@@ -4490,11 +3641,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 23.0,
     "protein": 1.3,
@@ -4513,8 +3662,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 40.0,
     "protein": 0.8,
@@ -4533,10 +3682,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 27.0,
     "protein": 2.0,
@@ -4555,9 +3703,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 57.0,
     "protein": 1.1,
@@ -4576,9 +3723,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 58.0,
     "protein": 0.8,
@@ -4597,9 +3743,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 52.0,
     "protein": 0.9,
@@ -4618,11 +3763,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
       "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 14.0,
     "protein": 0.9,
@@ -4641,13 +3785,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
-      "High in VITC (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
       "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 13.0,
     "protein": 1.1,
@@ -4666,10 +3807,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 16.0,
     "protein": 0.9,
@@ -4688,10 +3828,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 30.0,
     "protein": 2.0,
@@ -4709,11 +3848,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 43.0,
     "protein": 2.4,
@@ -4732,11 +3868,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calcium (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 37.0,
     "protein": 0.5,
@@ -4755,9 +3888,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 32.0,
     "protein": 0.7,
@@ -4776,9 +3908,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 30.0,
     "protein": 0.8,
@@ -4797,9 +3928,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 31.0,
     "protein": 0.9,
@@ -4818,9 +3948,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 32.0,
     "protein": 0.8,
@@ -4839,10 +3968,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 29.0,
     "protein": 0.7,
@@ -4861,9 +3988,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 34.0,
     "protein": 0.6,
@@ -4882,9 +4008,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 34.0,
     "protein": 0.6,
@@ -4903,16 +4028,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
       "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in Zinc (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 615.0,
     "protein": 21.2,
@@ -4931,16 +4049,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
       "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in Zinc (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 615.0,
     "protein": 21.2,
@@ -4959,11 +4070,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 22.0,
     "protein": 1.8,
@@ -4982,12 +4090,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 25.0,
     "protein": 1.9,
@@ -5006,9 +4110,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 38.0,
     "protein": 2.0,
@@ -5027,10 +4131,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 38.0,
     "protein": 2.0,
@@ -5049,11 +4152,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
       "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 14.0,
     "protein": 1.0,
@@ -5072,12 +4174,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "High in VITC (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
       "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 14.0,
     "protein": 1.0,
@@ -5095,13 +4195,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in PROT (g)"
     ],
     "calories": 187.0,
     "protein": 32.2,
@@ -5119,13 +4213,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
       "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 246.0,
     "protein": 34.5,
@@ -5143,12 +4232,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
       "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 240.0,
     "protein": 33.1,
@@ -5166,12 +4251,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
       "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 264.0,
     "protein": 36.7,
@@ -5189,13 +4270,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in PROT (g)"
     ],
     "calories": 307.0,
     "protein": 31.7,
@@ -5213,14 +4288,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
       "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 306.0,
     "protein": 31.9,
@@ -5238,13 +4307,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in PROT (g)"
     ],
     "calories": 280.0,
     "protein": 30.1,
@@ -5261,13 +4324,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 278.0,
     "protein": 29.3,
     "fat": 17.9,
@@ -5284,13 +4341,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in PROT (g)"
     ],
     "calories": 280.0,
     "protein": 30.1,
@@ -5308,11 +4359,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Sodium (mg)",
-      "High in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 302.0,
     "protein": 27.3,
@@ -5330,11 +4377,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Sodium (mg)",
-      "Low in Potassium (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 341.0,
     "protein": 27.3,
@@ -5352,11 +4395,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 339.0,
     "protein": 29.4,
@@ -5374,12 +4413,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Sodium (mg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 357.0,
     "protein": 25.4,
@@ -5397,11 +4431,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITA (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 381.0,
     "protein": 26.1,
@@ -5419,13 +4449,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in FAT (g)",
-      "High in Phosphorus (mg)",
-      "High in Sodium (mg)",
-      "High in VITA (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 380.0,
     "protein": 22.9,
@@ -5442,16 +4466,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in VITA (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 405.0,
     "protein": 17.9,
     "fat": 37.0,
@@ -5468,11 +4483,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in PROT (g)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 318.0,
     "protein": 23.0,
@@ -5491,11 +4502,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in FAT (g)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 369.0,
     "protein": 17.0,
@@ -5512,13 +4519,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)"
-    ],
+    "benefit": [],
     "calories": 223.0,
     "protein": 24.0,
     "fat": 14.0,
@@ -5534,13 +4535,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in PROT (g)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 306.0,
     "protein": 25.0,
     "fat": 22.8,
@@ -5557,15 +4552,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in VITA (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 415.0,
     "protein": 25.5,
@@ -5583,12 +4570,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 350.0,
     "protein": 20.5,
@@ -5606,10 +4588,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 370.0,
     "protein": 27.6,
@@ -5627,11 +4606,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Sodium (mg)",
-      "High in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 324.0,
     "protein": 25.5,
@@ -5649,13 +4624,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
       "High in VITB12 (µg)",
-      "High in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 387.0,
     "protein": 29.0,
@@ -5673,9 +4643,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Sodium (mg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 274.0,
     "protein": 16.6,
@@ -5693,17 +4661,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in VITA (µg)",
       "High in VITB12 (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 414.0,
     "protein": 24.6,
@@ -5721,13 +4680,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in FAT (g)",
-      "High in Phosphorus (mg)",
-      "High in Sodium (mg)",
-      "High in VITA (µg)",
       "High in VITB12 (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 377.0,
     "protein": 22.5,
@@ -5745,11 +4699,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 364.0,
     "protein": 22.8,
@@ -5767,12 +4717,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in VITA (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 370.0,
     "protein": 22.7,
@@ -5790,12 +4735,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in VITA (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 370.0,
     "protein": 22.9,
@@ -5813,14 +4753,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in VITA (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 443.0,
     "protein": 18.6,
@@ -5838,8 +4771,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Sodium (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 283.0,
     "protein": 21.0,
@@ -5857,11 +4789,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 253.0,
     "protein": 18.7,
     "fat": 19.5,
@@ -5878,17 +4806,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in VITA (µg)",
       "High in VITB12 (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 404.0,
     "protein": 26.0,
@@ -5906,14 +4825,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
+      "High in Iron (mg)",
       "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 404.0,
     "protein": 40.0,
@@ -5930,12 +4844,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Sodium (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 291.0,
     "protein": 13.6,
     "fat": 25.0,
@@ -5952,14 +4861,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in FAT (g)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in VITA (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 357.0,
     "protein": 19.0,
@@ -5977,13 +4879,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in Zinc (mg)",
-      "Low in Iron (mg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 341.0,
     "protein": 21.5,
@@ -6000,14 +4896,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in FAT (g)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in VITA (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 388.0,
     "protein": 21.3,
     "fat": 33.4,
@@ -6024,12 +4913,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Sodium (mg)",
-      "Low in Iron (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 287.0,
     "protein": 12.7,
     "fat": 26.0,
@@ -6047,9 +4931,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "Low in VITC (mg)"
+      "High in Iron (mg)"
     ],
     "calories": 132.0,
     "protein": 11.3,
@@ -6066,16 +4948,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in FAT (g)",
-      "High in Phosphorus (mg)",
-      "High in Sodium (mg)",
-      "High in VITA (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 396.0,
     "protein": 22.4,
     "fat": 32.5,
@@ -6092,13 +4965,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in FAT (g)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Sodium (mg)",
-      "High in VITA (µg)",
-      "High in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 392.0,
     "protein": 26.0,
@@ -6116,11 +4983,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Sodium (mg)"
-    ],
+    "benefit": [],
     "calories": 291.0,
     "protein": 11.4,
     "fat": 15.2,
@@ -6137,11 +5000,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "Low in VITC (mg)"
+      "High in Iron (mg)"
     ],
     "calories": 238.0,
     "protein": 17.0,
@@ -6158,11 +5017,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Sodium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 297.0,
     "protein": 15.5,
     "fat": 26.1,
@@ -6179,12 +5034,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in VITA (µg)",
-      "Low in VITE (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 331.0,
     "protein": 21.2,
@@ -6201,12 +5051,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)"
-    ],
+    "benefit": [],
     "calories": 132.0,
     "protein": 17.3,
     "fat": 5.5,
@@ -6222,12 +5067,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)"
-    ],
+    "benefit": [],
     "calories": 137.0,
     "protein": 17.2,
     "fat": 6.8,
@@ -6243,12 +5083,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Sodium (mg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 227.0,
     "protein": 16.0,
     "fat": 17.0,
@@ -6264,12 +5099,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Sodium (mg)",
-      "Low in Potassium (mg)"
-    ],
+    "benefit": [],
     "calories": 231.0,
     "protein": 14.3,
     "fat": 18.9,
@@ -6285,12 +5115,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Sodium (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 260.0,
     "protein": 13.4,
     "fat": 21.7,
@@ -6306,11 +5131,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Sodium (mg)"
-    ],
+    "benefit": [],
     "calories": 169.0,
     "protein": 15.0,
     "fat": 11.1,
@@ -6327,12 +5148,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in VITA (µg)",
-      "Low in VITC (mg)"
+      "High in Iron (mg)",
+      "High in VITD (µg)"
     ],
     "calories": 370.0,
     "protein": 22.9,
@@ -6351,11 +5168,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 63.0,
     "protein": 0.6,
@@ -6374,10 +5188,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 52.0,
     "protein": 1.0,
@@ -6396,9 +5209,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 57.0,
     "protein": 0.9,
@@ -6417,11 +5229,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
     ],
     "calories": 189.0,
     "protein": 4.0,
@@ -6439,9 +5250,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)"
-    ],
+    "benefit": [],
     "calories": 151.0,
     "protein": 22.1,
     "fat": 4.9,
@@ -6458,10 +5267,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 147.0,
     "protein": 19.1,
     "fat": 7.9,
@@ -6478,10 +5284,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 132.0,
     "protein": 21.6,
     "fat": 2.5,
@@ -6498,10 +5301,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 115.0,
     "protein": 21.0,
     "fat": 2.0,
@@ -6519,10 +5319,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
+      "High in PROT (g)"
     ],
     "calories": 158.0,
     "protein": 30.9,
@@ -6540,11 +5337,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 109.0,
     "protein": 23.3,
     "fat": 1.8,
@@ -6561,9 +5354,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 247.0,
     "protein": 19.0,
     "fat": 19.0,
@@ -6580,10 +5371,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 175.0,
     "protein": 20.6,
     "fat": 10.3,
@@ -6600,9 +5388,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 157.0,
     "protein": 19.3,
     "fat": 6.3,
@@ -6619,9 +5405,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 265.0,
     "protein": 13.6,
     "fat": 14.6,
@@ -6638,9 +5422,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 211.0,
     "protein": 15.1,
     "fat": 8.9,
@@ -6657,9 +5439,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 218.0,
     "protein": 18.3,
     "fat": 16.0,
@@ -6676,10 +5456,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 188.0,
     "protein": 28.5,
     "fat": 7.9,
@@ -6696,10 +5473,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 139.0,
     "protein": 20.5,
     "fat": 6.3,
@@ -6717,10 +5491,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 16.0,
     "protein": 1.2,
@@ -6739,13 +5511,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 19.0,
     "protein": 1.3,
@@ -6764,10 +5531,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 264.0,
     "protein": 3.1,
@@ -6786,10 +5550,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 256.0,
     "protein": 3.1,
@@ -6807,12 +5568,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 291.0,
     "protein": 5.8,
     "fat": 8.8,
@@ -6830,10 +5586,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 146.0,
     "protein": 2.3,
@@ -6852,10 +5605,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 263.0,
     "protein": 3.1,
@@ -6874,9 +5624,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 142.0,
     "protein": 2.2,
@@ -6895,13 +5644,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 674.0,
     "protein": 7.1,
@@ -6920,13 +5666,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 406.0,
     "protein": 4.0,
@@ -6944,15 +5687,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Calcium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 173.0,
     "protein": 1.4,
     "fat": 17.4,
@@ -6969,13 +5704,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 105.0,
     "protein": 23.0,
     "fat": 1.0,
@@ -6993,10 +5722,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
+      "High in PROT (g)"
     ],
     "calories": 138.0,
     "protein": 32.5,
@@ -7015,10 +5741,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 98.0,
     "protein": 23.5,
@@ -7037,8 +5760,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 75.0,
     "protein": 17.5,
@@ -7057,9 +5779,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 31.0,
     "protein": 1.8,
@@ -7077,14 +5797,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
+      "High in Iron (mg)",
+      "High in PROT (g)",
       "High in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 407.0,
     "protein": 13.9,
@@ -7103,8 +5819,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 37.0,
     "protein": 1.2,
@@ -7122,10 +5837,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 210.0,
     "protein": 3.3,
     "fat": 20.2,
@@ -7142,13 +5854,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in RIBF (mg)",
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 112.0,
     "protein": 7.1,
     "fat": 4.4,
@@ -7165,11 +5871,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in RIBF (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 145.0,
     "protein": 7.5,
     "fat": 7.7,
@@ -7186,11 +5888,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in RIBF (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 110.0,
     "protein": 7.0,
     "fat": 4.1,
@@ -7207,20 +5905,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "Low in Calcium (mg)",
-      "Low in Magnesium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 560.0,
     "protein": 2.1,
     "fat": 35.3,
@@ -7238,20 +5923,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 16.0,
     "protein": 0.2,
@@ -7270,9 +5943,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in PROT (g)",
+      "High in VITD (µg)"
     ],
     "calories": 72.0,
     "protein": 2.7,
@@ -7291,17 +5963,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
       "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in PROT (g)",
+      "High in VITD (µg)"
     ],
     "calories": 114.0,
     "protein": 7.8,
@@ -7320,8 +5984,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)",
+      "High in VITD (µg)"
     ],
     "calories": 46.0,
     "protein": 2.5,
@@ -7340,20 +6004,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 1.0,
     "protein": 0.2,
@@ -7372,16 +6024,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Calories (kcal)",
-      "Low in PROT (g)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 12.0,
     "protein": 0.2,
@@ -7400,15 +6043,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in PROT (g)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 28.0,
     "protein": 0.2,
@@ -7427,13 +6062,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 427.0,
     "protein": 9.4,
@@ -7452,8 +6084,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 46.0,
     "protein": 1.0,
@@ -7472,22 +6103,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
+      "High in VITD (µg)",
       "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 0.0,
     "protein": 0.0,
@@ -7505,19 +6123,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 883.0,
     "protein": 0.4,
@@ -7534,22 +6140,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 878.0,
     "protein": 0.3,
     "fat": 97.0,
@@ -7566,19 +6157,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 878.0,
     "protein": 0.5,
@@ -7596,19 +6175,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 880.0,
     "protein": 0.4,
@@ -7626,20 +6193,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 873.0,
     "protein": 0.3,
@@ -7657,15 +6211,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 385.0,
     "protein": 7.4,
     "fat": 1.1,
@@ -7682,13 +6228,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 361.0,
     "protein": 6.8,
     "fat": 2.8,
@@ -7706,16 +6246,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 353.0,
     "protein": 0.0,
@@ -7734,10 +6265,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 19.0,
     "protein": 1.5,
@@ -7756,10 +6285,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 18.0,
     "protein": 1.3,
@@ -7777,14 +6304,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 121.0,
     "protein": 4.0,
     "fat": 0.7,
@@ -7801,15 +6321,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 342.0,
     "protein": 12.1,
     "fat": 1.9,
@@ -7826,12 +6338,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 114.0,
     "protein": 4.0,
     "fat": 0.6,
@@ -7849,10 +6356,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Phosphorus (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 57.0,
     "protein": 0.8,
@@ -7870,16 +6375,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Sodium (mg)",
-      "High in Zinc (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 85.0,
     "protein": 18.1,
     "fat": 1.4,
@@ -7896,16 +6392,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 445.0,
     "protein": 12.3,
     "fat": 12.3,
@@ -7922,16 +6409,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 419.0,
     "protein": 12.0,
     "fat": 9.2,
@@ -7948,14 +6426,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 435.0,
     "protein": 10.4,
     "fat": 12.6,
@@ -7972,14 +6443,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 442.0,
     "protein": 10.9,
     "fat": 12.9,
@@ -7996,13 +6460,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 376.0,
     "protein": 11.0,
     "fat": 1.0,
@@ -8019,13 +6477,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 448.0,
     "protein": 9.1,
     "fat": 14.5,
@@ -8043,11 +6495,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 335.0,
     "protein": 0.5,
@@ -8066,13 +6515,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)"
     ],
     "calories": 24.0,
     "protein": 0.4,
@@ -8091,12 +6536,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 172.0,
     "protein": 0.4,
@@ -8132,7 +6573,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 101.0,
     "protein": 3.2,
@@ -8150,9 +6591,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 142.0,
     "protein": 3.6,
     "fat": 4.0,
@@ -8169,9 +6608,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)"
-    ],
+    "benefit": [],
     "calories": 134.0,
     "protein": 3.0,
     "fat": 12.0,
@@ -8188,11 +6625,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITE (mg)",
-      "Low in Iron (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 160.0,
     "protein": 2.0,
     "fat": 15.0,
@@ -8209,9 +6642,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)"
-    ],
+    "benefit": [],
     "calories": 222.0,
     "protein": 2.6,
     "fat": 18.5,
@@ -8228,10 +6659,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITA (µg)",
-      "Low in Iron (mg)"
-    ],
+    "benefit": [],
     "calories": 348.0,
     "protein": 2.0,
     "fat": 30.4,
@@ -8248,10 +6676,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITA (µg)",
-      "Low in Iron (mg)"
-    ],
+    "benefit": [],
     "calories": 305.0,
     "protein": 2.3,
     "fat": 28.0,
@@ -8268,11 +6693,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "Low in Iron (mg)"
-    ],
+    "benefit": [],
     "calories": 339.0,
     "protein": 2.3,
     "fat": 35.3,
@@ -8289,10 +6710,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITA (µg)",
-      "Low in Iron (mg)"
-    ],
+    "benefit": [],
     "calories": 293.0,
     "protein": 2.6,
     "fat": 30.0,
@@ -8310,7 +6728,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Iron (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 165.0,
     "protein": 3.1,
@@ -8329,14 +6747,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Potassium (mg)",
-      "High in VITA (µg)",
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 15.0,
     "protein": 2.0,
@@ -8355,10 +6769,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 399.0,
     "protein": 14.0,
@@ -8377,16 +6788,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in VITB1 (mg)",
-      "High in VITE (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 440.0,
     "protein": 16.0,
@@ -8405,11 +6807,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 408.0,
     "protein": 14.1,
@@ -8428,11 +6826,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 394.0,
     "protein": 14.0,
@@ -8450,14 +6844,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 381.0,
     "protein": 12.0,
     "fat": 2.8,
@@ -8474,14 +6861,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 376.0,
     "protein": 11.0,
     "fat": 4.0,
@@ -8499,11 +6879,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 427.0,
     "protein": 15.0,
@@ -8521,14 +6897,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 376.0,
     "protein": 11.6,
     "fat": 5.6,
@@ -8545,13 +6914,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 368.0,
     "protein": 7.4,
     "fat": 1.9,
@@ -8568,17 +6931,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 410.0,
     "protein": 12.3,
     "fat": 6.6,
@@ -8596,16 +6949,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in VITB1 (mg)",
-      "High in Zinc (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)"
     ],
     "calories": 350.0,
     "protein": 13.0,
@@ -8623,13 +6967,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 380.0,
     "protein": 13.0,
     "fat": 3.5,
@@ -8646,13 +6984,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 355.0,
     "protein": 10.0,
     "fat": 3.6,
@@ -8669,15 +7001,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 334.0,
     "protein": 10.0,
     "fat": 1.5,
@@ -8694,13 +7018,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 421.0,
     "protein": 12.8,
     "fat": 9.8,
@@ -8717,14 +7035,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 363.0,
     "protein": 10.9,
     "fat": 4.0,
@@ -8741,12 +7052,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 403.0,
     "protein": 9.6,
     "fat": 21.1,
@@ -8763,10 +7069,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 400.0,
     "protein": 10.6,
     "fat": 21.8,
@@ -8783,11 +7086,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 434.0,
     "protein": 8.9,
     "fat": 23.9,
@@ -8804,9 +7103,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 377.0,
     "protein": 11.2,
     "fat": 20.6,
@@ -8823,12 +7120,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 414.0,
     "protein": 9.5,
     "fat": 22.3,
@@ -8845,11 +7137,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 392.0,
     "protein": 9.8,
     "fat": 19.9,
@@ -8866,12 +7154,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 420.0,
     "protein": 7.0,
     "fat": 22.6,
@@ -8888,15 +7171,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in Sodium (mg)",
-      "High in VITE (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 491.0,
     "protein": 11.8,
     "fat": 22.3,
@@ -8914,12 +7189,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 17.0,
     "protein": 1.0,
@@ -8938,11 +7210,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
       "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 9.0,
     "protein": 0.7,
@@ -8961,10 +7232,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)"
     ],
     "calories": 13.0,
     "protein": 0.7,
@@ -8983,12 +7253,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 15.0,
     "protein": 0.6,
@@ -9007,11 +7273,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 326.0,
     "protein": 2.0,
@@ -9029,11 +7294,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 96.0,
     "protein": 2.9,
     "fat": 2.6,
@@ -9051,8 +7312,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)"
     ],
     "calories": 88.0,
     "protein": 2.4,
@@ -9070,12 +7330,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 85.0,
     "protein": 2.3,
     "fat": 1.7,
@@ -9093,11 +7348,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in VITA (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 47.0,
     "protein": 3.4,
@@ -9115,10 +7366,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 120.0,
     "protein": 2.7,
     "fat": 5.4,
@@ -9136,16 +7384,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 350.0,
     "protein": 0.3,
@@ -9163,11 +7402,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 87.0,
     "protein": 2.1,
     "fat": 2.6,
@@ -9185,8 +7420,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 142.0,
     "protein": 2.9,
@@ -9204,11 +7438,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 86.0,
     "protein": 2.3,
     "fat": 2.8,
@@ -9225,11 +7455,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 105.0,
     "protein": 2.5,
     "fat": 3.8,
@@ -9247,9 +7473,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 54.0,
     "protein": 3.3,
@@ -9267,10 +7491,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 248.0,
     "protein": 5.1,
     "fat": 23.9,
@@ -9287,9 +7508,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 175.0,
     "protein": 8.1,
     "fat": 13.8,
@@ -9307,11 +7526,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
       "High in Iron (mg)",
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 55.0,
     "protein": 3.0,
@@ -9330,11 +7547,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 305.0,
     "protein": 2.0,
@@ -9352,11 +7567,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 77.0,
     "protein": 3.4,
     "fat": 1.5,
@@ -9373,9 +7584,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 85.0,
     "protein": 3.1,
     "fat": 1.9,
@@ -9392,12 +7601,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 226.0,
     "protein": 5.7,
     "fat": 5.9,
@@ -9415,14 +7619,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 26.0,
     "protein": 0.9,
@@ -9441,15 +7638,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 13.0,
     "protein": 0.3,
@@ -9468,12 +7657,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 23.0,
     "protein": 0.4,
@@ -9492,18 +7676,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 25.0,
     "protein": 0.2,
@@ -9522,19 +7695,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 26.0,
     "protein": 0.3,
@@ -9553,19 +7714,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 40.0,
     "protein": 0.3,
@@ -9584,15 +7733,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITD (µg)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 44.0,
     "protein": 0.5,
@@ -9611,7 +7752,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITC (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 55.0,
     "protein": 2.8,
@@ -9630,8 +7771,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITD (µg)",
-      "Low in VITA (µg)"
+      "High in VITC (mg)",
+      "Low in Calories (kcal)"
     ],
     "calories": 60.0,
     "protein": 2.4,
@@ -9650,9 +7791,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 60.0,
     "protein": 3.0,
@@ -9671,11 +7810,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITE (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 29.0,
     "protein": 2.1,
@@ -9694,8 +7829,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITC (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 37.0,
     "protein": 3.0,
@@ -9714,10 +7848,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 35.0,
     "protein": 3.4,
@@ -9736,8 +7867,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITC (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 34.0,
     "protein": 3.4,
@@ -9755,11 +7885,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in FAT (g)",
-      "High in RIBF (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 388.0,
     "protein": 13.1,
     "fat": 37.3,
@@ -9776,14 +7902,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 207.0,
     "protein": 24.3,
     "fat": 12.2,
@@ -9800,14 +7919,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in FAT (g)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 372.0,
     "protein": 14.0,
     "fat": 35.1,
@@ -9825,12 +7937,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 351.0,
     "protein": 19.1,
@@ -9849,21 +7956,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in FAT (g)",
       "High in Iron (mg)",
       "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB1 (mg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 574.0,
     "protein": 46.0,
@@ -9882,14 +7977,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in RIBF (mg)",
-      "Low in FAT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
     ],
     "calories": 44.0,
     "protein": 10.5,
@@ -9907,12 +7996,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in RIBF (mg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 128.0,
     "protein": 12.3,
     "fat": 8.8,
@@ -9929,11 +8013,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in RIBF (mg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 132.0,
     "protein": 12.3,
     "fat": 9.1,
@@ -9950,11 +8030,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in RIBF (mg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 148.0,
     "protein": 13.0,
     "fat": 10.7,
@@ -9971,10 +8047,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in RIBF (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 129.0,
     "protein": 12.2,
     "fat": 8.8,
@@ -9991,12 +8064,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in RIBF (mg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 125.0,
     "protein": 12.2,
     "fat": 8.5,
@@ -10013,11 +8081,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in RIBF (mg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 132.0,
     "protein": 12.3,
     "fat": 9.1,
@@ -10034,11 +8098,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in RIBF (mg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 220.0,
     "protein": 14.4,
     "fat": 17.6,
@@ -10055,12 +8115,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in RIBF (mg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 136.0,
     "protein": 12.7,
     "fat": 9.5,
@@ -10077,12 +8132,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in RIBF (mg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 135.0,
     "protein": 12.3,
     "fat": 9.5,
@@ -10100,16 +8150,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in Iron (mg)"
     ],
     "calories": 361.0,
     "protein": 16.0,
@@ -10128,16 +8169,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in Iron (mg)"
     ],
     "calories": 361.0,
     "protein": 16.7,
@@ -10156,10 +8188,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 22.0,
     "protein": 1.4,
@@ -10178,11 +8208,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
       "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 9.0,
     "protein": 1.0,
@@ -10201,9 +8230,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 16.0,
     "protein": 1.5,
@@ -10222,19 +8250,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 44.0,
     "protein": 0.2,
@@ -10253,18 +8270,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 44.0,
     "protein": 0.0,
@@ -10283,19 +8290,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
+      "High in VITD (µg)",
       "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 0.0,
     "protein": 0.0,
@@ -10313,11 +8310,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 231.0,
     "protein": 9.1,
     "fat": 9.0,
@@ -10333,22 +8326,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "Low in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 897.0,
     "protein": 0.0,
     "fat": 99.7,
@@ -10364,24 +8342,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "Low in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
     "fat": 100.0,
@@ -10399,11 +8360,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 17.0,
     "protein": 1.0,
@@ -10422,10 +8381,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 17.0,
     "protein": 1.0,
@@ -10444,10 +8402,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Potassium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 259.0,
     "protein": 3.3,
@@ -10466,10 +8424,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 84.0,
     "protein": 1.0,
@@ -10486,15 +8443,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Iron (mg)",
-      "High in Phosphorus (mg)",
-      "High in VITA (µg)",
-      "High in VITE (mg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 275.0,
     "protein": 7.8,
     "fat": 23.6,
@@ -10511,12 +8460,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 286.0,
     "protein": 8.0,
     "fat": 1.9,
@@ -10533,12 +8477,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITE (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 220.0,
     "protein": 16.5,
     "fat": 12.2,
@@ -10555,10 +8494,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 242.0,
     "protein": 17.2,
     "fat": 19.1,
@@ -10576,9 +8512,6 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
-      "High in VITA (µg)",
-      "High in VITB12 (µg)",
       "High in VITD (µg)"
     ],
     "calories": 202.0,
@@ -10597,10 +8530,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 239.0,
     "protein": 16.4,
     "fat": 13.0,
@@ -10617,10 +8547,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 194.0,
     "protein": 13.0,
     "fat": 8.0,
@@ -10637,12 +8564,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 223.0,
     "protein": 4.9,
     "fat": 9.3,
@@ -10659,10 +8581,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 112.0,
     "protein": 23.4,
     "fat": 2.0,
@@ -10679,10 +8598,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 92.0,
     "protein": 19.7,
     "fat": 1.5,
@@ -10700,9 +8616,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 99.0,
     "protein": 0.5,
@@ -10720,9 +8635,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 106.0,
     "protein": 21.9,
     "fat": 2.0,
@@ -10739,14 +8652,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 353.0,
     "protein": 9.0,
     "fat": 2.0,
@@ -10763,14 +8669,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 352.0,
     "protein": 7.0,
     "fat": 1.0,
@@ -10787,14 +8686,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 385.0,
     "protein": 7.8,
     "fat": 1.2,
@@ -10811,16 +8703,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 328.0,
     "protein": 10.0,
     "fat": 2.0,
@@ -10837,12 +8720,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 343.0,
     "protein": 8.0,
     "fat": 1.0,
@@ -10860,20 +8738,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
       "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
-      "High in Zinc (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 478.0,
     "protein": 38.0,
@@ -10891,12 +8757,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 339.0,
     "protein": 10.3,
     "fat": 1.1,
@@ -10913,13 +8774,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 335.0,
     "protein": 10.4,
     "fat": 1.2,
@@ -10937,13 +8792,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 330.0,
     "protein": 14.4,
@@ -10961,10 +8810,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 266.0,
     "protein": 7.7,
     "fat": 8.7,
@@ -10982,11 +8828,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 75.0,
     "protein": 0.4,
@@ -11005,21 +8849,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITB6 (mg)",
-      "High in VITC (mg)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 164.0,
     "protein": 0.1,
@@ -11038,23 +8869,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 28.0,
     "protein": 0.0,
@@ -11074,19 +8890,8 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in VITC (mg)",
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 238.0,
     "protein": 0.0,
@@ -11105,20 +8910,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 47.0,
     "protein": 0.0,
@@ -11137,20 +8930,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 94.0,
     "protein": 0.1,
@@ -11169,21 +8950,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 134.0,
     "protein": 0.0,
@@ -11203,18 +8971,8 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 177.0,
     "protein": 0.1,
@@ -11233,18 +8991,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
+      "High in VITB12 (µg)",
       "High in VITC (mg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 183.0,
     "protein": 0.1,
@@ -11263,21 +9012,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 233.0,
     "protein": 0.0,
@@ -11296,20 +9032,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITB6 (mg)",
-      "High in VITC (mg)",
-      "High in VITE (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 25.0,
     "protein": 0.2,
@@ -11328,17 +9052,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 32.0,
     "protein": 0.1,
@@ -11357,19 +9072,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 10.0,
     "protein": 0.1,
@@ -11388,17 +9092,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 32.0,
     "protein": 0.1,
@@ -11417,10 +9112,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 39.0,
     "protein": 0.9,
@@ -11439,9 +9132,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 63.0,
     "protein": 0.7,
@@ -11460,10 +9152,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 61.0,
     "protein": 0.7,
@@ -11482,10 +9172,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 48.0,
     "protein": 0.8,
@@ -11504,11 +9192,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 65.0,
     "protein": 0.3,
@@ -11527,19 +9212,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 39.0,
     "protein": 0.0,
@@ -11558,17 +9232,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 44.0,
     "protein": 0.2,
@@ -11587,12 +9252,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITE (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 45.0,
     "protein": 0.2,
@@ -11611,18 +9272,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 17.0,
     "protein": 0.1,
@@ -11641,13 +9292,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 36.0,
     "protein": 0.1,
@@ -11666,12 +9311,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 21.0,
     "protein": 0.2,
@@ -11690,18 +9331,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 37.0,
     "protein": 0.0,
@@ -11720,17 +9351,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 61.0,
     "protein": 0.0,
@@ -11749,15 +9371,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 22.0,
     "protein": 0.2,
@@ -11776,13 +9391,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 43.0,
     "protein": 0.2,
@@ -11801,13 +9411,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 48.0,
     "protein": 0.2,
@@ -11826,13 +9430,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in RIBF (mg)",
-      "High in VITB6 (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 23.0,
     "protein": 0.2,
@@ -11851,18 +9450,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 57.0,
     "protein": 0.0,
@@ -11881,14 +9470,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 28.0,
     "protein": 0.1,
@@ -11907,10 +9490,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 256.0,
     "protein": 2.7,
@@ -11929,9 +9510,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 96.0,
     "protein": 1.0,
@@ -11950,11 +9530,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 63.0,
     "protein": 0.4,
@@ -11971,26 +9548,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
     "fat": 100.0,
@@ -12008,11 +9566,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITB6 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 127.0,
     "protein": 5.6,
@@ -12031,10 +9587,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITB6 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 158.0,
     "protein": 6.4,
@@ -12053,8 +9608,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "High in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 262.0,
     "protein": 20.5,
@@ -12073,13 +9627,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)"
     ],
     "calories": 14.0,
     "protein": 1.2,
@@ -12098,15 +9648,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
       "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 10.0,
     "protein": 1.0,
@@ -12125,11 +9670,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 27.0,
     "protein": 0.8,
@@ -12148,12 +9691,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 17.0,
     "protein": 1.1,
@@ -12171,13 +9711,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 205.0,
     "protein": 4.1,
     "fat": 3.6,
@@ -12194,13 +9728,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 212.0,
     "protein": 4.1,
     "fat": 3.1,
@@ -12217,12 +9745,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 236.0,
     "protein": 5.0,
     "fat": 7.0,
@@ -12239,12 +9762,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 266.0,
     "protein": 4.3,
     "fat": 4.2,
@@ -12262,9 +9780,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 155.0,
     "protein": 3.5,
@@ -12282,10 +9798,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 174.0,
     "protein": 3.9,
     "fat": 0.3,
@@ -12303,11 +9816,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 49.0,
     "protein": 0.9,
@@ -12326,11 +9837,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 37.0,
     "protein": 0.9,
@@ -12349,12 +9858,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 66.0,
     "protein": 0.5,
@@ -12373,8 +9879,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 75.0,
     "protein": 0.6,
@@ -12393,8 +9899,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 78.0,
     "protein": 0.6,
@@ -12413,10 +9919,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 76.0,
     "protein": 0.5,
@@ -12435,8 +9939,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 211.0,
     "protein": 19.4,
@@ -12454,10 +9957,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 255.0,
     "protein": 22.5,
     "fat": 17.9,
@@ -12475,7 +9975,6 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
       "High in VITC (mg)"
     ],
     "calories": 239.0,
@@ -12494,13 +9993,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 115.0,
     "protein": 22.0,
     "fat": 3.0,
@@ -12518,17 +10011,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITE (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITC (mg)",
+      "High in VITD (µg)"
     ],
     "calories": 670.0,
     "protein": 16.4,
@@ -12547,19 +10032,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
       "High in Iron (mg)",
-      "High in Magnesium (mg)",
       "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 592.0,
     "protein": 31.6,
@@ -12576,15 +10052,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "Low in Magnesium (mg)",
-      "Low in Potassium (mg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 623.0,
     "protein": 1.2,
     "fat": 67.7,
@@ -12622,10 +10090,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 208.0,
     "protein": 16.0,
@@ -12643,12 +10108,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 182.0,
     "protein": 16.0,
     "fat": 12.8,
@@ -12667,8 +10127,7 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 199.0,
     "protein": 16.0,
@@ -12687,11 +10146,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 172.0,
     "protein": 17.6,
@@ -12710,9 +10165,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in Iron (mg)"
     ],
     "calories": 66.0,
     "protein": 3.0,
@@ -12731,8 +10184,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)",
+      "High in VITC (mg)"
     ],
     "calories": 320.0,
     "protein": 7.7,
@@ -12751,9 +10204,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITE (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)",
+      "Low in FAT (g)"
     ],
     "calories": 251.0,
     "protein": 5.3,
@@ -12772,7 +10224,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITC (mg)"
+      "High in Iron (mg)"
     ],
     "calories": 226.0,
     "protein": 3.5,
@@ -12790,10 +10242,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 216.0,
     "protein": 2.9,
     "fat": 11.3,
@@ -12810,10 +10259,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 248.0,
     "protein": 3.3,
     "fat": 13.9,
@@ -12830,10 +10276,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 220.0,
     "protein": 3.0,
     "fat": 12.0,
@@ -12850,10 +10293,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 243.0,
     "protein": 3.2,
     "fat": 12.3,
@@ -12871,8 +10311,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in RIBF (mg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)"
     ],
     "calories": 324.0,
     "protein": 4.3,
@@ -12891,7 +10330,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 194.0,
     "protein": 2.7,
@@ -12909,9 +10348,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 134.0,
     "protein": 1.5,
     "fat": 3.5,
@@ -12928,11 +10365,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 212.0,
     "protein": 2.9,
     "fat": 10.7,
@@ -12967,7 +10400,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 165.0,
     "protein": 2.6,
@@ -12986,21 +10419,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Calories (kcal)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 2.0,
     "protein": 0.1,
@@ -13019,22 +10438,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 18.0,
     "protein": 0.0,
@@ -13053,23 +10458,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 25.0,
     "protein": 0.0,
@@ -13088,21 +10478,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Calories (kcal)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 18.0,
     "protein": 0.1,
@@ -13121,10 +10497,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)"
     ],
     "calories": 18.0,
     "protein": 1.0,
@@ -13143,22 +10518,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 59.0,
     "protein": 1.8,
@@ -13177,9 +10537,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 75.0,
     "protein": 2.0,
@@ -13198,17 +10556,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 46.0,
     "protein": 0.1,
@@ -13227,17 +10576,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 45.0,
     "protein": 0.2,
@@ -13256,20 +10596,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 20.0,
     "protein": 0.0,
@@ -13288,22 +10616,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 22.0,
     "protein": 0.0,
@@ -13322,22 +10636,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 37.0,
     "protein": 0.0,
@@ -13356,18 +10656,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 12.0,
     "protein": 0.0,
@@ -13386,22 +10676,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 22.0,
     "protein": 0.0,
@@ -13420,21 +10696,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 3.0,
     "protein": 0.0,
@@ -13453,22 +10716,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 41.0,
     "protein": 0.0,
@@ -13487,22 +10736,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 18.0,
     "protein": 0.0,
@@ -13521,21 +10756,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 31.0,
     "protein": 0.0,
@@ -13554,17 +10776,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "High in VITC (mg)",
-      "High in VITE (mg)",
-      "Low in FAT (g)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 44.0,
     "protein": 0.3,
@@ -13583,15 +10797,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "High in VITC (mg)",
-      "High in VITE (mg)",
-      "Low in FAT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 41.0,
     "protein": 0.4,
@@ -13610,12 +10818,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in PROT (g)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 49.0,
     "protein": 0.1,
@@ -13634,12 +10838,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in PROT (g)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 65.0,
     "protein": 0.2,
@@ -13658,12 +10859,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 34.0,
     "protein": 0.5,
@@ -13683,13 +10880,8 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 47.0,
     "protein": 0.4,
@@ -13708,10 +10900,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 47.0,
     "protein": 0.4,
@@ -13731,10 +10920,7 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in VITC (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 44.0,
     "protein": 0.6,
@@ -13753,10 +10939,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 45.0,
     "protein": 0.6,
@@ -13775,11 +10958,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 42.0,
     "protein": 0.7,
@@ -13798,10 +10978,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 17.0,
     "protein": 0.9,
@@ -13820,12 +10998,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in VITA (µg)",
-      "High in VITC (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 33.0,
     "protein": 2.7,
@@ -13844,10 +11018,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 37.0,
     "protein": 2.0,
@@ -13866,13 +11038,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in VITA (µg)",
-      "High in VITC (mg)",
-      "High in VITE (mg)",
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 25.0,
     "protein": 2.4,
@@ -13891,11 +11058,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in VITA (µg)",
+      "High in VITB12 (µg)",
       "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 33.0,
     "protein": 3.0,
@@ -13914,9 +11079,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 40.0,
     "protein": 3.5,
@@ -13936,8 +11099,6 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)"
     ],
     "calories": 88.0,
@@ -13958,8 +11119,6 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)"
     ],
     "calories": 86.0,
@@ -13979,10 +11138,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 242.0,
     "protein": 20.8,
@@ -14001,10 +11157,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in RIBF (mg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 231.0,
     "protein": 20.8,
@@ -14023,9 +11176,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 64.0,
     "protein": 1.0,
@@ -14044,9 +11197,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 62.0,
     "protein": 0.9,
@@ -14065,10 +11218,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITC (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 66.0,
     "protein": 1.0,
@@ -14087,12 +11239,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "High in VITC (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 31.0,
     "protein": 2.0,
@@ -14111,11 +11259,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 31.0,
     "protein": 0.9,
@@ -14133,11 +11278,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 277.0,
     "protein": 20.7,
     "fat": 21.1,
@@ -14154,10 +11295,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB1 (mg)"
-    ],
+    "benefit": [],
     "calories": 266.0,
     "protein": 15.3,
     "fat": 21.2,
@@ -14175,9 +11313,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 52.0,
     "protein": 0.9,
@@ -14195,9 +11332,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 158.0,
     "protein": 20.7,
     "fat": 8.3,
@@ -14214,9 +11349,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 221.0,
     "protein": 19.3,
     "fat": 16.0,
@@ -14233,12 +11366,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in RIBF (mg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 350.0,
     "protein": 25.8,
     "fat": 27.5,
@@ -14255,9 +11383,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 223.0,
     "protein": 19.2,
     "fat": 16.3,
@@ -14274,12 +11400,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 256.0,
     "protein": 25.6,
     "fat": 17.1,
@@ -14296,9 +11417,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 174.0,
     "protein": 19.2,
     "fat": 10.8,
@@ -14315,10 +11434,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 256.0,
     "protein": 18.6,
     "fat": 20.2,
@@ -14335,11 +11451,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 284.0,
     "protein": 27.9,
     "fat": 19.1,
@@ -14356,12 +11468,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Zinc (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 187.0,
     "protein": 20.0,
     "fat": 11.9,
@@ -14377,24 +11484,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITD (µg)",
-      "Low in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
     "fat": 100.0,
@@ -14412,9 +11502,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 22.0,
     "protein": 1.1,
@@ -14433,8 +11522,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 28.0,
     "protein": 1.5,
@@ -14453,10 +11542,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 36.0,
     "protein": 0.8,
@@ -14474,10 +11561,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 112.0,
     "protein": 7.6,
     "fat": 0.8,
@@ -14495,9 +11579,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 93.0,
     "protein": 7.7,
@@ -14516,11 +11598,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "High in Potassium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 99.0,
     "protein": 8.8,
@@ -14538,17 +11616,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in Zinc (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 306.0,
     "protein": 21.0,
     "fat": 1.5,
@@ -14566,10 +11634,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 110.0,
     "protein": 7.7,
@@ -14588,9 +11653,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 16.0,
     "protein": 1.6,
@@ -14609,9 +11673,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 22.0,
     "protein": 2.0,
@@ -14630,10 +11693,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)"
     ],
     "calories": 13.0,
     "protein": 1.4,
@@ -14652,10 +11714,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)"
     ],
     "calories": 14.0,
     "protein": 1.0,
@@ -14674,10 +11735,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 18.0,
     "protein": 1.3,
@@ -14696,10 +11755,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 17.0,
     "protein": 1.2,
@@ -14718,10 +11775,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 41.0,
     "protein": 0.7,
@@ -14740,20 +11795,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in Zinc (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
     ],
     "calories": 477.0,
     "protein": 19.0,
@@ -14773,14 +11818,7 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "High in Zinc (mg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 172.0,
     "protein": 27.9,
@@ -14800,13 +11838,8 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITC (mg)",
-      "High in Zinc (mg)",
-      "Low in Calcium (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 108.0,
     "protein": 17.7,
@@ -14826,9 +11859,6 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)",
       "High in VITC (mg)"
     ],
@@ -14850,14 +11880,8 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "High in Zinc (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 161.0,
     "protein": 28.1,
@@ -14877,14 +11901,8 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITC (mg)",
-      "High in Zinc (mg)",
-      "Low in Calcium (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 129.0,
     "protein": 21.0,
@@ -14904,14 +11922,7 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "High in Zinc (mg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 164.0,
     "protein": 27.9,
@@ -14931,13 +11942,8 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITC (mg)",
-      "High in Zinc (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 129.0,
     "protein": 21.3,
@@ -14955,12 +11961,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 86.0,
     "protein": 19.7,
     "fat": 0.8,
@@ -14977,20 +11978,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 360.0,
     "protein": 0.0,
@@ -15009,20 +11997,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in FAT (g)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 347.0,
     "protein": 0.3,
@@ -15039,21 +12015,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 356.0,
     "protein": 0.1,
     "fat": 39.2,
@@ -15070,19 +12032,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 360.0,
     "protein": 0.0,
@@ -15101,20 +12051,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in FAT (g)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 351.0,
     "protein": 0.0,
@@ -15133,19 +12071,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 270.0,
     "protein": 0.0,
@@ -15164,19 +12091,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in FAT (g)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 357.0,
     "protein": 0.3,
@@ -15195,18 +12111,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
       "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
     ],
     "calories": 181.0,
     "protein": 0.0,
@@ -15225,19 +12133,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in FAT (g)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 356.0,
     "protein": 0.1,
@@ -15256,20 +12153,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in FAT (g)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 347.0,
     "protein": 0.1,
@@ -15287,18 +12172,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 320.0,
     "protein": 0.0,
@@ -15316,20 +12190,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 317.0,
     "protein": 0.0,
@@ -15347,19 +12208,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 353.0,
     "protein": 0.3,
@@ -15378,18 +12227,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 275.0,
     "protein": 0.1,
@@ -15408,20 +12246,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in FAT (g)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 357.0,
     "protein": 0.3,
@@ -15440,18 +12266,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
       "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
     ],
     "calories": 180.0,
     "protein": 0.0,
@@ -15470,18 +12287,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 270.0,
     "protein": 0.0,
@@ -15500,20 +12306,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in FAT (g)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 347.0,
     "protein": 0.0,
@@ -15532,18 +12326,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
       "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 216.0,
     "protein": 0.3,
@@ -15562,20 +12346,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in FAT (g)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 345.0,
     "protein": 0.0,
@@ -15593,19 +12365,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITB1 (mg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 362.0,
     "protein": 0.3,
@@ -15624,11 +12384,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 301.0,
     "protein": 21.1,
@@ -15646,11 +12402,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 267.0,
     "protein": 20.0,
     "fat": 20.7,
@@ -15667,11 +12419,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 257.0,
     "protein": 18.6,
     "fat": 20.3,
@@ -15688,14 +12436,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in RIBF (mg)",
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 248.0,
     "protein": 24.4,
     "fat": 16.7,
@@ -15713,11 +12454,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in RIBF (mg)",
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 233.0,
     "protein": 18.0,
@@ -15735,12 +12472,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in RIBF (mg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 315.0,
     "protein": 19.5,
     "fat": 26.1,
@@ -15758,10 +12490,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 46.0,
     "protein": 0.7,
@@ -15780,10 +12510,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 33.0,
     "protein": 2.0,
@@ -15802,10 +12531,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 33.0,
     "protein": 2.0,
@@ -15824,11 +12552,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Phosphorus (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 66.0,
     "protein": 0.6,
@@ -15846,21 +12571,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 720.0,
     "protein": 0.0,
@@ -15878,20 +12589,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 719.0,
     "protein": 0.1,
@@ -15909,20 +12607,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 724.0,
     "protein": 0.2,
@@ -15940,22 +12625,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 719.0,
     "protein": 0.1,
@@ -15973,20 +12643,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 735.0,
     "protein": 0.0,
@@ -16004,20 +12661,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 738.0,
     "protein": 0.0,
@@ -16035,20 +12679,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 406.0,
     "protein": 0.2,
@@ -16066,21 +12697,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 541.0,
     "protein": 0.1,
@@ -16098,20 +12715,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 536.0,
     "protein": 0.0,
@@ -16129,20 +12733,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 532.0,
     "protein": 0.2,
@@ -16161,21 +12752,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 405.0,
     "protein": 0.0,
@@ -16193,19 +12771,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in Potassium (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 544.0,
     "protein": 0.5,
@@ -16223,21 +12790,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Sodium (mg)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 507.0,
     "protein": 0.3,
@@ -16255,20 +12808,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 507.0,
     "protein": 0.3,
@@ -16287,10 +12827,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITA (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 455.0,
     "protein": 7.6,
@@ -16308,10 +12845,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 113.0,
     "protein": 22.8,
     "fat": 2.1,
@@ -16345,9 +12879,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)"
-    ],
+    "benefit": [],
     "calories": 182.0,
     "protein": 19.9,
     "fat": 10.9,
@@ -16364,12 +12896,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in VITE (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 209.0,
     "protein": 15.6,
     "fat": 14.3,
@@ -16386,11 +12913,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Potassium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 177.0,
     "protein": 19.6,
     "fat": 7.5,
@@ -16407,13 +12930,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Potassium (mg)",
-      "High in VITE (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 190.0,
     "protein": 16.9,
     "fat": 8.7,
@@ -16431,10 +12948,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 31.0,
     "protein": 0.5,
@@ -16453,10 +12969,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 38.0,
     "protein": 0.8,
@@ -16475,10 +12989,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
     ],
     "calories": 30.0,
     "protein": 0.9,
@@ -16497,11 +13011,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 80.0,
     "protein": 0.5,
@@ -16520,10 +13032,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
     ],
     "calories": 27.0,
     "protein": 0.5,
@@ -16542,7 +13054,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 82.0,
     "protein": 3.3,
@@ -16560,11 +13072,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 62.0,
     "protein": 3.3,
     "fat": 0.3,
@@ -16581,9 +13089,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 76.0,
     "protein": 3.3,
     "fat": 1.6,
@@ -16600,9 +13106,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 48.0,
     "protein": 3.3,
     "fat": 1.7,
@@ -16620,8 +13124,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in Iron (mg)"
     ],
     "calories": 78.0,
     "protein": 3.5,
@@ -16640,9 +13143,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in RIBF (mg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 330.0,
     "protein": 8.1,
@@ -16660,9 +13161,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 64.0,
     "protein": 3.3,
     "fat": 3.7,
@@ -16680,7 +13179,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB6 (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 66.0,
     "protein": 1.1,
@@ -16698,11 +13197,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 71.0,
     "protein": 3.4,
     "fat": 4.4,
@@ -16719,11 +13214,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 45.0,
     "protein": 3.4,
     "fat": 1.4,
@@ -16740,12 +13231,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 46.0,
     "protein": 3.4,
     "fat": 1.5,
@@ -16763,9 +13249,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in VITE (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 47.0,
     "protein": 3.5,
@@ -16783,11 +13267,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 44.0,
     "protein": 3.4,
     "fat": 1.5,
@@ -16805,10 +13285,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 35.0,
     "protein": 3.7,
@@ -16826,17 +13303,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Magnesium (mg)",
       "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 349.0,
     "protein": 35.4,
@@ -16854,11 +13323,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 61.0,
     "protein": 3.3,
     "fat": 3.4,
@@ -16875,15 +13340,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in Magnesium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 478.0,
     "protein": 23.9,
@@ -16901,11 +13359,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 64.0,
     "protein": 3.4,
     "fat": 3.6,
@@ -16923,7 +13377,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 97.0,
     "protein": 2.4,
@@ -16941,14 +13395,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 123.0,
     "protein": 3.7,
     "fat": 1.3,
@@ -16965,15 +13412,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 370.0,
     "protein": 11.0,
     "fat": 4.0,
@@ -16990,10 +13429,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 147.0,
     "protein": 21.5,
     "fat": 6.8,
@@ -17010,13 +13446,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in PROT (g)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 308.0,
     "protein": 27.0,
     "fat": 19.8,
@@ -17033,12 +13463,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in PROT (g)",
-      "High in VITD (µg)",
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 303.0,
     "protein": 26.5,
     "fat": 19.4,
@@ -17055,9 +13480,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 231.0,
     "protein": 18.2,
     "fat": 15.2,
@@ -17074,9 +13497,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 180.0,
     "protein": 20.0,
     "fat": 10.9,
@@ -17093,9 +13514,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 182.0,
     "protein": 20.0,
     "fat": 11.1,
@@ -17112,14 +13531,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 293.0,
     "protein": 29.6,
     "fat": 19.1,
@@ -17136,9 +13548,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 225.0,
     "protein": 18.9,
     "fat": 16.5,
@@ -17156,13 +13566,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "High in Zinc (mg)"
+      "High in PROT (g)"
     ],
     "calories": 331.0,
     "protein": 30.4,
@@ -17197,13 +13601,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITD (µg)",
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 317.0,
     "protein": 30.1,
     "fat": 21.6,
@@ -17221,11 +13619,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in PROT (g)"
     ],
     "calories": 252.0,
     "protein": 30.4,
@@ -17243,11 +13637,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 218.0,
     "protein": 19.3,
     "fat": 15.7,
@@ -17282,7 +13672,6 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITB1 (mg)",
       "High in VITC (mg)"
     ],
     "calories": 189.0,
@@ -17318,17 +13707,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in RIBF (mg)",
-      "High in Zinc (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 95.0,
     "protein": 14.1,
     "fat": 2.5,
@@ -17345,15 +13724,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Magnesium (mg)",
-      "High in Potassium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 148.0,
     "protein": 20.0,
     "fat": 3.0,
@@ -17371,13 +13742,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
       "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Potassium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 110.0,
     "protein": 21.8,
@@ -17396,14 +13762,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
       "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 125.0,
     "protein": 24.0,
@@ -17439,10 +13799,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 243.0,
     "protein": 26.4,
@@ -17461,8 +13818,6 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
       "High in VITC (mg)"
     ],
     "calories": 177.0,
@@ -17481,9 +13836,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)"
-    ],
+    "benefit": [],
     "calories": 214.0,
     "protein": 19.0,
     "fat": 15.1,
@@ -17500,12 +13853,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 286.0,
     "protein": 27.1,
     "fat": 19.6,
@@ -17523,24 +13871,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
+      "High in VITD (µg)",
       "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 0.0,
     "protein": 0.0,
@@ -17559,13 +13892,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Magnesium (mg)",
-      "High in Potassium (mg)",
-      "High in VITE (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 496.0,
     "protein": 11.0,
@@ -17584,7 +13912,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITC (mg)"
+      "High in Iron (mg)",
+      "High in VITD (µg)"
     ],
     "calories": 301.0,
     "protein": 8.9,
@@ -17603,9 +13932,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)"
     ],
     "calories": 189.0,
     "protein": 5.3,
@@ -17623,15 +13950,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 438.0,
     "protein": 8.3,
     "fat": 14.8,
@@ -17648,13 +13967,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in Magnesium (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 458.0,
     "protein": 8.5,
     "fat": 17.1,
@@ -17671,13 +13984,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 448.0,
     "protein": 9.4,
     "fat": 18.1,
@@ -17694,15 +14001,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 430.0,
     "protein": 8.2,
     "fat": 15.1,
@@ -17719,15 +14018,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in Magnesium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITE (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 479.0,
     "protein": 8.5,
     "fat": 21.0,
@@ -17744,13 +14035,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in Magnesium (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 469.0,
     "protein": 8.8,
     "fat": 18.6,
@@ -17767,16 +14052,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in VITE (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 456.0,
     "protein": 9.8,
     "fat": 19.8,
@@ -17793,15 +14069,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 357.0,
     "protein": 9.7,
     "fat": 4.8,
@@ -17819,9 +14087,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 45.0,
     "protein": 1.4,
@@ -17839,12 +14106,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 261.0,
     "protein": 12.3,
     "fat": 4.8,
@@ -17861,12 +14123,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 286.0,
     "protein": 13.1,
     "fat": 7.9,
@@ -17883,12 +14140,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 254.0,
     "protein": 12.2,
     "fat": 4.6,
@@ -17906,11 +14158,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "High in RIBF (mg)",
-      "High in VITD (µg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 265.0,
     "protein": 11.4,
@@ -17929,11 +14178,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "High in RIBF (mg)",
-      "High in VITD (µg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 268.0,
     "protein": 11.1,
@@ -17951,12 +14197,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 267.0,
     "protein": 12.5,
     "fat": 5.0,
@@ -17973,12 +14214,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 294.0,
     "protein": 12.9,
     "fat": 5.9,
@@ -17995,12 +14231,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 283.0,
     "protein": 13.4,
     "fat": 6.8,
@@ -18018,12 +14249,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in RIBF (mg)",
-      "Low in Calcium (mg)",
-      "Low in Calories (kcal)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 21.0,
     "protein": 3.8,
@@ -18042,9 +14269,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in RIBF (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITB12 (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 54.0,
     "protein": 2.6,
@@ -18063,11 +14289,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 18.0,
     "protein": 2.1,
@@ -18086,11 +14309,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in RIBF (mg)",
-      "Low in Calories (kcal)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 18.0,
     "protein": 2.3,
@@ -18109,11 +14329,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 19.0,
     "protein": 2.2,
@@ -18132,13 +14349,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 20.0,
     "protein": 1.8,
@@ -18157,13 +14370,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 16.0,
     "protein": 1.8,
@@ -18182,11 +14391,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "High in VITB12 (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 125.0,
     "protein": 17.2,
@@ -18205,11 +14410,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "High in VITB12 (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 106.0,
     "protein": 17.2,
@@ -18228,9 +14429,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "High in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 67.0,
     "protein": 11.1,
@@ -18249,11 +14448,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 21.0,
     "protein": 2.0,
@@ -18272,9 +14468,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 32.0,
     "protein": 2.5,
@@ -18292,9 +14487,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 160.0,
     "protein": 20.5,
     "fat": 8.7,
@@ -18311,9 +14504,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 293.0,
     "protein": 17.0,
     "fat": 25.0,
@@ -18331,15 +14522,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Magnesium (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 103.0,
     "protein": 1.8,
@@ -18357,11 +14540,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 227.0,
     "protein": 3.4,
     "fat": 11.1,
@@ -18379,18 +14558,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in FAT (g)",
       "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITE (mg)",
-      "High in Zinc (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 639.0,
     "protein": 19.8,
@@ -18409,13 +14578,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Magnesium (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 753.0,
     "protein": 7.8,
@@ -18434,13 +14598,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Magnesium (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 753.0,
     "protein": 7.8,
@@ -18459,17 +14618,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITE (mg)",
-      "High in Zinc (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 656.0,
     "protein": 18.3,
@@ -18488,18 +14638,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITE (mg)",
-      "High in Zinc (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 658.0,
     "protein": 18.1,
@@ -18518,16 +14658,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in VITE (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 555.0,
     "protein": 15.0,
@@ -18547,14 +14679,7 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 367.0,
     "protein": 17.3,
@@ -18572,16 +14697,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 373.0,
     "protein": 12.8,
     "fat": 7.3,
@@ -18598,10 +14714,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 128.0,
     "protein": 22.3,
     "fat": 4.3,
@@ -18617,25 +14730,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
     "fat": 100.0,
@@ -18651,24 +14746,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "Low in Calcium (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 892.0,
     "protein": 0.0,
     "fat": 99.1,
@@ -18684,26 +14762,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
     "fat": 100.0,
@@ -18719,26 +14778,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
     "fat": 100.0,
@@ -18754,25 +14794,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
     "fat": 100.0,
@@ -18788,25 +14810,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 899.0,
     "protein": 0.0,
     "fat": 99.9,
@@ -18822,25 +14826,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 899.0,
     "protein": 0.0,
     "fat": 99.9,
@@ -18856,26 +14842,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
     "fat": 100.0,
@@ -18891,25 +14858,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 899.0,
     "protein": 0.0,
     "fat": 99.9,
@@ -18925,26 +14874,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
     "fat": 100.0,
@@ -18960,21 +14890,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 898.0,
     "protein": 0.2,
     "fat": 99.7,
@@ -18990,26 +14906,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 894.0,
     "protein": 0.3,
     "fat": 99.2,
@@ -19025,26 +14922,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 897.0,
     "protein": 0.3,
     "fat": 99.5,
@@ -19060,25 +14938,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 898.0,
     "protein": 0.1,
     "fat": 99.7,
@@ -19094,26 +14954,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in VITE (mg)",
-      "Low in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 900.0,
     "protein": 0.0,
     "fat": 100.0,
@@ -19131,9 +14972,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 22.0,
     "protein": 1.9,
@@ -19152,10 +14992,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 23.0,
     "protein": 1.9,
@@ -19174,11 +15012,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 122.0,
     "protein": 0.9,
@@ -19197,11 +15033,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 113.0,
     "protein": 0.9,
@@ -19221,13 +15054,8 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in Sodium (mg)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 162.0,
     "protein": 0.9,
@@ -19246,8 +15074,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 26.0,
     "protein": 1.2,
@@ -19266,8 +15094,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 31.0,
     "protein": 1.5,
@@ -19286,11 +15114,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 43.0,
     "protein": 1.7,
@@ -19309,10 +15134,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 37.0,
     "protein": 1.3,
@@ -19331,12 +15154,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 21.0,
     "protein": 1.0,
@@ -19355,12 +15175,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 21.0,
     "protein": 1.0,
@@ -19379,10 +15196,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 35.0,
     "protein": 1.0,
@@ -19401,7 +15216,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 58.0,
     "protein": 1.3,
@@ -19420,9 +15236,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 37.0,
     "protein": 1.3,
@@ -19441,10 +15256,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 48.0,
     "protein": 0.8,
@@ -19465,9 +15278,7 @@ export const foods: Food[] = [
     "benefit": [
       "High in Iron (mg)",
       "High in VITB12 (µg)",
-      "High in Zinc (mg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 57.0,
     "protein": 6.0,
@@ -19485,14 +15296,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in RIBF (mg)",
-      "High in VITA (µg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 199.0,
     "protein": 24.3,
     "fat": 11.4,
@@ -19510,7 +15314,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITC (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 203.0,
     "protein": 8.3,
@@ -19529,7 +15334,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITC (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 178.0,
     "protein": 6.0,
@@ -19548,7 +15354,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITC (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 175.0,
     "protein": 7.3,
@@ -19567,7 +15374,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITC (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 175.0,
     "protein": 7.3,
@@ -19585,9 +15393,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITB1 (mg)"
-    ],
+    "benefit": [],
     "calories": 89.0,
     "protein": 18.6,
     "fat": 1.6,
@@ -19604,11 +15410,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITD (µg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 74.0,
     "protein": 14.9,
     "fat": 1.6,
@@ -19626,11 +15428,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITC (mg)",
-      "Low in Phosphorus (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 39.0,
     "protein": 0.5,
@@ -19649,9 +15449,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 52.0,
     "protein": 2.6,
@@ -19669,14 +15468,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Potassium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 143.0,
     "protein": 3.6,
     "fat": 1.0,
@@ -19693,12 +15485,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 358.0,
     "protein": 9.0,
     "fat": 2.5,
@@ -19715,14 +15502,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Potassium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 134.0,
     "protein": 4.4,
     "fat": 0.6,
@@ -19739,13 +15519,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 336.0,
     "protein": 11.0,
     "fat": 1.5,
@@ -19762,11 +15536,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 142.0,
     "protein": 5.1,
     "fat": 0.9,
@@ -19783,14 +15553,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 356.0,
     "protein": 12.3,
     "fat": 1.5,
@@ -19807,12 +15570,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 146.0,
     "protein": 5.2,
     "fat": 0.8,
@@ -19829,13 +15587,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 134.0,
     "protein": 5.6,
     "fat": 0.9,
@@ -19852,18 +15604,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 348.0,
     "protein": 13.0,
     "fat": 2.0,
@@ -19881,12 +15622,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
-      "High in VITC (mg)",
-      "High in VITE (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 235.0,
     "protein": 6.8,
@@ -19905,11 +15641,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 40.0,
     "protein": 1.0,
@@ -19928,12 +15661,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 41.0,
     "protein": 1.0,
@@ -19952,15 +15682,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Magnesium (mg)",
-      "High in Potassium (mg)",
-      "High in VITE (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 654.0,
     "protein": 22.5,
@@ -19979,17 +15701,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Magnesium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITE (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)",
+      "High in PROT (g)"
     ],
     "calories": 611.0,
     "protein": 26.5,
@@ -20007,17 +15720,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Magnesium (mg)",
-      "High in Potassium (mg)",
-      "High in VITE (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 535.0,
     "protein": 18.0,
     "fat": 39.6,
@@ -20035,15 +15738,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Magnesium (mg)",
-      "High in Potassium (mg)",
-      "High in VITE (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 651.0,
     "protein": 20.0,
@@ -20062,15 +15757,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Magnesium (mg)",
-      "High in Sodium (mg)",
-      "High in VITE (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 532.0,
     "protein": 13.2,
@@ -20089,17 +15777,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Magnesium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in Sodium (mg)",
-      "High in VITE (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 577.0,
     "protein": 24.0,
@@ -20118,11 +15797,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Magnesium (mg)",
-      "High in Potassium (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 568.0,
     "protein": 16.1,
@@ -20141,16 +15817,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Magnesium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITE (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 620.0,
     "protein": 24.8,
@@ -20169,14 +15837,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Magnesium (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 536.0,
     "protein": 15.1,
@@ -20195,17 +15858,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Magnesium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITE (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 627.0,
     "protein": 25.2,
@@ -20224,12 +15878,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 287.0,
     "protein": 2.0,
@@ -20248,12 +15899,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 83.0,
     "protein": 0.6,
@@ -20272,10 +15920,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in PROT (g)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 55.0,
     "protein": 0.2,
@@ -20294,14 +15940,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 53.0,
     "protein": 0.3,
@@ -20320,13 +15960,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 64.0,
     "protein": 0.3,
@@ -20345,9 +15981,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 58.0,
     "protein": 3.8,
@@ -20366,9 +16001,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 56.0,
     "protein": 3.4,
@@ -20386,11 +16020,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 138.0,
     "protein": 7.6,
     "fat": 3.0,
@@ -20407,10 +16037,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 140.0,
     "protein": 7.9,
     "fat": 2.5,
@@ -20427,10 +16054,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 117.0,
     "protein": 6.8,
     "fat": 2.5,
@@ -20448,10 +16072,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 51.0,
     "protein": 4.0,
@@ -20470,10 +16093,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 69.0,
     "protein": 4.0,
@@ -20492,9 +16114,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 92.0,
     "protein": 6.0,
@@ -20512,12 +16135,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 126.0,
     "protein": 8.4,
     "fat": 0.8,
@@ -20534,16 +16152,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 315.0,
     "protein": 21.0,
     "fat": 2.0,
@@ -20560,12 +16169,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 127.0,
     "protein": 9.5,
     "fat": 0.9,
@@ -20582,13 +16186,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 108.0,
     "protein": 7.1,
     "fat": 0.8,
@@ -20606,8 +16204,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 93.0,
     "protein": 5.7,
@@ -20626,8 +16223,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 94.0,
     "protein": 5.0,
@@ -20646,11 +16244,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 65.0,
     "protein": 4.0,
@@ -20668,12 +16264,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 122.0,
     "protein": 7.9,
     "fat": 1.2,
@@ -20691,10 +16282,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 126.0,
     "protein": 8.4,
@@ -20713,8 +16301,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 78.0,
     "protein": 5.6,
@@ -20733,14 +16322,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Magnesium (mg)",
-      "High in VITB1 (mg)",
-      "High in Zinc (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 721.0,
     "protein": 9.2,
@@ -20759,14 +16342,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Magnesium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITE (mg)",
-      "High in Zinc (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 750.0,
     "protein": 9.2,
@@ -20785,13 +16362,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)"
     ],
     "calories": 14.0,
     "protein": 0.8,
@@ -20809,13 +16382,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Potassium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 171.0,
     "protein": 20.3,
     "fat": 6.6,
@@ -20832,13 +16399,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Potassium (mg)",
-      "High in Sodium (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 178.0,
     "protein": 20.4,
     "fat": 8.4,
@@ -20856,17 +16417,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITE (mg)",
-      "High in Zinc (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITC (mg)",
+      "High in VITD (µg)"
     ],
     "calories": 675.0,
     "protein": 16.5,
@@ -20885,11 +16438,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Phosphorus (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 54.0,
     "protein": 0.5,
@@ -20908,10 +16458,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Phosphorus (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 59.0,
     "protein": 0.4,
@@ -20930,11 +16478,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 69.0,
     "protein": 0.3,
@@ -20953,20 +16498,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in Sodium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "High in VITE (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 592.0,
     "protein": 23.8,
@@ -20985,19 +16518,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "High in VITE (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 592.0,
     "protein": 23.8,
@@ -21015,9 +16537,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 98.0,
     "protein": 19.0,
     "fat": 2.0,
@@ -21034,11 +16554,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in RIBF (mg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 112.0,
     "protein": 18.9,
     "fat": 3.8,
@@ -21055,9 +16571,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 194.0,
     "protein": 22.0,
     "fat": 10.9,
@@ -21074,11 +16588,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITD (µg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 76.0,
     "protein": 16.4,
     "fat": 1.2,
@@ -21095,16 +16605,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 268.0,
     "protein": 0.3,
     "fat": 21.5,
@@ -21121,16 +16622,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Sodium (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 286.0,
     "protein": 0.1,
     "fat": 21.3,
@@ -21147,20 +16639,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 136.0,
     "protein": 0.8,
     "fat": 11.0,
@@ -21177,14 +16656,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITE (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 161.0,
     "protein": 2.2,
     "fat": 15.7,
@@ -21201,13 +16673,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 61.0,
     "protein": 2.0,
     "fat": 4.7,
@@ -21224,9 +16690,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 66.0,
     "protein": 3.4,
     "fat": 1.7,
@@ -21243,13 +16707,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 195.0,
     "protein": 1.4,
     "fat": 11.2,
@@ -21266,14 +16724,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Calcium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 150.0,
     "protein": 1.5,
     "fat": 14.4,
@@ -21291,10 +16742,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 47.0,
     "protein": 3.7,
@@ -21313,9 +16761,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 39.0,
     "protein": 4.0,
@@ -21334,12 +16780,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "High in VITC (mg)",
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 138.0,
     "protein": 1.3,
@@ -21358,12 +16801,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 65.0,
     "protein": 0.3,
@@ -21382,10 +16822,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 40.0,
     "protein": 0.8,
@@ -21403,13 +16842,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 108.0,
     "protein": 24.5,
     "fat": 1.2,
@@ -21426,11 +16859,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 82.0,
     "protein": 18.0,
     "fat": 1.1,
@@ -21448,10 +16877,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITB12 (µg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 72.0,
     "protein": 16.4,
@@ -21469,13 +16895,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB12 (µg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 120.0,
     "protein": 27.4,
     "fat": 1.2,
@@ -21492,12 +16912,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 114.0,
     "protein": 25.0,
     "fat": 1.5,
@@ -21515,9 +16930,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 91.0,
     "protein": 1.0,
@@ -21535,13 +16949,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 158.0,
     "protein": 28.8,
     "fat": 4.7,
@@ -21558,11 +16966,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 126.0,
     "protein": 21.8,
     "fat": 3.0,
@@ -21580,8 +16984,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB1 (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 283.0,
     "protein": 16.1,
@@ -21600,8 +17003,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB1 (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 365.0,
     "protein": 21.2,
@@ -21619,13 +17021,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITD (µg)",
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 260.0,
     "protein": 28.4,
     "fat": 16.1,
@@ -21642,10 +17038,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)"
-    ],
+    "benefit": [],
     "calories": 165.0,
     "protein": 20.0,
     "fat": 9.1,
@@ -21662,10 +17055,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)"
-    ],
+    "benefit": [],
     "calories": 201.0,
     "protein": 19.0,
     "fat": 13.3,
@@ -21683,11 +17073,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
+      "High in PROT (g)"
     ],
     "calories": 167.0,
     "protein": 31.1,
@@ -21705,12 +17091,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 114.0,
     "protein": 22.2,
     "fat": 2.8,
@@ -21727,10 +17108,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)"
-    ],
+    "benefit": [],
     "calories": 155.0,
     "protein": 20.5,
     "fat": 5.3,
@@ -21747,13 +17125,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 157.0,
     "protein": 28.7,
     "fat": 4.7,
@@ -21770,13 +17142,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 128.0,
     "protein": 23.3,
     "fat": 3.9,
@@ -21794,10 +17160,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITC (mg)"
+      "High in PROT (g)"
     ],
     "calories": 158.0,
     "protein": 31.2,
@@ -21815,12 +17178,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 120.0,
     "protein": 22.9,
     "fat": 3.2,
@@ -21838,11 +17196,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITC (mg)"
+      "High in PROT (g)"
     ],
     "calories": 308.0,
     "protein": 37.1,
@@ -21860,11 +17214,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 191.0,
     "protein": 19.8,
     "fat": 12.4,
@@ -21881,12 +17231,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 179.0,
     "protein": 28.5,
     "fat": 7.3,
@@ -21903,12 +17248,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 156.0,
     "protein": 23.2,
     "fat": 7.0,
@@ -21925,12 +17265,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 177.0,
     "protein": 28.4,
     "fat": 7.1,
@@ -21947,11 +17282,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 150.0,
     "protein": 22.6,
     "fat": 6.6,
@@ -21968,11 +17299,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 142.0,
     "protein": 20.6,
     "fat": 2.8,
@@ -21989,13 +17316,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 142.0,
     "protein": 28.3,
     "fat": 3.2,
@@ -22012,11 +17333,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 109.0,
     "protein": 22.6,
     "fat": 2.0,
@@ -22033,9 +17350,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)"
-    ],
+    "benefit": [],
     "calories": 236.0,
     "protein": 13.6,
     "fat": 12.2,
@@ -22052,15 +17367,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 239.0,
     "protein": 28.2,
     "fat": 13.8,
@@ -22077,10 +17384,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)"
-    ],
+    "benefit": [],
     "calories": 146.0,
     "protein": 19.9,
     "fat": 7.0,
@@ -22098,13 +17402,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
+      "High in PROT (g)"
     ],
     "calories": 308.0,
     "protein": 37.1,
@@ -22122,11 +17420,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 186.0,
     "protein": 19.1,
     "fat": 12.2,
@@ -22143,13 +17437,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 170.0,
     "protein": 27.6,
     "fat": 6.6,
@@ -22166,12 +17454,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 133.0,
     "protein": 20.7,
     "fat": 5.5,
@@ -22188,10 +17471,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 246.0,
     "protein": 22.4,
     "fat": 17.1,
@@ -22208,12 +17488,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 249.0,
     "protein": 29.5,
     "fat": 14.5,
@@ -22230,10 +17505,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)"
-    ],
+    "benefit": [],
     "calories": 200.0,
     "protein": 20.4,
     "fat": 13.0,
@@ -22250,12 +17522,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in RIBF (mg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 204.0,
     "protein": 29.8,
     "fat": 9.2,
@@ -22273,15 +17540,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "High in Zinc (mg)"
+      "High in PROT (g)"
     ],
     "calories": 280.0,
     "protein": 37.4,
@@ -22299,11 +17558,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in Calcium (mg)"
-    ],
+    "benefit": [],
     "calories": 123.0,
     "protein": 21.5,
     "fat": 4.1,
@@ -22320,13 +17575,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 142.0,
     "protein": 28.7,
     "fat": 3.0,
@@ -22343,13 +17592,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB1 (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 115.0,
     "protein": 23.5,
     "fat": 2.4,
@@ -22366,13 +17609,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 142.0,
     "protein": 28.7,
     "fat": 3.0,
@@ -22389,12 +17626,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 105.0,
     "protein": 22.4,
     "fat": 1.7,
@@ -22411,11 +17643,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 53.0,
     "protein": 3.6,
     "fat": 0.5,
@@ -22432,11 +17660,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 52.0,
     "protein": 3.7,
     "fat": 0.5,
@@ -22453,10 +17677,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 83.0,
     "protein": 3.9,
     "fat": 3.2,
@@ -22474,10 +17695,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 73.0,
     "protein": 0.5,
@@ -22495,10 +17713,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 80.0,
     "protein": 4.4,
     "fat": 2.1,
@@ -22515,10 +17730,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 95.0,
     "protein": 4.3,
     "fat": 3.8,
@@ -22535,9 +17747,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 86.0,
     "protein": 3.1,
     "fat": 2.9,
@@ -22554,10 +17764,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 93.0,
     "protein": 3.0,
     "fat": 2.9,
@@ -22574,9 +17781,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 169.0,
     "protein": 2.7,
     "fat": 6.0,
@@ -22594,10 +17799,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)",
+      "Low in Calories (kcal)"
     ],
     "calories": 80.0,
     "protein": 1.7,
@@ -22616,10 +17819,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)",
+      "Low in Calories (kcal)"
     ],
     "calories": 80.0,
     "protein": 1.7,
@@ -22637,12 +17838,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Potassium (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 368.0,
     "protein": 8.6,
     "fat": 4.6,
@@ -22659,14 +17855,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 373.0,
     "protein": 9.2,
     "fat": 8.6,
@@ -22683,13 +17872,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Potassium (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 364.0,
     "protein": 7.9,
     "fat": 0.5,
@@ -22707,9 +17890,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
     ],
     "calories": 63.0,
     "protein": 1.7,
@@ -22728,11 +17910,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "High in VITC (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 91.0,
     "protein": 1.2,
@@ -22751,8 +17929,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
     ],
     "calories": 75.0,
     "protein": 1.8,
@@ -22771,10 +17949,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)",
+      "Low in Calories (kcal)"
     ],
     "calories": 80.0,
     "protein": 1.7,
@@ -22792,11 +17968,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 91.0,
     "protein": 1.8,
     "fat": 0.5,
@@ -22814,8 +17986,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 74.0,
     "protein": 1.4,
@@ -22834,9 +18005,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
     ],
     "calories": 81.0,
     "protein": 2.0,
@@ -22855,8 +18025,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 119.0,
     "protein": 1.8,
@@ -22875,7 +18044,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITD (µg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 74.0,
     "protein": 2.3,
@@ -22893,7 +18062,10 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [],
+    "benefit": [
+      "High in VITD (µg)",
+      "Low in Calories (kcal)"
+    ],
     "calories": 83.0,
     "protein": 2.2,
     "fat": 1.8,
@@ -22910,7 +18082,9 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [],
+    "benefit": [
+      "High in VITD (µg)"
+    ],
     "calories": 87.0,
     "protein": 2.2,
     "fat": 2.3,
@@ -22928,8 +18102,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 96.0,
     "protein": 4.1,
@@ -22948,7 +18121,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITD (µg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 83.0,
     "protein": 2.9,
@@ -22967,9 +18140,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 71.0,
     "protein": 1.7,
@@ -22989,11 +18160,7 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 88.0,
     "protein": 2.0,
@@ -23012,10 +18179,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 88.0,
     "protein": 2.0,
@@ -23034,10 +18198,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)",
+      "Low in FAT (g)"
     ],
     "calories": 88.0,
     "protein": 2.0,
@@ -23055,12 +18217,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 229.0,
     "protein": 3.1,
     "fat": 10.9,
@@ -23078,8 +18235,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 134.0,
     "protein": 2.5,
@@ -23098,8 +18254,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 134.0,
     "protein": 2.5,
@@ -23117,11 +18272,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 86.0,
     "protein": 1.8,
     "fat": 0.5,
@@ -23139,9 +18290,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 83.0,
     "protein": 1.9,
@@ -23159,14 +18308,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 70.0,
     "protein": 15.4,
     "fat": 0.9,
@@ -23184,10 +18326,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 199.0,
     "protein": 1.6,
@@ -23206,11 +18346,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 57.0,
     "protein": 0.5,
@@ -23228,10 +18365,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 179.0,
     "protein": 4.2,
     "fat": 8.1,
@@ -23248,14 +18382,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 614.0,
     "protein": 7.0,
     "fat": 47.0,
@@ -23273,11 +18400,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 614.0,
     "protein": 7.0,
@@ -23295,15 +18418,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 614.0,
     "protein": 7.0,
     "fat": 47.0,
@@ -23320,11 +18435,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 117.0,
     "protein": 8.2,
     "fat": 1.3,
@@ -23341,16 +18452,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 335.0,
     "protein": 23.1,
     "fat": 3.9,
@@ -23368,11 +18470,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)"
     ],
     "calories": 14.0,
     "protein": 0.6,
@@ -23391,11 +18491,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)"
     ],
     "calories": 14.0,
     "protein": 0.7,
@@ -23413,11 +18511,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 118.0,
     "protein": 7.5,
     "fat": 8.0,
@@ -23434,10 +18528,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 125.0,
     "protein": 5.7,
     "fat": 5.1,
@@ -23454,11 +18545,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 77.0,
     "protein": 7.5,
     "fat": 3.2,
@@ -23475,11 +18562,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 109.0,
     "protein": 5.9,
     "fat": 3.5,
@@ -23497,13 +18580,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 51.0,
     "protein": 8.4,
@@ -23521,13 +18598,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 57.0,
     "protein": 9.8,
     "fat": 0.2,
@@ -23544,11 +18615,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 80.0,
     "protein": 8.6,
     "fat": 0.2,
@@ -23565,13 +18632,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 47.0,
     "protein": 7.2,
     "fat": 0.1,
@@ -23588,11 +18649,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 114.0,
     "protein": 4.4,
     "fat": 1.9,
@@ -23610,15 +18667,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 354.0,
     "protein": 14.1,
@@ -23637,11 +18686,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 30.0,
     "protein": 2.0,
@@ -23660,12 +18707,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 22.0,
     "protein": 1.0,
@@ -23684,11 +18728,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)",
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 325.0,
     "protein": 3.1,
@@ -23707,11 +18750,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 258.0,
     "protein": 2.5,
@@ -23730,9 +18770,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 37.0,
     "protein": 1.4,
@@ -23751,8 +18790,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 71.0,
     "protein": 0.5,
@@ -23771,10 +18810,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 36.0,
     "protein": 1.1,
@@ -23793,10 +18831,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 82.0,
     "protein": 0.5,
@@ -23815,10 +18852,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 23.0,
     "protein": 1.0,
@@ -23836,15 +18872,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 131.0,
     "protein": 3.1,
     "fat": 1.0,
@@ -23861,14 +18889,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 357.0,
     "protein": 8.3,
     "fat": 2.6,
@@ -23885,14 +18906,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 390.0,
     "protein": 6.6,
     "fat": 3.0,
@@ -23909,14 +18923,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 392.0,
     "protein": 7.8,
     "fat": 3.2,
@@ -23933,13 +18940,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 394.0,
     "protein": 5.5,
     "fat": 2.4,
@@ -23956,11 +18957,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in Magnesium (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 502.0,
     "protein": 6.8,
     "fat": 24.9,
@@ -23977,15 +18974,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "High in VITB1 (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 390.0,
     "protein": 6.8,
     "fat": 1.1,
@@ -24002,13 +18991,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in Magnesium (mg)",
-      "High in Sodium (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 402.0,
     "protein": 7.9,
     "fat": 7.7,
@@ -24025,21 +19008,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 65.0,
     "protein": 0.3,
     "fat": 1.0,
@@ -24057,15 +19026,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)"
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
     ],
     "calories": 53.0,
     "protein": 0.3,
@@ -24083,13 +19045,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 140.0,
     "protein": 3.6,
     "fat": 0.6,
@@ -24106,13 +19062,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 351.0,
     "protein": 9.0,
     "fat": 1.5,
@@ -24129,15 +19079,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 146.0,
     "protein": 3.2,
     "fat": 0.3,
@@ -24154,11 +19096,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 206.0,
     "protein": 5.6,
     "fat": 6.3,
@@ -24175,13 +19113,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 352.0,
     "protein": 7.0,
     "fat": 1.0,
@@ -24198,13 +19130,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "High in VITE (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 385.0,
     "protein": 7.9,
     "fat": 15.1,
@@ -24222,11 +19148,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in VITA (µg)",
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 22.0,
     "protein": 3.6,
@@ -24244,11 +19168,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 149.0,
     "protein": 1.9,
     "fat": 5.1,
@@ -24266,10 +19186,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 178.0,
     "protein": 2.0,
@@ -24287,11 +19204,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 123.0,
     "protein": 2.5,
     "fat": 2.5,
@@ -24308,13 +19221,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITE (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 311.0,
     "protein": 7.3,
     "fat": 8.7,
@@ -24331,12 +19238,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 193.0,
     "protein": 5.6,
     "fat": 1.3,
@@ -24353,12 +19255,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 201.0,
     "protein": 5.6,
     "fat": 1.3,
@@ -24375,12 +19272,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 196.0,
     "protein": 5.8,
     "fat": 1.3,
@@ -24397,16 +19289,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 352.0,
     "protein": 12.0,
     "fat": 2.0,
@@ -24423,12 +19306,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 233.0,
     "protein": 8.2,
     "fat": 1.5,
@@ -24446,7 +19324,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITE (mg)"
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
     ],
     "calories": 206.0,
     "protein": 1.0,
@@ -24464,14 +19343,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Sodium (mg)",
-      "High in VITE (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 422.0,
     "protein": 9.0,
     "fat": 39.4,
@@ -24488,9 +19360,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 285.0,
     "protein": 8.8,
     "fat": 24.3,
@@ -24508,8 +19378,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITE (mg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)",
+      "Low in FAT (g)"
     ],
     "calories": 262.0,
     "protein": 9.6,
@@ -24528,8 +19398,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
     ],
     "calories": 191.0,
     "protein": 1.4,
@@ -24547,11 +19418,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in VITE (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 282.0,
     "protein": 5.2,
     "fat": 24.0,
@@ -24568,9 +19435,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 238.0,
     "protein": 0.8,
     "fat": 23.0,
@@ -24588,9 +19453,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in VITC (mg)"
+      "High in Iron (mg)"
     ],
     "calories": 255.0,
     "protein": 7.3,
@@ -24608,10 +19471,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 304.0,
     "protein": 8.6,
     "fat": 26.8,
@@ -24629,7 +19489,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITE (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 243.0,
     "protein": 3.6,
@@ -24648,7 +19508,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 286.0,
     "protein": 5.0,
@@ -24666,11 +19526,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in FAT (g)",
-      "High in VITD (µg)",
-      "High in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 338.0,
     "protein": 9.3,
     "fat": 31.0,
@@ -24687,11 +19543,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in VITE (mg)",
-      "Low in Potassium (mg)"
-    ],
+    "benefit": [],
     "calories": 299.0,
     "protein": 6.7,
     "fat": 27.6,
@@ -24708,11 +19560,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITD (µg)",
-      "High in VITE (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 288.0,
     "protein": 11.4,
     "fat": 24.1,
@@ -24729,14 +19577,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "High in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 220.0,
     "protein": 25.2,
     "fat": 13.2,
@@ -24754,10 +19595,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 179.0,
     "protein": 20.0,
@@ -24775,13 +19613,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 188.0,
     "protein": 21.8,
     "fat": 10.8,
@@ -24799,9 +19631,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 146.0,
     "protein": 20.4,
@@ -24820,8 +19650,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 84.0,
     "protein": 1.0,
@@ -24840,8 +19670,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 76.0,
     "protein": 1.0,
@@ -24859,17 +19689,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "Low in Calcium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 686.0,
     "protein": 6.8,
     "fat": 67.3,
@@ -24887,12 +19707,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
       "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 171.0,
     "protein": 25.3,
@@ -24910,13 +19726,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Iron (mg)",
-      "High in Phosphorus (mg)",
-      "High in RIBF (mg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 231.0,
     "protein": 21.7,
@@ -24935,11 +19745,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "High in Zinc (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 228.0,
     "protein": 23.8,
@@ -24958,9 +19764,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
-      "High in VITC (mg)",
-      "High in Zinc (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 207.0,
     "protein": 18.1,
@@ -24978,11 +19782,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 180.0,
     "protein": 13.0,
     "fat": 11.0,
@@ -24999,11 +19799,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB1 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 201.0,
     "protein": 12.0,
     "fat": 15.4,
@@ -25020,15 +19816,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Sodium (mg)",
-      "High in VITE (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 173.0,
     "protein": 8.7,
     "fat": 12.9,
@@ -25045,14 +19833,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Sodium (mg)",
-      "High in VITE (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 181.0,
     "protein": 6.6,
     "fat": 14.7,
@@ -25070,9 +19851,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITD (µg)"
+      "High in VITC (mg)"
     ],
     "calories": 246.0,
     "protein": 22.4,
@@ -25091,8 +19870,6 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB1 (mg)",
       "High in VITC (mg)"
     ],
     "calories": 226.0,
@@ -25111,13 +19888,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in VITE (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 237.0,
     "protein": 16.0,
     "fat": 17.6,
@@ -25135,10 +19906,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)"
     ],
     "calories": 178.0,
     "protein": 14.1,
@@ -25156,12 +19924,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 240.0,
     "protein": 13.0,
     "fat": 20.0,
@@ -25179,7 +19942,6 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
       "High in VITC (mg)"
     ],
     "calories": 304.0,
@@ -25199,7 +19961,6 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
       "High in VITC (mg)"
     ],
     "calories": 340.0,
@@ -25219,7 +19980,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 311.0,
     "protein": 15.2,
@@ -25237,12 +19998,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 237.0,
     "protein": 22.9,
     "fat": 16.0,
@@ -25260,7 +20016,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 217.0,
     "protein": 17.2,
@@ -25277,11 +20033,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 206.0,
     "protein": 11.4,
     "fat": 8.3,
@@ -25297,12 +20049,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 218.0,
     "protein": 14.8,
     "fat": 9.6,
@@ -25319,11 +20066,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Potassium (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 192.0,
     "protein": 15.5,
     "fat": 7.0,
@@ -25339,12 +20082,7 @@ export const foods: Food[] = [
     "diet": [
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Phosphorus (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 172.0,
     "protein": 11.4,
     "fat": 7.9,
@@ -25361,10 +20099,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in VITA (µg)"
-    ],
+    "benefit": [],
     "calories": 166.0,
     "protein": 5.8,
     "fat": 8.4,
@@ -25381,12 +20116,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 112.0,
     "protein": 16.9,
     "fat": 2.9,
@@ -25404,16 +20134,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
       "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Potassium (mg)",
-      "High in VITE (mg)",
-      "High in Zinc (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 336.0,
     "protein": 6.2,
@@ -25432,12 +20156,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
       "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 47.0,
     "protein": 1.7,
@@ -25456,18 +20177,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITE (mg)",
-      "High in Zinc (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 562.0,
     "protein": 19.1,
@@ -25485,13 +20196,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 198.0,
     "protein": 28.4,
     "fat": 7.2,
@@ -25508,13 +20213,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 337.0,
     "protein": 11.0,
     "fat": 1.0,
@@ -25532,16 +20231,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
       "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Zinc (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 585.0,
     "protein": 21.9,
@@ -25560,16 +20251,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in VITB1 (mg)",
-      "High in Zinc (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 632.0,
     "protein": 22.7,
@@ -25588,12 +20271,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)",
-      "High in VITE (mg)",
-      "Low in VITC (mg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 94.0,
     "protein": 19.8,
@@ -25612,13 +20290,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in PROT (g)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)"
+      "High in VITB12 (µg)"
     ],
     "calories": 115.0,
     "protein": 24.3,
@@ -25637,11 +20309,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 34.0,
     "protein": 0.6,
@@ -25660,13 +20329,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 60.0,
     "protein": 10.6,
@@ -25685,10 +20348,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 71.0,
     "protein": 9.3,
@@ -25707,10 +20367,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 56.0,
     "protein": 0.7,
@@ -25729,9 +20386,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 51.0,
     "protein": 1.3,
@@ -25750,22 +20405,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
+      "High in VITD (µg)",
       "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 0.0,
     "protein": 0.0,
@@ -25784,21 +20426,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 37.0,
     "protein": 0.0,
@@ -25817,23 +20446,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 11.0,
     "protein": 0.0,
@@ -25852,24 +20466,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 12.0,
     "protein": 0.0,
@@ -25888,22 +20486,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 27.0,
     "protein": 0.3,
@@ -25922,22 +20506,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 41.0,
     "protein": 0.0,
@@ -25956,7 +20526,6 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
       "High in VITD (µg)"
     ],
     "calories": 116.0,
@@ -25976,11 +20545,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Magnesium (mg)",
-      "High in VITA (µg)",
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 25.0,
     "protein": 2.9,
@@ -25999,9 +20566,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Magnesium (mg)",
-      "High in VITA (µg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 44.0,
     "protein": 2.9,
@@ -26020,10 +20587,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 20.0,
     "protein": 2.3,
@@ -26042,11 +20607,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in VITA (µg)",
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 24.0,
     "protein": 2.3,
@@ -26065,10 +20627,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "High in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 26.0,
     "protein": 3.2,
@@ -26087,11 +20647,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "High in Magnesium (mg)",
-      "High in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 31.0,
     "protein": 3.2,
@@ -26110,20 +20667,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 23.0,
     "protein": 0.0,
@@ -26142,21 +20687,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 29.0,
     "protein": 0.0,
@@ -26175,22 +20707,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 43.0,
     "protein": 0.0,
@@ -26209,22 +20727,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 22.0,
     "protein": 0.0,
@@ -26243,21 +20747,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 59.0,
     "protein": 0.0,
@@ -26276,11 +20767,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 212.0,
     "protein": 19.9,
@@ -26298,11 +20785,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 73.0,
     "protein": 16.0,
     "fat": 1.0,
@@ -26320,18 +20803,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 320.0,
     "protein": 0.0,
@@ -26350,14 +20822,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 58.0,
     "protein": 0.2,
@@ -26375,13 +20841,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 282.0,
     "protein": 7.7,
     "fat": 3.4,
@@ -26398,13 +20858,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 288.0,
     "protein": 7.8,
     "fat": 4.3,
@@ -26421,13 +20875,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 276.0,
     "protein": 7.7,
     "fat": 2.4,
@@ -26445,10 +20893,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
     ],
     "calories": 29.0,
     "protein": 0.7,
@@ -26467,10 +20915,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 71.0,
     "protein": 0.5,
@@ -26488,16 +20935,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in RIBF (mg)",
-      "High in Zinc (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 86.0,
     "protein": 12.6,
     "fat": 2.1,
@@ -26515,19 +20953,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "High in VITE (mg)",
-      "High in Zinc (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 647.0,
     "protein": 18.0,
@@ -26546,10 +20973,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 33.0,
     "protein": 0.7,
@@ -26568,11 +20993,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 30.0,
     "protein": 0.7,
@@ -26591,10 +21013,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITC (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 27.0,
     "protein": 0.9,
@@ -26613,11 +21034,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 25.0,
     "protein": 0.8,
@@ -26636,11 +21055,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 17.0,
     "protein": 0.6,
@@ -26659,11 +21075,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 19.0,
     "protein": 0.8,
@@ -26682,10 +21095,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITC (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 28.0,
     "protein": 0.8,
@@ -26704,11 +21116,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Sodium (mg)",
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 16.0,
     "protein": 0.9,
@@ -26727,11 +21136,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITC (mg)",
-      "High in VITE (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 28.0,
     "protein": 0.9,
@@ -26750,11 +21157,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 25.0,
     "protein": 0.8,
@@ -26773,11 +21178,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITC (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 27.0,
     "protein": 0.8,
@@ -26796,11 +21199,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITB12 (µg)",
       "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)"
     ],
     "calories": 25.0,
     "protein": 0.7,
@@ -26819,9 +21220,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 74.0,
     "protein": 2.5,
@@ -26840,8 +21240,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 91.0,
     "protein": 2.9,
@@ -26860,12 +21260,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 59.0,
     "protein": 0.5,
@@ -26884,8 +21281,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "Low in FAT (g)"
     ],
     "calories": 102.0,
     "protein": 1.2,
@@ -26904,8 +21300,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITC (mg)",
+      "Low in FAT (g)"
     ],
     "calories": 119.0,
     "protein": 1.4,
@@ -26924,21 +21320,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in FAT (g)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 372.0,
     "protein": 0.0,
@@ -26957,24 +21340,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 19.0,
     "protein": 0.0,
@@ -26993,23 +21360,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
+      "High in VITD (µg)",
       "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 0.0,
     "protein": 0.0,
@@ -27028,23 +21381,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 15.0,
     "protein": 0.0,
@@ -27062,11 +21400,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 128.0,
     "protein": 17.6,
     "fat": 4.7,
@@ -27084,10 +21418,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
-      "High in VITD (µg)",
-      "Low in VITA (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 128.0,
     "protein": 26.2,
@@ -27106,8 +21437,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 86.0,
     "protein": 17.9,
@@ -27126,7 +21456,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 248.0,
     "protein": 4.5,
@@ -27144,13 +21474,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 398.0,
     "protein": 12.7,
     "fat": 2.4,
@@ -27168,12 +21492,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 403.0,
     "protein": 15.4,
@@ -27191,13 +21510,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "High in Magnesium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 213.0,
     "protein": 15.7,
     "fat": 15.6,
@@ -27214,13 +21527,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 119.0,
     "protein": 12.4,
     "fat": 6.6,
@@ -27238,11 +21545,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 23.0,
     "protein": 0.7,
@@ -27261,11 +21565,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 25.0,
     "protein": 0.8,
@@ -27284,12 +21585,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 22.0,
     "protein": 0.7,
@@ -27308,11 +21605,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 19.0,
     "protein": 0.6,
@@ -27331,9 +21625,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 30.0,
     "protein": 0.9,
@@ -27352,10 +21645,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 16.0,
     "protein": 0.7,
@@ -27374,10 +21665,10 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Potassium (mg)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in Iron (mg)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 87.0,
     "protein": 4.5,
@@ -27396,8 +21687,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 39.0,
     "protein": 1.8,
@@ -27417,16 +21708,9 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in Sodium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in PROT (g)",
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 331.0,
     "protein": 14.1,
@@ -27445,10 +21729,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 22.0,
     "protein": 0.7,
@@ -27467,11 +21749,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 23.0,
     "protein": 0.7,
@@ -27490,11 +21769,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 20.0,
     "protein": 0.7,
@@ -27513,8 +21789,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 59.0,
     "protein": 0.9,
@@ -27533,9 +21809,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 24.0,
     "protein": 1.1,
@@ -27553,12 +21828,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in RIBF (mg)",
-      "High in VITB12 (µg)",
-      "Low in Calcium (mg)",
-      "Low in VITA (µg)"
-    ],
+    "benefit": [],
     "calories": 168.0,
     "protein": 17.6,
     "fat": 10.9,
@@ -27575,10 +21845,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 111.0,
     "protein": 3.5,
     "fat": 5.2,
@@ -27595,7 +21862,9 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [],
+    "benefit": [
+      "High in VITD (µg)"
+    ],
     "calories": 155.0,
     "protein": 7.7,
     "fat": 3.1,
@@ -27613,10 +21882,6 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)",
       "High in VITD (µg)"
     ],
     "calories": 140.0,
@@ -27635,13 +21900,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 206.0,
     "protein": 27.0,
     "fat": 10.8,
@@ -27658,13 +21917,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 109.0,
     "protein": 24.9,
     "fat": 1.0,
@@ -27682,13 +21935,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)",
-      "High in VITD (µg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 122.0,
     "protein": 29.2,
@@ -27723,13 +21970,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB6 (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 110.0,
     "protein": 24.8,
     "fat": 1.2,
@@ -27746,10 +21987,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)"
-    ],
+    "benefit": [],
     "calories": 141.0,
     "protein": 21.8,
     "fat": 6.0,
@@ -27767,10 +22005,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 17.0,
     "protein": 0.6,
@@ -27789,11 +22025,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 31.0,
     "protein": 0.9,
@@ -27813,11 +22046,9 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in VITA (µg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 17.0,
     "protein": 2.0,
@@ -27837,13 +22068,9 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in VITA (µg)",
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 17.0,
     "protein": 2.0,
@@ -27861,11 +22088,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "Low in Calcium (mg)"
-    ],
+    "benefit": [],
     "calories": 105.0,
     "protein": 22.0,
     "fat": 1.8,
@@ -27882,9 +22105,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)"
-    ],
+    "benefit": [],
     "calories": 159.0,
     "protein": 20.4,
     "fat": 8.6,
@@ -27901,11 +22122,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "Low in Calcium (mg)"
-    ],
+    "benefit": [],
     "calories": 127.0,
     "protein": 21.3,
     "fat": 4.7,
@@ -27922,13 +22139,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 121.0,
     "protein": 25.2,
     "fat": 2.2,
@@ -27945,11 +22156,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "Low in Calcium (mg)"
-    ],
+    "benefit": [],
     "calories": 111.0,
     "protein": 22.0,
     "fat": 2.6,
@@ -27966,13 +22173,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 142.0,
     "protein": 28.4,
     "fat": 3.1,
@@ -27989,12 +22190,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)",
-      "Low in Calcium (mg)"
-    ],
+    "benefit": [],
     "calories": 104.0,
     "protein": 21.8,
     "fat": 1.9,
@@ -28011,13 +22207,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)"
-    ],
+    "benefit": [],
     "calories": 186.0,
     "protein": 30.1,
     "fat": 7.2,
@@ -28034,10 +22224,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "High in VITB12 (µg)"
-    ],
+    "benefit": [],
     "calories": 159.0,
     "protein": 20.7,
     "fat": 8.5,
@@ -28054,12 +22241,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 166.0,
     "protein": 27.5,
     "fat": 6.3,
@@ -28076,11 +22258,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "Low in Calcium (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 150.0,
     "protein": 21.4,
     "fat": 7.2,
@@ -28097,13 +22275,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 197.0,
     "protein": 27.0,
     "fat": 9.9,
@@ -28137,13 +22309,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 144.0,
     "protein": 29.4,
     "fat": 2.9,
@@ -28160,10 +22326,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "Low in Calcium (mg)"
-    ],
+    "benefit": [],
     "calories": 104.0,
     "protein": 22.4,
     "fat": 1.6,
@@ -28180,11 +22343,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)",
-      "Low in Calcium (mg)"
-    ],
+    "benefit": [],
     "calories": 112.0,
     "protein": 21.3,
     "fat": 2.9,
@@ -28201,11 +22360,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)"
-    ],
+    "benefit": [],
     "calories": 185.0,
     "protein": 27.1,
     "fat": 8.5,
@@ -28222,10 +22377,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "Low in Calcium (mg)"
-    ],
+    "benefit": [],
     "calories": 98.0,
     "protein": 22.0,
     "fat": 1.1,
@@ -28242,12 +22394,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB12 (µg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 158.0,
     "protein": 27.0,
     "fat": 5.5,
@@ -28264,10 +22411,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB12 (µg)",
-      "Low in Calcium (mg)"
-    ],
+    "benefit": [],
     "calories": 117.0,
     "protein": 17.7,
     "fat": 5.1,
@@ -28284,14 +22428,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in Potassium (mg)",
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 143.0,
     "protein": 28.8,
     "fat": 3.1,
@@ -28308,10 +22445,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITB6 (mg)",
-      "Low in Calcium (mg)"
-    ],
+    "benefit": [],
     "calories": 108.0,
     "protein": 22.9,
     "fat": 1.9,
@@ -28328,10 +22462,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 194.0,
     "protein": 10.4,
     "fat": 10.2,
@@ -28348,13 +22479,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in Potassium (mg)",
-      "High in Sodium (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 146.0,
     "protein": 14.9,
     "fat": 5.0,
@@ -28372,10 +22497,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)",
+      "Low in FAT (g)"
     ],
     "calories": 17.0,
     "protein": 2.0,
@@ -28394,10 +22518,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 32.0,
     "protein": 1.5,
@@ -28416,9 +22538,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 30.0,
     "protein": 1.7,
@@ -28437,10 +22558,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 20.0,
     "protein": 1.0,
@@ -28459,9 +22578,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 31.0,
     "protein": 1.1,
@@ -28480,10 +22598,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 26.0,
     "protein": 1.6,
@@ -28502,9 +22618,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 27.0,
     "protein": 1.5,
@@ -28523,10 +22638,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 27.0,
     "protein": 1.1,
@@ -28545,9 +22658,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 28.0,
     "protein": 1.2,
@@ -28566,9 +22678,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 48.0,
     "protein": 2.4,
@@ -28587,9 +22698,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 51.0,
     "protein": 2.7,
@@ -28608,9 +22718,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 29.0,
     "protein": 1.7,
@@ -28629,9 +22738,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 25.0,
     "protein": 1.9,
@@ -28650,9 +22758,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 25.0,
     "protein": 1.7,
@@ -28671,10 +22778,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 22.0,
     "protein": 1.0,
@@ -28693,9 +22798,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 34.0,
     "protein": 0.8,
@@ -28714,9 +22818,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 35.0,
     "protein": 0.9,
@@ -28735,9 +22838,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)",
-      "Low in Zinc (mg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 42.0,
     "protein": 1.0,
@@ -28756,10 +22858,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITC (mg)",
-      "Low in Calories (kcal)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 20.0,
     "protein": 0.9,
@@ -28777,11 +22877,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 122.0,
     "protein": 22.4,
     "fat": 3.6,
@@ -28798,13 +22894,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 354.0,
     "protein": 12.0,
     "fat": 2.0,
@@ -28822,10 +22912,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 570.0,
     "protein": 8.9,
@@ -28844,17 +22931,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 706.0,
     "protein": 15.9,
@@ -28873,18 +22951,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calories (kcal)",
-      "High in FAT (g)",
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in VITB12 (µg)",
+      "High in VITD (µg)"
     ],
     "calories": 706.0,
     "protein": 15.9,
@@ -28903,23 +22971,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITD (µg)",
       "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 0.0,
     "protein": 0.0,
@@ -28938,24 +22992,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
+      "High in VITD (µg)",
       "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 0.0,
     "protein": 0.0,
@@ -28974,23 +23013,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
+      "High in VITD (µg)",
       "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 0.0,
     "protein": 0.0,
@@ -29009,24 +23034,9 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calcium (mg)",
+      "High in VITD (µg)",
       "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in Magnesium (mg)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in Potassium (mg)",
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITB6 (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 0.0,
     "protein": 0.0,
@@ -29044,12 +23054,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 258.0,
     "protein": 9.8,
     "fat": 1.4,
@@ -29066,12 +23071,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 269.0,
     "protein": 9.8,
     "fat": 1.2,
@@ -29089,7 +23089,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 242.0,
     "protein": 10.1,
@@ -29108,7 +23108,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 303.0,
     "protein": 7.8,
@@ -29128,16 +23128,7 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "High in Zinc (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 286.0,
     "protein": 17.4,
@@ -29155,12 +23146,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 235.0,
     "protein": 10.5,
     "fat": 2.0,
@@ -29178,11 +23164,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 254.0,
     "protein": 13.9,
@@ -29200,13 +23182,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 275.0,
     "protein": 11.9,
     "fat": 7.1,
@@ -29223,13 +23199,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITE (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 272.0,
     "protein": 12.5,
     "fat": 6.7,
@@ -29246,12 +23216,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 236.0,
     "protein": 9.8,
     "fat": 1.7,
@@ -29268,12 +23233,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 241.0,
     "protein": 9.8,
     "fat": 1.8,
@@ -29290,12 +23250,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 248.0,
     "protein": 10.6,
     "fat": 1.7,
@@ -29312,12 +23267,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 236.0,
     "protein": 9.8,
     "fat": 1.7,
@@ -29334,13 +23284,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 277.0,
     "protein": 12.3,
     "fat": 7.1,
@@ -29357,13 +23301,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 276.0,
     "protein": 11.3,
     "fat": 6.9,
@@ -29380,14 +23318,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "High in VITE (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 285.0,
     "protein": 10.8,
     "fat": 8.2,
@@ -29404,12 +23335,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 272.0,
     "protein": 7.8,
     "fat": 2.6,
@@ -29426,12 +23352,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 303.0,
     "protein": 8.2,
     "fat": 6.2,
@@ -29448,12 +23369,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 278.0,
     "protein": 11.0,
     "fat": 1.5,
@@ -29470,12 +23386,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 258.0,
     "protein": 11.0,
     "fat": 3.9,
@@ -29492,12 +23403,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 277.0,
     "protein": 10.0,
     "fat": 1.5,
@@ -29514,11 +23420,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 262.0,
     "protein": 9.7,
     "fat": 3.6,
@@ -29535,12 +23437,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 247.0,
     "protein": 11.3,
     "fat": 3.3,
@@ -29557,12 +23454,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 251.0,
     "protein": 9.0,
     "fat": 1.7,
@@ -29579,12 +23471,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 250.0,
     "protein": 8.5,
     "fat": 1.5,
@@ -29601,12 +23488,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 249.0,
     "protein": 9.1,
     "fat": 1.8,
@@ -29623,12 +23505,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 287.0,
     "protein": 10.7,
     "fat": 6.9,
@@ -29645,13 +23522,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITE (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 296.0,
     "protein": 10.2,
     "fat": 8.3,
@@ -29668,12 +23539,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 257.0,
     "protein": 9.6,
     "fat": 2.4,
@@ -29690,12 +23556,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 245.0,
     "protein": 8.6,
     "fat": 0.7,
@@ -29712,12 +23573,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 247.0,
     "protein": 9.0,
     "fat": 1.6,
@@ -29734,12 +23590,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 238.0,
     "protein": 10.8,
     "fat": 2.2,
@@ -29756,12 +23607,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 234.0,
     "protein": 11.1,
     "fat": 2.3,
@@ -29778,13 +23624,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 275.0,
     "protein": 13.4,
     "fat": 7.6,
@@ -29801,13 +23641,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 274.0,
     "protein": 12.5,
     "fat": 7.4,
@@ -29824,14 +23658,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "High in VITE (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 283.0,
     "protein": 11.9,
     "fat": 8.7,
@@ -29848,12 +23675,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 235.0,
     "protein": 11.3,
     "fat": 2.5,
@@ -29870,13 +23692,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 276.0,
     "protein": 13.6,
     "fat": 7.8,
@@ -29893,13 +23709,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 275.0,
     "protein": 12.6,
     "fat": 7.5,
@@ -29916,14 +23726,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "High in VITE (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 284.0,
     "protein": 12.1,
     "fat": 8.9,
@@ -29940,12 +23743,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 233.0,
     "protein": 10.9,
     "fat": 2.1,
@@ -29962,13 +23760,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 274.0,
     "protein": 13.2,
     "fat": 7.5,
@@ -29985,13 +23777,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 273.0,
     "protein": 12.3,
     "fat": 7.3,
@@ -30008,14 +23794,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "High in VITE (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 282.0,
     "protein": 11.7,
     "fat": 8.6,
@@ -30033,10 +23812,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in VITD (µg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 231.0,
     "protein": 10.6,
@@ -30054,12 +23830,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 255.0,
     "protein": 9.1,
     "fat": 1.8,
@@ -30076,12 +23847,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 262.0,
     "protein": 10.9,
     "fat": 3.5,
@@ -30098,13 +23864,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 298.0,
     "protein": 12.3,
     "fat": 8.5,
@@ -30121,14 +23881,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "High in VITE (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 307.0,
     "protein": 11.8,
     "fat": 9.8,
@@ -30145,12 +23898,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 273.0,
     "protein": 7.8,
     "fat": 2.4,
@@ -30167,12 +23915,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 303.0,
     "protein": 8.2,
     "fat": 6.1,
@@ -30189,12 +23932,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 253.0,
     "protein": 9.3,
     "fat": 1.8,
@@ -30211,12 +23949,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 268.0,
     "protein": 8.4,
     "fat": 2.5,
@@ -30234,19 +23967,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Iron (mg)",
-      "High in Magnesium (mg)",
-      "High in PROT (g)",
-      "High in Phosphorus (mg)",
-      "High in Potassium (mg)",
-      "High in RIBF (mg)",
-      "High in VITB1 (mg)",
-      "High in VITB6 (mg)",
-      "High in VITE (mg)",
-      "High in Zinc (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
+      "High in PROT (g)"
     ],
     "calories": 393.0,
     "protein": 31.0,
@@ -30264,12 +23985,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 249.0,
     "protein": 9.4,
     "fat": 1.9,
@@ -30286,13 +24002,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Iron (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 295.0,
     "protein": 10.6,
     "fat": 7.6,
@@ -30309,12 +24019,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 290.0,
     "protein": 10.7,
     "fat": 6.6,
@@ -30331,13 +24036,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 298.0,
     "protein": 12.2,
     "fat": 10.9,
@@ -30354,12 +24053,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 272.0,
     "protein": 7.7,
     "fat": 2.7,
@@ -30376,12 +24070,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 303.0,
     "protein": 8.1,
     "fat": 6.4,
@@ -30398,12 +24087,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 234.0,
     "protein": 9.7,
     "fat": 1.9,
@@ -30420,12 +24104,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 235.0,
     "protein": 9.3,
     "fat": 2.6,
@@ -30442,12 +24121,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 305.0,
     "protein": 8.0,
     "fat": 2.9,
@@ -30464,10 +24138,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in VITD (µg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 210.0,
     "protein": 19.0,
     "fat": 11.2,
@@ -30485,17 +24156,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Calories (kcal)",
-      "Low in PROT (g)",
-      "Low in Phosphorus (mg)",
-      "Low in RIBF (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB1 (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)",
-      "Low in Zinc (mg)"
+      "High in Iron (mg)",
+      "High in VITD (µg)"
     ],
     "calories": 23.0,
     "protein": 0.1,
@@ -30513,12 +24175,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in PROT (g)",
-      "High in VITB12 (µg)",
-      "High in VITB6 (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 127.0,
     "protein": 25.2,
     "fat": 2.9,
@@ -30535,13 +24192,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Sodium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 316.0,
     "protein": 9.5,
     "fat": 6.9,
@@ -30558,13 +24209,7 @@ export const foods: Food[] = [
       "Continental Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Magnesium (mg)",
-      "Low in VITA (µg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 288.0,
     "protein": 9.3,
     "fat": 5.0,
@@ -30581,12 +24226,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in RIBF (mg)",
-      "Low in Sodium (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 124.0,
     "protein": 1.5,
     "fat": 0.3,
@@ -30603,12 +24243,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 53.0,
     "protein": 4.6,
     "fat": 0.1,
@@ -30625,12 +24260,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 77.0,
     "protein": 4.5,
     "fat": 4.3,
@@ -30647,11 +24277,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 122.0,
     "protein": 3.8,
     "fat": 10.0,
@@ -30668,10 +24294,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 119.0,
     "protein": 3.5,
     "fat": 10.1,
@@ -30688,11 +24311,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in VITC (mg)"
-    ],
+    "benefit": [],
     "calories": 69.0,
     "protein": 3.9,
     "fat": 4.2,
@@ -30709,11 +24328,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 141.0,
     "protein": 2.9,
     "fat": 7.8,
@@ -30730,13 +24345,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 57.0,
     "protein": 1.6,
     "fat": 0.1,
@@ -30754,9 +24363,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
     ],
     "calories": 39.0,
     "protein": 1.8,
@@ -30775,9 +24383,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITE (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 72.0,
     "protein": 2.7,
@@ -30796,7 +24402,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITE (mg)"
+      "High in VITC (mg)",
+      "High in VITD (µg)"
     ],
     "calories": 70.0,
     "protein": 3.0,
@@ -30814,13 +24421,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 64.0,
     "protein": 3.0,
     "fat": 0.9,
@@ -30837,10 +24438,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 45.0,
     "protein": 3.0,
     "fat": 1.5,
@@ -30859,9 +24457,7 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 24.0,
     "protein": 1.8,
@@ -30880,8 +24476,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITE (mg)"
+      "High in VITD (µg)"
     ],
     "calories": 55.0,
     "protein": 3.1,
@@ -30900,12 +24495,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in VITB12 (µg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 55.0,
     "protein": 1.8,
@@ -30925,10 +24515,7 @@ export const foods: Food[] = [
     ],
     "benefit": [
       "Low in Calories (kcal)",
-      "Low in FAT (g)",
-      "Low in Iron (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in FAT (g)"
     ],
     "calories": 24.0,
     "protein": 2.7,
@@ -30946,12 +24533,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 56.0,
     "protein": 3.8,
     "fat": 2.7,
@@ -30968,12 +24550,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 68.0,
     "protein": 3.9,
     "fat": 3.5,
@@ -30990,9 +24567,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 104.0,
     "protein": 3.6,
     "fat": 3.6,
@@ -31009,9 +24584,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 97.0,
     "protein": 3.7,
     "fat": 3.1,
@@ -31028,10 +24601,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "High in Calcium (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 94.0,
     "protein": 3.8,
     "fat": 3.0,
@@ -31049,9 +24619,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 50.0,
     "protein": 4.2,
@@ -31069,10 +24637,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 79.0,
     "protein": 4.2,
     "fat": 1.5,
@@ -31090,10 +24655,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "High in Calcium (mg)",
-      "Low in Iron (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 37.0,
     "protein": 4.1,
@@ -31111,11 +24673,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 67.0,
     "protein": 3.0,
     "fat": 0.2,
@@ -31133,9 +24691,8 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in FAT (g)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in Calories (kcal)",
+      "Low in FAT (g)"
     ],
     "calories": 35.0,
     "protein": 3.4,
@@ -31154,8 +24711,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "High in VITC (mg)"
     ],
     "calories": 42.0,
     "protein": 4.5,
@@ -31173,9 +24729,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 102.0,
     "protein": 3.4,
     "fat": 3.5,
@@ -31192,10 +24746,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in VITC (mg)",
-      "Low in VITD (µg)"
-    ],
+    "benefit": [],
     "calories": 128.0,
     "protein": 3.3,
     "fat": 5.6,
@@ -31212,12 +24763,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 72.0,
     "protein": 2.9,
     "fat": 1.3,
@@ -31234,11 +24780,7 @@ export const foods: Food[] = [
       "Plant-Focused Flexitarian Diet",
       "Vegetarian"
     ],
-    "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
-    ],
+    "benefit": [],
     "calories": 56.0,
     "protein": 8.2,
     "fat": 0.1,
@@ -31256,10 +24798,7 @@ export const foods: Food[] = [
       "Vegetarian"
     ],
     "benefit": [
-      "Low in Iron (mg)",
-      "Low in VITC (mg)",
-      "Low in VITD (µg)",
-      "Low in VITE (mg)"
+      "Low in Calories (kcal)"
     ],
     "calories": 33.0,
     "protein": 2.3,
